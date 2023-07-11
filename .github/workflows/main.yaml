@@ -3,12 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       upload:
-        description: Whether to upload flows to RapidPro
+        description: Upload flows to RapidPro
         type: boolean
         required: false
         default: false
 jobs:
-  core-function:
+  pipeline:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
