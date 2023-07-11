@@ -39,4 +39,4 @@ This process takes excel files with safeguarding words received from local teams
 ```
 python produce_flows.py
 ```
-script produce_flows.py contains the full process to produce RapidPro flows from the relevant Google Sheets. It takes a number of inputs from the 'config.py' file so any adjustments should be made in that file
+script produce_flows.py contains the full process to produce RapidPro flows from the relevant Google Sheets. It takes a number of inputs from the 'config.py' file so any adjustments should be made in that file. That file contains information on what the various inputs mean
