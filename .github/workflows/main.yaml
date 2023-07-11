@@ -23,7 +23,7 @@ jobs:
         env:
           CREDENTIALS: ${{ secrets.CREDENTIALS }}
         run: |
-          echo "upload=${inputs.upload}"
+          echo upload=${{ inputs.upload }}
       - name: Publish output folder
         uses: actions/upload-artifact@v2
         with:
