@@ -19,6 +19,7 @@ These steps need to be followed if you want to run the pipeline from the command
 
 ### Setup
 
+1. Clone or fork the repo to a local folder
 1. Install Python >= 3.6
 1. Create a Python virtual environment `python -m venv .venv`
 1. Activate the environment `source .venv/bin/activate`
@@ -26,13 +27,14 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Install project Python dependencies `pip install -r requirements.txt`
 1. Install latest Node and NPM Long-Term Support (LTS) versions
 1. Install project Node dependencies `npm install`
+1. Make sure you have a correct `credentials.json` file in the same directory as the cloned repo. 
 
 ## Run
 
 This repo contains two main scripts:
 
 ```
-python produce_safeguarding_words.py
+python produce_safeguarding_words.py (work in progress)
 ```
 This process takes excel files with safeguarding words received from local teams and converts to JSON format that can be digested by the main pipeline. For example of required excel input files, see the folder "excel_files" in this repo
 
