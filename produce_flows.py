@@ -5,7 +5,6 @@ import sys
 # from pipelines import run_pipeline
 # leave in place for now, above code enables quick local testing
 
-
 from parenttext_pipeline.pipelines import run_pipeline
 from config import *
 
@@ -24,6 +23,7 @@ def main():
         count_threshold,
         length_threshold, 
         ab_testing_sheet_ID, 
+        localisation_sheet_ID,
         dict_edits_sheet_ID, 
         SG_sheet_ID, 
         SG_flow_name,
