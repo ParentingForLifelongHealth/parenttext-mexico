@@ -22,7 +22,7 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Clone or fork the repo to a local folder
 1. Install Python >= 3.6
 1. Create a Python virtual environment `python -m venv .venv`
-1. Activate the environment `source .venv/bin/activate`
+1. Activate the environment Linux: `source .venv/bin/activate`, Windows: `.venv/Scripts/activate`
 1. Upgrade pip `pip install --upgrade pip`
 1. Install project Python dependencies `pip install -r requirements.txt`
 1. Install latest Node and NPM Long-Term Support (LTS) versions
