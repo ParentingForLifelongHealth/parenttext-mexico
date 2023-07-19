@@ -1,11 +1,11 @@
 import os
 import subprocess
 import sys
-sys.path.append('C:/Users/edmun/Code/parenttext-pipeline/src/parenttext_pipeline')
-from extract_keywords import process_keywords
+# sys.path.append('C:/Users/edmun/Code/parenttext-pipeline/src/parenttext_pipeline')
+# from extract_keywords import process_keywords
 # leave in place for now, above code enables quick local testing
 
-#from parenttext_pipeline.extract_keywords import process_keywords
+from parenttext_pipeline.extract_keywords import process_keywords
 from config import *
 
 def main():
