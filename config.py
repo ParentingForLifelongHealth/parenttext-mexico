@@ -1,5 +1,7 @@
 # Data sources, ids of google sheets where the core date is stored, 
-localised_sheets = "13do_Qnc0VKC6Ao4N7YY3skUFKJMuwOixj2GyMVwnRLM"
+localised_sheets = "13do_Qnc0VKC6Ao4N7YY3skUFKJMuwOixj2GyMVwnRLM" #specific for ZA
+
+# shared with all deployments
 T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
 T_content_ID = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU" #multiple content index for different types of content
 C_ltp_activities_ID = "1Jx7vOmdefzK62ao2nlJJVLMAIS8d-6r1G8qn0jG8gww"
@@ -17,12 +19,12 @@ safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 # tags are used to identify flows to be process
 # "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
 sources = [
-    {"filename": "parenttext_onboarding",
-     "spreadsheet_ids": [T_C_onboarding_ID],
+    {"filename": "parenttext_all_flows",
+     #"spreadsheet_ids": [T_C_onboarding_ID, T_content_ID,localised_sheets,C_ltp_activities_ID,T_delivery_ID],
      # Should be able to add the full list of sheets here but I was running into some sheet permission errors, hopefully will run ok on Chiara's account      
-     #"spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
+     "spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
      "crowdin_name": "text_for_translators",
-     "tags": [1,"onboarding",2,"global"],
+     "tags": [1, "module", 2,"south_africa"],
      "split_no": 2},
 ]
 
@@ -31,7 +33,8 @@ model = "models.parenttext_models"
 
 # Languages that will be looked for to localize back into the flows, "language" is the 3 letter code used in RapidPro, "code" is the 2 letter code used in crowdin
 languages = [
-    {"language": "swa", "code": "ss"}
+    {"language": "ssw", "code": "ss"},
+    {"language": "zul", "code": "zu"}
 ]
 
 # Location where translations are stored, at the moment pointing to a locally cloned repo, should maybe be adapted so we can provide a link to an online repo
@@ -61,19 +64,17 @@ special_words = "./edits/special_words.json"
 # If the number of QRs is below or equal the count_threshold and the longest QR is shorter than or equal to the length_threshold then the QR are to be left in place the node will not be changed. 
 # In places where the QR are too long. We will make the changes to make the QRs numbers and add the number references to the message text as example 1.
 # Thresholds should be entered as strings
-count_threshold = "10"
-length_threshold = "100"
+count_threshold = "4"
+length_threshold = "6"
 
 #Google sheet ID containing ab testing data
-ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
-localisation_sheet_ID = None
-#localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
-#I was running into access problems so have turned this off for now
+ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s" #same for all deployments
+localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
 
 #Google sheet ID containing dict edits data
 dict_edits_sheet_ID = None
-#dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
-#I was running into access problems so have turned this off for now
+dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
+
 
 #Google sheet ID containing safeguarding data
 SG_sheet_ID = None
