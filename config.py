@@ -80,4 +80,4 @@ SG_sheet_ID = None
 SG_flow_name = None
 
 #Path to file containing translated safeguarding words
-SG_path = None
+SG_path = "./edits/safeguarding_words.json"
