@@ -75,9 +75,12 @@ dict_edits_sheet_ID = None
 #dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
 #I was running into access problems so have turned this off for now
 
-#Google sheet ID containing safeguarding data
-SG_sheet_ID = None
+#Date used in safeguarding script
+SG_flow_ID = None
 SG_flow_name = None
 
 #Path to file containing translated safeguarding words
 SG_path = "./edits/safeguarding_words.json"
+
+#Names of redirect flows to be modified as part of safegurading process
+redirect_flow_names = ["flow name 1", "flow name 2", "flow name 3"]

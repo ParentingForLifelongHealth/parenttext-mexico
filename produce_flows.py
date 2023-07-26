@@ -25,9 +25,10 @@ def main():
         ab_testing_sheet_ID, 
         localisation_sheet_ID,
         dict_edits_sheet_ID, 
-        SG_sheet_ID, 
+        SG_flow_ID, 
         SG_flow_name,
-        SG_path
+        SG_path,
+        redirect_flow_names
         )
     
 if __name__ == '__main__':    
