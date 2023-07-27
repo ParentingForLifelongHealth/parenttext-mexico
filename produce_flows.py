@@ -11,7 +11,9 @@ from config import *
 def main():
     
     run_pipeline(
-        sources, 
+        sources,
+        special_expiration,
+        default_expiration, 
         model, 
         languages, 
         translation_repo, 
