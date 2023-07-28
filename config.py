@@ -20,20 +20,17 @@ safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 # "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
 sources = [
     {"filename": "parenttext_onboarding",
-     "spreadsheet_ids": [T_C_onboarding_ID, T_content_ID],
-     #"spreadsheet_ids": [T_C_onboarding_ID, T_content_ID,localised_sheets,C_ltp_activities_ID,T_delivery_ID],
-     # Should be able to add the full list of sheets here but I was running into some sheet permission errors, hopefully will run ok on Chiara's account      
-     #"spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
+     "spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
      "crowdin_name": "text_for_translators",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
      #"tags": [1, "menu", 1, "onboarding", 2,"south_africa"],
-     "tags": [2,"south_africa"],
+     "tags": [1,"menu"],
      "split_no": 2},
 ]
 
 # Data used when modifying expiration times
-special_expiration = {}
-default_expiration = 1440
+special_expiration = "./edits/specific_expiration.json"
+default_expiration = "1440"
 
 # Model that is used as part of the process when the data is extracted from excel
 model = "models.parenttext_models"
@@ -80,7 +77,6 @@ localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
 
 #Google sheet ID containing dict edits data
 dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
-
 
 #Date used in safeguarding script
 SG_flow_ID = None
