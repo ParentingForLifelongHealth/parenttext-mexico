@@ -19,12 +19,12 @@ safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 # tags are used to identify flows to be process
 # "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
 sources = [
-    {"filename": "parenttext_onboarding",
+    {"filename": "parenttext_menu",
      "spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
      "crowdin_name": "text_for_translators",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
      #"tags": [1, "menu", 1, "onboarding", 2,"south_africa"],
-     "tags": [1,"menu"],
+     "tags": [1,"menu",1, "safeguarding", 2,"south_africa"],
      "split_no": 2},
 ]
 
@@ -69,7 +69,7 @@ special_words = "./edits/special_words.json"
 # In places where the QR are too long. We will make the changes to make the QRs numbers and add the number references to the message text as example 1.
 # Thresholds should be entered as strings
 count_threshold = "4"
-length_threshold = "6"
+length_threshold = "10"
 
 #Google sheet ID containing ab testing data
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s" #same for all deployments
@@ -79,11 +79,11 @@ localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
 dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
 
 #Date used in safeguarding script
-SG_flow_ID = None
-SG_flow_name = None
+SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
+SG_flow_name = "safeguarding_wfr_interaction"
 
 #Path to file containing translated safeguarding words
 SG_path = "./edits/safeguarding_words.json"
 
 #Names of redirect flows to be modified as part of safegurading process
-redirect_flow_names = ["flow name 1", "flow name 2", "flow name 3"]
+redirect_flow_names = ["safeguarding_redirect_to_topic_all", "safeguarding_redirect_to_topic_highrisk", "safeguarding_redirect_to_topic_trigger"]
