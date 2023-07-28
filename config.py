@@ -78,12 +78,17 @@ localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
 #Google sheet ID containing dict edits data
 dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
 
-#Date used in safeguarding script
-SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
-SG_flow_name = "safeguarding_wfr_interaction"
+SG_flow_ID = None
+SG_flow_name = None
+SG_path = None
+redirect_flow_names = None
 
-#Path to file containing translated safeguarding words
-SG_path = "./edits/safeguarding_words.json"
+# #Date used in safeguarding script
+# SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
+# SG_flow_name = "safeguarding_wfr_interaction"
 
-#Names of redirect flows to be modified as part of safegurading process
-redirect_flow_names = ["safeguarding_redirect_to_topic_all", "safeguarding_redirect_to_topic_highrisk", "safeguarding_redirect_to_topic_trigger"]
+# #Path to file containing translated safeguarding words
+# SG_path = "./edits/safeguarding_words.json"
+
+# #Names of redirect flows to be modified as part of safegurading process
+# redirect_flow_names = ["safeguarding_redirect_to_topic_all", "safeguarding_redirect_to_topic_highrisk", "safeguarding_redirect_to_topic_trigger"]
