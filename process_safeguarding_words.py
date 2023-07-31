@@ -10,7 +10,7 @@ def main():
     # Make sure the 3 letter code here aligns with the languages specified in the config file otherwise the safeguarding process will not work properly
     sources = [
         {"key": "zul", "path": "./excel_files/safeguarding zulu.xlsx"},
-        {"key": "ssw", "path": "./excel_files/safeguarding swati.xlsx"}
+        {"key": "hau", "path": "./excel_files/safeguarding swati.xlsx"}
     ]
 
     output = "./edits"
