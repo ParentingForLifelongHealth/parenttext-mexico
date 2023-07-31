@@ -19,13 +19,13 @@ safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 # tags are used to identify flows to be process
 # "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
 sources = [
-    {"filename": "parenttext_menu",
-     "spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, T_content_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, C_dev_asess_tool_ID, safeguarding], 
+    {"filename": "parenttext_all",
+     "spreadsheet_ids": [localised_sheets, T_C_onboarding_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_teen_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, T_content_ID,C_dev_asess_tool_ID, safeguarding], 
      "crowdin_name": "text_for_translators",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
-     #"tags": [1, "menu", 1, "onboarding", 2,"south_africa"],
-     "tags": [1,"menu",1, "safeguarding", 2,"south_africa"],
-     "split_no": 2},
+     #"tags": [1, "delivery",1, "menu", 2,"south_africa"],
+     "tags": [2,"south_africa"],
+     "split_no": 3},
 ]
 
 # Data used when modifying expiration times
@@ -37,7 +37,7 @@ model = "models.parenttext_models"
 
 # Languages that will be looked for to localize back into the flows, "language" is the 3 letter code used in RapidPro, "code" is the 2 letter code used in crowdin
 languages = [
-    {"language": "ssw", "code": "ss"},
+    {"language": "hau", "code": "ss"},
     {"language": "zul", "code": "zu"}
 ]
 
@@ -68,8 +68,8 @@ special_words = "./edits/special_words.json"
 # If the number of QRs is below or equal the count_threshold and the longest QR is shorter than or equal to the length_threshold then the QR are to be left in place the node will not be changed. 
 # In places where the QR are too long. We will make the changes to make the QRs numbers and add the number references to the message text as example 1.
 # Thresholds should be entered as strings
-count_threshold = "4"
-length_threshold = "10"
+count_threshold = "3"
+length_threshold = "18"
 
 #Google sheet ID containing ab testing data
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s" #same for all deployments
