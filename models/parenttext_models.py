@@ -138,6 +138,7 @@ class OnboardingStepsModel(DataRowModel):
 class OnboardingQuestionOptionModel(ParserModel):
 	text: str = ''
 	value: str = ''
+	alias: str = ''
 
 class OnboardingQuestionWithOptionsModel(DataRowModel):
 	question: str = ''
