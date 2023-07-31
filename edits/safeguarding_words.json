@@ -30,7 +30,7 @@
                         "ukuthuba"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutfumba",
                         "kutfumba",
@@ -70,7 +70,7 @@
                         "ukuf"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kufa",
                         "lofile",
@@ -105,7 +105,7 @@
                         "ugungehambisani nezimthetho"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "lokungekho emtsetfweni"
                     ],
@@ -147,7 +147,7 @@
                         "ofakelwe ucevu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shevu",
                         "kufakela shevu",
@@ -185,7 +185,7 @@
                         "inhikelele"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "simo lesibucayi",
                         "simo lesibucayi"
@@ -225,7 +225,7 @@
                         "inkunga"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "inhlupheko",
                         "kuhlupha",
@@ -264,7 +264,7 @@
                         "isiselu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "lohlushiwe",
                         "lohlushiwe"
@@ -281,7 +281,7 @@
             "English": {
                 "keywords": [
                     "emergency",
-                    "911.0"
+                    "911"
                 ],
                 "mispellings": [
                     "emergincy",
@@ -300,7 +300,7 @@
                         "isimo esiphutumanyo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "simo lesiphutfumako"
                     ],
@@ -338,7 +338,7 @@
                         "egosine"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ingoti",
                         "kuyingoti",
@@ -376,7 +376,7 @@
                         "ukucaphu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutuma"
                     ],
@@ -407,7 +407,6 @@
                 "zul": {
                     "keywords": [
                         "ukulandela",
-                        "landelayo",
                         "olandelwayo"
                     ],
                     "mispellings": [
@@ -417,7 +416,7 @@
                         "ladelayo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kulandzela",
                         "lanzelayo",
@@ -450,7 +449,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "hlupheka",
                         "kuhlupheka",
@@ -478,7 +477,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "fihla",
                         "kufihla",
@@ -516,7 +515,7 @@
                         "hanza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "hlanta",
                         "hlantile",
@@ -548,7 +547,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "hlanta",
                         "kuhlanta",
@@ -584,7 +583,7 @@
                         "SDT"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sifo",
                         "STD",
@@ -622,7 +621,7 @@
                         "gela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "gula",
                         "kugula",
@@ -661,7 +660,7 @@
                         "iziffoo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "gula",
                         "kugula",
@@ -699,7 +698,7 @@
                         "ezepphilo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "imphilo",
                         "lophilile"
@@ -734,7 +733,7 @@
                         "isibhehlela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sibhedlela",
                         "umtfolamphilo"
@@ -768,7 +767,7 @@
                         "ukupphupunyelwa yisisu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kuphunyelwa sisu",
                         "kuphunyelwa sisu"
@@ -806,7 +805,7 @@
                         "ukukulelwa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ukhulelwe",
                         "kukhulelwa",
@@ -846,7 +845,7 @@
                         "akukhipha isisu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kukhishwa kwesisu",
                         "kukhipha sisu",
@@ -875,7 +874,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "COVID",
                         "COVID19"
@@ -912,7 +911,7 @@
                         "ukugatazeka"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "luvalo",
                         "uneluvalo",
@@ -952,7 +951,7 @@
                         "onengcendizi"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kukhatsateka",
                         "lokukhatsatako",
@@ -990,7 +989,7 @@
                         "iisfo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "simo lesingalungi",
                         "timo letingalungi"
@@ -1017,7 +1016,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kwelashwa"
                     ],
@@ -1039,7 +1038,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "dokotela wengcondvo"
                     ],
@@ -1071,7 +1070,7 @@
                         "ukubula"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutibulala",
                         "ukutibulala",
@@ -1108,7 +1107,7 @@
                         "srtess"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kukhatsateka",
                         "khatsatekile"
@@ -1143,7 +1142,7 @@
                         "khipha stresss"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "lusizi",
                         "kuba nelusizi"
@@ -1179,7 +1178,7 @@
                         "ukudabka"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "dzabuka",
                         "dzabukile"
@@ -1214,7 +1213,7 @@
                         "sebesa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kusabisa",
                         "kwesaba"
@@ -1244,7 +1243,7 @@
                         "ukwesube"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kwesaba"
                     ],
@@ -1272,7 +1271,7 @@
                         "ukukatazeka"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "khatsatekile"
                     ],
@@ -1304,7 +1303,7 @@
                         "ukwessabhisa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kwesaba",
                         "sabisa"
@@ -1342,7 +1341,7 @@
                         "tathazela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutfuka",
                         "kutfuka",
@@ -1376,7 +1375,7 @@
                         "ukuhlaannya"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kuhlanya"
                     ],
@@ -1406,7 +1405,7 @@
                         "uzisi"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "lusizi"
                     ],
@@ -1445,7 +1444,7 @@
                         "umlolo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "umlilo",
                         "umlilo wasendle"
@@ -1486,7 +1485,7 @@
                         "iwa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutamatama kwemhlaba",
                         "Kugedvuka kwemhlaba",
@@ -1528,7 +1527,7 @@
                         "imvala"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sikhukhula",
                         "kunesikhukhula",
@@ -1565,7 +1564,7 @@
                         "intutha"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "intfutfu",
                         "kunentfutfu"
@@ -1607,7 +1606,7 @@
                         "iba nesiphepho"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "inkanyamba",
                         "siphephe",
@@ -1645,7 +1644,7 @@
                         "mi"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "tomiso",
                         "komile",
@@ -1679,7 +1678,7 @@
                         "shisayo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kukhafula umlilo",
                         "sikhafulamlilo"
@@ -1713,7 +1712,7 @@
                         "umoya"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "umoya lohhushako",
                         "umoya lonemandla",
@@ -1753,7 +1752,7 @@
                         "shhaayaa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shaya",
                         "kushaya",
@@ -1795,7 +1794,7 @@
                         "sheya"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shaya",
                         "ushaya",
@@ -1838,7 +1837,7 @@
                         "dlkumeza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "hlukubeta",
                         "lohlukubetako",
@@ -1875,7 +1874,7 @@
                         "nohlame"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "unebudlova",
                         "budlova"
@@ -1913,7 +1912,7 @@
                         "ubudlungu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "buhlungu",
                         "kubuhlungu",
@@ -1953,7 +1952,7 @@
                         "oophaa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ingati",
                         "kopha",
@@ -1993,7 +1992,7 @@
                         "ohluzukile"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "umhuzu",
                         "kuhuzula",
@@ -2031,7 +2030,7 @@
                         "limmaza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "limata",
                         "kulimata",
@@ -2066,7 +2065,7 @@
                         "buhluung"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "buhlungu",
                         "kuva buhlungu",
@@ -2098,7 +2097,7 @@
                         "amanxxebba"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ingoti yekulimala",
                         "benengoti yekulimala"
@@ -2129,7 +2128,7 @@
                         "ukusikka"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kusika",
                         "kusika"
@@ -2170,7 +2169,7 @@
                         "limmasa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "hlupha",
                         "kuhlupha",
@@ -2214,7 +2213,7 @@
                         "oshayywe ngempama"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kushaya ngemphama",
                         "ushaye ngemphama",
@@ -2249,7 +2248,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shay ngesibhakela",
                         "shaye ngesibhakela",
@@ -2288,7 +2287,7 @@
                         "bhulala"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "bulala",
                         "kubulala",
@@ -2331,7 +2330,7 @@
                         "bbulewwe"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kubulala",
                         "umbulali",
@@ -2372,7 +2371,7 @@
                         "gqubbbuza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shaya kakhulu",
                         "kushaya kakhulu",
@@ -2408,7 +2407,7 @@
                         "shhayya ngenqindi"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sibhakela"
                     ],
@@ -2440,7 +2439,7 @@
                         "umhhlanga"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "umzaca"
                     ],
@@ -2471,7 +2470,7 @@
                         "ibhande"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "libhande"
                     ],
@@ -2508,7 +2507,7 @@
                         "gwaaaza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "gwaza",
                         "kugwaza",
@@ -2548,7 +2547,7 @@
                         "mmemezille"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "memeta",
                         "kumemeta",
@@ -2586,7 +2585,7 @@
                         "ddudulaa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "fuca",
                         "yafuca",
@@ -2625,7 +2624,7 @@
                         "shuduza"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sundvuta",
                         "kusundvuta",
@@ -2665,7 +2664,7 @@
                         "khaahhlela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "khahlela",
                         "kukhahlela",
@@ -2705,7 +2704,7 @@
                         "shayyiwe"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "shaya",
                         "yashaya",
@@ -2743,7 +2742,7 @@
                         "hhlukumeziwe"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "visa buhlungu",
                         "kuvisa buhlungu"
@@ -2782,7 +2781,7 @@
                         "pphossa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "jika",
                         "kujika",
@@ -2824,7 +2823,7 @@
                         "ukudlwwengula"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "dlwengula",
                         "kudlwengula",
@@ -2865,7 +2864,7 @@
                         "phhuliwe"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "yona",
                         "kona",
@@ -2907,7 +2906,7 @@
                         "ex"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kulalana",
                         "kwekulalana",
@@ -2946,7 +2945,7 @@
                         "poqa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "phoca",
                         "phocile",
@@ -2985,7 +2984,7 @@
                         "ukkucindezela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "cindzetela",
                         "cindzetelwe",
@@ -3023,7 +3022,7 @@
                         "ukkuphoqa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ngekuphoca",
                         "kuphoca",
@@ -3060,7 +3059,7 @@
                         "galungile"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kutiphatsa kabi",
                         "lokungalungi",
@@ -3095,7 +3094,7 @@
                         "yoyobela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kuhlukubeta",
                         "kutuma",
@@ -3127,7 +3126,7 @@
                         "zola"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "sola",
                         "kusola"
@@ -3162,7 +3161,7 @@
                         "iziddakamiswa"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "tidzakamiva",
                         "sidzakamiva"
@@ -3192,7 +3191,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "umhuci",
                         "kuhuca",
@@ -3230,7 +3229,7 @@
                         "koke"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "cocaine",
                         "coke",
@@ -3271,7 +3270,7 @@
                         "hero"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "horoine",
                         "brown",
@@ -3301,7 +3300,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kudzakwa",
                         "dzakiwe"
@@ -3326,7 +3325,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kwecisa",
                         "ecisile"
@@ -3355,7 +3354,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "LSD",
                         "acid",
@@ -3386,7 +3385,7 @@
                         "shrooms"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "magic mushrooms",
                         "alice"
@@ -3423,7 +3422,7 @@
                         "utshwaala"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "tjwala",
                         "tjwala",
@@ -3461,7 +3460,7 @@
                         "whizz"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "speed",
                         "billy",
@@ -3498,7 +3497,7 @@
                         "buzz"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "poppers",
                         "liquid gold",
@@ -3545,7 +3544,7 @@
                         "mariguana"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "insangu",
                         "cannabis",
@@ -3593,7 +3592,7 @@
                         "pills"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ectasy",
                         "brownies",
@@ -3633,7 +3632,7 @@
                         "crank"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "crystal meth",
                         "ice",
@@ -3664,7 +3663,7 @@
                         "ket"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "ketamine"
                     ],
@@ -3688,7 +3687,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "Morphine"
                     ],
@@ -3714,7 +3713,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "Oxycodone",
                         "Oxy",
@@ -3744,7 +3743,7 @@
                         "ukuvusswa kwesimilo"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "kubuyesela esimeni",
                         "kukhipha tidzakamiva"
@@ -3787,7 +3786,7 @@
                         "ezokuvikeleka"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "PHEPHA",
                         "pepha",
@@ -3835,7 +3834,7 @@
                         "ukuvimbela"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "VIMBELA",
                         "ncandza",
@@ -3879,7 +3878,7 @@
                         "sos"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "LUSITO",
                         "SITA",
@@ -3921,7 +3920,7 @@
                         "immenyu"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "MENYU",
                         "iMENYU",
@@ -3961,7 +3960,7 @@
                         "ddlala"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "DLALA",
                         "dlalla",
@@ -4004,7 +4003,7 @@
                         "ugukhuula"
                     ]
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "KHULA",
                         "kula",
@@ -4041,7 +4040,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "CEDZA",
                         "misa",
@@ -4074,7 +4073,7 @@
                     ],
                     "mispellings": []
                 },
-                "ssw": {
+                "hau": {
                     "keywords": [
                         "CALA",
                         "xala",
