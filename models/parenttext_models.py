@@ -146,9 +146,16 @@ class OnboardingQuestionWithOptionsModel(DataRowModel):
 	variable: str = ''
 	options : List[OnboardingQuestionOptionModel] = []
 
+class OnboardingQuestionInputTestModel(ParserModel):
+	expression: str = ''
+	value: str = ''
+	condition_type: str = ''
+
 class OnboardingQuestionInputModel(DataRowModel):
 	question: str = ''
 	variable: str = ''
+	test: OnboardingQuestionInputTestModel = OnboardingQuestionInputTestModel()
+	error_message: str = ''
 
 class OnboardingRangeModel(ParserModel):
 	limit: str = ''
