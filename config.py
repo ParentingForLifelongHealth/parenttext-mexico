@@ -42,7 +42,8 @@ languages = [
 ]
 
 # Location where translations are stored, at the moment pointing to a locally cloned repo, should maybe be adapted so we can provide a link to an online repo
-translation_repo = "../PLH-Digital-Content/translations/parent_text_v2"
+translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
+folder_within_repo = "translations/parent_text_v2"
 
 # Desination file for all files (including intermediary files and log files)
 outputpath = "./output"

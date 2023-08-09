@@ -17,6 +17,7 @@ def main():
         model, 
         languages, 
         translation_repo, 
+        folder_within_repo,
         outputpath, 
         qr_treatment,
         select_phrases, 
