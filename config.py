@@ -74,10 +74,11 @@ length_threshold = "18"
 
 #Google sheet ID containing ab testing data
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s" #same for all deployments
-localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
+localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c" #south africa specific
 
 #Google sheet ID containing dict edits data
-dict_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
+eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI" #same for all deployments
+transl_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E" #south africa specific
 
 #Data used in safeguarding script
 SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
