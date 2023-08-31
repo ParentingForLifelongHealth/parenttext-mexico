@@ -24,7 +24,7 @@ sources = [
      "crowdin_name": "text_for_translators",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
      #"tags": [1, "delivery",1, "menu", 2,"south_africa"],
-     "tags": [2,"south_africa"],
+     "tags": [2,"south_africa",3,"teen"],
      "split_no": 3},
 ]
 
