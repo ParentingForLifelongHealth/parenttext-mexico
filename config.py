@@ -11,7 +11,7 @@ T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
 C_modules_teen_ID = "1ONmD9PF9rcno3ha3QpfrIR5EIvHuuEqJXF3T90rlZ78"
 C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4"
 C_home_activity_checkin_ID = "1qjjM2XfkvGVk38GL2OASNkTrXyXuDMAuMUAKmgHYt_s"
-T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
+T_C_menu_ID = "1yuPDt6EqHsRJpVAXIGPrnH3eDkmg_YosOrgDzE8BC7s"
 C_goal_checkin_ID = "1gympuD5KdlAdDJSuaVQiXjWSwJxoDcA9K-oBRyKmS7o"
 C_dev_asess_tool_ID = "1OhhQF5yarUDmaSl2tlt7eIT7wJ8bGwNFzI3BOplJYsc"
 safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
@@ -51,8 +51,8 @@ sources = [
             safeguarding,
         ],
         "crowdin_name": "text_for_translators",
-        # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
-        "tags": [2, "south_africa", 3, "teen"],
+        "tags": [1, "delivery",1, "menu", 2,"south_africa"],
+        # "tags": [2, "south_africa", 3, "teen"],
         "split_no": 3
     },
 ]
