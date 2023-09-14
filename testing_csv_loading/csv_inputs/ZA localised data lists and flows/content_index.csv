@@ -1,0 +1,10 @@
+type,sheet_name,data_sheet,data_row_id,new_name,data_model,template_arguments,status,tags.1,tags.2
+data_sheet,onboarding_question_language_data,,,,OnboardingQuestionWithOptionsModel,,,,south_africa
+data_sheet,goal_names,,,,DictionaryModel,,,,south_africa
+data_sheet,comic_names,,,,DictionaryModel,,,,south_africa
+data_sheet,module_names,,,,DictionaryModel,,,,south_africa
+template_definition,onboarding_question_date,,,,,,,,south_africa
+data_sheet,onboarding_question_input_id_data,,,,OnboardingQuestionInputModel,,,,south_africa
+data_sheet,settings_lang_profile_data,,,,SettingsProfileModel,,,,south_africa
+data_sheet,wa_templates,,,,WhatsappTemplateModel,,,,south_africa
+create_flow,consent_pilot,,,,,,,onboarding,south_africa

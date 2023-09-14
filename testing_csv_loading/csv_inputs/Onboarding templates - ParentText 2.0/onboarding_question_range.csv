@@ -1,0 +1,15 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,{{question}}
+1,wait_for_response,,,,,,,,,,,,age
+,send_message,1,,{{lower_bound}},,has_number_lt,low,,{{low_error_msg}}
+,go_to,,,,,,,,1
+,send_message,1,,{{upper_bound}},,has_number_gt,high,,{{up_error_msg}}
+,go_to,,,,,,,,1
+,send_message,1,,,,,,,{{general_error_msg}}
+,go_to,,,,,,,,1
+,save_value,1,,,,has_number,accepted range,,@results.age,,,,{{variable}}
+2,split_by_value,,,,,,,,@results.age
+,begin_for,,rg,,,,,,{@ranges@}
+,save_value,2,,{{rg.limit}},,has_number_lte,,"{@rg.limit != """"@}",{{rg.var_value}},,,,{{grouping_variable}}
+,end_for
+,save_value,,,,,,,,yes,,,,"completed {{ID.replace('_', ' ').lower()}}"

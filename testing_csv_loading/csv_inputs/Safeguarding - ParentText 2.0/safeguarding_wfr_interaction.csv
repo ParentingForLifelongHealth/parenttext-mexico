@@ -1,0 +1,10 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,no,,,,,sg_back
+1,start_new_flow,,,,,,,,safeguarding_redirect_to_topic_all
+2,split_by_value,1,,completed,,,,,@child.results.proceed
+3,send_message,2,,yes,,,proceed,,Would you like to go back to the previous messages?,,,Yes,No
+,save_flow_result,3,,yes y yeah yep,,,,,yes,,,,,sg_back
+,send_message,3,,no n nope nah,,,,,"That's okay. Type ""HELP"" at any time if you would like the details of emergency services or other hotlines."
+,send_message,3,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,3
+,save_value,2,,,,,,,,,,,,just left

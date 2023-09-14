@@ -1,0 +1,12 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,,,,,completed language
+,save_value,,,,,,,,,,,,consent
+,save_value,,,,,,,,,,,,completed emojis
+,save_value,,,,,,,,,,,,completed media
+,save_value,,,,,,,,,,,,completed orientation
+,save_value,,,,,,,,,,,,completed timing
+,save_value,,,,,,,,,,,,completed gender
+,save_value,,,,,,,,,,,,completed marital status
+,save_value,,,,,,,,,,,,completed child age
+,save_value,,,,,,,,,,,,completed child name
+,remove_from_group,,,,,,,,completed program

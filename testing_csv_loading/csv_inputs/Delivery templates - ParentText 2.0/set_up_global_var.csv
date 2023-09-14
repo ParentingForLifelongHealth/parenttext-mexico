@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,template_arguments,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,,set_up_comic_names
+,insert_as_block,,,completed,,,,,,split_dictionary,"{ {% for lang in goals.code.languages -%}{% set outer_loop = loop %} ""{{lang}}"": {  {% for gl in goals.values() -%}""{{gl.ID}}"": ""{{gl.languages[outer_loop.index0]}}"" {%if not loop.last%},{%endif-%}{%endfor -%} } {%if not loop.last%},{%endif-%}{%endfor -%} };goals dictionary"
+,insert_as_block,,,,,,,,,split_dictionary,"{ {% for lang in modules.code.languages -%}{% set outer_loop = loop %} ""{{lang}}"": {  {% for m in modules.values() -%}""{{m.ID}}"": ""{{m.languages[outer_loop.index0]}}"" {%if not loop.last%},{%endif-%}{%endfor -%} } {%if not loop.last%},{%endif-%}{%endfor -%} };modules dictionary"
+,begin_for,,type,,,,,,,"{@activity_types.values()|map(attribute=""ID"")@}"
+,insert_as_block,,,,,,,,,split_dictionary,"{ {% for n in range(0, 18) -%} ""{{n}}"":""{% for act in activities.values() -%} {%if type in act.act_type|map('lower') and n in act.act_age%}{{act.ID}} {%endif-%}{%endfor -%}"" {%if not loop.last%},{%endif-%}{%endfor -%} };{{type.lower()}} act"
+,end_for
+,insert_as_block,,,,,,,,,split_dictionary,"{ {% for age in [""baby"",""child"",""teen""] -%} ""{{age}}"": { {% for getipv in [""yes"",""no""] -%} ""{{getipv}}"" :""{% for goal in goal_data.values()|sort(attribute=""priority"") -%} {%if age in goal.age_group and getipv in goal.relationship%}{{goal.ID}} {%endif-%}{%endfor -%}"" {%if not loop.last%},{%endif-%}{%endfor -%} } {%if not loop.last%},{%endif-%}{%endfor -%} };goal lists"

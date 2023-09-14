@@ -1,0 +1,5 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,start,,,,,,,@fields.type_of_media,,,,,media
+,insert_as_block,1,,high,,,,"{@video.message!=""""@}",video_template,{{content_sheet_name}},{{ID}}
+2,insert_as_block,1,,medium,,,,"{@audio.message!=""""@}",audio_template,{{content_sheet_name}},{{ID}}
+,insert_as_block,1;2,,,,,,,tips_next_template,{{content_sheet_name}},{{ID}}

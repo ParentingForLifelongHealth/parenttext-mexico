@@ -1,0 +1,12 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,template_arguments,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,list copy,@({{list_var}})
+,save_flow_result,,,,,,,,message options
+,begin_for,,i,,,,,,,"{@range(1,n_max_opt|int)@}"
+,insert_as_block,,,,,,,,,use_dictionary_save_flow_result_middle,"@(if(text_length(results.list_copy)=0, results.message_options, results.message_options & ""\n{{i}}.  "" & ;));message options",use_dictionary_data,{{dict_ID}}
+,save_flow_result,,,,,,,,list copy,"@(word_slice(results.list_copy, 1, -1))"
+,end_for
+1,split_by_value,,,,,,,,,@(word_count({{list_var}}))
+,send_message,1,,0,,has_number_eq,,,,{{msg_no_options.message}}
+,send_message,1,,1,,has_number_eq,,,,"{{msg_one_option.message}}
+@(text_slice(results.message_options,5))"
+,send_message,1,,2,,has_number_gte,,,,{{msg_multiple_options}}@results.message_options

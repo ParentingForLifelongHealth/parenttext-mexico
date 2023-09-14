@@ -1,0 +1,7 @@
+ID,completion_variable,incomplete_value,incomplete_test,incomplete_name,interaction_flow,interaction_proceed_value,flow
+onboarding,@fields.completed_onboarding,no,has_any_word,NOT completed onboarding,interaction_unfinished_onboarding_wrapper,yes,onboarding_wrapper
+pre_programme_checkin,@fields.completed_progcheck,no,,NOT checkin,interaction - unfinished_onboarding,yes,pre_programme_checkin
+take_a_pause,@fields.completed_pause,no,has_any_word,NOT pause,interaction - unfinished_onboarding,yes,take_a_pause_wrapper
+goal,@(text_length(fields.curr_goal)),0,has_number_eq,NOT selected goal,interaction_select_goal_wrapper,yes,timed_select_goal
+pregoal_checkin,@fields.completed_pre_goal_checkin,no,has_any_word,NOT compl pregoal ,interaction - first_module_intro,yes,pregoal_checkin_wrapper
+first_module,@(fields.c_n_mod_compl + fields.c_n_mod_started),0,has_number_eq,NOT started first module,interaction - first_module_intro,yes,timed_goal_content

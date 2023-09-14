@@ -1,0 +1,6 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,{{pre_update_flow}}
+,start_new_flow,,,completed,,,,,{{handler_flow}}
+,split_by_value,,,completed,,,,,@child.results.status
+,start_new_flow,,,not_expired,,,,,{{post_update_flow}}
+,save_flow_result,,,completed,,,,,not_expired,,,,,status

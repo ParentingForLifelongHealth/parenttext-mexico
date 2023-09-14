@@ -1,0 +1,2 @@
+ID,question,variable,test.expression,test.value,test.condition_type,error_message
+research_id,Please type your participant ID.,research id,@results.input,,has_text,The ID you have entered is invalid. Please try again.

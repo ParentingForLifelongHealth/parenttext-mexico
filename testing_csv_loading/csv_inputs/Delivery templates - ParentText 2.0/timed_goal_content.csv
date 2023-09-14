@@ -1,0 +1,32 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,start,,,,,,,@(word_count(fields.c_mod_to_start))
+2,split_by_value,1,,0,,has_number_gt,new module available,,@(word_count(fields.c_checkins_to_start))
+3,start_new_flow,2,,0,,has_number_gt,checkin available,,handler_wrapper - start_checkin
+4,split_by_value,3,,Complete,,,,,@child.results.status
+5,split_by_value,2,,,,,,,@(word_count(fields.c_mod_started))
+6,start_new_flow,5,,0,,has_number_gt,started module available,,interaction - complete_start_module
+7,split_by_value,6,,Complete,,,,,@child.results.proceed
+8,start_new_flow,7,,complete,,has_any_word,Complete,,handler_wrapper - start_started_module_selected
+9,split_by_value,8,,Complete,,,,,@child.results.status
+10,start_new_flow,9,,not_expired,,has_any_word,Not_expired,,interaction - catch_up_start
+11,split_by_value,10,,Complete,,,,,@child.results.proceed
+12,start_new_flow,11,,yes,,has_any_word,Yes,,handler_wrapper - start_module
+13,split_by_value,12,,Complete,,,,,@child.results.status
+14,start_new_flow,13,,not_expired,,has_any_word,Not_expired,,activity_offer
+15,start_new_flow,4;5;7,,not_expired;;new,,has_any_word;;has_any_word,Not_Expired;;New,,handler_wrapper - start_module
+16,split_by_value,15,,Complete,,,,,@child.results.status
+17,split_by_value,16,,not_expired,,has_any_word,Not_expired,,@(word_count(fields.c_mod_to_start))
+18,start_new_flow,17,,0,,has_number_gt,new module available,,activity_offer
+19,split_by_value,1,,,,,,,@(word_count(fields.c_checkins_to_start))
+20,start_new_flow,19,,0,,has_number_gt,checkin available,,handler_wrapper - start_checkin
+21,split_by_value,20,,Complete,,,,,@child.results.status
+22,split_by_value,17;19;21,,;;not_expired,,;;has_any_word,;;Not_Expired,,@(word_count(fields.c_mod_started))
+23,start_new_flow,22,,1,,has_number_gt,mult started module available,,interaction - start_started_mod_or_change_goal_multiple
+24,start_new_flow,22,,1,,has_number_eq,1 started module available,,interaction - start_started_mod_or_change_goal_one
+25,split_by_value,23;24,,Complete;Complete,,,,,@child.results.proceed
+26,start_new_flow,25,,complete,,has_any_word,Complete modules,,handler_wrapper - start_started_module_selected
+27,split_by_value,26,,Complete,,,,,@child.results.status
+28,split_by_value,27,,not_expired,,has_any_word,Not_expired,,@(word_count(fields.c_mod_started))
+29,start_new_flow,28,,,,,,,activity_offer
+30,start_new_flow,22;28,,;0,,;has_any_word,;no more modules to complete,,goal_completion_congrats
+31,start_new_flow,25;30,,new;Complete,,has_any_word;,New goal,,timed_programme_wrapper_not_timed

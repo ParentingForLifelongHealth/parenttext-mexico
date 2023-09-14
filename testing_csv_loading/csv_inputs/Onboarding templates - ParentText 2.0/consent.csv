@@ -1,0 +1,39 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+4,send_message,,,,,,,,"This programme works! Did you know that over 200 million parents around the world have used our resources developed by Parenting for Lifelong Health, WHO, and UNICEF?"
+8,send_message,,,,,,,,"✅Participating in ParentText is optional. 
+✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. 
+❌You can stop when you want. Just type “STOP”
+❓If you have questions, ask Dr. Jamie Lachman at jamie.lachman@spi.ox.ac.uk; +44(7)840825892
+
+Click here for more information:"
+9,send_message,8,,,,,,,"Press YES if you agree with this. Type ""EXIT"" if you do not want to participate. ",,,YES
+10,wait_for_response,9
+11,send_message,10,,yes y,,has_any_word,Yes,,"That is wonderful, thank you so much! "
+12,send_message,10,,,,,,,"I am sorry I did not understand. Press YES if you agree with this. Type ""EXIT"" if you do not want to participate."
+13,go_to,12,,,,,,,10
+14,send_message,11,,,,,,,Can you please confirm that you are 18 years old or older?,,,"Yes, I am over 18","No, I am under 18"
+15,wait_for_response,14
+16,send_message,15,,yes y over,,has_any_word,Yes,,Great! Let's begin.
+17,add_to_group,16,,,,,,,in program
+,save_value,17,,,,,,,yes,,,,,completed consent
+18,save_value,,,,,,,,yes,,,,,consent
+20,send_message,15,,,,,,,"Sorry, I don't understand what you mean."
+21,go_to,20,,,,,,,14
+22,send_message,10,,exit,,has_any_word,Exit,,"Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type ""STOP"". If you made a mistake, please press BACK and choose another option.",,,BACK
+23,wait_for_response,22
+24,send_message,23,,stop,,has_only_phrase,no consent,,"If you ever return to participate in the programme, type ""START"". 
+
+We hope to see you again soon, and we wish you a happy and peaceful day! "
+stop,save_flow_result,,,,,,,,yes,,,,,stop
+,save_value,,,,,,,,no,,,,,consent
+26,go_to,23,,back,,has_any_word,Back,,8
+27,send_message,23,,,,,,,"Sorry, I don't understand what you mean."
+28,go_to,27,,,,,,,22
+29,send_message,15,,no n under,,has_any_word,No,,"Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",,,Yes,No
+30,wait_for_response,29
+31,add_to_group,30,,yes y,,has_any_word,Yes,,below age
+32,send_message,31,,,,,,,"If you want to experience ParentText, you can always share it with your parents or caregivers."
+,go_to,,,,,,,,stop
+34,go_to,30,,no n,,has_any_word,No,,14
+35,send_message,30,,,,,,,"Sorry, I don't understand what you mean."
+36,go_to,35,,,,,,,29

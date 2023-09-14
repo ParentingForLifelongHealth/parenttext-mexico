@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,start_new_flow,,,,,,,,activity_handler
+3,send_message,,,completed,,,,,What would you like to do?,,,View another activity idea,Go to Main Menu,Exit
+,go_to,3,,View another activity idea,,has_only_phrase,View another activity idea,,0
+,start_new_flow,3,,Go to Main Menu,,has_only_phrase,Go to Main Menu,,safeguarding_menu_wrapper
+,start_new_flow,3,,Exit,,has_only_phrase,Exit,,exit_menu
+,send_message,3,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,3

@@ -1,0 +1,4 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,"Here is the link!
+[insert link]"
+,start_new_flow,,,,,,,,menu - return_or_exit

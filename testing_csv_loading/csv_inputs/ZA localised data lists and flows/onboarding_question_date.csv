@@ -1,0 +1,22 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,save_name,message_text,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,send_message,start,,,,,,,{{question}}
+2,wait_for_response,1,,,,,,date
+,send_message,2,,,,,,,"Sorry, this date is invalid. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+,go_to,,,,,,,,2
+3,split_by_value,2,,,,has_date,Has Date,,"@(datetime_diff(results.date,now(),""M""))"
+,send_message,3,,0,"@(datetime_diff(results.date,now(),""M""))",has_number_lt,future,,"The date you entered is in the future. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+,go_to,,,,,,,,2
+,send_message,3,,120,"@(datetime_diff(results.date,now(),""M""))",has_number_lt,below 10,,"According to the date you provided, Your Child would be @(round_down(datetime_diff(results.date,now(),""M"")/12)) years old. ParentText is only for children aged 10-17. Please enter a valid date for your child's birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+,go_to,,,,,,,,2
+23,send_message,3,,216,"@(datetime_diff(results.date,now(),""M""))",has_number_lt,< 216,,"Your Teen is @(round_down(datetime_diff(results.date,now(),""M"")/12)) years old.  Is that correct?",Yes,No
+24,wait_for_response,23,,,,,,Result 4
+25,save_value,24,,yes y yeah yep,,has_any_word,Yes,age group for tips,teen
+,send_message,24,,no n nope,,has_any_word,No,,"Let's try again. Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+,go_to,,,,,,,,2
+,send_message,24,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,23
+7,send_message,3,,,,,,,"According to the date you provided, Your Child would be @(round_down(datetime_diff(results.date,now(),""M"")/12)) years old. ParentText is only for children aged 10-17. Please enter a valid date for your child's birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+,go_to,,,,,,,,2
+,save_value,25,,,,,,child dob,@results.date
+,save_value,,,,,,,child age,"@(round_down(datetime_diff(results.date,now(),""M"")/12))"
+,save_value,,,,,,,"completed {{ID.replace('_', ' ').lower()}}",yes

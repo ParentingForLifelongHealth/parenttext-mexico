@@ -1,0 +1,21 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,choices.4,choices.5,choices.6,choices.7,choices.8,choices.9,choices.10,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1m,send_message,,,,,,,,It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?,,,Police,Medical services,Fire department,Mental health services,Violence prevention hotline,Suicide prevention hotline,Family counselling services,Substance abuse,Natural disasters
+1,wait_for_response,,,,,,,,,,,,,,,,,,,,,emergency
+2,send_message,1,,Police,,has_only_phrase,Police,,{{referrals.generic.referrals}}
+3,send_message,1,,Medical services,,has_only_phrase,Medical services,,{{referrals.health.referrals}}
+4,send_message,1,,Fire department,,has_only_phrase,Fire department,,{{referrals.natural_disasters.referrals}}
+5,send_message,1,,Mental health services,,has_only_phrase,Mental health services,,{{referrals.mental_health.referrals}}
+6,send_message,1,,Violence prevention hotline,,has_only_phrase,Violence prevention hotline,,{{referrals.violence.referrals}}
+7,send_message,1,,Suicide prevention hotline,,has_only_phrase,Suicide prevention hotline,,{{referrals.mental_health.referrals}}
+8,send_message,1,,Family counselling services,,has_only_phrase,Family counselling services,,{{referrals.family.referrals}}
+9,send_message,1,,Substance abuse,,has_only_phrase,Substance abuse,,{{referrals.drugs.referrals}}
+10,send_message,1,,Natural disasters,,has_only_phrase,Natural disasters,,{{referrals.natural_disasters.referrals}}
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1m
+end,send_message,2;3;4;5;6;7;8;9;10,,,,,,,What would you like to do?,,,Get other emergency contacts,Go to the Main Menu,Exit
+end_w,wait_for_response,,,,,,,,,,,,,,,,,,,,,selection
+,go_to,end_w,,Get other emergency contacts,,has_only_phrase,,,1m
+,start_new_flow,end_w,,Go to the Main Menu,,has_only_phrase,,,safeguarding_menu_wrapper
+,send_message,end_w,,Exit,,,,,We hope this was helpful! You can access this information at any time by typing HELP. 
+,send_message,end_w,,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,end

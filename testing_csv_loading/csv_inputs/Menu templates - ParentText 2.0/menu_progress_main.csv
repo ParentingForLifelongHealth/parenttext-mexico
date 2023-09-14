@@ -1,0 +1,17 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,template_arguments,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_group
+2,split_by_value,1,,completed program,,,completed program,,@fields.type_of_media
+3,send_message,2,,high,,,,,🎉You did it! Congratulations!🎉 You have completed the course and earned yourself the Positive Parenting Trophy 🏆. Well done!,,,,,,,,"@(fields.reward_path & ""parenttext_completion_trophy.mp4"")"
+4,send_message,2,,,,,,,🎉You did it! Congratulations!🎉 You have completed the course and earned yourself the Positive Parenting Trophy 🏆. Well done!,,,,,,"@(fields.reward_path & ""parenttext_completion_trophy.jpg"")"
+,start_new_flow,3;4,,,,,,,menu - return_or_exit
+gt,split_by_value,1,,,,,,,@fields.n_goals_prog
+,begin_for,,tot,,,,,,"{@range(7, 11)@}"
+gc {{tot}},split_by_value,gt,,{{tot}},,has_number_eq,{{tot}},,@fields.n_goals_completed
+,begin_for,,c,,,,,,{@range(tot+1)@}
+,send_message,gc {{tot}},,{{c}},,has_number_eq,{{c}},,"{% for i in range(tot) -%}{% if i < c-%}✅{%else%}⬜️{%endif-%}{%endfor %}
+
+@fields.n_goals_completed of @fields.n_goals_prog Goals Complete"
+,end_for
+,end_for
+,insert_as_block,,,,,,,,use_dictionary_send_msg_middle,You are currently working on the goal;.,use_dictionary_data,curr_goal
+,insert_as_block,,,,,,,,menu,,menu_blocks_data,progress_main

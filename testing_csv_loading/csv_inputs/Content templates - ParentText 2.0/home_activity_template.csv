@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,,,,,,bug fix
+,begin_for,,msg,,,,,{@home_activity.intro|length >0@},{@home_activity.intro@}
+,send_message,,,,,,,,{{msg}}
+,end_for
+1m,send_message,,,,,,,,{{home_activity.activity}},,,{%if home_activity.positive_msg -%}Yes{% endif %},{%if home_activity.negative_msg -%}No{% endif %}
+,begin_block,,,,,,,"{@home_activity.positive_msg!=""""@}"
+1,wait_for_response,,,,,,,,,,,,,will complete
+,send_message,1,,yes y yeah yep,,,yes,,{{home_activity.positive_msg}}
+,send_message,1,,no nope n,,,no,,{{home_activity.negative_msg}}
+2,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,2,,,,,,,1m
+,end_block

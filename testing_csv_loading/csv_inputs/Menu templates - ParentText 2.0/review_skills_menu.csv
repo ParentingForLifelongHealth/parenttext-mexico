@@ -1,0 +1,41 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,choices.4,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,start_new_flow,,,,,,,,make_options_wrapper - choose_goal_to_review
+2,split_by_value,1,,completed,,,,,@child.results.selection
+,start_new_flow,2,,extra,,,menu,,menu - main
+2r,start_new_flow,2,,,,has_text,selected goal,,split_by_id_template - review_goal
+,start_new_flow,2,,,,,,,menu - return_or_exit
+3,start_new_flow,2r,,completed,,,,,make_options_wrapper - choose_skill_to_review
+4,split_by_value,3,,completed,,,,,@child.results.selection
+,start_new_flow,4,,extra,,,menu,,menu - main
+4r,start_new_flow,4,,,,has_text,selected module,,split_by_id_template - content_review
+5,split_by_value,4,,,,,,,@(word_count(fields.goals_accessed))
+,start_new_flow,5,,1,,has_number_eq,1 goal,,menu - return_or_exit
+5ge2,send_message,5,,,,,,,What would you like to do next?,,,Review a skill from a different goal,Return to Menu,Exit
+5ge2w,wait_for_response
+,start_new_flow,5ge2w,,Return to Menu,,has_only_phrase,Return to Menu,,menu - main
+,go_to,5ge2w,,Review a skill from a different goal,,has_only_phrase,Review a skill from a different goal,,1
+,send_message,5ge2w,,Exit,,has_only_phrase,Exit,,We hope this was helpful! You can access the Main Menu at any time by typing MENU. 
+,send_message,5ge2w,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,5ge2
+6,split_by_value,4r,,completed,,,,,@child.results.status
+,send_message,6,,not_expired,,,not_expired,,You have reached the end of this skill! 🎉 
+7,split_by_value,,,,,,,,@(word_count(fields.s_modules_compl))
+7eq1,split_by_value,7,,1,,has_number_eq,1 skill,,@(word_count(fields.goals_accessed))
+,start_new_flow,7eq1,,1,,has_number_eq,1 goal,,menu - return_or_exit
+,go_to,7eq1,,2,,has_number_gte,mult goals,,5ge2
+7ge2,split_by_value,7,,2,,has_number_gte,mult skills,,@(word_count(fields.goals_accessed))
+8,send_message,7ge2,,1,,has_number_eq,1 goal,,What would you like to do next?,,,Review another skill from this goal,Return to Menu,Exit
+8w,wait_for_response
+,go_to,8w,,Review another skill from this goal,,has_only_phrase,Review another skill from this goal,,3
+,start_new_flow,8w,,Return to Menu,,has_only_phrase,Return to Menu,,menu - main
+,send_message,8w,,Exit,,has_only_phrase,Exit,,We hope this was helpful! You can access the Main Menu at any time by typing MENU. 
+,send_message,8w,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,8
+9,send_message,7ge2,,2,,has_number_gte,mult goals,,What would you like to do next?,,,Review another skill from this goal,Review a skill from a different goal,Return to Menu,Exit
+9w,wait_for_response
+,go_to,9w,,Review another skill from this goal,,has_only_phrase,Review another skill from this goal,,3
+,go_to,9w,,Review a skill from a different goal,,has_only_phrase,Review a skill from a different goal,,1
+,start_new_flow,9w,,Return to Menu,,has_only_phrase,Return to Menu,,menu - main
+,send_message,9w,,Exit,,has_only_phrase,Exit,,We hope this was helpful! You can access the Main Menu at any time by typing MENU. 
+,send_message,9w,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,9

@@ -1,0 +1,6 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,template_arguments,data_sheet,data_row_id,choices.1,choices.2,choices.3,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,,,,,,,,@fields.type_of_media
+2,insert_as_block,1,,high,,,,,use_dictionary_send_msg_middle_video,"🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal ;. Well done!;@(fields.reward_path & ""badge_"" & fields.curr_goal & "".mp4"")",use_dictionary_data,curr_goal
+3,insert_as_block,1,,,,,,,use_dictionary_send_msg_middle_image,"🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal ;. Well done!;@(fields.reward_path & ""badge_"" & fields.curr_goal & "".jpg"")",use_dictionary_data,curr_goal
+,send_message,2;3,,,,,,,"Remember, if you need support practising the skills you learned, you can get extra help in Troubleshooting, found in the Main Menu."
+,start_new_flow,,,,,,,,update_prog_var_end_goal

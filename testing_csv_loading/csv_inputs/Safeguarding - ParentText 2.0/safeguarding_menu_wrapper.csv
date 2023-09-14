@@ -1,0 +1,5 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,,,,,,,,@fields.completed_onboarding
+,send_message,1,,no,,,not completed onboarding,,The menu will be available once you have completed registration. It won’t take long. Please continue your progress!
+,start_new_flow,,,,,,,,timed_programme_wrapper_not_timed
+,start_new_flow,1,,,,,,,menu - main

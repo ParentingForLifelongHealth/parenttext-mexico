@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,send_message,,,completed,,,,,"Which activity would you like to test?
+{% for mod in content.values() -%}
+{{loop.index}}. {{mod.ID}}
+{% endfor %}
+Type ""N"" to stop"
+2,begin_for,,mod;i,,,,,,{@content.values()@}
+,start_new_flow,1,,{{i+1}},,,,,ltp_activity - {{mod.ID}}
+,end_for
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1
+,send_message,1,,n,,has_only_phrase,,,Type LTP to start again
+,go_to,2,,,,,,,1

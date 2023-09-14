@@ -1,0 +1,17 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,begin_block,,,,,,,"{@troubleshooting.question!=""""@}"
+1,send_message,start,,,,,,,{{troubleshooting.question}},,,"{% for tb in troubleshooting.problems -%}
+{{tb.pb}};
+{%- endfor -%}"
+2,wait_for_response,,,,,,,,,,,,problem
+,begin_for,,tb,,,,,,{@troubleshooting.problems@}
+,begin_block,,,,,,,"{@tb.pb !=""""@}"
+,begin_for,2,tb_msg,{{tb.pb}},,has_only_phrase,{{tb.pb|truncate(115)}},,{@tb.tip@}
+,send_message,,,,,,,,{{tb_msg}}
+,end_for
+,save_value,,,,,,,,"@(fields.tb_{{ID.replace(' ', '_').lower()}} & results.problem.category & ""|"")",,,,"tb {{ID.replace('_', ' ').lower()}}"
+,end_block
+,end_for
+,send_message,2,,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,1
+,end_block

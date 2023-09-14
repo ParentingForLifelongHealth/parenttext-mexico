@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_mod_to_start",,,,,c mod to start
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_mod_started",,,,,c mod started
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_mod_compl",,,,,c mod compl
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_checkins_to_start",,,,,c checkins to start
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_n_mod",,,,,c n mod
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_n_mod_compl",,,,,c n mod compl
+,save_value,,,,,,,,"@fields.goal_{{ID.replace(' ', '_').lower()}}_n_mod_started",,,,,c n mod started

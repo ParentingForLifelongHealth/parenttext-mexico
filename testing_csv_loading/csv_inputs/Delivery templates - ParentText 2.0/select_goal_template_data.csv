@@ -1,0 +1,8 @@
+ID,update_prog_var_flow,split_by_goal_update_flow,goal_description,proceed.question,proceed.yes_opt,proceed.no_opt,proceed.no_msg
+start_first_goal,update_prog_var_start_goal,split_by_id_template - goal_set_up_var,description_new_goal
+start_new_goal_daily,update_prog_var_start_goal,split_by_id_template - goal_set_up_var,description_new_goal,Do you want to begin now or tomorrow?,Now,Tomorrow,"Great, see you tomorrow!"
+start_started_goal_daily,update_prog_var_start_started_goal,split_by_id_template - curr_goal_update_var,description_started_goal,Do you want to begin now or tomorrow?,Now,Tomorrow,"Great, see you tomorrow!"
+start_new_goal_expired,update_prog_var_start_goal,split_by_id_template - goal_set_up_var,description_new_goal
+start_started_goal_expired,update_prog_var_start_started_goal,split_by_id_template - curr_goal_update_var,description_started_goal
+start_new_goal_menu,update_prog_var_start_goal,split_by_id_template - goal_set_up_var,description_new_goal
+start_started_goal_menu,update_prog_var_start_started_goal,split_by_id_template - curr_goal_update_var,description_started_goal

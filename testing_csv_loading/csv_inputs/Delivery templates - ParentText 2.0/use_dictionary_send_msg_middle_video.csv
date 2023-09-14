@@ -1,0 +1,2 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,,"{{pt1}} @(parse_json({% for n in range(0,N|int) -%}fields.{{dict_name}}_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[{{key}}]){{pt2}}",,,,,,,{{video_path}}

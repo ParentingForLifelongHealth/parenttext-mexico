@@ -1,0 +1,4 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,wa_template.name,wa_template.uuid,wa_template.variables,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,"Today we are taking a break from your goal, @(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal]), and checking in on your progress. Press 1 on your keypad to proceed.",,,"{{wa_templates[""post_goal_checkin""].name}}","{{wa_templates[""post_goal_checkin""].uuid}}","@(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal])",1
+1,wait_for_response,0
+,start_new_flow,,,,,,,,handler_wrapper - postgoal_checkin

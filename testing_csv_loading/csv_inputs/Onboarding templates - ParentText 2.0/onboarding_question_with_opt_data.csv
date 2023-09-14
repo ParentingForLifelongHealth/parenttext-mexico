@@ -1,0 +1,6 @@
+ID,question,image,variable,options.1.text,options.1.value,options.2.text,options.2.value,options.3.text,options.3.value,options.4.text,options.4.value,options.5.text,options.5.value,options.6.text,options.6.value
+emojis,"Before we get started, we need to test your device. What image do you see here: 😀",,get emoji,A happy face,yes,A square,no,Something else,no
+media,"ParentText is easiest to use when you receive content as videos, images and text. However, your data bundle and bandwidth may not support videos. To save on data, you can opt to receive the same content with a smaller audio file or as text. How would you like to receive ParentText?",,type of media,"Text, Images, and Videos",high,"Text, Images, and Audio",medium,Text and Images Only,low
+gender,Are you a WOMAN or MAN?,,gender,Woman,woman,Man,man,Prefer not to say,no
+marital_status,What is your relationship status?,,marital status,Single (not in a relationship),Single,Married,Married,Partnered but not married,Partnered,Divorced or separated,Divorced,Widowed,Widowed,Prefer not to say,no
+child_gender,Is Your Child a girl or a boy?,,child gender,Girl,female,Boy,male,Prefer not to say,no

@@ -1,0 +1,4 @@
+offset,unit,event_type,delivery_hour,message,relative_to,start_mode,flow
+1410,M,F,,,last interaction,I,campaign
+2850,M,F,,,last interaction,I,campaign
+4290,M,F,,,last interaction,I,hook_message

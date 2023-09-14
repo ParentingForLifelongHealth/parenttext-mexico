@@ -1,0 +1,14 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,add_to_group,,,,,,,,,joined
+,save_value,,,,,,,,start new goal,yes
+,save_value,,,,,,,,deployment,Global
+,save_value,,,,,,,,attachment gender,female
+,save_value,,,,,,,,selected first goal,no
+,save_value,,,,,,,,completed pre goal checkin,no
+,save_value,,,,,,,,from timed,no
+,save_value,,,,,,,,completed onboarding,no
+,save_value,,,,,,,,completed pause,no
+,save_value,,,,,,,,completed progcheck,no
+,set_contact_language,,,,,,,,,eng
+,start_new_flow,,,,,,,,,define_attachment_paths
+,start_new_flow,,,completed,,,,,,set_up_global_var

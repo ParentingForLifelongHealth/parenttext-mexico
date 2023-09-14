@@ -1,0 +1,6 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,@parent.results.one_option
+1,start_new_flow,0,,yes,,,one opt,,select_goal_template_one_opt - {{type}}
+2,start_new_flow,0,,,,,,,select_goal_template - {{type}}
+,start_new_flow,1;2,,completed;completed,,,,,pregoal_checkin_wrapper
+,start_new_flow,,,completed,,,,,timed_goal_content

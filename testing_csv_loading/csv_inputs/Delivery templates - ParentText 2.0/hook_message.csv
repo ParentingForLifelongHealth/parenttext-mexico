@@ -1,0 +1,4 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,wa_template.name,wa_template.uuid,wa_template.variables,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,"{{wa_templates[""no_response""].text}}",,,"{{wa_templates[""no_response""].name}}","{{wa_templates[""no_response""].uuid}}",,1
+,add_to_group,,,,,,,,passive drop out
+,save_value,,,,,,,,@(fields.hook_message & now()),,,,,,,hook message

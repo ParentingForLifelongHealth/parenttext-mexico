@@ -1,0 +1,2 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,template_arguments,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,insert_as_block,,,,,,,,use_dictionary_send_msg_middle,"In this goal, you will gain @fields.c_n_mod new skills. You will receive a new lesson each day. Today you will begin the first skill, ;.",use_dictionary_data,first_module

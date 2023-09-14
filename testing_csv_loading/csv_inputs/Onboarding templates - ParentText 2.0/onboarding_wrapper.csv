@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,begin_for,,step;i,,,,,,{@steps.values()@}
+{{3*i}},split_by_value,,,,,,,{@i==0@},{{step.variable}}
+{{3*i}},split_by_value,{{3*(i-1)}},,yes,,,,{@i!=0@},{{step.variable}}
+{{3*i+1}},start_new_flow,{{3*i}},,,,,,{@i==0@},{{step.flow}}
+{{3*i+1}},start_new_flow,{{3*i}};{{3*(i-1)+2}},,,,,,{@i!=0@},{{step.flow}}
+,hard_exit,{{3*i+1}},,expired
+{{3*i+2}},split_by_value,{{3*i+1}},,completed,,,,,@child.results.stop
+,hard_exit,{{3*i+2}},,yes
+,end_for
+,save_flow_result,{{3*(steps.values()|length -1)}};{{3*(steps.values()|length -1)+2}},,yes;,,,,,yes,,,,proceed
+,save_value,,,,,,,,yes,,,,completed onboarding
+,start_new_flow,,,,,,,,set_up_prog_var

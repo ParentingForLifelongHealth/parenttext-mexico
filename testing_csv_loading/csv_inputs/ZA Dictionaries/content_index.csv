@@ -1,0 +1,4 @@
+type,sheet_name,data_sheet,data_row_id,new_name,data_model,template_arguments,status,tags.1,tags.2
+data_sheet,goal_names,,,,DictionaryModel,,,,global
+data_sheet,comic_names,,,,DictionaryModel,,,,global
+data_sheet,module_names,,,,DictionaryModel,,,,global

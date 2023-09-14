@@ -1,0 +1,31 @@
+ID,intro,options,scores,threshold_age,threshold_score,end_message_concerning,end_message_not_concerning,questions.1,questions.2,questions.3,questions.4,questions.5,questions.6,questions.7,questions.8,questions.9,questions.10
+23_28,"Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.
+; 
+How much is your child doing each of these things?",Not Yet|Somewhat|Very Much,0|1|2,23;24;25;26;27;28,11;12;13;14;15;16,"It seems that your child might need help from a professional. Make sure to check with one to see if your child is growing and learning well.
+;
+ Remember, if you ever need support type HELP. ","Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!;
+
+If you ever need help, just type HELP.","Names at least 5 body parts - like nose, hand, or tummy",Climbs up a ladder at a playground,"Uses words like ""me"" or ""mine""",Jumps off the ground with two feet,"Puts 2 or more words together - like ""more water"" or ""go outside""",Uses words to ask for help,Names at least one colour,"Tries to get you to watch by saying ""Look at me""",Says his or her first name when asked,Draws lines
+29_34,"Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.; 
+
+How much is your child doing each of these things?",Not Yet|Somewhat|Very Much,0|1|2,29;30;31;32;33;34,10;11;12;13;14;14,"It seems that your child might need help from a professional. Make sure to check with one to see if your child is growing and learning well.
+;
+ Remember, if you ever need support type HELP. ","Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!;
+
+If you ever need help, just type HELP.",Names at least one colour,"Tries to get you to watch by saying ""Look at me""",Says his or her first name when asked,Draws lines,Talks so other people can understand him or her most of the time,Washes and dries hands without help (an adult can help turn on the water),"Asks questions beginning with ""why"" or ""how"" - like ""Why no cookie?""","Explains the reasons for things, like needing a sweater when it's cold","Compares things - using words like ""bigger"" or ""shorter""","Answers questions like ""What do you do when you are cold?""
+or ""…when you are sleepy?"""
+35_46,"Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.; 
+
+How much is your child doing each of these things?",Not Yet|Somewhat|Very Much,0|1|2,35;36;37;38;39;40;41;42;43;44;45;46,11;12;13;14;14;15;15;16;16;17;17;17,"It seems that your child might need help from a professional. Make sure to check with one to see if your child is growing and learning well.
+;
+ Remember, if you ever need support type HELP. ","Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!;
+
+If you ever need help, just type HELP.",Talks so other people can understand him or her most of the time,Washes and dries hands without help (an adult can help turn on the water),"Asks questions beginning with ""why"" or ""how"" - like ""Why no cookie?""","Explains the reasons for things, like needing a sweater when it's cold","Compares things - using words like ""bigger"" or ""shorter""","Answers questions like ""What do you do when you are cold?"" or ""…when you are sleepy?",Tells you a story from a book or TV,Draws simple shapes - like a circle or a square,"Says words like ""feet"" for more than one foot
+and ""men"" for more than one man","Uses words like ""yesterday"" and ""tomorrow"" correctly"
+47_58,"Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.; 
+
+How much is your child doing each of these things?",Not Yet|Somewhat|Very Much,0|1|2,47;48;49;50;51;52;53;54;55;56;57;58,13;14;14;14;15;15;15;16;16;16;16;17,"It seems that your child might need help from a professional. Make sure to check with one to see if your child is growing and learning well.
+;
+ Remember, if you ever need support type HELP. ","Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!;
+
+If you ever need help, just type HELP.","Compares things - using words like ""bigger"" or ""shorter""","Answers questions like ""What do you do when you are cold?"" or ""…when you are sleepy?",Tells you a story from a book or TV,Draws simple shapes - like a circle or a square,"Says words like ""feet"" for more than one foot and ""men"" for more than one man","Uses words like ""yesterday"" and ""tomorrow"" correctly",Stays dry all night,Follows simple rules when playing a board game or card game,Prints his or her name,Draws pictures you recognise

@@ -1,0 +1,38 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,{{intro_post_goal}}
+,start_new_flow,,,,,,,,{{pre_question}}
+0,split_by_value,,,completed,,,,,@child.results.proceed
+1,send_message,0,,,,,,,{{question}},,,"{%if add_qr == ""yes"" -%}{% for opt in options -%}
+{{opt}};
+{%- endfor -%}{% endif %}Skip Question"
+2,wait_for_response,,,,,,,,,,,,answer
+,send_message,2,,Skip Question,,has_only_phrase,Skip Question,,That's okay.
+skip,save_value,,,,,,,,"@(fields.goal_checkin_{{ID.replace(' ', '_').lower()}} &""|skip"")",,,,"goal checkin {{ID.replace('_', ' ').lower()}}"
+3,begin_for,,opt;i,,,,,,{@options@}
+4,split_by_value,2,,{{opt}},,has_only_phrase,{{i}},,"@fields.goal_checkin_{{ID.replace(' ', '_').lower()}}",,,,improvement
+,send_message,4,,,,,,,{%if opt.lower() in negative|map('lower') -%}{{response.post_goal_worsened_negative}}{% else %}{{response.pre_goal_positive}}{% endif %}
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}yes{% else %}no{% endif %},,,,troubleshooting
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}negative{% else %}positive{% endif %},,,,value
+,send_message,4,,{{i}},,has_number_eq,same,,{%if opt.lower() in negative|map('lower') -%}{{response.post_goal_static_negative}}{% else %}{{response.post_goal_static_positive}}{% endif %}
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}yes{% else %}no{% endif %},,,,troubleshooting
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}negative{% else %}positive{% endif %},,,,value
+,send_message,4,,{{i}},,"{%if improvement == "">"" -%}has_number_gt{% else %}has_number_lt{% endif %}",worse,,{%if opt.lower() in negative|map('lower') -%}{{response.post_goal_worsened_negative}}{% else %}{{response.post_goal_worsened_positive}}{% endif %}
+,save_flow_result,,,,,,,,yes,,,,troubleshooting
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}negative{% else %}positive{% endif %},,,,value
+,send_message,4,,{{i}},,"{%if improvement == "">"" -%}has_number_lt{% else %}has_number_gt{% endif %}",better,,{%if opt.lower() in negative|map('lower') -%}{{response.post_goal_improved_negative}}{% else %}{{response.post_goal_improved_positive}}{% endif %}
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}yes{% else %}no{% endif %},,,,troubleshooting
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}negative{% else %}positive{% endif %},,,,value
+,end_for
+,send_message,2,,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,1
+save,save_value,3,,,,,,,"@(fields.goal_checkin_{{ID.replace(' ', '_').lower()}} &""|""&results.answer.category)",,,,"goal checkin {{ID.replace('_', ' ').lower()}}"
+,begin_block,,,,,,,"{@troubleshooting.question!=""""@}"
+7,split_by_value,save,,,,,,,@results.troubleshooting
+5,start_new_flow,7,,yes,,,,,troubleshooting - {{ID}}
+6,send_message,,,completed,,,,,What do you want to do next?,,,Get more help;Continue my Progress Tomorrow
+,go_to,6,,Get more help,,has_only_phrase,,,5
+,send_message,6;7;skip;0,,Continue my Progress Tomorrow;;;no,,has_only_phrase;;;has_any_word,,,{{conclusion}}
+,send_message,6,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,6
+,end_block
+,send_message,save,,,,,,"{@troubleshooting.question==""""@}",{{conclusion}}

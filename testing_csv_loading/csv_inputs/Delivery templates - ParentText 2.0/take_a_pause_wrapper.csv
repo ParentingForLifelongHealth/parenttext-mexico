@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,,module - take_a_pause
+,save_value,,,completed,,,,,completed pause,yes
+,save_flow_result,,,,,,,,proceed,yes
+1,split_by_value,,,,,,,,,@fields.type_of_media
+2,send_message,1,,high,,,,,,Congratulations! You have earned yourself a badge. You are now ready to begin the course. ⭐,,,,,,,"@(fields.reward_path & ""badge_take_pause.mp4"")"
+3,send_message,1,,,,,,,,Congratulations! You have earned yourself a badge. You are now ready to begin the course. ⭐,,,,,"@(fields.reward_path & ""badge_take_pause.jpg"")"
+,send_message,2;3,,,,,,,,"Now that you've relaxed, it's time to pick your goal."

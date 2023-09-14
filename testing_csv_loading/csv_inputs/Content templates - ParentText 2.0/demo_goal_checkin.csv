@@ -1,0 +1,18 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,send_message,,,,,,,,"Which goal checkin would you like to test?
+{% for mod in content.values() -%}
+{{loop.index}}. {{mod.ID}}
+{% endfor %}
+Type ""N"" to stop"
+2,begin_for,,g;i,,,,,,{@content.values()@}
+,send_message,1,,{{i+1}},,,,,***pre goal***
+,save_value,,,,,,,,,,,,"goal checkin {{g.ID.replace('_', ' ').lower()}}"
+,save_value,,,,,,,,,,,,survey behave
+,start_new_flow,,,,,,,,pre_goal_checkin - {{g.ID}}
+,send_message,,,completed,,,,,***post goal***
+,start_new_flow,,,,,,,,post_goal_checkin - {{g.ID}}
+,end_for
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1
+,send_message,1,,n,,has_only_phrase,,,Type CHECK to start again
+,go_to,2,,,,,,,1

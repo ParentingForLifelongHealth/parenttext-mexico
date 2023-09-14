@@ -1,0 +1,216 @@
+ID,intro_pre_goal,intro_post_goal,pre_question,question,options,add_qr,negative,positive,improvement,response.pre_goal_positive,response.pre_goal_negative,response.post_goal_improved_positive,response.post_goal_improved_negative,response.post_goal_static_positive,response.post_goal_static_negative,response.post_goal_worsened_positive,response.post_goal_worsened_negative,troubleshooting.question,troubleshooting.problems.1.pb,troubleshooting.problems.1.tip,troubleshooting.problems.2.pb,troubleshooting.problems.2.tip,troubleshooting.problems.3.pb,troubleshooting.problems.3.tip,troubleshooting.problems.4.pb,troubleshooting.problems.4.tip,troubleshooting.problems.5.pb,troubleshooting.problems.5.tip,troubleshooting.problems.6.pb,troubleshooting.problems.6.tip,troubleshooting.problems.7.pb,troubleshooting.problems.7.tip,troubleshooting.problems.8.pb,troubleshooting.problems.8.tip,conclusion
+stress,Learning how to manage our stress is the first step to providing the best support for our teens. Let’s check in on you first:,"Now that you’ve completed ParentText, let’s check in:",empty,Do you feel overwhelmed by the responsibility of being a parent? 😔,Never|Rarely|Sometimes|Often|Almost Always,yes,Sometimes|Often|Almost Always,Never|Rarely,>,That is great to hear! 🎉,That is okay. We will learn more about taking time for ourselves today. ,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,"Congratulations on making some progress in this goal. Still, it seems like parenting is overwhelming. That is okay. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛",You were already managing the stress of parenting well before ParentText. It’s great that you’re able to keep up the excellent effort!,That is okay. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛,It’s great that you’re still doing well. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛,That is okay. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛,,,,,,,,,,,,,,,,,,Thank you for providing a progress update.
+relation_t,Here is a question to help you get started on your goal:,Well done for completing the modules on improving your relationship with your teen. Let’s see how things have changed since you started:,empty,How many days in the last week (0-7) did you spend at least 5 minutes of one-on-one time with your teen?,0|1|2|3|4|5|6|7,no,0|1|2|3|4,5|6|7,>,That is great to hear! 🎉 Spending time with your teen is a great way to build a good relationship with them!,That is okay. You will learn more about the importance of spending time with your teen in this goal. ,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. It seems like spending time with your teen may still be a challenge.,You were already excelling at time with your teen before ParentText. It’s great that you’re able to keep up the excellent effort!,I am sorry to hear that you were unable to spend more time with your teen. 💛,"Time with your teen is so important. Though you are still doing great, you have reported that spending time together has become more challenging since you first began ParentText. 
+
+","I am sorry to hear that you were unable to spend more time with your teen. 💛
+
+",What did you find difficult about spending time with your teen? 🔑,I did not have enough time.,"It can be hard to find time during your day, with work, chores, and everything else. 
+
+✨Think of a time each day that you could spare 5 minutes. You can even make household chores into a game to do together. ",My teen did not want to spend time with me.,"😔 It can hurt when Your Teen does not want to spend 1-on- time with you. 
+
+💡 Think to yourself: When are they more open to you? In the morning? Right before bedtime?
+
+💙 Try again so that your teen can see that you care and want to spend this time with them.
+",All my teen wanted to do is watch T.V. or play with a gadget.,"📺 Teens often want to spend time watching T.V. or playing with a gadget. 
+
+❓ You could watch or play on the gadget with them. 
+
+🌈 Caring about their interests is a great start!
+
+🌷 Once you begin spending time together you can suggest another activity. 
+
+Type PLAY for a fun activity suggestion.
+",My teen wanted to do things I felt uncomfortable about.,"📱 Sometimes your teen will suggest activities that are violent or unsafe. 
+
+🚩 Explain *why* you can't do them, and suggest a different activity. 
+
+Type PLAY for a fun activity suggestion. 💡",My teen wanted to do activities that I could not do.,"☀️ If your teen wants to do things that are too difficult for you to do, you could watch them. 
+
+🏁 You could describe what they are doing like a sports announcer.
+
+💛 Praise them while they do it!",My teen chose a competitive activity. I won and then they got angry.,"⚽ Competitive games can be hard for teens (and adults!) if they don’t like losing. 
+
+🏆 When they have calmed down, talk with your teen about what winning well and losing well might look like.
+
+📝 Suggest other activities that you can do to work together instead of against each other.
+
+Type PLAY for a fun activity suggestion. 💡",All my children wanted 1-on-1 time at the same time.,"🔴 It can be difficult to spend 1-on-1 Time with each child when you have more than one child. 
+
+🌱 If possible, you can ask an adult or older sibling to look after the other children while you spend 1-on-1 Time with one teen.
+
+⏰ Think of when it would be easier to spend 1e-on-1 time with each child. Perhaps later in the evening with your teen, after the others have gone to sleep. 
+
+💛 You can also spend 1-on-1 time with all of your children at once!",Prefer not to say.,💛 We are sorry to hear that you have been finding it hard to spend 1-on-1 time with your teen.,Thank you for providing a progress update on the goal to improve my relationship with my teen. You can find this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow. 
+develop_t,Here is a question to help you get started on your goal to understand teen development:,Well done for completing your goal to understand teen development. Let’s see how things may have changed since you started this goal:,empty,"How confident are you talking about personal things with your teen - for example, reproductive health, relationships, or sex?",Not Confident|Somewhat Confident|Confident|Very Confident,yes,Not Confident|Somewhat Confident,Confident|Very Confident,>,That is great to hear! 😃 Talking to your teen about these topics is so important for them to be able to live a safe and healthy life.,That is okay. You will learn more about the importance of talking with your teen about difficult topics in this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. It seems like talking with your teen may still be a challenge.,You were already excelling at talking with your teen before ParentText. It’s great that you’re able to keep up the excellent effort!,"It can be hard to talk about these things with your teen, and that’s okay. 💚","Talking about difficult topics with your teen is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.","It can be hard to talk about these things with your teen, and that’s okay. 💚",What did you find difficult when talking to your teen about personal things?👂,It made me uncomfortable.,"😣 Talking about reproductive health, relationships, and sex can be uncomfortable - many parents feel this way! 
+
+😃 Remember, these are all normal parts of life. 
+
+🌷 The more you talk about them and educate your teen, the more prepared they are for keeping themselves healthy and safe.",It made my teen uncomfortable.,"⏸ Teens often do not to want to speak to their parents about reproductive health, relationships, and sex.  
+
+🔄 Share that it is normal and that you also went through this.
+ 
+🌱 If they do not want to talk to you, give them resources so they can learn about the topic. 
+
+⭐ Tell your teen that you are happy to speak with them any time!",I do not know where to find resources to support my teen’s development.,"💛 It can be hard to find resources! 
+
+Here are some resources to help you with supporting your teens development:
+;
+{development resources 1}
+;
+{development resources 2}",I think my teen is too young to be talking about these things.,"⬇️ Talking about relationships and sex from an early age reduces the chance that teens end up in dangerous or unhealthy situations!
+
+💚 It means your teen knows what is safe and healthy, so they can make good choices to keep themselves safe.
+",Prefer not to say.,"💚 We are sorry to hear that it has been hard to talk to your teen about sexual reproductive health, relationships, and sex.",,,,,,,Thank you for providing your Progress Update. You can access this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+learning_t,Here is a question to help you get started on your goal to support your teen’s education:,Well done for completing your goal to support your teen’s education. Let’s see how things may have changed since you started this goal:,empty,Do you support your teen with their learning or schoolwork? 📖,Never|Rarely|Sometimes|Often|Almost Always,yes,Never|Rarely|Sometimes,Often|Almost Always,>,That’s great to hear! 🎉 Supporting your teen’s education will help them do well!,That is okay. You will learn more about the importance of supporting your teen’s schoolwork in this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. It seems like supporting your teen with schoolwork may still be a challenge.,You were already excelling at supporting your teen’s education before ParentText. It’s great that you’re able to keep up the excellent effort!,It can be hard to make time to help with schoolwork. ⏰,"Supporting your teen’s schoolwork is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",It can be hard to make time to help with schoolwork. ⏰,What did you find hard about supporting your teen’s learning or schoolwork?,I don't know what to do with my teen.,"📝 You could make a weekly plan with your teen for after school and weekends. 
+
+🌙 Include activities for learning, relaxing, and fun, so that it is enjoyable for your teen. Come up with these ideas together!
+ 
+🎉 Helping your teen have more routine is a great way to support their learning!",My teen did not want to learn.,"🔔 Think of playful and interesting ways to teach your teen what they are learning at school. 
+
+📖 Teens are interested in learning if they are having fun. 
+;
+Losing interest in learning can be a warning sign. Press HELP if you believe your teen is in trouble.",I am feeling overwhelmed.,"💙 It is completely normal to feel overwhelmed. 
+
+🔄 Contact your teen's teacher or school to ask for some advice.
+
+🌷 Asking for help is a sign of strength.",I do not know where to find resources to support my teen’s learning.,"💚 That is okay! Here are some resources to help you with supporting your teen’s learning:
+;
+{learning resources 1}
+;
+{learning resources 2}",I did not have the time to support my teen's learning or education.,"🌱 It can be hard to find time during your day.
+
+⏰ Can you think of a time each day that you can make 5 minutes (or a bit more) to help your teen with their learning?
+
+👋 Perhaps help them start an activity and then check in with them every few minutes.",Prefer not to say.,💙 We are sorry to hear that you have been having some difficulties supporting your teen’s education. You can review this skill in the Main Menu at any time!,I do not know how to help my teen with their school projects.,"💛 That is okay! It can be helpful to talk to your teen’s school or teacher for advice.
+
+Here are some resources to help you with supporting your teen’s learning:
+;
+{learning resources 1}
+;
+{learning resources 2}",,,Thank you for providing your Progress Update. You can access this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+structure_t,Here is a question to help you get started on your goal to create structure for your teen:,Well done for completing your goal to create structure for your teen. Let’s see how things may have changed since you started this goal::,empty,Do you involve your teen when creating household rules and routines?,Never|Rarely|Sometimes|Often|Almost Always,yes,Never|Rarely|Sometimes,Often|Almost Always,>,That is great to hear! 🌈 Involving your teen when you create rules and routines helps them be more responsible and obey.,That is okay. You will learn more about including your teens when you create rules and routines in this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. It seems like involving your teen in making household rules may still be a challenge.,You were already excelling at including your teen in setting household rules before ParentText. It’s great that you’re able to keep up the excellent effort!,It can feel strange to involve your teen in setting rules and routines. 👀,"Including your teen when you set household rules is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",It can feel strange to involve your teen in setting rules and routines. 👀,What did you find hard about involving your teen when creating household rules and routines?,My teen could not agree on one specific rule or routine.,"📖 When creating rules, it is important to think about the age of each child, so you can come up with routines that are fair for their age. 
+
+⏰ This is most important for bedtime, the time to come home, and household chores.",My teen felt it was unfair that they have to follow the rule while I don’t have to follow it.,"⭐ Our teens learn best from us.
+
+✅ The more we follow the rules, the more they will follow the rules too. 
+
+🌈 You can adapt the rule to make sure that it is something everyone can follow.","I felt uncomfortable because I think an adult should create the rule, not my teen.","🌷 When we create rules together with our teens, we build trust and an open relationship with them. 
+
+🔑 The rules we set will be more realistic and your teen will be more willing and able to follow the rule.",Prefer not to say.,💚 We are sorry to hear that it has been hard to set rules with your teen. You can return to this skill in the Main Menu whenever you need to. 📝,,,,,,,,,Thank you for providing your Progress Update. You can access this information at any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+behave_t,Here is a question to help you get started on your goal to manage your teen’s behaviour:,Well done for completing your goal to manage your teen’s behaviour. Let’s see how things have changed since starting this goal:,survey_behave - teen,How challenging is  this behaviour on a scale of 0 to 10 (0 = not a problem and 10 = terrible)?,0|1|2|3|4|5|6|7|8|9|10,no,6|7|8|9|10,0|1|2|3|4|5,<,"It sounds like your teen tends to behave well, which is great to hear! 💙",That is okay. You will learn more about managing your teen’s behaviour in this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. 🎉It’s normal to find it hard to help our teens manage their behaviour. Keep caring and supporting them while they are learning. 💙,It’s great that your teen continues to behave well. Keep up the excellent effort!,It’s normal to find it hard to help our teens manage their behaviour. Keep caring and supporting them while they are learning. 💙,"It sounds like your teen tends to behave well, which is great to hear! Still, you have reported that this has become more challenging since you first began ParentText.",It’s normal to find it hard to help our teens manage their behaviour. Keep caring and supporting them while they are learning. 💙,What did you find hard about managing your teen’s behaviour?,I can’t distract my teen when they are misbehaving.,"🌱 Next time, try to catch the misbehaviour early on, before it sets in or gets worse. 
+
+👂 Talk to them about this behaviour when both of you feel calmer.",I am too angry to find anything positive to say to my teen after they have misbehaved.,"⏸ Next time, take a deep breath and take some space.
+
+☀️ Later, find something small and clear that your teen is doing and you wish they could do more of. Then, praise them when they do it.",My teen misbehaves all the time.,"🌷 You may need to spend more 1-on-1 time with your teen.
+ 
+⭐ Give more positive attention to them when they are behaving well and praise them for this behaviour.
+
+🌙 Be patient. Learning to manage our behaviour takes time!
+;
+A sudden increase in misbehaviour may be a warning sign. Type HELP if you need support for your teen.",I got very angry with my teen and shouted at them.,"⏸ First, take a pause.
+
+💚 Be kind to yourself. You are both learning and it’s okay not to get it right all the time.
+
+🌱 When you feel calmer, you could say sorry for shouting. Even if you meant some of what you said and want them to hear that, you can say sorry for how you said it.
+
+🎈 Repeat the core message of what you were trying to say in a calmer way.",I forgot to give my teen a chance to do what I asked before giving the consequence.,"💚 That’s okay, this is all about learning!
+
+💡 When you give your teen a choice, you teach them decision-making skills. 
+
+✨ It does not always work, but when it does, it helps avoid giving them a consequence later!",My teen got very angry with me after I gave the consequence.,"🌷 Sometimes, your teen will react in a negative way when receiving a consequence. 
+
+✨ Walk away until they calm down. 
+
+💡 As long as the consequence is fair, it is important to follow through with it, even if they are angry.",My teen complained that the consequence was not fair.,"👋 Pause and think: *is* your consequence fair and reasonable?
+
+🌈 Explain to your teen why you chose that consequence. 
+
+💚 Give the consequence calmly and clearly.",Prefer not to say.,We are sorry to hear that it has been hard to manage your teen’s behaviour. You can review this skill in the Main Menu any time! 📝,Thank you for providing your Progress Update. You can access this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+budget,Here is a question to help you get started on your goal to learn about family budgeting and ways to save money:,Well done for completing your goal to learn about family budgeting and ways to save money. Let’s see how you have changed since starting this goal:,empty,How confident are you that your family can plan carefully in advance about how to use money available during the month? ,Not Confident|Somewhat Confident|Confident|Very Confident,yes,Not Confident|Somewhat Confident,Confident|Very Confident,>,That’s amazing! 🎉 Keep doing this - your teen will be better for it.,That is okay. You will learn more about creating a family budget with your teen in this goal. Let’s get started.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. 🎉It seems like planning your spending is still a challenge.,You were already excelling at planning your spending before ParentText. It’s great that you’re able to keep up the excellent effort!,That is okay! 💙 This takes practice and is hard to do.,"Planning how you will spend your money is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",That is okay! 💙 This takes practice and is hard to do.,What did you find difficult about planning your spending for the week?,I did not want to tell my family how much I earn.,"💰 You do not have to reveal the exact amount you earn - give an estimate. 
+
+💡 You could say, “In this household, we have this amount of money every month,” rather than, “I make this amount of money.”","When budgeting, we could not agree on what should fall under needs and what should fall under wants.","👋 People’s wants and needs can be different. 
+
+🌷 Talking about them together can help you and your family to understand each other, respect your differences, and see where you can find agreement.",I did not understand what to do.,"❓ Why don’t we go through the content again? You can review this skill in the Main Menu any time! Type “Menu” and select “Review Completed Skills”
+
+😃 Your family members can join and help you!",My family did not want to budget with me,"📝 Make a budget alone first, then see if you can include family members. 
+
+🌷Remind them that budgeting can help the family save money and why this is important.",I did not have the time to talk about budgeting with my family.,"💙 It can be hard to find time.
+
+⏰ This week, spend just 30 minutes on this activity. You can break each step up into shorter activities and spread it across the week.",Prefer not to say.,We are sorry to hear that it has been hard to budget with your family. You can review this skill in the Main Menu any time! 📝,,,,,Thank you for providing your Progress Update. You can access this information any time in the Main Menu. You will resume progress on your current goal tomorrow. 😃
+wellbeing_t,Here is a question to help you get started on your goal to care for your teen’s wellbeing:,Well done for completing your goal to care for your teen’s wellbeing. Let’s see how things have changed since you started this goal:,empty,Do you give emotional support and talk to your teen about their feelings?,Never|Rarely|Sometimes|Often|Almost Always,yes,Never|Rarely|Sometimes,Often|Almost Always,>,"That’s great, keep at it! 👑",That is okay. You will learn more about the importance of communicating with your teen about how they are feeling in this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. 🎉It seems like talking about emotions with your teen is still a challenge.,You were already excelling at listening to your teen before ParentText. It’s great that you’re able to keep up the excellent effort!,"That’s okay, this takes time. Next time your teen needs to talk, try to stay open and listen. 💙","Talking with your teen is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.","That’s okay, this takes time. Next time your teen needs to talk, try to stay open and listen. 💙",What did you find hard about talking to your teen about how they were feeling?👂,My teen refused to share their emotions.,"😣 Sharing emotions can be hard. It’s even harder when they are strong emotions!
+
+💚 Help your teen know that you are open and willing to listen when they are ready.
+
+👂 Remember, the most important part is just to listen to them.","When I shared my own emotions, it felt uncomfortable for one of both of us.","▶️ Starting a new thing is always difficult at first. 
+
+⏰ Give yourselves some time to get used to it, and keep giving a good example by noticing and sharing your emotions. 
+
+💚 Over time, your teen will learn to do the same – and they will feel even more loved and cared for.",I was afraid my teen might think I am weak for sharing my own emotions. 😔,"💛 Sharing your emotions sets an important example for your teen - even more when sharing difficult emotions! 
+
+🌷 It makes everyone in the family stronger, because it means you can understand and support each other better.",I was too stressed or angry to share my emotions – I prefer to be alone when I feel like that.,"💛 It’s okay to not want to share when your feelings are strong.
+
+🌱 When you feel calmer, find time to explain so that everyone can understand.",I was angry that my teen had not told me these things before.,"😣 It is normal to feel some anger when you realise some hard things have happened in your teen’s life. 
+
+⏸ Take a pause when you feel this way, then come back to them when you are calmer. 
+
+💚 Remember, they are coping with their life the best they know how to.
+
+👂 Listen to your teen and show that you are not judging them or others they tell you about. 
+
+🎈 Thank your teen for sharing with you and tell them they can come to you with anything and you will keep loving them.","When my teen told me about a situation, I did not agree with how they had handled it.","👂 First, listen to your teen without judgement and try to see their view. 
+
+🌷 Your teen has been doing the best they know how to do - nobody makes a ‘bad’ choice on purpose.
+
+💛 Give them advice if they seem calm and open enough to hear it. If not, tell them you will give them advice when they are ready.",My teen told me I was the problem.,"😔Everyone says hard things in anger sometimes.
+
+Ask your teen how they would have liked you to act. 
+
+You do not need to do as they ask, but talking about this may help you both react in a way that is useful in the future. 
+
+Your teen might feel better just knowing you have heard them.",Prefer not to say.,We are sorry to hear that you have been finding it hard to talk about emotions with your teen. 💚 You can review this skill in the Main Menu at any time!,Thank you for providing your Progress Update. You can access this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+safety_t,Here is a question to help you get started on your goal to keep your teen safe:,Well done for completing your goal to keep your teen safe. Let’s see how things have changed since you started:,empty,Do you know who your teen is spending time with?,Never|Rarely|Sometimes|Often|Almost Always,yes,Never|Rarely|Sometimes,Often|Almost Always,>,Great job! Knowing who your teen spends time with is an important part of keeping them safe. 🌱,That is okay. You will learn more about the importance of knowing who your teen is with during this goal.,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. 🎉It seems like knowing who your teen is with is still a challenge.,You were already excelling at keeping your teen safe before ParentText. It’s great that you’re able to keep up the excellent effort!,It can be hard to know who our teen is with all of the time. 💙,"Knowing who your teen is with is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",It can be hard to know who our teen is with all of the time. 💙,What did you find hard when talking to your teen about who they are spending time with?,My teen and I did not agree on which areas were unsafe.,"👂 Listening to our teens, even if we disagree, helps us understand their thinking. 
+
+⏰ Find time to talk about safe unsafe areas again. 
+
+💚 This time, really listen and show you understand their view before sharing your thoughts.",My teen marked the house of someone I trust as unsafe. 🚩 I was shocked and did not know what to do!,"😔 It is shocking to learn that people who we trust may be a danger to our children. 
+
+👂 Listen to your teen if they want to talk about why it seems unsafe. Trust what they say - they will not mark it unsafe for no reason!
+
+🏥 Talk with someone and get support. Type HELP if you need more assistance.
+ 
+💙 Remember to take a pause when you are stressed.","My teen insisted that they could visit a place I think is not safe, like a bar. I don’t know how to convince them that it is not a safe area.","🌷 Create a safe space to talk with your teen when you are both calm. 
+
+👂 Listen to their thoughts - why do they feel this place is safe?
+
+⭐ Share why you feel it is not safe. 
+
+⏰ Come up with a rule together that lets them still have fun, but stay safe. 
+
+🌱 Your teen will listen better when you speak to them calmly.","As an adult, I feel I am in charge of protecting my teen. When I told my teen which areas are unsafe, they got angry.","😣 Protecting your teen while also trusting them to make wise choices is not easy!
+
+🔄 Your teen may know things about your community and technology that you are not aware of. 
+
+📝 When you actively involve your teen in creating the safety map, they feel heard and valued.
+
+🌱 It is easier to follow a plan that everyone agrees on.",It was hard to find safety resources because I don’t know my community so well.,"🔵 Involve another family member or friend in your mapping activity. Asking for help will help you keep your teen safe!
+
+🚗 Visit some of the services available, such as clinics, and ask what they do.
+ 
+💛 The more we know, the better we can keep our families safe!",I did not have any time to do this activity.,"⏰ It can be hard to find time.
+
+💡 This week, put just 10 minutes aside to talk with your teen about safe and unsafe areas.
+
+❗ This is important to keep your teen safe!",Prefer not to say.,We are sorry to hear that you have found it hard to make sure you know who your teen is spending time with. You can review this skill in the Main Menu any time! 📝,,,Thank you for providing your Progress Update. You can access this information at any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.
+ipv,"Before we get started on your goal to have a healthy relationship with your partner, please answer this question:",You have completed your goal to have a healthy relationship with your partner. It’s time to check in on your progress. We want to know:,empty,Do you and your partner share caregiving and household tasks equally? ⏰,Never|Rarely|Sometimes|Often|Almost Always,yes,Never|Rarely|Sometimes,Often|Almost Always,>,That’s great to hear! Sharing tasks equally helps everyone feel valued.,That is okay. You will learn more about the importance of sharing caregiving and household tasks in this goal,Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!,Congratulations on making some progress in this goal. 🎉It seems like sharing responsibilities is still a challenge.,You were already excelling at sharing parenting responsibilities before ParentText. It’s great that you’re able to keep up the excellent effort!,That is okay! It is normal to have challenges when trying to change the way responsibilities are shared in the household.,"Sharing responsibilities is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",That is okay! It is normal to have challenges when trying to change the way responsibilities are shared in the household.,What did you find difficult about sharing tasks equally?,I didn’t know how to support my partner,"🌱 Ask them! Telling your partner you want to help but don’t know how, shows them you care and want to be involved.",I forgot to share the tasks equally or get involved,"⏰ Try creating a routine. Planning when to do household tasks or ways to share caregiving can be a helpful reminder.
+
+🔑 Once you start sharing tasks more often - it will will get easier to remember.",I forgot to ask for help.,"🔑 It can be hard to ask for help. Sometimes we expect our partners to know we need help even if we don’t ask them. 
+
+🌱 Once you start telling, they are more likely to help again in the future.",I didn’t have the time to ask or give help.,"🌱 Finding time to help, and ask for help, can be hard.
+
+⏰ Can you think of a time when you’re less busy? For example, maybe it is easier to do housework later in the evening when some of the children are asleep.",I felt uncomfortable doing tasks I don’t normally do,"⭐ Be kind to yourself - trying something new is often hard at first.
+
+🌱 Give yourself time to adjust. 
+
+💡 Remember that helping your partner with caregiving and household tasks benefits the whole family!",I asked my partner for help but they refused.,"Sorry to hear that your partner did not react positively. 
+
+🌱 Be proud of yourself for trying and be gentle with yourself.",,,,,Thank you for providing your Progress Update. You can access this information at any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.

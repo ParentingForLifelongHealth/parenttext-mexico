@@ -1,0 +1,17 @@
+ID,flow_name,text_name,split_variable
+content,module,,@fields.accessed_module
+content_review,module_review,,@fields.selected_module
+checkin,home_activity_checkin,,@fields.accessed_checkin
+goal_start_module,update_goal_var_start_mod,,@fields.curr_goal
+goal_start_started_module,update_goal_var_start_started_mod,,@fields.curr_goal
+goal_start_started_module_selected,update_goal_var_start_started_mod_selected,,@fields.curr_goal
+goal_end_module,update_goal_var_end_mod,,@fields.curr_goal
+goal_start_checkin,update_goal_var_start_checkin,,@fields.curr_goal
+goal_end_checkin,update_goal_var_end_checkin,,@fields.curr_goal
+goal_set_up_var,set_up_goal_var,,@fields.curr_goal
+curr_goal_update_var,update_curr_goal_var,,@fields.curr_goal
+pre_goal_checkin,pre_goal_checkin,,@fields.curr_goal
+ltp_activity,ltp_activity,,@fields.accessed_act
+troubleshooting,troubleshooting,,@fields.accessed_tbs
+post_goal_checkin,post_goal_checkin,,@fields.last_goal_completed
+review_goal,update_selected_goal_var,,@fields.selected_goal

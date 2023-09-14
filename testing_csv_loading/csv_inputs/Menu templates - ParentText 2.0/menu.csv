@@ -1,0 +1,12 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,{{message.text}},,,"{% for opt in options -%}
+{{opt.text}};
+{%- endfor -%}
+{% if return_option.text!=""""%}{{return_option.text}}{%endif-%}",,"{% if message.image!=""""%}{{message.image}}{%endif-%}"
+1,wait_for_response,,,,,,,,,,,,option
+,begin_for,,opt,,,,,,{@options@}
+,start_new_flow,1,,{{opt.text}},,has_only_phrase,,"{@opt.text!=""""@}",{{opt.flow}}
+,end_for
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,0
+,start_new_flow,1,,{{return_option.text}},,has_only_phrase,,"{@return_option.text!=""""@}",{{return_option.flow}}

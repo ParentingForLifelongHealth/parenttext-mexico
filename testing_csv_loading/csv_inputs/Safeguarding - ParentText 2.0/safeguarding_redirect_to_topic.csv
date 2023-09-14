@@ -1,0 +1,9 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,@input.text,,,,sg_choice
+,begin_for,,arg,,,,,,{@arguments.values()@}
+,begin_block,,,,,,,{@arg.kw_type in type@}
+,start_new_flow,0,,{{arg.ID}},,has_any_word,{{arg.ID}},,{{arg.flow}}
+,save_flow_result,,,completed,,,,,{{arg.proceed}},,,,proceed
+,end_block
+,end_for
+,save_flow_result,0,,,,,,,yes,,,,other trigger

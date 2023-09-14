@@ -1,0 +1,49 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,start,,,,,,,@(word_count(fields.c_mod_to_start))
+2,split_by_value,1,,0,,has_number_gt,new module available,,@(word_count(fields.c_checkins_to_start))
+3,start_new_flow,2,,0,,has_number_gt,checkin available,,Handler wrapper - Start checkin
+4,split_by_value,3,,Complete,,,,,@child.results.status
+5,split_by_value,2,,,,,,,@(word_count(fields.c_mod_started))
+6,split_by_value,1,,,,,,,@(word_count(fields.c_checkins_to_start))
+7,start_new_flow,6,,0,,has_number_gt,checkin available,,Handler wrapper - Start checkin
+8,split_by_value,7,,Complete,,,,,@child.results.status
+9,split_by_value,6;8,,;not_expired,,;has_any_word,;Not_Expired,,@(word_count(fields.c_mod_started))
+10,send_message,9,,,,,,,TEMPLATECONGRATS
+11,start_new_flow,4;5,,not_expired;,,has_any_word;,Not_Expired;,,Handler wrapper - Start module
+12,split_by_value,11,,Complete,,,,,@child.results.status
+13,split_by_value,12,,not_expired,,has_any_word,Not_expired,,@(word_count(fields.c_mod_to_start))
+14,send_message,13,,0,,has_number_gt,new module available,,see you
+15,split_by_value,13,,,,,,,@(word_count(fields.c_mod_started))
+16,send_message,15,,,,,,,see u
+17,start_new_flow,5,,0,,has_number_gt,started module available,,interaction_complete_start
+18,split_by_value,17,,Complete,,,,,@child.results.next_choice.category
+19,start_new_flow,18,,complete,,has_any_word,Complete,,Handler wrapper - Start started module
+20,split_by_value,19,,Complete,,,,,@child.results.status
+21,go_to,18,,new,,has_any_word,New,,11
+22,send_message,18,,,,,,,"Sorry, I don't understand what you mean."
+23,go_to,22,,,,,,,17
+24,send_message,9,,0,,has_number_gt,started module available,,"TEMPLATE
+complete started?",,,Yes,No
+25,wait_for_response,24
+26,start_new_flow,25,,yes,,has_any_word,Yes,,Handler wrapper - Start started module
+27,split_by_value,26,,Complete,,,,,@child.results.status
+28,send_message,27,,not_expired,,has_any_word,Not_expired,,see you
+29,send_message,25,,no,,has_any_word,No,,See you
+30,send_message,25,,,,,,,"Sorry, I don't understand what you mean."
+31,go_to,30,,,,,,,24
+32,send_message,15,,0,,has_number_gt,started module available,,would you like to catch up?,,,Yes,No
+33,wait_for_response,32
+34,start_new_flow,33,,yes,,has_any_word,Yes,,Handler wrapper - Start started module
+35,split_by_value,34,,Complete,,,,,@child.results.status
+36,send_message,35,,not_expired,,has_any_word,Not_expired,,see u
+37,send_message,33,,no,,has_any_word,No,,see you
+38,send_message,33,,,,,,,"Sorry, I don't understand what you mean."
+39,go_to,38,,,,,,,32
+40,send_message,20,,not_expired,,has_any_word,Not_expired,,Do you want to catch up and proceed to the next skill?,,,Yes,No
+41,wait_for_response,40
+42,start_new_flow,41,,yes,,has_any_word,Yes,,Handler wrapper - Start module
+43,split_by_value,42,,Complete,,,,,@child.results.status
+44,send_message,43,,not_expired,,has_any_word,Not_expired,,see you
+45,send_message,41,,no,,has_any_word,No,,see you
+46,send_message,41,,,,,,,"Sorry, I don't understand what you mean."
+47,go_to,46,,,,,,,40

@@ -1,0 +1,4 @@
+ID,list_var,dict_ID,n_max_opt,msg_no_options.message,msg_one_option.message,msg_multiple_options
+new_goals,fields.goals_to_start,print_goals,10,You are on track to complete this course! There are no new goals to start!,You have the following goal to start:,You have the following goals to start:
+started_goals,"replace(fields.goals_started,fields.curr_goal,"""")",print_goals,10,There are no other goals to complete.,You have the following outstanding goal to complete:,You are off track to complete this course! You have the following outstanding goals:
+completed_goals,fields.goals_compl,print_goals,10,You have not completed any goal yet.,You have completed the following goal:,You have completed the following goals:

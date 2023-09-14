@@ -1,0 +1,21 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,choices.4,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,start_new_flow,,,,,,,,make_options_wrapper - troubleshooting_menu
+1,split_by_value,0,,completed,,,,,@child.results.selection
+2,start_new_flow,1,,,,has_text,want tbs,,split_by_id_template - troubleshooting
+n_opt,split_by_value,2;1,,completed;,,,,,@(word_count(fields.goals_accessed))
+3,send_message,n_opt,,2,,has_number_gte,>=2,,What do you want to do next?,,,Get more help with this goal,Get help with a different challenge,Return to the Main Menu,Exit
+4,wait_for_response
+,go_to,4,,Get more help with this goal,,has_only_phrase,Get more help with this goal,,2
+,go_to,4,,Get help with a different challenge,,has_only_phrase,Get help with a different challenge,,0
+,start_new_flow,4,,Return to the Main Menu,,has_only_phrase,Return to the Main Menu,,menu - main
+,send_message,4,,Exit,,has_only_phrase,Exit,,That's okay. You can access more information at any time in the Main Menu.
+,send_message,4,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,3
+5,send_message,n_opt,,1,,has_number_eq,1,,What do you want to do next?,,,Get more help with this goal,Return to the Main Menu,Exit
+6,wait_for_response
+,go_to,6,,Get more help with this goal,,has_only_phrase,Get more help with this goal,,2
+,start_new_flow,6,,Return to the Main Menu,,has_only_phrase,Return to the Main Menu,,menu - main
+,send_message,6,,Exit,,has_only_phrase,Exit,,That's okay. You can access more information at any time in the Main Menu.
+,send_message,6,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,5
+7,start_new_flow,n_opt,,,,,,,menu - return_or_exit

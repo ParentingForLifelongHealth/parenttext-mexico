@@ -1,0 +1,15 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,start,,,,,,,{{quiz.intro}}
+,begin_for,,content;i,,,,,,{@quiz.content@}
+,begin_block,,,,,,,"{@content.question !=""""@}"
+{{2*i}},send_message,,,,,,,,{{content.question}},,,"{% for opt in content.values -%}
+{{opt}};
+{%- endfor -%}"
+{{2*i+1}},wait_for_response,,,,,,,,,,,,quiz_answer_{{i}}
+,begin_for,,opt,,,,,,{@content.values@}
+,send_message,{{2*i+1}},,{{opt}},,has_only_phrase,,"{@opt !=""""@}",{%if opt.lower() == content.answer.lower() -%}{{content.feedback_correct}}{% else %}{{content.feedback_incorrect}}{% endif %}
+,end_for
+,send_message,{{2*i+1}},,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,{{2*i}}
+,end_block
+,end_for

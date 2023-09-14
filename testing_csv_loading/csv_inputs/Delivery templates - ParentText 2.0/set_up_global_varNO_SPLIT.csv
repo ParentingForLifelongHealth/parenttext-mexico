@@ -1,0 +1,9 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,,set_up_comic_names
+,save_value,,,completed,,,,,goals dictionary,"@(json(object({% for gl in goals.values() -%}""{{gl.ID}}_eng"",""{{gl.goal_name}}"" {%if not loop.last%},{%endif-%}{%endfor -%})))"
+,save_value,,,,,,,,goals dictionary json,"{% for gl in goals.values() -%}""{{gl.ID}}_eng"":""{{gl.goal_name}}"" {%if not loop.last%},{%endif-%}{%endfor -%}"
+,save_value,,,,,,,,modules dictionary,"@(json(object({% for m in modules.values() -%}""{{m.ID}}_eng"",""{{m.module_name}}"" {%if not loop.last%},{%endif-%}{%endfor -%})))"
+,begin_for,,type,,,,,,,"{@activity_types.values()|map(attribute=""ID"")@}"
+,save_value,,,,,,,,{{type.lower()}} act,"@(json(object({% for n in range(0, 18) -%} ""{{n}}"",""{% for act in activities.values() -%} {%if type in act.act_type|map('lower') and n in act.act_age%}{{act.ID}} {%endif-%}{%endfor -%}"" {%if not loop.last%},{%endif-%}{%endfor -%})))"
+,end_for
+,save_value,,,,,,,,goal lists,"@(json(object({% for age in [""baby"",""child"",""teen""] -%} ""{{age}}"",object({% for getipv in [""yes"",""no""] -%} ""{{getipv}}"",""{% for goal in goals.values()|sort(attribute=""priority"") -%} {%if age in goal.age_group and getipv in goal.relationship%}{{goal.ID}} {%endif-%}{%endfor -%}"" {%if not loop.last%},{%endif-%}{%endfor -%}) {%if not loop.last%},{%endif-%}{%endfor -%})))"

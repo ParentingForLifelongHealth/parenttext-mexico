@@ -1,0 +1,16 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_group
+onb,split_by_value,1,,in program,,,in program,,@fields.completed_onboarding
+,send_message,onb,,yes,,,compl onb,,You are already part of ParentText! 
+inst,send_message,,,,,,,,"Please type MENU to access resources and review completed modules, PLAY to receive a playful activity you can complete with your child, or HELP to access local support resources for a crisis."
+,save_value,onb,,,,,,,no,,,,,from timed
+,start_new_flow,,,,,,,,timed_programme
+2,split_by_group,1
+,send_message,2,,completed program,,,completed program,,You have already completed ParentText!
+,go_to,,,,,,,,inst
+,add_to_group,2,,,,,,,in program
+,remove_from_group,,,,,,,,left program
+,save_value,,,,,,,,"@(fields.rejoined_program & now() & ""|"")",,,,,rejoined program
+,send_message,,,,,,,,Welcome back to ParentText!
+,save_value,,,,,,,,no,,,,,from timed
+,start_new_flow,,,,,,,,timed_programme

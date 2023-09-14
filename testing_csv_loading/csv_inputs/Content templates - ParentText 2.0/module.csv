@@ -1,0 +1,11 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,template_arguments,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,begin_for,,block;i,,,,,,{@flow_structure[flow_structure_type].block@}
+,begin_block,,,,,,,"{@block.name!=""""@}"
+,insert_as_block,,,,,,,{@block_metadata[block.name].include_if_cond|eval@},{{block.name}}_template,{{content_sheet_name}},{{ID}},{@block_metadata[block.name].args@}
+,insert_as_block,,,,,,,"{@block_metadata[block.name].include_if_cond|eval and block.has_tracker ==""yes"" @}",progress_tracker_template,,,"{% for bl in flow_structure[flow_structure_type].block -%}{% if bl.name !="""" and block_metadata[bl.name].include_if_cond|eval  and bl.tracker_tot ==""yes""-%}1{%endif-%}{%endfor -%}
+;
+{% for bl in flow_structure[flow_structure_type].block -%}{% if bl.name !="""" and block_metadata[bl.name].include_if_cond|eval  and bl.tracker_tot ==""yes"" and loop.index0 <=i -%}1{%endif-%}{%endfor -%}
+;
+no"
+,end_block
+,end_for

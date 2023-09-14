@@ -1,0 +1,10 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,{{tips.intro}}
+,begin_for,,tip_msg,,,,,,{@tips.message@}
+,begin_block,,,,,,,{@tip_msg.text|length>0@}
+,begin_for,,msg;i,,,,,,{@tip_msg.text@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}},,,{%if i==tip_msg.text|length -1%}{%if tips.next_button%}{{tips.next_button}}{%else-%}NEXT{%endif-%}{%endif-%},,,"{%if i==0%}{%if tip_msg.image%}@(fields.image_path & ""{{tip_msg.image}}.jpg""){%endif-%}{%endif-%}"
+,end_for
+,wait_for_response
+,end_block
+,end_for

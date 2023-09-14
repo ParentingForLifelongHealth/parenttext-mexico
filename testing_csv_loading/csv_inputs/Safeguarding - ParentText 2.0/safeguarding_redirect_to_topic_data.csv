@@ -1,0 +1,15 @@
+ID,flow,expiration_msg,kw_type,proceed
+generic,safeguarding_entry - generic,,safeguarding,@child.results.proceed
+mental_health,safeguarding_entry - mental_health,,safeguarding,@child.results.proceed
+health,safeguarding_entry - health,,safeguarding,@child.results.proceed
+violence,safeguarding_entry - violence,,safeguarding,@child.results.proceed
+natural_disasters,safeguarding_entry - natural_disasters,,safeguarding,@child.results.proceed
+drugs,safeguarding_entry - drugs,,safeguarding,@child.results.proceed
+help,safeguarding_help,,trigger,no
+menu,safeguarding_menu_wrapper,,trigger,no
+play,activity_offer_menu,,trigger,no
+safe,safeguarding_safe_wrapper,,trigger,no
+prevent,safeguarding_prevent_wrapper,,trigger,no
+grow,wg_unicef_survey - teen,,trigger,no
+stop,safeguarding_leave_programme,,trigger,@child.results.proceed
+start,safeguarding_start_programme,,trigger,yes

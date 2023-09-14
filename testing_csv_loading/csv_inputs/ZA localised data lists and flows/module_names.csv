@@ -1,0 +1,40 @@
+ID,languages.1,languages.2,languages.3
+code,eng,zul,hau
+take_a_pause,Take a Pause,Ukuthatha ikhefu,Phumula kancane
+one_on_one_teen,Spend 1-on-1 Time with My Teen,Ukuchitha Isikhathi Esikhethekile Nengane Yami,Citsa sikhatsi lesanele nemntfwana wakho
+praise_teen,Give Praise,Ukuncoma,Dvumisa
+talk_feelings_teen,Talk about Feelings,Ukukhuluma Ngemizwa,Khuluma ngemiva
+care_myself_teen,Care for Myself,Ukuzinakekela,Kutinakekela
+mental_changes_teen,Mental Changes in the Teen Years,Izinguquko Zengqondo Eminyakeni Yezingane Ezisakhula,Kushintja Kwengcondvo Eminyakeni Yekutfomba
+social_changes_teen,Social Changes in the Teen Years,Izinguquko Zomphakathi Eminyakeni Yezingane Ezisakhula,Tingucuko Tebungani Eminyakeni Yekutfomba
+physical_changes_teen,Physical Changes in the Teen Years,Izinguquko Emzimbeni Eminyakeni Yezingane Ezisakhula,Tingucuko Temtimba Eminyakeni Yekutfomba
+fun_learning_teen,Have Fun while Learning,Ukufunda Ngendlela Emnandi,Kudlala Ube Ufundza
+help_teen_learn_teen,Help Your Teen Learn,Ukusiza Ingane Yakho Ukuthi Ifunde,Msite Umntfwana Wakho losatfombile kutsi Afundze
+positive_learning_teen,Create a Positive Learning Space for Your Teen,Ukwenzela Ingane Yakho Indawo Yokufundela Elungile,Yanta indzawo yemntfwana wakho losatfombile yekufundza ibekahle
+learning_mistakes_teen,Learning from Mistakes,Ukufunda Emaphutheni,Kufundza Emaphutseni Lowentile
+learning_with_people_teen,Learning How to Work with Other People,Ukufunda Ukusebenzisana Nabanye Abantu,Kufundza Kusebentisana Nalabanye Bantfu
+routines_teen,Create Routines with My Teen,Ukwakha Izinqubomgomo Nengane Yami,Kwakha Inchubo yekwenta tintfo Nemntfwana Wami Losatfombile
+rules_teen,Set Family Rules,Ukubeka Imithetho Yasekhaya,Beka Imitsetfo Yemndeni
+online_safety_teen,Know Online Safety Basics,Ukwazi Izisekelo Zokuphepha kwi-Inthanethi,Bani Nelwati ngeTimiso Letisisekelo Sekuphepha Ku-Internet
+habits_online_teen,Build Habits and Trust Online,Ukwakha Imikhuba Nokwethemba Kwi-inthanethi,Kwakha Imikhuba Nekwetsembana Ku-intanethi
+budget_needs_teen,Understand Needs and Wants,Ukuqonda ngalokho Okudingekayo kanye nalokho Okufunekayo,Kucondza Tidzingo Nalokufunako
+budget_expenses_teen,Talk about Monthly Expenses,Ukukhuluma Ngezindleko Zanyanga Zonke,Khuluma Ngetindleko Tenyanga Nenyanga
+budget_monthly_teen,Make a Monthly Budget,Ukwenza Ibhajethi Yanyanga Zonke,Yenta Ibhajethi Yenyanga Nenyanga
+budget_savings_teen,Make a Savings Plan,Ukwenza Uhlelo Lokulondoloza Imali,Yenta Luhlelo Lwekonga
+kind_to_myself_teen,Be Kind to Myself,Ukuba noMusa Kimi,Ngibe Nemusa Kimi
+stress_teen,Help My Teen with Stress,Ukusiza Ingane Yami Mayelana ne-Stress,Sita Umntfwanami Losatfombile Ngekukhatsateka
+show_kindness_teen,Show my Teen Kindness,Ukukhombisa Ingane yami Uzwelo,Ngikhombise Umusa Kumntfwanami Losatfombile
+stress_signs_teen,Know the Warning Signs,Ukwazi Izexwayiso,Bani Nelwati Ngetimphawu Letikucwayisako
+manage_stress_teen,Manage My Stress,Ukulawula i-Stress Sami,Kumelana neKukhatsateka Kwami
+misbehave_teen,Manage Teen Misbehaviour,Ukubhekana Nokungaziphathi Kahle Kwezingane,Kulawula Indlela Latiphatsa Ngayo Umntfwana Wakho Losatfombile
+solve_problems_teen,Solve Problems with My Teen,Ukuxazulula Izinkinga Nengane Yami,Kucatulula Tinkinga Nemntfwana Wami Losatfombile
+consequences_teen,Teach my Teen Consequences,Ukufundisa Ingane yami Mayelana Nemiphumela Yezenzo,Kufundzisa Umntfwana Wami Losatfombile Ngemiphumela
+community_safety_teen,Build Community Safety,Ukwakha Ezokuphepha Komphakathi,Kwakha Kuphepha Emphakatsini
+self_defence_teen,Teach Self Defence,Ukufundisa Ukuzivikela,Fundzisa Ngekutivikela
+sex_violence_teen,Prevent Sexual Violence,Ukuvikela Ukuhlukumezeka Ngokocansi,Kuvimbela Budlova Betelicansi
+crises_teen,Respond to Crises,Ukubhekana Nesimo Esibucayi,Kubhekana Netinkinga
+ipv_equals,Treating Each Other as Equals,Ukuphathana Ngendlela Yokulingana,Kuphatsana Njengalabalinganako
+ipv_supportive,Being a Supportive Partner and Parent,Ukuba Nguphathina Nomzali Owesekayo,Kuba Ngumlingani Nemtali Losekelanako
+ipv_sharing,Sharing Family Responsibilities,Ukusizana Ngemisebenzi Yasekhaya,Kwabelana Ngemisebenti Yasekhaya
+ipv_conflicts,Resolving Conflicts Peacefully,Ukusombulula Ingxabano Ngokuthula,Kulungisa Tincabano Ngendlela Lenekuthula
+ipv_listen,Listening and Talking to Each Other,Ukulalelana Nokukhulumisana,Kulalelana Nekukhulumisana

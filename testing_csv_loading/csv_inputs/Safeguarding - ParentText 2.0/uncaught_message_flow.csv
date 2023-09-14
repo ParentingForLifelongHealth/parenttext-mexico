@@ -1,0 +1,44 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+dropout,split_by_group
+,save_value,dropout,,passive drop out,,,passive drop out,,"@(fields.hook_message&"",""&now()&""|"")",,,,,hook message
+,remove_from_group,,,,,,,,passive drop out
+do_0,save_flow_result,,,,,,,,yes,,,,,dropout
+1,start_new_flow,dropout;do_0,,,,,,,safeguarding_redirect_to_topic_highrisk
+2,split_by_value,1,,Complete,,,,,@child.results.other_trigger
+3,split_by_value,2,,,,,,,@child.results.proceed
+4,split_by_group,2;3,,yes;yes,,has_any_word;has_any_word,other trigger;proceed
+5,split_by_value,4,,enrolled,,,enrolled,,@fields.consent
+6,start_new_flow,5,,yes,,has_any_word,consented,,safeguarding_redirect_to_topic_trigger
+7,split_by_group,6,,Complete
+8,split_by_value,7,,left program,,,left program,,@fields.just_left
+9,save_value,8,,yes,,has_any_word,just left,,,,,,,just left
+10,split_by_value,7,,,,,,,@child.results.other_trigger
+10do,split_by_value,10,,yes,,has_any_word,other trigger,,@results.dropout
+,send_message,10do,,yes,,,dropout,,Welcome back to ParentText!
+,save_value,,,,,,,,no,,,,,from timed
+,start_new_flow,,,,,,,,timed_programme
+11,send_message,10do,,,,,,,"I don't understand your message.
+Please type MENU to access resources and review completed modules, PLAY to receive a playful activity you can complete with your child, or HELP to access local support resources for a crisis. "
+,save_value,4,,,,,,,@(now()),,,,,start time
+12,add_to_group,,,,,,,,enrolled
+13,split_by_group,3
+14,start_new_flow,8,,,,,,,safeguarding_start_programme
+15,send_message,5,,,,,,,You have not given consent to participate in this programme. Would you like to participate?,,,Yes,No
+16,wait_for_response,15
+17,add_to_group,16,,yes y yeah yep,,has_any_word,Yes,,consented later
+,save_value,,,,,,,,@(now()),,,,,start time
+18,save_value,,,,,,,,,,,,,consent
+19,save_value,18,,,,,,,,,,,,completed language
+20,start_new_flow,12;19,,,,,,,set_up_default_contact_fields
+21,start_new_flow,20,,Complete,,,,,timed_programme
+22,send_message,16,,no nope n,,has_any_word,No,,"If you ever decide to participate in the programme, type ""START"". 
+We hope to see you again soon, and we wish you a happy and peaceful day! "
+23,send_message,16,,,,,,,"Sorry, I don't understand what you mean."
+24,go_to,23,,,,,,,15
+25,send_message,13,,left program,,,left program,,Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?,,,Yes,No
+26,wait_for_response,25
+27,go_to,26,,yes y yeah yep,,has_any_word,Yes,,14
+28,send_message,26,,no nope n,,has_any_word,No,,"That's okay. If you ever decide to come back, type ""START"". 
+We hope to see you again soon, and we wish you a happy and peaceful day! "
+29,send_message,26,,,,,,,"Sorry, I don't understand what you mean."
+30,go_to,29,,,,,,,25

@@ -1,0 +1,16 @@
+type,sheet_name,data_sheet,data_row_id,new_name,data_model,template_arguments,status,tags.1,tags.2,tags.3
+template_definition,pre_goal_checkin
+template_definition,troubleshooting
+template_definition,post_goal_checkin
+template_definition,survey_behave
+create_flow,pre_goal_checkin,goal_checkin_teen_data,,,,,,goal_checkin,,teen
+create_flow,troubleshooting,goal_checkin_teen_data,,,,,,goal_checkin,,teen
+create_flow,post_goal_checkin,goal_checkin_teen_data,,,,,,goal_checkin,,teen
+create_flow,survey_behave,survey_behave_teen_data,,,,,,goal_checkin,,teen
+create_flow,pre_goal_checkin,goal_checkin_child_data,,,,,,goal_checkin,,child
+create_flow,troubleshooting,goal_checkin_child_data,,,,,,goal_checkin,,child
+create_flow,post_goal_checkin,goal_checkin_child_data,,,,,,goal_checkin,,child
+create_flow,survey_behave,survey_behave_child_data,,,,,,goal_checkin,,child
+template_definition,demo_goal_checkin,,,,,content;sheet|
+create_flow,demo_goal_checkin,,,demo_goal_checkin_teen,,goal_checkin_teen_data,draft,goal_checkin,,teen
+create_flow,demo_goal_checkin,,,demo_goal_checkin_child,,goal_checkin_child_data,draft,goal_checkin,,child

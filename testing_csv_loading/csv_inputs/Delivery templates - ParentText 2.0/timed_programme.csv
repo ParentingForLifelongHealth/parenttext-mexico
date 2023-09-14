@@ -1,0 +1,15 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,begin_for,,step;i,,,,,,{@steps.values()@}
+{{5*i}},split_by_value,,,,,,,{@i==0@},{{step.completion_variable}}
+{{5*i}},split_by_value,{{5*(i-1)}},,,,,,{@i!=0@},{{step.completion_variable}}
+{{5*i+1}},start_new_flow,{{5*i}},,{{step.incomplete_value}},,{{step.incomplete_test}},{{step.incomplete_name}},,{{step.interaction_flow}}
+,hard_exit,{{5*i+1}},,expired
+{{5*i+2}},split_by_value,{{5*i+1}},,completed,,,,,@child.results.proceed
+,hard_exit,{{5*i+2}}
+{{5*i+3}},start_new_flow,{{5*i+2}},,{{step.interaction_proceed_value}},,,,{@i==0@},{{step.flow}}
+{{5*i+3}},start_new_flow,{{5*i +2}};{{5*(i-1)+4}},,{{step.interaction_proceed_value}};yes,,,,{@i!=0@},{{step.flow}}
+,hard_exit,{{5*i+3}},,expired
+{{5*i+4}},split_by_value,{{5*i+3}},,completed,,,,,@child.results.proceed
+,hard_exit,{{5*i+4}}
+,end_for
+,start_new_flow,{{5*(steps.values()|length -1)}},,,,,,,timed_goal_content

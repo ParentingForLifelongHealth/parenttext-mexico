@@ -1,0 +1,22 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,start,,,,,,,{{quiz.intro}}
+,begin_for,,content;i,,,,,,{@quiz.content@}
+,begin_block,,,,,,,{@content.question|length >0@}
+,begin_for,,qst;j,,,,,,{@content.question@}
+{%if j==0%}{{2*i}}{%endif-%},send_message,,,,,,,"{@qst !=""""@}",{{qst}},,,"{%if j==content.question|length -1%}{% for opt in content.values -%}
+{{opt}};
+{%- endfor -%}{%endif-%}",,"{%if j==0%}{%if content.image%}@(fields.image_path & ""{{content.image}}.jpg""){%endif-%}{%endif-%}"
+,end_for
+{{2*i+1}},wait_for_response,,,,,,,,,,,,quiz_answer_{{i}}
+,begin_for,,opt,,,,,,{@content.values@}
+,begin_for,{{2*i+1}},fd_msg_p,{{opt}},,has_only_phrase,,{@opt.lower() == content.answer.lower()@},{@content.feedback_correct@}
+,send_message,,,,,,,"{@fd_msg_p !=""""@}",{{fd_msg_p}}
+,end_for
+,begin_for,{{2*i+1}},fd_msg_n,{{opt}},,has_only_phrase,,{@opt.lower() != content.answer.lower()@},{@content.feedback_incorrect@}
+,send_message,,,,,,,"{@fd_msg_n !=""""@}",{{fd_msg_n}}
+,end_for
+,end_for
+,send_message,{{2*i+1}},,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,{{2*i}}
+,end_block
+,end_for

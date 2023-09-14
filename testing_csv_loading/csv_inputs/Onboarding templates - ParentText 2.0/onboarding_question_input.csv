@@ -1,0 +1,10 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,{{question}}
+1,wait_for_response,,,,,,,,,,,,input
+2,split_by_value,,,,,has_text,has text,,"{%if test.expression != """"%}{{test.expression}}{%else-%}@results.input{%endif-%}"
+,save_value,2,,{{test.value}},,"{%if test.condition_type != """"%}{{test.condition_type}}{%else-%}has_text{%endif-%}",valid,,@results.input,,,,{{variable}}
+,save_value,,,,,,,,yes,,,,"completed {{ID.replace('_', ' ').lower()}}"
+,send_message,2,,,,,,,"{%if error_message!= """"%}{{error_message}}{%else-%}Sorry, I don't understand what you mean.{%endif-%}"
+,go_to,,,,,,,,0
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,0

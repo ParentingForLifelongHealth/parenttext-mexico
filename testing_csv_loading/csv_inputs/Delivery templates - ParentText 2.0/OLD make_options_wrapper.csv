@@ -1,0 +1,33 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,list copy,@{{list_var}}
+,save_flow_result,,,,,,,,dict copy,@{{dict_var}}
+,start_new_flow,,,,,,,,,make_options
+1,split_by_value,,,complete,,,,,,@(word_count({{list_var}}))
+,send_message,1,,0,,has_number_eq,,,,{{msg_no_options}}
+2,send_message,1,,1,,has_number_eq,,,,"{{msg_one_option.message}}
+@(text_slice(child.results.message_options,4)).{% if msg_one_option.question!=""""%}
+{{msg_one_option.question}}{%endif-%}",,,{{msg_one_option.affirmative}},{{msg_one_option.negative}}
+,begin_block,,,,,,,"{@msg_one_option.question!=""""@}"
+,send_message,2,,{{msg_one_option.negative}},,has_only_phrase,{{msg_one_option.negative}},,,{{msg_one_option.no_message}}
+,save_flow_result,2,,{{msg_one_option.affirmative}},,has_only_phrase,{{msg_one_option.affirmative}},,selection,@{{list_var}}
+,save_value,,,,,,,"{@update_var!=""""@}",{{update_var}},@results.selection
+,send_message,2,,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,,2
+,end_block
+,begin_block,,,,,,,"{@msg_one_option.question==""""@}"
+,save_value,2,,,,,,"{@update_var!=""""@}",{{update_var}},@{{list_var}}
+,end_block
+5,send_message,1,,2,,has_number_gte,,,,"{{msg_multiple_options}}@child.results.message_options{% if extra_option!=""""%}
+@(word_count({{list_var}}) +1). {{extra_option}}{%endif-%}"
+3,wait_for_response,,,,,,,,selection
+,send_message,3,,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,,5
+4,begin_for,,i,,,,,,,"{@range(0,n_max_opt|int)@}"
+{{6 + i}},split_by_value,3,,{{i+1}},,has_number_eq,,,,@results.selection
+,save_flow_result,{{6 + i}},,@(word_count({{list_var}})),,has_number_lte,in range,,selection,@(split({{list_var}})[number(results.selection)-1])
+,save_value,,,,,,,"{@update_var!=""""@}",{{update_var}},@results.selection
+,save_flow_result,{{6 + i}},,@(word_count({{list_var}})+1),,has_number_eq,extra,"{@extra_option!=""""@}",selection,extra
+,send_message,,,,,,,"{@extra_message!=""""@}",,{{extra_message}}
+,send_message,{{6 + i}},,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,,5
+,end_for

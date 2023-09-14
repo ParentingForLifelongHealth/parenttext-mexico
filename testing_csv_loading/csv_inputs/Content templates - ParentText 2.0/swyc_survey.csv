@@ -1,0 +1,28 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,0,,,,score
+,begin_for,,msg,,,,,,{@intro@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}}
+,end_for
+,begin_for,,qst;i,,,,,,{@questions@}
+,begin_block,,,,,,,"{@qst!=""""@}"
+{{2*i}},send_message,,,,,,,,{{qst}},,,"{% for opt in options -%}
+{{opt}};
+{%- endfor -%}"
+{{2*i+1}},wait_for_response,,,,,,,,,,,,survey_answer_{{i}}
+,begin_for,,opt;n,,,,,,{@options@}
+,save_flow_result,{{2*i+1}},,{{opt}},,has_only_phrase,{{opt}},,@(results.score + {{scores[n]}}),,,,score
+,end_for
+,send_message,{{2*i+1}},,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,{{2*i}}
+,end_block
+,end_for
+age_split,split_by_value,,,,,,,,"@(datetime_diff(fields.child_dob, now(), ""M""))"
+,begin_for,,age;i,,,,,,{@threshold_age@}
+sc_{{age}},split_by_value,age_split,,{{age}},,has_number_eq,{{age}},,@results.score
+,begin_for,sc_{{age}},msg,{{threshold_score[i]}},,has_number_gte,{{threshold_score[i]}},,{@end_message_not_concerning@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}}
+,end_for
+,begin_for,sc_{{age}},msg,,,,,,{@end_message_concerning@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}}
+,end_for
+,end_for

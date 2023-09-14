@@ -1,0 +1,16 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,Staying in ParentText helps you and your child. Are you sure you want to exit the programme?
+1,send_message,,,,,,,,"If you do not want to receive any more messages, please type ""EXIT"".
+
+If you made a mistake, please type ""BACK"" and choose another option.",,,BACK
+2,wait_for_response
+,send_message,2,,exit,,,exit,,"Thank you for participating. If you want to return to the programme, type ""START"". 
+
+We hope to see you again soon! "
+,remove_from_group,,,,,,,,in program
+,save_value,,,,,,,,@(now()),,,,,leave time
+,add_to_group,,,,,,,,left program
+,save_value,,,,,,,,yes,,,,,just left
+,start_new_flow,2,,back,,,,,menu - settings
+,send_message,2,,,,,,,Sorry I don't understand what you mean.
+,go_to,,,,,,,,1

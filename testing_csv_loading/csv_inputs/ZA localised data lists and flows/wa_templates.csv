@@ -1,0 +1,33 @@
+ID,name,uuid,text
+home_activity,home_activity,994838ae-c00a-4d3e-bebc-744238765f18,"You’re doing great towards your goal, {{1}}. Were you able to {{2}}?
+
+Press a number on your keypad:
+1. Yes
+2. Not yet"
+first_module_intro,first_module_intro,46d8e694-4846-4c5d-8334-a1d51bda05d9,"It’s time to get started on your goal, {{1}}. Are you ready?
+
+Press a number on your keypad:
+1. Yes!
+2. Remind me tomorrow"
+start_started_mod_or_change_goal,start_started_mod_or_change_goal,943b1b53-eaa0-4e1b-bd80-7bef3305a85d,"You're almost finished with this goal! {{1}} What would you like to do?
+
+Press a number on your keypad:
+1. {{2}}
+2. Leave this goal unfinished and select a new goal"
+unfinished_onboarding,unfinished_onboarding,32ea5517-cca2-4e82-a42d-717e42d72443,"ParentText has begun. Are you ready to complete your registration and select your parenting goals?
+
+Press a number on your keypad:
+1. Yes
+2. Remind me Later"
+select_goal,select_goal,b42e2946-632c-41b2-bf53-d1edc49e6f4d,"You have made great progress. Are you ready to select your next parenting goal?
+
+Press a number on your keypad:
+1. Yes
+2. Remind me Later"
+no_response,no_response,d54768c7-7dc8-4265-b252-3400cbc0f16f,"These messages don’t seem to be working. When you are ready to keep going, press 1. "
+post_goal_checkin,post_goal_checkin,a28b9c5b-c333-4c26-bcdd-c31b7facc37e,"Today we are taking a break from your goal, {{1}}, and checking in on your progress. Press 1 on your keypad to proceed."
+complete_start_module,complete_start_module,d3b52955-1701-4fef-8298-8ed380e6aa9d,"You’re off track! Do you want to complete a previous skill or start a new skill?
+
+Press a number on your keypad:
+1. Complete
+2. Start new"

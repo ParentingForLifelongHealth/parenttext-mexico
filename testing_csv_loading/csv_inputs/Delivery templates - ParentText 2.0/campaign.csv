@@ -1,0 +1,6 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,timediff,"@(datetime_diff(fields.time_last_goal_completed, now(), ""m""))"
+TD,split_by_value,,,,,,,,,@results.timediff
+,start_new_flow,TD,,10080,,has_number_gte,1 week,,,post_goal_checkin_wrapper
+,save_value,TD,,,,,,,from timed,yes
+,start_new_flow,,,,,,,,,timed_programme

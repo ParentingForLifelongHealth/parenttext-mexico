@@ -1,0 +1,15 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,{{variable}}
+1,send_message,0,,{{missing.value}},,has_only_phrase,,"{@missing.value!=""""@}",{{missing.msg}}
+2,begin_for,,v,,,,,,{@var@}
+,send_message,0,,{{v.val}},,has_only_phrase,{{v.val}},"{@v.val!=""""@}",{{current_info_msg}} {{v.alias}}.
+,end_for
+3,send_message,0,,,,has_text,has val,,{{current_info_msg}}
+4,send_message,0,,,,,,,{{missing.msg}}
+5m,send_message,"{% if missing.value!=""""%}1;{%endif-%}{% if var[0].val !=""""%}2;{%endif-%}3;4",,,,,,,{{update_inquiry}},,,Yes,No
+5,wait_for_response
+6,start_new_flow,5,,yes y yeah yep ok,,,,,{{update_var_flow}}
+6u,start_new_flow,,,completed,,,,"{@update_prog_var_flow!=""""@}",{{update_prog_var_flow}}
+,send_message,5,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,5m
+,insert_as_block,"5;{% if update_prog_var_flow!=""""%}6u{%else-%}6{%endif-%}",,no n nope;completed,,,,,menu,menu_blocks_data,settings_profile

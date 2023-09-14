@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,"@(replace(fields.goal_{{ID.replace(' ', '_').lower()}}_mod_started, fields.accessed_module,""""))",,,,,"goal {{ID.replace('_', ' ')}} mod started"
+,save_value,,,,,,,,"@(word_count(fields.goal_{{ID.replace(' ', '_').lower()}}_mod_started))",,,,,"goal {{ID.replace('_', ' ')}} n mod started"
+,save_value,,,,,,,,"@(fields.accessed_module & "" "" & fields.goal_{{ID.replace(' ', '_').lower()}}_mod_compl)",,,,,"goal {{ID.replace('_', ' ')}} mod compl"
+,save_value,,,,,,,,"@(word_count(fields.goal_{{ID.replace(' ', '_').lower()}}_mod_compl))",,,,,"goal {{ID.replace('_', ' ')}} n mod compl"
+,save_value,,,,,,,,"@(fields.goal_{{ID.replace(' ', '_').lower()}}_checkins_to_start & "" "" & fields.accessed_module)",,,,,"goal {{ID.replace('_', ' ')}} checkins to start"
+,save_value,,,,,,,,,,,,,accessed module
+,start_new_flow,,,,,,,,update_curr_goal_var - {{ID}}

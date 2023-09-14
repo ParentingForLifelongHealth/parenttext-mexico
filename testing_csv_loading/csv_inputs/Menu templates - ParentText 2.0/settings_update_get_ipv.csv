@@ -1,0 +1,10 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,,,,,,,,,@fields.get_ipv_content
+2,split_by_value,1,,no,,,no ipv,,,@fields.marital_status
+,save_value,2,,Married	Partnered,,has_any_word,relationship,,get ipv content,yes
+,save_value,,,,,,,,updated ipv,yes
+,save_value,,,,,,,,goals to start,"@(fields.goals_to_start & "" ipv"")"
+,send_message,,,,,,,,,Thank you for updating your relationship status. You've unlocked a new learning goal: to have a healthy relationship with my partner. 
+3,split_by_value,1,,yes,,,yes ipv,,,@fields.marital_status
+3,loose_exit,3,,Married	Partnered,,has_any_word,relationship
+,save_value,3,,,,,,,updated ipv,yes

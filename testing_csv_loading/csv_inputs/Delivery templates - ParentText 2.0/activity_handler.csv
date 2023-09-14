@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,What kind of activity do you want to try with your teen?,,,"{% for opt in types.values() -%}
+{{opt.option_name}};
+{%- endfor -%}"
+1,wait_for_response,,,,,,,,,,,,act type
+2,begin_for,,opt,,,,,,{@types.values()@}
+,save_value,1,,{{opt.option_name}},,has_only_phrase,{{opt.ID}},,"@(word_slice(fields.c_{{opt.ID}}_act ,0,1))",,,,accessed act
+,start_new_flow,,,,,,,,update_act_var
+,no_op,,,completed
+,end_for
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,0
+,start_new_flow,2,,,,,,,split_by_id_template - ltp_activity

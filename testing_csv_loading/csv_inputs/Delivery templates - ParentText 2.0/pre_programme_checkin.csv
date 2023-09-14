@@ -1,0 +1,6 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,,pre_goal_checkin - stress
+sg,split_by_value,,,completed,,,,,,@child.results.sg_back
+,loose_exit,sg,,no,,,sg
+,save_value,sg,,,,,,,completed progcheck,yes
+,save_flow_result,,,,,,,,proceed,yes

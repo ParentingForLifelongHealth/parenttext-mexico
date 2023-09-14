@@ -1,0 +1,11 @@
+ID,dict_name,N,key
+curr_goal,goals_dictionary,8,contact.language][fields.curr_goal
+first_module,modules_dictionary,11,"contact.language][if(text_length(fields.c_mod_to_start)>0,word_slice(fields.c_mod_to_start ,0,1),word_slice(fields.c_mod_started ,0,1))"
+print_goals,goals_dictionary,8,"contact.language][word(results.list_copy, 0)"
+print_modules,modules_dictionary,11,"contact.language][word(results.list_copy, 0)"
+set_up_act_quick,quick_act,4,fields.child_age
+set_up_act_active,active_act,4,fields.child_age
+set_up_act_calm,calm_act,4,fields.child_age
+set_up_act_group,group_act,4,fields.child_age
+goal_lists,goal_lists,8,fields.age_group_for_tips][fields.get_ipv_content
+comic_name,comic_names_dict,4,"contact.language][""ID"""

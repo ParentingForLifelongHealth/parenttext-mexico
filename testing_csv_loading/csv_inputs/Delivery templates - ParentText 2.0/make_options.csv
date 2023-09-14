@@ -1,0 +1,8 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_flow_result,,,,,,,,list copy,@(parent.results.list_copy)
+,save_flow_result,,,,,,,,dict copy,@(parent.results.dict_copy)
+,save_flow_result,,,,,,,,message options
+,begin_for,,i,,,,,,,"{@range(1,max_n|int)@}"
+,save_flow_result,,,,,,,,message options,"@(if(text_length(results.list_copy)=0, results.message_options, results.message_options & ""\n{{i}}.  "" & parse_json(results.dict_copy)[word(results.list_copy, 0) & ""_"" & contact.language]))"
+,save_flow_result,,,,,,,,list copy,"@(word_slice(results.list_copy, 1, -1))"
+,end_for

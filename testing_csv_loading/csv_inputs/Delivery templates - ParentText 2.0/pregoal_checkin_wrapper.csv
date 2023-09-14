@@ -1,0 +1,7 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,@fields.pre_goal_checkin_compl
+,start_new_flow,0,,,,,,,handler_wrapper - pregoal_checkin
+1,split_by_value,,,completed,,,,,@child.results.status
+,send_message,1;0,,not_expired;@fields.curr_goal,,;has_pattern,;already compl,,Let’s get started. Press NEXT to begin.,,,NEXT
+2,wait_for_response
+,save_flow_result,2,,,,,,,yes,,,,proceed

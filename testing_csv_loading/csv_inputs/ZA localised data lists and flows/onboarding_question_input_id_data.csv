@@ -1,0 +1,2 @@
+ID,question,variable,test.expression,test.value,test.condition_type,error_message
+research_id,Please type your participant ID from mothers2mothers.,research_id,"@(if(and(number(results.input),(text_length(results.input)=6)),""v"",""i""))",v,has_only_phrase,The ID you have entered is invalid. Please try again.

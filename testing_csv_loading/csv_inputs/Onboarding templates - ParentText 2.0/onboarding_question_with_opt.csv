@@ -1,0 +1,11 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,{{question}},,,"{% for opt in options -%}
+{{opt.text}};
+{%- endfor -%}"
+1,wait_for_response
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,0
+2,begin_for,,opt,,,,,,{@options@}
+,save_value,1,,{{opt.text}},,has_only_phrase,,"{@opt.text != """"@}",{{opt.value}},,,,{{variable}}
+,end_for
+,save_value,2,,,,,,,yes,,,,"completed {{ID.replace('_', ' ').lower()}}"

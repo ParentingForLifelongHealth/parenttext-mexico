@@ -1,0 +1,12 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,wa_template.name,wa_template.uuid,wa_template.variables.1,wa_template.variables.2,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1m,send_message,,,,,,,,"You’re doing great towards your goal, @(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal]).
+Were you able to {{activity}}?
+
+Press a number on your keypad:
+1. Yes
+2. Not yet","{{wa_templates[""home_activity""].name}}","{{wa_templates[""home_activity""].uuid}}","@(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal])",{{activity}},,1,2
+1,wait_for_response,,,,,,,,,,,,,,,,completed
+,send_message,1,,1,,,yes,,{{positive_message}}
+,send_message,1,,2,,,not yet,,{{negative_message}}
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1m

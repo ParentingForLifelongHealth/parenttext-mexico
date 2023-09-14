@@ -1,0 +1,5 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+dropout,split_by_group
+,save_value,dropout,,passive drop out,,,passive drop out,,"@(fields.hook_message&"",""&now()&""|"")",,,,,hook message
+1,remove_from_group,,,,,,,,passive drop out
+,start_new_flow,dropout;1,,,,,,,{{flow}}

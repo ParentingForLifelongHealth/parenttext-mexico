@@ -1,0 +1,8 @@
+ID,intro,options,scores,end_message_concerning,end_message_not_concerning
+common,"Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.; 
+
+How much is your child doing each of these things?",Not Yet|Somewhat|Very Much,0|1|2,"It seems that you child might need help from a professional. Make sure to check with one to see if your child is growing and learning well.
+;
+ Remember, if you ever need support type HELP. ","Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!;
+
+If you ever need help, just type HELP"

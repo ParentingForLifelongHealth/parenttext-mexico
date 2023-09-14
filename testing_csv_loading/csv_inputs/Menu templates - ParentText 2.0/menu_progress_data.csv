@@ -1,0 +1,4 @@
+ID,show_options_id,menu_blocks.no_opt,menu_blocks.one_opt,menu_blocks.mult_opt
+achieved,completed_goals,progress_achieved,progress_achieved,progress_achieved
+incomplete,started_goals,progress_started_0,progress_started_1,progress_started_mult
+to_start,new_goals,progress_to_start_0,progress_to_start_1,progress_to_start_mult

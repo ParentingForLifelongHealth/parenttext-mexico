@@ -1,0 +1,3 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,yes,,,,,completed pre goal checkin
+,save_value,,,,,,,,"@(fields.pre_goal_checkin_compl & "" "" & fields.curr_goal)",,,,,pre goal checkin compl

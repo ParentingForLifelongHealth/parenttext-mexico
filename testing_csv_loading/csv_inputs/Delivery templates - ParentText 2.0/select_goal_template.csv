@@ -1,0 +1,14 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,,make_options_wrapper - {{ID}}
+,start_new_flow,,,completed,,,,,,{{update_prog_var_flow}}
+,start_new_flow,,,completed,,,,,,{{split_by_goal_update_flow}}
+,start_new_flow,,,completed,,,,,,{{goal_description}}
+,save_flow_result,,,completed,,,,,proceed,yes
+,begin_block,,,,,,,"{@proceed.question!=""""@}"
+1,send_message,,,,,,,,,{{proceed.question}},,,{{proceed.yes_opt}},{{proceed.no_opt}}
+,loose_exit,1,,{{proceed.yes_opt}},,has_only_phrase
+,send_message,1,,{{proceed.no_opt}},,has_only_phrase,,,,{{proceed.no_msg}}
+,save_flow_result,,,,,,,,proceed,no
+,send_message,1,,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,,1
+,end_block

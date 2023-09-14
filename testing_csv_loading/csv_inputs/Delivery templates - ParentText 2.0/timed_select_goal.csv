@@ -1,0 +1,16 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,,,,,,,,@fields.selected_first_goal
+,start_new_flow,1,,no,,,First goal,,select_goal_template - start_first_goal
+2,split_by_value,,,completed,,,,,@fields.curr_goal
+7,save_value,2,,,,has_text,selected_goal,,yes,,,,,selected first goal
+3,split_by_value,1,,,,,,,@fields.n_goals_to_start
+4,split_by_value,3,,1,,has_number_gte,goals_to_ start,,@fields.from_timed
+4d,start_new_flow,4,,,,,,,select_goal_template - start_new_goal_daily
+4e,start_new_flow,4,,yes,,,,,select_goal_template - start_new_goal_expired
+end?,split_by_value,3,,,,,,,@fields.n_goals_started
+5,split_by_value,end?,,1,,has_number_gte,goals_to_ complete,,@fields.from_timed
+5d,start_new_flow,5,,,,,,,select_goal_template - start_started_goal_daily
+5e,start_new_flow,5,,yes,,,,,select_goal_template - start_started_goal_expired
+6,split_by_value,4e;4d;5e;5d;7,,completed;completed;completed;completed;,,,,,@child.results.proceed
+,save_flow_result,6,,yes,,,proceed,,yes,,,,,proceed
+,start_new_flow,end?,,,,,,,program_completion_congrats

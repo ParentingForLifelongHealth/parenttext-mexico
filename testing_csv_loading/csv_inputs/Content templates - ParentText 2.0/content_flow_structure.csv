@@ -1,0 +1,7 @@
+ID,block.1.name,block.1.tracker_tot,block.1.has_tracker,block.2.name,block.2.tracker_tot,block.2.has_tracker,block.3.name,block.3.tracker_tot,block.3.has_tracker,block.4.name,block.4.tracker_tot,block.4.has_tracker,block.5.name,block.5.tracker_tot,block.5.has_tracker,block.6.name,block.6.tracker_tot,block.6.has_tracker,block.7.name,block.7.tracker_tot,block.7.has_tracker
+default,introduction,,,importance,,,quiz,yes,yes,comic,yes,yes,multimedia_tips,yes,yes,home_activity,yes,,congratulations
+next,introduction,,,importance,,,quiz,yes,yes,comic_next,yes,yes,multimedia_tips_next,yes,yes,home_activity,yes,,congratulations
+menu,introduction,,,importance,,,quiz,yes,yes,comic_next,yes,yes,multimedia_tips_next,yes,yes
+no_comic,introduction,,,importance,,,quiz,yes,yes,multimedia_tips_next,yes,yes,home_activity,yes,,congratulations
+quiz_after_comic,introduction,,,importance,,,comic_next,yes,yes,quiz,yes,yes,multimedia_tips_next,yes,yes,home_activity,yes,,congratulations
+review,introduction,,,importance,,,comic_next,yes,yes,quiz,yes,yes,multimedia_tips_next,yes

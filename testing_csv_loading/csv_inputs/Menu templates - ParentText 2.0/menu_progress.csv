@@ -1,0 +1,7 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,insert_as_block,,,,,,,,show_options_wrapper,show_options_wrapper_data,{{show_options_id}}
+1,split_by_value,,,,,,,,@(word_count({{show_opt[show_options_id].list_var}}))
+,insert_as_block,1,,0,,has_number_eq,,,menu,menu_blocks_data,{{menu_blocks.no_opt}}
+,save_flow_result,1,,1,,has_number_eq,,,yes,,,,one option
+,insert_as_block,,,,,,,,menu,menu_blocks_data,{{menu_blocks.one_opt}}
+,insert_as_block,1,,2,,has_number_gte,,,menu,menu_blocks_data,{{menu_blocks.mult_opt}}

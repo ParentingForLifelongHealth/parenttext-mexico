@@ -1,0 +1,7 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,@fields.from_timed
+1,split_by_value,0,,,,,,,@fields.selected_first_goal
+2,start_new_flow,1,,,,,,,interaction - unfinished_onboarding
+3,start_new_flow,1,,yes,,,selected 1st goal,,interaction - select_goal
+,save_flow_result,0,,no,,,,,yes,,,,,proceed
+,save_flow_result,2;3,,completed;completed,,,,,@child.results.proceed,,,,,proceed

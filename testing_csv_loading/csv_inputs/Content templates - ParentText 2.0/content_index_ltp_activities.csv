@@ -1,0 +1,7 @@
+type,sheet_name,data_sheet,data_row_id,new_name,data_model,template_arguments,status,tags.1,tags.2,tags.3
+template_definition,ltp_activity
+create_flow,ltp_activity,ltp_activity_teen_data,,,,,,ltp_activity,,teen
+create_flow,ltp_activity,ltp_activity_child_data,,,,,,ltp_activity,,child
+template_definition,demo_ltp_activity,,,,,content;sheet,draft
+create_flow,demo_ltp_activity,,,demo_ltp_activity_teen,,ltp_activity_teen_data,draft,ltp_activity,,teen
+create_flow,demo_ltp_activity,,,demo_ltp_activity_child,,ltp_activity_child_data,draft,ltp_activity,,child

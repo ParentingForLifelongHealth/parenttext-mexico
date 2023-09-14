@@ -1,0 +1,34 @@
+ID,question,options.1.text,options.1.proceed_result_value,options.1.stop_message,options.2.text,options.2.proceed_result_value,options.2.stop_message,wa_template_ID,wa_template_vars.1,wa_template_vars.2
+select_new_goal,You have made great progress. Are you ready to select your next parenting goal?,Yes,yes,,Remind me later,,"Great, see you tomorrow!"
+select_started_goal,You have made great progress. Are you ready to select your next parenting goal?,Yes,yes,,Remind me later,,"Great, see you tomorrow!"
+select_goal,"You have made great progress. Are you ready to select your next parenting goal?
+
+Press a number on your keypad:
+1. Yes
+2. Remind me Later",1,yes,,2,,"Great, see you tomorrow!",select_goal
+unfinished_onboarding,"ParentText has begun. Are you ready to complete your registration and select your parenting goals?
+
+Press a number on your keypad:
+1. Yes
+2. Remind me Later",1,yes,,2,,"Great, see you tomorrow!",unfinished_onboarding
+complete_start_module,"You’re off track! Do you want to complete a previous skill or start a new skill?
+
+Press a number on your keypad:
+1. Complete
+2. Start new",1,complete,,2,new,,complete_start_module
+catch_up_start,Do you want to catch up and proceed to the next skill?,Yes,yes,,Remind me tomorrow,,"Great, see you tomorrow!"
+start_started_mod_or_change_goal_one,"You're almost finished with this goal! You only have 1 unfinished skill. What would you like to do?
+
+Press a number on your keypad:
+1. Finish this skill and earn my badge
+2. Leave this goal unfinished and select a new goal",1,complete,,2,new,That’s okay. You can only earn your Parenting Badge when all skills are completed. You can return to complete this goal through the Progress Tracker in the Main Menu by typing ‘menu’.,start_started_mod_or_change_goal,You only have one unfinished skill.,Finish this skill and earn my badge
+start_started_mod_or_change_goal_multiple,"You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. What would you like to do?
+
+Press a number on your keypad:
+1. Complete unfinished skills to earn my badge
+2. Leave this goal unfinished and select a new goal",1,complete,,2,new,That’s okay. You can only earn your Parenting Badge when all skills are completed. You can return to complete this goal through the Progress Tracker in the Main Menu by typing ‘menu’.,start_started_mod_or_change_goal,You have @fields.c_n_mod_started unfinished skills.,Complete unfinished skills to earn my badge
+first_module_intro,"It’s time to get started on your goal, @(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal]). Are you ready?
+
+Press a number on your keypad:
+1. Yes!
+2. Remind me tomorrow",1,yes,,2,,"Great, see you tomorrow!",first_module_intro,"@(parse_json({% for n in range(0,8) -%}fields.goals_dictionary_{{n}} {%if not loop.last%}&{%endif-%}{%endfor -%})[contact.language][fields.curr_goal])"

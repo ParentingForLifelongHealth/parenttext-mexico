@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,choices.3,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1m,send_message,,,,,,,,What would you like to do next?,,,I’m done for today,Give me an idea for 1-on-1 time with my teen
+1,wait_for_response,,,,,,,,,,,,,,accept offer
+,send_message,1,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1m
+,send_message,1,,I’m done for today,,has_only_phrase,No,,"Great, see you tomorrow!"
+2,start_new_flow,1,,Give me an idea for 1-on-1 time with my teen,,has_only_phrase,Yes,,activity_handler
+3,send_message,2,,completed,,,,,What would you like to do?,,,View another activity idea,Go to Main Menu,Continue my progress tomorrow
+,go_to,3,,View another activity idea,,has_only_phrase,,,2
+,start_new_flow,3,,Go to Main Menu,,has_only_phrase,,,menu - main
+,send_message,3,,Continue my progress tomorrow,,has_only_phrase,,,"Great, see you tomorrow!"
+,send_message,3,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,3

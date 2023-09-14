@@ -1,0 +1,16 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,template_arguments,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+1,split_by_value,,,,,,,,,@fields.marital_status
+2,save_value,1,,Married	Partnered,,has_any_word,relationship,,get ipv content,yes
+3,save_value,1,,,,,,,get ipv content,no
+,insert_as_block,2;3,,,,,,,,use_dictionary_save_value,goals to start,use_dictionary_data,goal_lists
+,save_value,,,,,,,,goals started
+,save_value,,,,,,,,goals accessed
+,save_value,,,,,,,,goals compl
+,save_value,,,,,,,,pre goal checkin compl
+,save_value,,,,,,,,n goals prog,@(word_count(fields.goals_to_start))
+,save_value,,,,,,,,n goals to start,@(word_count(fields.goals_to_start))
+,save_value,,,,,,,,n goals completed,0
+,save_value,,,,,,,,n goals started,0
+,begin_for,,type;i,,,,,,,{@activities.values()@}
+,insert_as_block,,,,,,,,,set_up_act_var,,activity_type_data,{{type.ID}}
+,end_for

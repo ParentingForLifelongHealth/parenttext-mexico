@@ -1,0 +1,11 @@
+ID,intro,end_message_concerning,end_message_not_concerning,questions_ids.1,questions_ids.2,questions_ids.3,questions_ids.4,questions_ids.5,questions_ids.6,questions_ids.7,questions_ids.8
+child,Each child grows and learns in their own way. This tool can help you learn what activities your child can do.,"Thank you for taking the child ability test. If you have any concerns, talk to a professional.
+;
+ Remember, if you ever need support type HELP. ","It looks like your child is developing well. That's great!
+;
+ Remember, if you ever need support type HELP. ",1_child,2_child,3_child,4_child,5_child,6_child,7_child,8_child
+teen,Each teen grows and learns in their own way. This tool can help you learn what activities your teen can do.,"Thank you for taking the teen ability test. If you have any concerns, talk to a professional.
+;
+ Remember, if you ever need support type HELP. ","It looks like your teen is developing well. That's great!
+;
+ Remember, if you ever need support type HELP. ",1_teen,2_teen,3_teen,4_teen,5_teen,6_teen,7_teen,8_teen

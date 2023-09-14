@@ -1,0 +1,17 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,{{intro_pre_goal}}
+,start_new_flow,,,,,,,"{@pre_question!=""""@}",{{pre_question}}
+0,split_by_value,,,completed,,,,,@child.results.proceed
+,send_message,,,no,,,,,That's okay.
+1,send_message,0,,,,,,,{{question}},,,"{%if add_qr == ""yes"" -%}{% for opt in options -%}
+{{opt}};
+{%- endfor -%}{% endif %}Skip Question"
+2,wait_for_response,,,,,,,,,,,,answer
+skip,send_message,2,,Skip Question,,has_only_phrase,skip,,That's okay.
+3,begin_for,,opt;i,,,,,,{@options@}
+,send_message,2,,{{opt}},,has_only_phrase,{{i}},,{%if opt.lower() in negative|map('lower') -%}{{response.pre_goal_negative}}{% else %}{{response.pre_goal_positive}}{% endif %}
+,save_flow_result,,,,,,,,{%if opt.lower() in negative|map('lower') -%}negative{% else %}positive{% endif %},,,,value
+,end_for
+,send_message,2,,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,1
+,save_value,3,,,,,,,@results.answer.category,,,,"goal checkin {{ID.replace('_', ' ').lower()}}"

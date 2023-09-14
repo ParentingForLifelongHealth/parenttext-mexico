@@ -1,0 +1,10 @@
+ID,include_if_cond,args
+introduction,"introduction.msg_list[0] !="""""
+importance,"importance.msg_list[0] !="""""
+quiz,"quiz.intro !="""""
+comic,"comic.text[0] !="""""
+comic_next,"comic.text[0] !="""""
+multimedia_tips,"tips.intro !=""""",module_content_data
+multimedia_tips_next,"tips.intro !=""""",module_content_data
+home_activity,"home_activity.activity !="""""
+congratulations,"congratulations.msg_list[0] !="""""

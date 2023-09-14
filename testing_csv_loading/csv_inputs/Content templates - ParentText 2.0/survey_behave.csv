@@ -1,0 +1,16 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,split_by_value,,,,,,,,@fields.survey_behave
+1,send_message,0,,,,,,,"{{intro}}
+{% for prob in pb -%}
+{{loop.index}}. {{prob.name}}
+{% endfor %}
+{{select_instructions}}"
+2,wait_for_response
+,begin_for,,prob;i,,,,,,{@pb@}
+,save_value,2,,{{i+1}},,has_only_phrase,{{prob.name}},,"@(fields.survey_behave & ""{{prob.name}}"")",,,,survey behave
+,send_message,0,,{{prob.name}},,has_only_phrase,,,{{prob.post_goal_msg}}
+,end_for
+,save_value,2,,0,,,,,"@(fields.survey_behave & ""no|"")",,,,survey behave
+,save_flow_result,,,,,,,,no,,,,proceed
+,send_message,2,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,1

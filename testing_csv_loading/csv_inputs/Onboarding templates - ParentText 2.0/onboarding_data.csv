@@ -1,0 +1,16 @@
+ID,flow,variable
+language,onboarding_question_language - entry,@fields.completed_language
+consent,consent,@fields.completed_consent
+first_name,onboarding_question_input - first_name,@fields.completed_first_user_name
+family_name,onboarding_question_input - family_name,@fields.completed_family_name
+research_id,onboarding_question_input - research_id,@fields.completed_research_id
+gender,onboarding_question_with_opt - gender,@fields.completed_gender
+update_attachment_paths,update_attachment_paths,@fields.completed_gender
+orientation,orientation,@fields.completed_orientation
+emojis,onboarding_question_with_opt - emojis,@fields.completed_emojis
+media,onboarding_question_with_opt - media,@fields.completed_media
+marital_status,onboarding_question_with_opt - marital_status,@fields.completed_marital_status
+child_intro,one_child_time_msg,@fields.completed_child_name
+child_name,onboarding_question_input - child_name,@fields.completed_child_name
+child_gender,onboarding_question_with_opt - child_gender,@fields.completed_child_gender
+child_age,onboarding_question_date - child_dob,@fields.completed_child_dob

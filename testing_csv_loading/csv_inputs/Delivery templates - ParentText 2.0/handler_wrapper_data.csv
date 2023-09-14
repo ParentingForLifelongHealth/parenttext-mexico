@@ -1,0 +1,7 @@
+ID,pre_update_flow,handler_flow,post_update_flow
+start_module,split_by_id_template - goal_start_module,split_by_id_template - content,split_by_id_template - goal_end_module
+start_started_module,split_by_id_template - goal_start_started_module,split_by_id_template - content,split_by_id_template - goal_end_module
+start_started_module_selected,make_options_wrapper - start_started_module_daily,split_by_id_template - content,split_by_id_template - goal_end_module
+start_checkin,split_by_id_template - goal_start_checkin,split_by_id_template - checkin,split_by_id_template - goal_end_checkin
+pregoal_checkin,empty,split_by_id_template - pre_goal_checkin,update_pre_goal_checkin_var
+postgoal_checkin,empty,split_by_id_template - post_goal_checkin,update_post_goal_checkin_var

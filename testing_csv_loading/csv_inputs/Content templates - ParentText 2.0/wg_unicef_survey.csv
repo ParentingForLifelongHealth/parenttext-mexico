@@ -1,0 +1,28 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,send_message,,,,,,,,{{intro}}
+,begin_for,,id;i,,,,,,{@questions_ids@}
+,begin_block,,,,,,,"{@id!=""""@}"
+{{2*i}},send_message,,,,,,,,{{questions[id].qst}},,,"{% for opt in questions[id].options -%}
+{{opt}};
+{%- endfor -%}"
+{{2*i+1}},wait_for_response,,,,,,,,,,,,survey_answer_{{i}}
+,begin_for,,opt,,,,,,{@questions[id].options@}
+,begin_block,,,,,,,{@opt.lower() in questions[id].concerning_options|map('lower')@}
+,send_message,{{2*i+1}},,{{opt}},,has_only_phrase,{{opt}},,{{questions[id].concerning_feedback}}
+,save_flow_result,,,,,,,,yes,,,,concerning
+,save_value,,,,,,,,yes,,,,has_disability
+,end_block
+,loose_exit,{{2*i+1}},,{{opt}},,has_only_phrase,{{opt}},{@not (opt.lower() in questions[id].concerning_options|map('lower'))@}
+,end_for
+,send_message,{{2*i+1}},,,,,,,"Sorry, I dont' understand what you mean."
+,go_to,,,,,,,,{{2*i}}
+,end_block
+,end_for
+end,split_by_value,,,,,,,,@results.concerning
+,begin_for,end,msg,yes,,,concerning,,{@end_message_concerning@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}}
+,end_for
+,begin_for,end,msg,,,,,,{@end_message_not_concerning@}
+,send_message,,,,,,,"{@msg!=""""@}",{{msg}}
+,end_for
+,save_value,,,,,,,,no,,,,has_disability

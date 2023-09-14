@@ -1,0 +1,7 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text,data_sheet,data_row_id,choices.1,choices.2,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,path,"@(""https://idems-media-recorder.web.app/storage/project/PLH/subproject/ParentText_v2/deployment/"" & fields.deployment & ""/resourceGroup/"")"
+,save_value,,,,,,,,image path,"@(fields.path & ""image/universal/"")"
+,save_value,,,,,,,,comic path,"@(fields.path & ""comic/"")"
+,save_value,,,,,,,,voiceover video path,"@(fields.path & ""voiceover/resourceType/video/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")"
+,save_value,,,,,,,,voiceover audio path,"@(fields.path & ""voiceover/resourceType/audio/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")"
+,save_value,,,,,,,,reward path,"@(fields.path & ""reward/universal/"")"

@@ -1,0 +1,3 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices.1,choices.2,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,start_new_flow,,,,,,,,module_review - self_defence_teen
+,send_message,,,completed,,,,,Excellent work. You have learned the basics of self defence. Remember you can access this information at any time typing “SAFE”. 

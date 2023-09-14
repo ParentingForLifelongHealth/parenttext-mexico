@@ -1,0 +1,16 @@
+ID,priority,age_group,relationship,modules.1,modules.2,modules.3,modules.4,modules.5
+relation_t,1,teen,yes|no,one_on_one_teen,praise_teen,talk_feelings_teen
+relation_c,1.1,child,yes|no,x,x,x
+develop_t,2,teen,yes|no,care_myself_teen,mental_changes_teen,social_changes_teen,physical_changes_teen
+develop_c,2.1,child,yes|no,x,x,x
+learning_t,3,teen,yes|no,fun_learning_teen,help_teen_learn_teen,positive_learning_teen,learning_mistakes_teen,learning_with_people_teen
+learning_c,3.1,child,yes|no,x,x,x
+structure_t,4,teen,yes|no,routines_teen,rules_teen,online_safety_teen,habits_online_teen
+structure_c,4.1,child,yes|no,x,x,x
+budget,5,teen|child,yes|no,budget_needs_teen,budget_expenses_teen,budget_monthly_teen,budget_savings_teen
+wellbeing_t,6,teen,yes|no,kind_to_myself_teen,stress_teen,show_kindness_teen,stress_signs_teen
+behave_t,7,teen,yes|no,manage_stress_teen,misbehave_teen,solve_problems_teen,consequences_teen
+behave_c,7.1,child,yes|no,x,x,x
+safety_t,8,teen,yes|no,community_safety_teen,self_defence_teen,sex_violence_teen,crises_teen
+safety_c,8.1,child,yes|no,x,x,x
+ipv,9,baby|child|teen,yes,ipv_equals,ipv_supportive,ipv_sharing,ipv_conflicts,ipv_listen

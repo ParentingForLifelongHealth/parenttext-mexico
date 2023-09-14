@@ -1,0 +1,13 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+,save_value,,,,,,,,eng,,,,attachment language
+,start_new_flow,,,,,,,,set_up_default_contact_fields
+,start_new_flow,,,completed,,,,,set_up_global_var
+,save_value,,,completed,,,,,12,,,,child age
+,start_new_flow,,,,,,,,set_up_prog_var
+,start_new_flow,,,completed,,,,,onboarding_question_with_opt - media
+,start_new_flow,,,completed,,,,,onboarding_question_with_opt - gender
+,start_new_flow,,,completed,,,,,update_attachment_paths
+,save_value,,,completed,,,,,2,,,,c n mod compl
+,save_value,,,,,,,,4,,,,c n mod
+,start_new_flow,,,,,,,,module - {{flow_name}}
+,start_new_flow,,,completed,,,,,activity_offer

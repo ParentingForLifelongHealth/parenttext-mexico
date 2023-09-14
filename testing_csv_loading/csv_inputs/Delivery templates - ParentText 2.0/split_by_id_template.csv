@@ -1,0 +1,9 @@
+row_id,type,loop_variable,from,condition,condition_var,condition_type,condition_name,include_if,save_name,message_text
+1,split_by_value,,,,,,,,,{{split_variable}}
+,begin_for,arg,,,,,,"{@flow_name!=""""@}",,{@arguments.values()@}
+,start_new_flow,,1,{{arg.ID}},,has_only_phrase,,,,{{flow_name}} - {{arg.ID}}
+,save_flow_result,,,completed,,,,,status,not_expired
+,end_for
+,begin_for,arg,,,,,,"{@text_name!=""""@}",,{@arguments.values()@}
+,send_message,,1,{{arg.ID}},,has_only_phrase,,,,{{arg[text_name]}}
+,end_for

@@ -1,0 +1,12 @@
+row_id,type,from,loop_variable,condition,condition_var,condition_type,condition_name,include_if,message_text,data_sheet,data_row_id,choices,save_name,image,audio,video,obj_name,obj_id,node_name,_nodeId,no_response
+0,send_message,,,,,,,,{{question}},,,"{% for opt in options -%}
+{{opt.text}};
+{%- endfor -%}",,"{%if image != """"%}{{image}}{%endif-%}"
+,send_message,0,,,,,,,"Sorry, I don't understand what you mean."
+,go_to,,,,,,,,0
+,begin_for,,opt,,,,,,{@options@}
+,set_contact_language,0,,{{opt.text}},,has_only_phrase,,"{@opt.text != """"@}",{{opt.value}}
+,save_value,,,,,,,"{@opt.text != """" and opt.alias !=""""@}",{{opt.alias}},,,,attachment language
+,end_for
+,start_new_flow,,,,,,,,define_attachment_paths
+,save_value,,,completed,,,,,yes,,,,completed language
