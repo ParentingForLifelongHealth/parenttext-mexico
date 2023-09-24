@@ -37,19 +37,21 @@ safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 sources = [
     {
         "filename": "parenttext_all",
-        "spreadsheet_ids": [
-            localised_sheets,
-            T_C_onboarding_ID,
-            C_ltp_activities_ID,
-            T_delivery_ID,
-            C_modules_teen_ID,
-            C_dictionaries_ID,
-            C_home_activity_checkin_ID,
-            T_C_menu_ID,
-            C_goal_checkin_ID,
-            T_content_ID,C_dev_asess_tool_ID,
-            safeguarding,
+        "spreadsheet_info": [
+              {"ID" : localised_sheets, "location": 'online'},
+              {"ID" : T_C_onboarding_ID, "location": 'online'},
+              {"ID" : C_ltp_activities_ID, "location": 'online'},
+              {"ID" : T_delivery_ID, "location": 'online'},
+              {"ID" : C_modules_teen_ID, "location": 'online'},
+              {"ID" : C_dictionaries_ID, "location": 'online'},
+              {"ID" : C_home_activity_checkin_ID, "location": 'online'},
+              {"ID" : T_C_menu_ID, "location": 'online'},
+              {"ID" : C_goal_checkin_ID, "location": 'online'},
+              {"ID" : T_content_ID, "location": 'online'},
+              {"ID" : C_dev_asess_tool_ID, "location": 'online'},
+              {"ID" : safeguarding, "location": 'online'},
         ],
+        "archive_input_path": "./archive",           
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
         "tags": [2, "south_africa", 3, "teen"],
@@ -76,9 +78,9 @@ languages = [
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
 folder_within_repo = "translations/parent_text_v2"
 
-# Destination file for all files (including intermediary files and log files).
-# Default is 'output'.
-outputpath = "output"
+# Destination file for an archive of the google sheets if you want to make one
+archive_outputpath = "./archive"
+create_archive = True
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -144,7 +146,9 @@ def create_config():
     return {
         "ab_testing_sheet_id": ab_testing_sheet_ID,
         "add_selectors": add_selectors,
+        "archive_outputpath": archive_outputpath,
         "count_threshold": count_threshold,
+        "create_archive": create_archive,
         "default_expiration": default_expiration,
         "eng_edits_sheet_id": eng_edits_sheet_ID,
         "folder_within_repo": folder_within_repo,

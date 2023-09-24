@@ -1,2 +1,2 @@
-parenttext_pipeline@https://github.com/IDEMSInternational/parenttext-pipeline/archive/refs/heads/main.tar.gz
+parenttext_pipeline@https://github.com/IDEMSInternational/parenttext-pipeline/archive/refs/heads/adding-csv-archiving.tar.gz
 
