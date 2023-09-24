@@ -47,9 +47,12 @@ sources = [
             C_home_activity_checkin_ID,
             T_C_menu_ID,
             C_goal_checkin_ID,
-            T_content_ID,C_dev_asess_tool_ID,
-            safeguarding,
+            T_content_ID,
+            C_dev_asess_tool_ID,
+            safeguarding
         ],
+        # "archive": "parenttext_all.zip",
+        "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
         "tags": [2, "south_africa", 3, "teen"],
@@ -75,10 +78,6 @@ languages = [
 # repo, should maybe be adapted so we can provide a link to an online repo.
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
 folder_within_repo = "translations/parent_text_v2"
-
-# Destination file for all files (including intermediary files and log files).
-# Default is 'output'.
-outputpath = "output"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -139,6 +138,7 @@ redirect_flow_names = (
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
+
 
 def create_config():
     return {
