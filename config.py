@@ -38,20 +38,20 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_info": [
-              {"ID" : localised_sheets, "location": 'online'},
-              {"ID" : T_C_onboarding_ID, "location": 'online'},
-              {"ID" : C_ltp_activities_ID, "location": 'online'},
-              {"ID" : T_delivery_ID, "location": 'online'},
-              {"ID" : C_modules_teen_ID, "location": 'online'},
-              {"ID" : C_dictionaries_ID, "location": 'online'},
-              {"ID" : C_home_activity_checkin_ID, "location": 'online'},
-              {"ID" : T_C_menu_ID, "location": 'online'},
-              {"ID" : C_goal_checkin_ID, "location": 'online'},
-              {"ID" : T_content_ID, "location": 'online'},
-              {"ID" : C_dev_asess_tool_ID, "location": 'online'},
-              {"ID" : safeguarding, "location": 'online'},
+              {"ID" : localised_sheets, "location": 'live'},
+              {"ID" : T_C_onboarding_ID, "location": 'live'},
+              {"ID" : C_ltp_activities_ID, "location": 'live'},
+              {"ID" : T_delivery_ID, "location": 'live'},
+              {"ID" : C_modules_teen_ID, "location": 'live'},
+              {"ID" : C_dictionaries_ID, "location": 'live'},
+              {"ID" : C_home_activity_checkin_ID, "location": 'live'},
+              {"ID" : T_C_menu_ID, "location": 'live'},
+              {"ID" : C_goal_checkin_ID, "location": 'live'},
+              {"ID" : T_content_ID, "location": 'live'},
+              {"ID" : C_dev_asess_tool_ID, "location": 'live'},
+              {"ID" : safeguarding, "location": 'live'},
         ],
-        "archive_input_path": "./archive",           
+        "archive_input_path": "./archive/V1.0.0",           
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
         "tags": [2, "south_africa", 3, "teen"],
@@ -79,8 +79,8 @@ translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
 folder_within_repo = "translations/parent_text_v2"
 
 # Destination file for an archive of the google sheets if you want to make one
-archive_outputpath = "./archive"
-create_archive = True
+archive_outputpath = "./archive/V1.0.0"
+create_archive = False
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
