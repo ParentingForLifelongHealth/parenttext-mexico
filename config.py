@@ -81,7 +81,6 @@ folder_within_repo = "translations/parent_text_v2"
 
 # Destination file for an archive of the google sheets if you want to make one
 archive_outputpath = "./archive/V1.0.0"
-create_archive = False
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
