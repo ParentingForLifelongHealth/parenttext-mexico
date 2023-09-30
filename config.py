@@ -51,7 +51,7 @@ sources = [
               C_dev_asess_tool_ID,
               safeguarding
         ],
-        "archive_input_path": "./archive/V1.0.0",
+        "archive_input_path": "./archive/V1.zip",
         "run_from_archive": True,           
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
@@ -80,7 +80,7 @@ translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
 folder_within_repo = "translations/parent_text_v2"
 
 # Destination file for an archive of the google sheets if you want to make one
-archive_outputpath = "./archive/V1.0.0"
+archive_outputpath = "./archive/V1"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -148,7 +148,6 @@ def create_config():
         "add_selectors": add_selectors,
         "archive_outputpath": archive_outputpath,
         "count_threshold": count_threshold,
-        "create_archive": create_archive,
         "default_expiration": default_expiration,
         "eng_edits_sheet_id": eng_edits_sheet_ID,
         "folder_within_repo": folder_within_repo,
