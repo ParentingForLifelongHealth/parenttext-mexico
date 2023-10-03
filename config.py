@@ -59,7 +59,7 @@ sources = [
 
 # Data used when modifying expiration times.
 special_expiration = "./edits/specific_expiration.json"
-default_expiration = "1440"
+default_expiration = 1440
 
 # Model that is used as part of the process when the data is extracted from sheets.
 model = "models.parenttext_models"
