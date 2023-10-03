@@ -51,8 +51,8 @@ sources = [
             C_dev_asess_tool_ID,
             safeguarding
         ],
-        "archive_input_path": "./archive/V1.zip",
-        "run_from_archive": True,           
+        # "archive": "parenttext_all.zip",
+        "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
         "tags": [2, "south_africa", 3, "teen"],
@@ -62,7 +62,7 @@ sources = [
 
 # Data used when modifying expiration times.
 special_expiration = "./edits/specific_expiration.json"
-default_expiration = "1440"
+default_expiration = 1440
 
 # Model that is used as part of the process when the data is extracted from sheets.
 model = "models.parenttext_models"
@@ -78,9 +78,6 @@ languages = [
 # repo, should maybe be adapted so we can provide a link to an online repo.
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
 folder_within_repo = "translations/parent_text_v2"
-
-# Destination file for an archive of the google sheets if you want to make one
-archive_outputpath = "./archive/V1"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -141,6 +138,7 @@ redirect_flow_names = (
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
+
 
 def create_config():
     return {
