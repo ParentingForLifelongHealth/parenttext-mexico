@@ -1,6 +1,6 @@
-# South Africa Parenttext Pipeline
+# Mexico Parenttext Pipeline
 
-This project builds RapidPro flows for the SA ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
+This project builds RapidPro flows for the Mexico ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
 ## Usage
 
