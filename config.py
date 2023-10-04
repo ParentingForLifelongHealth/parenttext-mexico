@@ -1,6 +1,6 @@
 # Data sources, IDs of Google Sheets where the core date is stored.
-# Specific for ZA.
-localised_sheets = "13do_Qnc0VKC6Ao4N7YY3skUFKJMuwOixj2GyMVwnRLM"
+# Specific for MX.
+localised_sheets = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
 
 # Shared with all deployments.
 # Multiple content index for different types of content.
@@ -52,11 +52,11 @@ sources = [
             safeguarding
         ],
         # "archive": "parenttext_all.zip",
-        "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
+        #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
-        "tags": [2, "south_africa", 3, "teen"],
-        "split_no": 3
+        "tags": [2, "mexico", 3, "teen"],
+        "split_no": 1
     },
 ]
 
@@ -70,14 +70,13 @@ model = "models.parenttext_models"
 # Languages that will be looked for to localize back into the flows, "language" is the
 # 3-letter code used in RapidPro, "code" is the 2 letter code used in CrowdIn.
 languages = [
-    {"language": "hau", "code": "ss"},
-    {"language": "zul", "code": "zu"}
+    {"language": "spa", "code": "es"}
 ]
 
 # Location where translations are stored, at the moment pointing to a locally cloned
 # repo, should maybe be adapted so we can provide a link to an online repo.
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
-folder_within_repo = "translations/parent_text_v2"
+folder_within_repo = "translations/parent_text_v2_mexico"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -115,7 +114,7 @@ length_threshold = "18"
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
 # South Africa specific.
-localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
+localisation_sheet_ID = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
@@ -138,7 +137,6 @@ redirect_flow_names = (
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
-
 
 def create_config():
     return {
