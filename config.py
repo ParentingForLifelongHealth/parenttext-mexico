@@ -144,6 +144,7 @@ def create_config():
     return {
         "ab_testing_sheet_id": ab_testing_sheet_ID,
         "add_selectors": add_selectors,
+        "archive_outputpath": archive_outputpath,
         "count_threshold": count_threshold,
         "default_expiration": default_expiration,
         "eng_edits_sheet_id": eng_edits_sheet_ID,
