@@ -9,6 +9,7 @@ T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
 C_ltp_activities_ID = "1Jx7vOmdefzK62ao2nlJJVLMAIS8d-6r1G8qn0jG8gww"
 T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
 C_modules_teen_ID = "1ONmD9PF9rcno3ha3QpfrIR5EIvHuuEqJXF3T90rlZ78"
+C_modules_child_ID = "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k"
 C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4"
 C_home_activity_checkin_ID = "1qjjM2XfkvGVk38GL2OASNkTrXyXuDMAuMUAKmgHYt_s"
 T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
@@ -38,24 +39,25 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_ids": [
-            localised_sheets,
-            T_C_onboarding_ID,
-            C_ltp_activities_ID,
-            T_delivery_ID,
-            C_modules_teen_ID,
-            C_dictionaries_ID,
-            C_home_activity_checkin_ID,
-            T_C_menu_ID,
-            C_goal_checkin_ID,
-            T_content_ID,
-            C_dev_asess_tool_ID,
-            safeguarding
+            #T_C_onboarding_ID,
+            #C_ltp_activities_ID,
+            #T_delivery_ID,
+            #C_modules_teen_ID,
+            C_modules_child_ID,
+            #C_dictionaries_ID,
+            #C_home_activity_checkin_ID,
+            #T_C_menu_ID,
+            #C_goal_checkin_ID,
+            #T_content_ID,
+            #C_dev_asess_tool_ID,
+            #safeguarding,
+            localised_sheets
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
-        "tags": [2, "mexico", 3, "teen"],
+        "tags": [1,"module",2, "mexico", 3, "teen"],
         "split_no": 1
     },
 ]
@@ -114,13 +116,13 @@ length_threshold = "18"
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
 # South Africa specific.
-localisation_sheet_ID = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
+localisation_sheet_ID = "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8"
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
 eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
 # South Africa specific.
-transl_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
+transl_edits_sheet_ID = "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
 
 # Data used in safeguarding script.
 SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
