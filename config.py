@@ -1,6 +1,6 @@
 # Data sources, IDs of Google Sheets where the core date is stored.
-# Specific for ZA.
-localised_sheets = "13do_Qnc0VKC6Ao4N7YY3skUFKJMuwOixj2GyMVwnRLM"
+# Specific for MX.
+localised_sheets = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
 
 # Shared with all deployments.
 # Multiple content index for different types of content.
@@ -9,6 +9,7 @@ T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
 C_ltp_activities_ID = "1Jx7vOmdefzK62ao2nlJJVLMAIS8d-6r1G8qn0jG8gww"
 T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
 C_modules_teen_ID = "1ONmD9PF9rcno3ha3QpfrIR5EIvHuuEqJXF3T90rlZ78"
+C_modules_child_ID = "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k"
 C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4"
 C_home_activity_checkin_ID = "1qjjM2XfkvGVk38GL2OASNkTrXyXuDMAuMUAKmgHYt_s"
 T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
@@ -38,25 +39,26 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_ids": [
-            localised_sheets,
-            T_C_onboarding_ID,
-            C_ltp_activities_ID,
-            T_delivery_ID,
-            C_modules_teen_ID,
-            C_dictionaries_ID,
-            C_home_activity_checkin_ID,
-            T_C_menu_ID,
-            C_goal_checkin_ID,
-            T_content_ID,
-            C_dev_asess_tool_ID,
-            safeguarding
+            #T_C_onboarding_ID,
+            #C_ltp_activities_ID,
+            #T_delivery_ID,
+            #C_modules_teen_ID,
+            C_modules_child_ID,
+            #C_dictionaries_ID,
+            #C_home_activity_checkin_ID,
+            #T_C_menu_ID,
+            #C_goal_checkin_ID,
+            #T_content_ID,
+            #C_dev_asess_tool_ID,
+            #safeguarding,
+            localised_sheets
         ],
         # "archive": "parenttext_all.zip",
-        "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
+        #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "text_for_translators",
         # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
-        "tags": [2, "south_africa", 3, "teen"],
-        "split_no": 3
+        "tags": [1,"module",2, "mexico", 3, "teen"],
+        "split_no": 1
     },
 ]
 
@@ -70,14 +72,13 @@ model = "models.parenttext_models"
 # Languages that will be looked for to localize back into the flows, "language" is the
 # 3-letter code used in RapidPro, "code" is the 2 letter code used in CrowdIn.
 languages = [
-    {"language": "hau", "code": "ss"},
-    {"language": "zul", "code": "zu"}
+    {"language": "spa", "code": "es"}
 ]
 
 # Location where translations are stored, at the moment pointing to a locally cloned
 # repo, should maybe be adapted so we can provide a link to an online repo.
 translation_repo = "https://github.com/IDEMSInternational/plh-digital-content"
-folder_within_repo = "translations/parent_text_v2"
+folder_within_repo = "translations/parent_text_v2_mexico"
 
 # In one of the latter stages we have the option to modify the quick replies:
 # 1 - We may want to remove the quick replies and add them to message text and give
@@ -115,13 +116,13 @@ length_threshold = "18"
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
 # South Africa specific.
-localisation_sheet_ID = "1FfO-LLjodgEKaBVnn47QrvXaM68Cvui55FS1DKziA2c"
+localisation_sheet_ID = "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8"
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
 eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
 # South Africa specific.
-transl_edits_sheet_ID = "1fCLPfiqHy1nLLqh1qyvd3zrziw5Tz3uQ6_e7CyuEW-E"
+transl_edits_sheet_ID = "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
 
 # Data used in safeguarding script.
 SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
@@ -138,7 +139,6 @@ redirect_flow_names = (
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
-
 
 def create_config():
     return {
