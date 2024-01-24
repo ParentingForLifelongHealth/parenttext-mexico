@@ -8,13 +8,12 @@ T_content_ID = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU"
 T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
 C_ltp_activities_ID = "1DVtLMR0gm3tzzgaA0A_1b9iQi8758WJFoGET3WWUCm4"
 T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
-C_modules_teen_ID = "1ONmD9PF9rcno3ha3QpfrIR5EIvHuuEqJXF3T90rlZ78"
+C_modules_teen_ID = "1B7A1Gq2yDOLj6QUXy_qMyKb9z27LflapP8dUqc-hb9w"
 C_modules_child_ID = "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k"
-C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4"
-C_home_activity_checkin_ID = "1qjjM2XfkvGVk38GL2OASNkTrXyXuDMAuMUAKmgHYt_s"
+C_modules_all_ages_ID = "1vX2YP46VI7vGUpKotFeC50suc8R_ljIchgG4DB-GpyA"
 T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
-C_goal_checkin_ID = "1gympuD5KdlAdDJSuaVQiXjWSwJxoDcA9K-oBRyKmS7o"
-C_dev_asess_tool_ID = "1OhhQF5yarUDmaSl2tlt7eIT7wJ8bGwNFzI3BOplJYsc"
+C_goal_checkin_ID = "1THwfwrNO_sZD9QWQnvvJD3hT-ljH89eKRaljCGPOxFE"
+C_dev_asess_tool_ID = "1qOkXiNI9HdWHx-rmoyDCiMkF7eFO7HSOqtZMce0OH1M"
 safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
 
 # "filename" is how it will be generally named in the pipeline.
@@ -39,25 +38,23 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_ids": [
-            #T_C_onboarding_ID,
+            T_C_onboarding_ID,
             C_ltp_activities_ID,
             #T_delivery_ID,
-            #C_modules_teen_ID,
-           # C_modules_child_ID,
-            #C_dictionaries_ID,
-            #C_home_activity_checkin_ID,
+            C_modules_all_ages_ID,
+            C_modules_teen_ID,
+            C_modules_child_ID,
             #T_C_menu_ID,
-            #C_goal_checkin_ID,
+            C_goal_checkin_ID,
             T_content_ID,
-            #C_dev_asess_tool_ID,
+            C_dev_asess_tool_ID,
             #safeguarding,
             localised_sheets
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "ltp_activities",
-        # "tags": [1, "delivery",1, "menu", 2,"south_africa"],
-        "tags": [1,"ltp_activity",2, "mexico"],
+        "crowdin_name": "onboarding",
+        "tags": [1,"module",2, "mexico"],
         "split_no": 1
     },
 ]
