@@ -3144,5 +3144,59 @@
                 }
             }
         }
+    ],
+    "start": [
+        {
+            "English": {
+                "keywords": [
+                    "iniciar"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "iniciar"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "stop": [
+        {
+            "English": {
+                "keywords": [
+                    "stop"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "DETENER"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "id": [
+        {
+            "English": {
+                "keywords": [
+                    "id"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "id"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
     ]
 }
