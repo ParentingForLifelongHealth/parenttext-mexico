@@ -5,19 +5,19 @@ localised_sheets = "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
 # Shared with all deployments.
 # Multiple content index for different types of content.
 T_content_ID = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU"
-T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
+#T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
+edited_onboarding_data = "1esTiPuIaHCFRQjf78q0E3WDwR_TmcGSC7jE36bXeMGA"
+edited_onboarding = "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY"
 C_ltp_activities_ID = "1DVtLMR0gm3tzzgaA0A_1b9iQi8758WJFoGET3WWUCm4"
-#T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
 C_modules_teen_ID = "1B7A1Gq2yDOLj6QUXy_qMyKb9z27LflapP8dUqc-hb9w"
 C_modules_child_ID = "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k"
 C_modules_all_ages_ID = "1vX2YP46VI7vGUpKotFeC50suc8R_ljIchgG4DB-GpyA"
-#T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
 C_goal_checkin_ID = "1THwfwrNO_sZD9QWQnvvJD3hT-ljH89eKRaljCGPOxFE"
 C_dev_asess_tool_ID = "1qOkXiNI9HdWHx-rmoyDCiMkF7eFO7HSOqtZMce0OH1M"
-safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
+edited_safeguarding_data = "1wKAk5fom5fwjvrBMonATo1aU2mVjQfJjbhcajxsB5Xg"
+edited_safeguarding = "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c"
 edited_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
 edited_delivery_data_course = "1q-9qIiokIKImxIk9BNlJXM5PAigOCsP8FIbXmh0MZRg"
-edited_delivery_data_common = "18OWRh0YPewa2nt43JrVBqCqbfUFOHwcL1Uc2FdZEfbk"
 edited_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
 edited_menu_data_course = "1lwmMa18SM7bUR-og__daYgDNlEfwnj-KtLjC7Cw-EHo"
 edited_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
@@ -44,7 +44,8 @@ sources = [
     {
         "filename": "parenttext_all",
         "spreadsheet_ids": [
-            T_C_onboarding_ID,
+            edited_onboarding_data,
+            edited_onboarding,
             C_ltp_activities_ID,
             C_modules_all_ages_ID,
             C_modules_teen_ID,
@@ -52,8 +53,8 @@ sources = [
             C_goal_checkin_ID,
             T_content_ID,
             C_dev_asess_tool_ID,
-            safeguarding,
-            edited_delivery_data_common,
+            edited_safeguarding_data,
+            edited_safeguarding,
             edited_delivery_data_course,
             edited_delivery,
             edited_menu_data_common,
@@ -63,9 +64,11 @@ sources = [
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "onboarding",
+        "crowdin_name": "all",
+        #"tags": [1,"module",4,"course"],
         "tags": [4,"course"],
-        "split_no": 1
+        #"tags": [1,"dev_assess",1,"module",1,"ltp_activity",1,"goal_checkin",4,"course"],
+        "split_no": 2
     },
 ]
 
@@ -142,7 +145,7 @@ SG_path = "./edits/safeguarding_words.json"
 redirect_flow_names = (
     '['
     '    "safeguarding_redirect_to_topic_all", '
-    '    "safeguarding_redirect_to_topic_highrisk", '
+    '    "safeguarding_redirect_to_topic_start", '
     '    "safeguarding_redirect_to_topic_trigger"'
     ']'
 )
