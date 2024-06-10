@@ -1,4 +1,4 @@
-# Mexico Parenttext Pipeline
+# Mexico ParentText Pipeline
 
 This project builds RapidPro flows for the Mexico ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
@@ -32,14 +32,6 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Make sure you have a correct `credentials.json` file in the same directory as the cloned repo.
 
 ## Run
-
-There are two main scripts.
-
-```
-python process_safeguarding_words.py
-```
-
-This process takes Excel files with safeguarding words received from local teams and converts to JSON format that can be digested by the main pipeline. For an example of required Excel input files, see the folder "excel_files" in this repo.
 
 ```
 python -m parenttext_pipeline.cli
