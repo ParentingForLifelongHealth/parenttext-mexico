@@ -2394,7 +2394,13 @@
         "book": "ltp_activities.json",
         "model": "LTPActivities",
         "resource": "ltp_activities",
-        "sheet": "ltp_activity_data"
+        "sheet": "ltp_activity_teen_data"
+      },
+      {
+        "book": "ltp_activities.json",
+        "model": "LTPActivities",
+        "resource": "ltp_activities",
+        "sheet": "ltp_activity_child_data"
       }
     ],
     "onboarding_question_language_data": [
