@@ -5,7 +5,7 @@ on:
 
 jobs:
   pipeline:
-    uses: IDEMSInternational/parenttext-goals-webhooks/.github/workflows/deploy.yml@c0d4d7d32236d4ad4a68cf1b07a552b53af8a360
+    uses: IDEMSInternational/parenttext-goals-webhooks/.github/workflows/deploy.yml@c1db31107c4898ace2813f63ab504afe4b5c5a68
     secrets:
       credentials: ${{ secrets.GCP_CREDENTIALS }}
     with:
