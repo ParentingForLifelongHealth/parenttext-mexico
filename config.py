@@ -65,8 +65,8 @@ sources = [
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "all",
-        #"tags": [1,"module",4,"course"],
         "tags": [4,"course"],
+        #"tags": [1,"delivery",1, "safeguarding",1,"onboarding",4,"course"],
         #"tags": [1,"dev_assess",1,"module",1,"ltp_activity",1,"goal_checkin",4,"course"],
         "split_no": 2
     },
@@ -139,7 +139,7 @@ SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
 SG_flow_name = "safeguarding_wfr_interaction"
 
 # Path to file containing translated safeguarding words.
-SG_path = "./edits/safeguarding_words.json"
+SG_path = "./output/safeguarding_words.json"
 
 # Names of redirect flows to be modified as part of safeguarding process.
 redirect_flow_names = (
@@ -165,8 +165,14 @@ def create_config():
         "qr_treatment": qr_treatment,
         "redirect_flow_names": redirect_flow_names,
         "select_phrases": select_phrases,
-        "sg_flow_id": SG_flow_ID,
-        "sg_flow_name": SG_flow_name,
+        #"sg_flow_id": SG_flow_ID,
+        #"sg_flow_name": SG_flow_name,
+         "sg_sources": [
+            {
+               "key": "spa",
+               "path": "excel_files/safeguarding mexico.xlsx",
+            }
+        ],
         "sg_path": SG_path,
         "sources": sources,
         "special_expiration": special_expiration,
