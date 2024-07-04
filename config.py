@@ -20,7 +20,7 @@ edited_delivery = "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU"
 edited_delivery_data_course = "1q-9qIiokIKImxIk9BNlJXM5PAigOCsP8FIbXmh0MZRg"
 edited_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
 edited_menu_data_course = "1lwmMa18SM7bUR-og__daYgDNlEfwnj-KtLjC7Cw-EHo"
-edited_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
+
 
 # "filename" is how it will be generally named in the pipeline.
 #
@@ -57,7 +57,6 @@ sources = [
             edited_safeguarding,
             edited_delivery_data_course,
             edited_delivery,
-            edited_menu_data_common,
             edited_menu_data_course,
             edited_menu,
             localised_sheets
@@ -66,7 +65,7 @@ sources = [
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "all",
         "tags": [4,"course"],
-        #"tags": [1,"delivery",1, "safeguarding",1,"onboarding",4,"course"],
+       #"tags": [1, "menu",1,"trigger",1,"onboarding",1,"delivery",1,"safeguarding",4,"course"],
         #"tags": [1,"dev_assess",1,"module",1,"ltp_activity",1,"goal_checkin",4,"course"],
         "split_no": 2
     },
