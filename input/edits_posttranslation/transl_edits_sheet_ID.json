@@ -1,0 +1,1173 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_add_location",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "child_gender_1",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "child_gender_2",
+        "status": "released",
+        "order": "2"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "child_gender_transl",
+        "status": "released",
+        "order": "2"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_eng_consistent",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_transl",
+        "status": "released",
+        "order": "1"
+      }
+    ],
+    "child_gender_1": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{child}.*",
+        "change": "{child}",
+        "condition_var": "@fields.child_gender",
+        "category": "{boy or girl}",
+        "category:female": "{girl}",
+        "condition:female": "female",
+        "condition_type:female": "has_any_word",
+        "category:male": "{boy}",
+        "condition:male": "male",
+        "condition_type:male": "has_any_word"
+      }
+    ],
+    "child_gender_2": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{boy or girl}.*",
+        "change": "{boy or girl}",
+        "condition_var": "",
+        "category": "boy or girl"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{girl}.*",
+        "change": "{girl}",
+        "condition_var": "",
+        "category": "girl"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{boy}.*",
+        "change": "{boy}",
+        "condition_var": "",
+        "category": "boy"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{teen}.*",
+        "change": "{teen}",
+        "condition_var": "",
+        "category": "adolescent"
+      }
+    ],
+    "child_gender_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{boy or girl}.*",
+        "original": "{child}",
+        "language": "spa",
+        "replacement": "niño o niña"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{girl}.*",
+        "original": "{child}",
+        "language": "spa",
+        "replacement": "niña"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{boy}.*",
+        "original": "{child}",
+        "language": "spa",
+        "replacement": "niño"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{teen}.*",
+        "original": "{teen}",
+        "language": "spa",
+        "replacement": "adolescente"
+      }
+    ],
+    "comic_names_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_MOTHER}.*",
+        "original": "{F1_MOTHER}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_FATHER}.*",
+        "original": "{F1_FATHER}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_FATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_17}.*",
+        "original": "{F1_SON_17}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_17\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
+        "original": "{F1_DAUGHTER_16}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_16\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_13}.*",
+        "original": "{F1_DAUGHTER_13}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_13\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_6}.*",
+        "original": "{F1_DAUGHTER_6}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_6\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_2}.*",
+        "original": "{F1_DAUGHTER_2}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_5}.*",
+        "original": "{F1_SON_5}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_5\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDMOTHER}.*",
+        "original": "{F2_GRANDMOTHER}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDMOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDFATHER}.*",
+        "original": "{F2_GRANDFATHER}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDFATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_17}.*",
+        "original": "{F2_DAUGHTER_17}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_17\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_15}.*",
+        "original": "{F2_SON_15}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_15\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_8}.*",
+        "original": "{F2_SON_8}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_8\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_3}.*",
+        "original": "{F2_DAUGHTER_3}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_MOTHER}.*",
+        "original": "{F3_MOTHER}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_UNCLE}.*",
+        "original": "{F3_UNCLE}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_UNCLE\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_12}.*",
+        "original": "{F3_DAUGHTER_12}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_12\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_7}.*",
+        "original": "{F3_DAUGHTER_7}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_7\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_SON_4}.*",
+        "original": "{F3_SON_4}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_1}.*",
+        "original": "{FRIEND_FEMALE_1}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_1\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_2}.*",
+        "original": "{FRIEND_FEMALE_2}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_IN_CAR}.*",
+        "original": "{MAN_IN_CAR}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_IN_CAR\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOYFRIEND}.*",
+        "original": "{BOYFRIEND}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"BOYFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_THREAT}.*",
+        "original": "{MAN_THREAT}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_THREAT\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GIRLFRIEND}.*",
+        "original": "{GIRLFRIEND}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"GIRLFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{TEACHER_1}.*",
+        "original": "{TEACHER_1}",
+        "language": "spa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"TEACHER_1\"][contact.language])"
+      }
+    ],
+    "external_references_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "“Crianza positiva en el hogar” Buscarlo en: https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html\n\nInstituto Mexicano de la Juventud \nInstituto Mexicano de la Juventud | Gobierno | gob.mx (www.gob.mx)\n\nFundación Mexicana para la Planeación Familiar\nhttps://mexfam.org.mx/lineadeayuda/\n\nCentro Nacional de Equidad de Género y Salud Reproductiva \nDirectorio Servicios Amigables 2023.pdf \nCentros de Integración Juvenil \nhttps://www.cij.org.mx:89/\n"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "change": "{development resources 2}",
+        "condition_var": "",
+        "category": "“Crianza positiva en el hogar” Buscarlo en: https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html\n\nInstituto Mexicano de la Juventud \nInstituto Mexicano de la Juventud | Gobierno | gob.mx (www.gob.mx)\n\nFundación Mexicana para la Planeación Familiar\nhttps://mexfam.org.mx/lineadeayuda/\n\nCentro Nacional de Equidad de Género y Salud Reproductiva \nDirectorio Servicios Amigables 2023.pdf \n\nCentros de Integración Juvenil \nhttps://www.cij.org.mx:89/\n"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 1}.*",
+        "change": "{learning resources 1}",
+        "condition_var": "",
+        "category": "Recursos audiovisuales por materia\nhttps://aprende.gob.mx/\n\nPoemas y recursos literarios en audio https://www.alasyraices.gob.mx/leer_con_alas.html\n\nAplicaciones de actividades educativas diferenciadas por edad\nhttps://alasyraices.gob.mx/apps.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 2}.*",
+        "change": "{learning resources 2}",
+        "condition_var": "",
+        "category": "Recorridos virtuales de museos\nhttps://inba.gob.mx/digital\n\nhttps://www.gob.mx/cultura/articulos/museos-de-mexico-que-puedes-visitar-de-manera-virtual?idiom=es"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 3}.*",
+        "change": "{learning resources 3}",
+        "condition_var": "",
+        "category": "Programa de capacitación para madres. padres y personas cuidadoras\nhttps://iris.paho.org/handle/10665.2/52623\n\nConsejo Nacional para el Desarrollo y la Inclusión de las personas con discapacidad\nhttps://www.gob.mx/conadis"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 4}.*",
+        "change": "{learning resources 4}",
+        "condition_var": "",
+        "category": "Guía para madres, padres, cuidadores y docentes\nhttps://www.consejodiscapacidades.gob.ec/wp-content/uploads/downloads/2014/12/Gu%C3%ADa-para-padres-y-maestros-La-vida-es-maravillosa-4-8.pdf\n\nCredencial Nacional para Personas con Discapacidad\nhttps://www.gob.mx/difnacional/acciones-y-programas/credencial-nacional-para-personas-con-discapacidad"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{cyber safety}.*",
+        "change": "{cyber safety}",
+        "condition_var": "",
+        "category": "Pantallas Amigas https://www.pantallasamigas.net/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{structure resources}.*",
+        "change": "{structure resources}",
+        "condition_var": "",
+        "category": "Buen Trato https://www.unicef.org/mexico/buentrato?_gl=1*1dhtbjx*_ga*NjM5MDQ1MTMyLjE2MzQ5NjM5NDQ.*_ga_ZEPV2PX419*MTcwMDcwMTU4MC4xLjEuMTcwMDcwNDU2OS40OC4wLjA."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental health resources}.*",
+        "change": "{mental health resources}",
+        "condition_var": "",
+        "category": "Plataforma Aprendo+ https://aprendomasplus.cuaieed.unam.mx/\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental: (55) 5025-0855"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{book resources}.*",
+        "change": "{book resources}",
+        "condition_var": "",
+        "category": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent_link}.*",
+        "change": "{consent_link}",
+        "condition_var": "",
+        "category": "https://bit.ly/formando-cc-consent"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{insert link}.*",
+        "change": "{insert link}",
+        "condition_var": "",
+        "category": "https://wa.me/5215651006984/?text=familia"
+      }
+    ],
+    "external_references_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "spa",
+        "replacement": "“Crianza positiva en el hogar” https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "spa",
+        "replacement": "“Crianza positiva en el hogar” https://aprendomas.cuaed.unam.mx/\n\nClínica de la conducta https://www2.aefcm.gob.mx/directorio_escuelas/cct_mas_gbmx.jsp?cve_cct=09DML0122H\n\nHPIJNN\nhttps://www.gob.mx/salud/sap/acciones-y-programas/hospital-psiquiatrico-infantil-juan-n-navarro\n\nCDC\nhttps://www.cdc.gov/ncbddd/spanish/childdevelopment/early-brain-development.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 1}.*",
+        "original": "{learning resources 1}",
+        "language": "spa",
+        "replacement": "Recursos audiovisuales por materia\nhttps://aprende.gob.mx/\n\nPoemas y recursos literarios en audio https://www.alasyraices.gob.mx/leer_con_alas.html\n\nAplicaciones de actividades educativas diferenciadas por edad\nhttps://alasyraices.gob.mx/apps.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 2}.*",
+        "original": "{learning resources 2}",
+        "language": "spa",
+        "replacement": "Recorridos virtuales de museos\nhttps://inba.gob.mx/digital\n\nhttps://www.gob.mx/cultura/articulos/museos-de-mexico-que-puedes-visitar-de-manera-virtual?idiom=es"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 3}.*",
+        "original": "{learning resources 3}",
+        "language": "spa",
+        "replacement": "Programa de capacitación para madres. padres y personas cuidadoras\nhttps://iris.paho.org/handle/10665.2/52623\n\nConsejo Nacional para el Desarrollo y la Inclusión de las personas con discapacidad\nhttps://www.gob.mx/conadis"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources 4}.*",
+        "original": "{learning resources 4}",
+        "language": "spa",
+        "replacement": "Guía para madres, padres, cuidadores y docentes\nhttps://www.consejodiscapacidades.gob.ec/wp-content/uploads/downloads/2014/12/Gu%C3%ADa-para-padres-y-maestros-La-vida-es-maravillosa-4-8.pdf\n\nCredencial Nacional para Personas con Discapacidad\nhttps://www.gob.mx/difnacional/acciones-y-programas/credencial-nacional-para-personas-con-discapacidad"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{cyber safety}.*",
+        "original": "{cyber safety}",
+        "language": "spa",
+        "replacement": "Pantallas Amigas https://www.pantallasamigas.net/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{structure resources}.*",
+        "original": "{structure resources}",
+        "language": "spa",
+        "replacement": "Buen Trato https://www.unicef.org/mexico/buentrato?_gl=1*1dhtbjx*_ga*NjM5MDQ1MTMyLjE2MzQ5NjM5NDQ.*_ga_ZEPV2PX419*MTcwMDcwMTU4MC4xLjEuMTcwMDcwNDU2OS40OC4wLjA."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental health resources}.*",
+        "original": "{mental health resources}",
+        "language": "spa",
+        "replacement": "Plataforma Aprendo+ https://aprendomasplus.cuaieed.unam.mx/\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental: (55) 5025-0855"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{book resources}.*",
+        "original": "{book resources}",
+        "language": "spa",
+        "replacement": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent_link}.*",
+        "original": "{consent_link}",
+        "language": "spa",
+        "replacement": "https://bit.ly/formando-cc-consent"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{insert link}.*",
+        "original": "{insert link}",
+        "language": "spa",
+        "replacement": "https://wa.me/5215651006984/?text=familia"
+      }
+    ],
+    "referrals_add_location": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "@fields.location",
+        "category": "{mental_health referrals}",
+        "category:mexico_city": "{mental_health referrals mexico_city}",
+        "condition:mexico_city": "mexico_city",
+        "condition_type:mexico_city": "has_only_phrase",
+        "category:baja_california": "{mental_health referrals}",
+        "condition:baja_california": "baja_california",
+        "condition_type:baja_california": "has_only_phrase",
+        "category:michoacán": "{mental_health referrals}",
+        "condition:michoacán": "michoacán",
+        "condition_type:michoacán": "has_only_phrase",
+        "category:chihuahua": "{mental_health referrals}",
+        "condition:chihuahua": "chihuahua",
+        "condition_type:chihuahua": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "@fields.location",
+        "category": "{violence referrals}",
+        "category:mexico_city": "{violence referrals}",
+        "condition:mexico_city": "mexico_city",
+        "condition_type:mexico_city": "has_only_phrase",
+        "category:baja_california": "{violence referrals baja_california}",
+        "condition:baja_california": "baja_california",
+        "condition_type:baja_california": "has_only_phrase",
+        "category:michoacán": "{violence referrals}",
+        "condition:michoacán": "michoacán",
+        "condition_type:michoacán": "has_only_phrase",
+        "category:chihuahua": "{violence referrals chihuahua}",
+        "condition:chihuahua": "chihuahua",
+        "condition_type:chihuahua": "has_only_phrase"
+      }
+    ],
+    "referrals_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "change": "{generic referrals}",
+        "condition_var": "",
+        "category": "Secretaría de Seguridad Ciudadana Sitio web:  https://www.ssc.cdmx.gob.mx/\nDenuncia de secuestro o extorsión telefónica:  088\nPolicia Federal\nDenuncia Anónima: 089\nCentro de Denuncia y Atención Ciudadana (CEDAD): 800 00 85 400"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "",
+        "category": "- Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n- LOCATEL ayuda emocional  *0311*0311 Locatel - CDMX\n- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n- Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                  \n- El 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n- Línea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals mexico_city}.*",
+        "change": "{mental_health referrals mexico_city}",
+        "condition_var": "",
+        "category": "- Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n- LOCATEL ayuda emocional  *0311*0311 Locatel - CDMX\n- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n- Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                  \n- El 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n- Línea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n- Contacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "change": "{health referrals}",
+        "condition_var": "",
+        "category": "Call 911 for help in medical or emotional emergencies."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nSecretaría de las mujeres https://mujeresseguras.cdmx.gob.mx/como-denunciar/ https://denunciadigital.cdmx.gob.mx/ \n\nCentro de Terapia de Apoyo a Víctimas de Delitos Sexuales https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/cta-centro-de-terapia-de-apoyo-victimas-de-delitos-sexuales\n\nProgramas de atención a la violencia https://web.sectei.cdmx.gob.mx/bibliotecas/profesionalizacion/directoriocentros/\n"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals baja_california}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nINMUJER Sitio web: https://www.bajacalifornia.gob.mx/inmujer/\n\nBotón morado para mujeres en riesgo \nInstalar aplicación en tu celular \nhttps://play.google.com/store/apps/details?id=com.tijuana.seguro&hl=es&gl=US&pli=1"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals chihuahua}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nSEDIF Chihuahua\nLlamada anónima:  800 230 4050  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals mexico_city}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCAVI. Servicio gratuito. \n(55) 5345 5248, (55) 5345 5228, (55) 5345 5229. Sitio web: https://www.fgjcdmx.gob.mx/cavi \n-CARIVA (55) 5200 9166 y (55) 5200 9172 Sitio web: https://www.fgjcdmx.gob.mx/CARIVA\n-“LUNAS“,  Lunes a viernes de 9:00 a 17:00 horas. Número Telefónico: 55 55122836 ext. 502"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals michoacán}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCOEPREDV Número Telefónico: 443 274 3105 Sitio web: https://coepredv.michoacan.gob.mx/ "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "change": "{natural_disasters referrals}",
+        "condition_var": "",
+        "category": "LOCATEL 5556581111\nhttps://311locatel.cdmx.gob.mx/ \n                                                                                                                                                                                                Atención de llamadas de Emergencia 911\nNúmeros de emergencia: https://www.gob.mx/sct/es/articulos/lleva-contigo-los-numeros-de-emergencia                                                                                                                                                                                                                                                                                                                                                      "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "change": "{drugs referrals}",
+        "condition_var": "",
+        "category": "Centro de Integración Juvenil  https://www.cij.org.mx:89/\n55 52 12 12 12 \n\nAlcohólicos Anónimos\nhttps://aamexico.org.mx/\n800 216 92 31"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "change": "{family referrals}",
+        "condition_var": "",
+        "category": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
+      }
+    ],
+    "referrals_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "original": "{generic referrals}",
+        "language": "spa",
+        "replacement": "Secretaría de Seguridad Ciudadana Sitio web:  https://www.ssc.cdmx.gob.mx/\n\nDenuncia de secuestro o extorsión telefónica:  088\n\nPolicia Federal\nDenuncia Anónima: 089\n\nCentro de Denuncia y Atención Ciudadana (CEDAD): 800 00 85 400"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "original": "{mental_health referrals}",
+        "language": "spa",
+        "replacement": "Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n\nLínea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.                                            \n\nEl 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal. Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n\nContacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals mexico_city}.*",
+        "original": "{mental_health referrals}",
+        "language": "spa",
+        "replacement": "Sistema Nacional de Apoyo, Consejo Psicológico, e Intervención en Crisis por Teléfono. www.saptel.org.mx 55 5259-8121 55 5533-5533\n\nLOCATEL ayuda emocional  *0311*0311 Locatel - CDMX- Línea Nacional de Prevención del Suicidio. También puedes llamar al 1-800-273-8255 para hablar con alguien sobre cómo puedes ayudar a una persona en crisis.\n\nInstituto Nacional de Psiquiatría Ramón de la Fuente Muñiz línea telefónica donde pueden atender casos de estrés, ansiedad, cualquier crisis emocional o situaciones de emergencia.  CDMX: 55 4160-5372 Int. República 55 4160-3282. https://www.inprf.gob.mx/                                                       \n\nEl 9-1-1 es un número único de llamadas de emergencia. En él se homologan todos los números de atención de emergencias médicas, de seguridad y de protección civil a nivel federal, estatal y municipal.Se puede acudir a la llamada del 911 en caso de una crísis psicológica de emergencia.\n\nLínea de Atención Psicológica UNAM Call Center especializada en salud mental  (55) 5025-0855\n\nContacto Jóven (servicio a  jóvenes entre 13 y 29). Manda mensaje con la palabra \"Contacto\" al 5579009669"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "original": "{health referrals}",
+        "language": "spa",
+        "replacement": "Llama al 911 para recibir ayuda en situaciones de emergencia médica o emocional."
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "original": "{violence referrals}",
+        "language": "spa",
+        "replacement": "Secretaría de las mujeres https://mujeresseguras.cdmx.gob.mx/como-denunciar/ https://denunciadigital.cdmx.gob.mx/ \n\nCentro de Terapia de Apoyo a Víctimas de Delitos Sexuales https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/cta-centro-de-terapia-de-apoyo-victimas-de-delitos-sexuales\n\nProgramas de atención a la violencia https://web.sectei.cdmx.gob.mx/bibliotecas/profesionalizacion/directoriocentros/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals chihuahua}.*",
+        "original": "{violence referrals}",
+        "language": "spa",
+        "replacement": "SEDIF Chihuahua\nLlamada anónima:  800 230 4050  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals baja_california}.*",
+        "original": "{violence referrals}",
+        "language": "spa",
+        "replacement": "Botón morado para mujeres en riesgo \nInstalar aplicación en tu celular \nhttps://play.google.com/store/apps/details?id=com.tijuana.seguro&hl=es&gl=US&pli=1"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals mexico_city}.*",
+        "original": "{violence referrals}",
+        "language": "spa",
+        "replacement": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCAVI. Servicio gratuito. \n(55) 5345 5248, (55) 5345 5228, (55) 5345 5229. Sitio web: https://www.fgjcdmx.gob.mx/cavi \n\nCARIVA (55) 5200 9166 y (55) 5200 9172 Sitio web: https://www.fgjcdmx.gob.mx/CARIVA\n\nLUNAS  Lunes a viernes de 9:00 a 17:00 horas. Número Telefónico: 55 55122836 ext. 502"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals michoacán}.*",
+        "original": "{violence referrals}",
+        "language": "spa",
+        "replacement": "CONAVIM Sitio web: https://www.gob.mx/conavim \n\nCOEPREDV Número Telefónico: 443 274 3105 Sitio web: https://coepredv.michoacan.gob.mx/ "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "original": "{natural_disasters referrals}",
+        "language": "spa",
+        "replacement": "LOCATEL 5556581111\nhttps://311locatel.cdmx.gob.mx/ \n                                                                                                                                                                                                Atención de llamadas de Emergencia 911\nNúmeros de emergencia: https://www.gob.mx/sct/es/articulos/lleva-contigo-los-numeros-de-emergencia                                                                                                                                                                                                                                                                                                                                                      "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "original": "{drugs referrals}",
+        "language": "spa",
+        "replacement": "Centro de Integración Juvenil  https://www.cij.org.mx:89/\n55 52 12 12 12 \n\nAlcohólicos Anónimos\nhttps://aamexico.org.mx/\n800 216 92 31"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "original": "{family referrals}",
+        "language": "spa",
+        "replacement": "Centro de Integración Juvenil (CIJ). Material interactivo para familias: http://www.cij.gob.mx/Prevencion/Interactivos/interactivos.html\n                                                                                                                                                                                                                 Centro de integración Juvenil (CIJ). Grupo para apoyo de padres: https://www.facebook.com/groups/teammadrespadres/?locale=es_LA"
+      }
+    ],
+    "parenttext_name_eng_consistent": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
+        "condition_var": "",
+        "category": "ParentText"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Crianza con Conciencia +.*",
+        "change": "Crianza con Conciencia +",
+        "condition_var": "",
+        "category": "ParentText"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Crianza con Conciencia+.*",
+        "change": "Crianza con Conciencia+",
+        "condition_var": "",
+        "category": "ParentText"
+      }
+    ],
+    "parenttext_name_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
+        "condition_var": "",
+        "category": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
+      }
+    ],
+    "parenttext_name_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "Crianza con Conciencia +",
+        "language": "spa",
+        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "Crianza con Conciencia+",
+        "language": "spa",
+        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "ParentText",
+        "language": "spa",
+        "replacement": "@(if(fields.prog_name, fields.prog_name,\"Crianza con Conciencia +\"))"
+      }
+    ],
+    "triggers_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "change": "{HELP}",
+        "condition_var": "",
+        "category": "HELP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "change": "{MENU}",
+        "condition_var": "",
+        "category": "MENU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "change": "{PLAY}",
+        "condition_var": "",
+        "category": "PLAY"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "change": "{GROW}",
+        "condition_var": "",
+        "category": "GROW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "change": "{STOP}",
+        "condition_var": "",
+        "category": "STOP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "change": "{BOOK}",
+        "condition_var": "",
+        "category": "BOOK"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "change": "{REVIEW}",
+        "condition_var": "",
+        "category": "REVIEW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "change": "{PAUSE}",
+        "condition_var": "",
+        "category": "PAUSE"
+      }
+    ],
+    "triggers_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "original": "{HELP}",
+        "language": "spa",
+        "replacement": "AYUDA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "original": "{MENU}",
+        "language": "spa",
+        "replacement": "MENÚ"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "original": "{PLAY}",
+        "language": "spa",
+        "replacement": "JUGAR"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "spa",
+        "replacement": "CRECER"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "original": "{STOP}",
+        "language": "spa",
+        "replacement": "DETENER"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "original": "{BOOK}",
+        "language": "spa",
+        "replacement": "LIBRO"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "original": "{REVIEW}",
+        "language": "spa",
+        "replacement": "RESEÑA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "original": "{PAUSE}",
+        "language": "spa",
+        "replacement": "PAUSAR"
+      }
+    ],
+    "remove_wa_bold_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "**",
+        "condition_var": "",
+        "category": "*"
+      }
+    ],
+    "remove_wa_bold_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "original": "**",
+        "language": "spa",
+        "replacement": "*"
+      }
+    ]
+  }
+}

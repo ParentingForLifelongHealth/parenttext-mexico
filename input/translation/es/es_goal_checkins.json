@@ -1,0 +1,716 @@
+[
+  {
+    "SourceText": "Here is a question to help you get started on your course:",
+    "text": "Aquí tienes una pregunta que te ayudará a empezar el curso:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay.",
+    "text": "Esta bien, no pasa nada.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In the past 24 hours, did you spend at least 5 minutes of one-on-one time with your teen?",
+    "text": "En las últimas 24 horas, ¿pasaste al menos 5 minutos de Tiempo Uno a Uno con tu adolescente?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about the importance of spending time with your teen in this course. ",
+    "text": "No te preocupes, no pasa nada. En este curso aprenderás más sobre la importancia de pasar tiempo con tu adolescente. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 🎉 Spending time with your teen is a great way to build a good relationship with them!",
+    "text": "¡Es bueno escucharlo! 🎉 ¡Pasar tiempo con tu adolescente es una forma increíble de construir una buena relación con él o ella!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Disculpa, no entiendo lo que quieres decir.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult about spending time with your teen? 🔑",
+    "text": "¿Qué se te hacía difícil al pasar tiempo con tu adolescente? 🔑",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to find time during your day, with work, chores, and everything else. ",
+    "text": "Puede ser difícil encontrar tiempo durante el día, con el trabajo, las tareas y todo lo demás. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨Think of a time each day that you could spare 5 minutes. You can even make household chores into a game to do together. ",
+    "text": "✨ Piensa en un momento al día en el que puedas dedicar 5 minutos. Incluso puedes convertir los deberes de la casa en un juego para hacer juntos. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Use the time that you and your girls and boys are already sharing, like going to the school, picking up them, waking them up or say good by for sleeping. ",
+    "text": "Usa el tiempo que ya compartes con tus niñas o niños, como ir a la escuela, recogerles, despertarles o darles las buenas noches para dormir. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can even make household chores into a game to do together. ",
+    "text": "Incluso puedes convertir las tareas del hogar en un juego para hacer juntos. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion",
+    "text": "Escribe {PLAY} para obtener una sugerencia de actividad divertida",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📺 Teens often want to spend time watching T.V. or playing with a gadget. ",
+    "text": "📺 Las y los adolescentes frecuentemente quieren pasar el tiempo viendo la tele o jugando con electrónicos. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ You could watch or play on the gadget with them. ",
+    "text": "❓ Podrías mirar o jugar en los electrónicos con ellas y ellos. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 Caring about their interests is a great start!",
+    "text": "🌈 ¡Interesarse por sus intereses es un gran comienzo!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Once you begin spending time together, you can suggest another activity. ",
+    "text": "🌷 Una vez que empiecen a pasar tiempo juntos, puedes sugerir otra actividad. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion.",
+    "text": "Escribe {PLAY} para obtener una sugerencia de actividad divertida.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📱 Sometimes your teen will suggest activities that are violent or unsafe. ",
+    "text": "📱 A veces tu adolescente te propondrá actividades violentas o inseguras. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🚩 Explain *why* you can't do them, and suggest a different activity. ",
+    "text": "🚩 Explica *por qué* no puedes hacerlas, y sugiere una actividad diferente. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion. 💡",
+    "text": "Escribe {PLAY} para obtener una sugerencia de actividad divertida. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ If your teen wants to do things that are too difficult for you to do, you could watch them. ",
+    "text": "☀️ Si tu adolescente quiere hacer cosas que se te hacen demasiado difíciles, podrías solo acompañarle. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏁 You could describe what they are doing like a sports announcer.",
+    "text": "🏁 Podrías describir lo que están haciendo como un comentarista de deportes.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can also express enthusiasm by clapping, smiling, or offering a thumbs-up. ",
+    "text": "También puedes expresar interés aplaudiendo, sonriendo u ofreciendo un pulgar hacia arriba. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Praise them while they do it!",
+    "text": "💛 ¡Halágalos mientras lo hacen!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Competitive games can be hard for teens (and adults!) if they don’t like losing. ",
+    "text": "⚽ Los juegos competitivos pueden ser difíciles para las y los adolescentes (¡y para las personas adultas!) si no les gusta perder. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 When they have calmed down, talk with your teen about what winning well and losing well might look like.",
+    "text": "🏆 Cuando se hayan calmado, habla con tu adolescente sobre cómo sería responder efectivamente al ganar y al perder.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 Suggest other activities that you can do to work together instead of against each other.",
+    "text": "📝 Sugiere otras actividades que puedan hacer para trabajar juntos en lugar de unos contra otros.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔴 It can be difficult to spend 1-on-1 Time with each girl and boy when you have more than one. ",
+    "text": "🔴 Puede ser difícil pasar Tiempo Uno a Uno con cada niña o niño cuando tienes más de uno. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 If possible, you can ask an adult or older sibling to look after the other boys and girls while you spend 1-on-1 Time with one teen.",
+    "text": "🌱 Si es posible, puedes pedirle a una persona adulta o a un miembro de la familia mayor que cuide de los otras niñas y niños mientras tú pasas Tiempo Uno a Uno con un adolescente.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Think of when it would be easier to spend one-on-one time with each of your girls and boys. Perhaps later in the evening with your teen, after the others have gone to sleep. ",
+    "text": "⏰ Piensa cuándo sería más fácil pasar Tiempo Uno a Uno con cada uno de tus niñas y niños. Tal vez más tarde por la noche con tu adolescente, después de que las y los demás se hayan ido a dormir. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 You can also spend one-on-one time with all of your girls and boys at once! If you do, make sure all are able to participate in one-on-one time. ",
+    "text": "💛 ¡También puedes pasar Tiempo Uno a Uno con todas tus niñas y niños a la vez! Si lo haces, asegúrate de que todas y todos puedan participar durante ese tiempo. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} and choose GROUP for a fun activity suggestion for a group of boys and girls. 💡",
+    "text": "Escribe {PLAY} y elige GRUPO para obtener una sugerencia de actividad divertida para un grupo de niñas y niños. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We are sorry to hear that you have been finding it hard to spend one-on-one time with your teen.",
+    "text": "💛 Lamentamos que se te haga difícil pasar Tiempo Uno a Uno con tu adolescente.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 It can hurt when @fields.child_nickname does not want to spend 1-on- time with you. ",
+    "text": "😔 Puede doler que @fields.child_nickname no quiera pasar Tiempo Uno a Uno contigo. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "💡 Think to yourself: When are they more open to you? In the morning? Right before bedtime?",
+    "text": "💡 Piensa para ti: ¿Cuándo están más abiertos a convivir contigo? ¿En la mañana? ¿Justo antes de acostarse?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 Try again so that your teen can see that you care and want to spend this time with them.",
+    "text": "💙 Inténtalo de nuevo para que tu adolescente vea que te importa y que quieres pasar este tiempo con él o ella.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 It can hurt when your {teen} does not want to spend 1-on- time with you. ",
+    "text": "😔 Puede ser doloroso que tu {teen} no quiera pasar Tiempo Uno a Uno contigo. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing the lesson on improving your relationship with your teen. Let’s see how things have changed since you started:",
+    "text": "Bien hecho por completar la lección sobre cómo mejorar la relación con tu adolescente. Veamos cómo han cambiado las cosas desde que empezaste:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that you were unable to spend more time with your teen. 💛",
+    "text": "Lamento saber que no has podido pasar más tiempo con tu adolescente. 💛 ¡Seguro podrás encontrar alguna oportunidad pronto!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress. It seems like spending time with your teen may still be a challenge.",
+    "text": "Felicidades por haber hecho algunos progresos. Parece que pasar tiempo con tu adolescente puede seguir siendo un reto.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at spending one-on-one time with your teen before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Antes del curso  de Crianza con Conciencia + ya destacabas por dedicar Tiempo Uno a Uno con tu adolescente. ¡Es increíble que puedas mantener ese excelente esfuerzo!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Time with your teen is so important. Though you are still doing great, you have reported that spending time together has become more challenging since you first began this course. ",
+    "text": "El tiempo con tu adolescente es muy importante. Aunque sigues haciéndolo muy bien, has informado de que pasar tiempo juntos se ha vuelto más difícil desde que empezaste este curso. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! 🎉You’ve made progress since you’ve started this course in ParentText. Your effort is working!",
+    "text": "¡Felicidades! 🎉Has progresado desde que empezaste este curso   de Crianza con Conciencia +. ¡Tu esfuerzo está dando resultado!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What do you want to do next?",
+    "text": "¿Qué quieres hacer ahora?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing a progress update. You can revisit this course any time in the Main Menu by typing {MENU}.",
+    "text": "Gracias por proporcionar una actualización del progreso. Puedes volver a visitar este curso en cualquier momento en el Menú Principal escribiendo {MENU}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How is one-on-one time going?",
+    "text": "¿Cómo va el Tiempo Uno a Uno?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Excellent! Keep up the good work in improving your relationship with your girl or boy. ",
+    "text": "¡Excelente! Sigue trabajando para mejorar tu relación con tu niña o niño. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that one-on-one time is not going well. ",
+    "text": "Lamento escuchar que el Tiempo Uno a Uno ha sido más difícil de lo esperado. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In the past 24 hours, did you spend at least 5 minutes of one-on-one time with your child?",
+    "text": "En las últimas 24 horas, ¿pasaste al menos 5 minutos de Tiempo Uno a Uno con tu niña o niño?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about the importance of spending time with your girl or boy in this course.",
+    "text": "Está bien, no pasa nada. En este curso aprenderás más sobre la importancia de pasar tiempo con tu niña o niño.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 🎉 Spending time with your girl or boy is a great way to build a good relationship with them!",
+    "text": "¡Es bueno escucharlo! 🎉 ¡Pasar tiempo con tu niña o niño es una forma increíble de construir una buena relación con él o ella!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult about spending time with your boy or girl ? 🔑",
+    "text": "¿Qué se te hacía difícil al pasar tiempo con tu niña o niño? 🔑",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to find time during your day, with work, chores, and everything else.",
+    "text": "Puede ser difícil encontrar tiempo durante el día, con el trabajo, las tareas y todo lo demás.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨Think of a time each day that you could spare 5 minutes. You can even make household chores into a game to do together.",
+    "text": "✨ Piensa en un momento al día en el que puedas dedicar 5 minutos. Incluso puedes convertir las tareas del hogar en un juego para hacer juntos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Use the time that you and your child are already sharing, like going to school, picking them up, waking them up or saying goodbye to sleep. ",
+    "text": "Usa el tiempo que ya compartes con tu niña o niño, como cuando van camino a la escuela, cuando van de regreso a casa después de la escuela, su tiempo en la mañana a la hora de despertarse o en la noche, cuando se dan las buenas noches para irse a dormir. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 It can hurt when your girl or boy does not want to spend one-on-one time with you.",
+    "text": "😔 Puede ser doloroso que tu niña o niño no quiera pasar Tiempo Uno a Uno contigo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 Try again so that your boy or girl can see that you care and want to spend this time with them.",
+    "text": "💙 Inténtalo de nuevo para que tu niña o niño vea que te interesa y que quieres pasar ese tiempo con él o ella.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📺Boys and girls often want to spend time watching T.V. or playing with a gadget.",
+    "text": "📺Las niñas y niños frecuentemente quieren pasar el tiempo viendo la tele o jugando con un electrónico.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ You could watch or play on the gadget with them.",
+    "text": "❓ Podrías mirar o jugar en los electrónicos con ellas y ellos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚Caring about their interests is a great start!",
+    "text": "💚 ¡Interesarse por lo que les gusta es un gran comienzo!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Once you begin spending time together you can suggest another activity.",
+    "text": "🌷 Una vez que empiecen a pasar tiempo juntos, puedes sugerir otra actividad.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ If your boy or girl wants to do things that are too difficult for you to do, you could watch them.",
+    "text": "☀️ Si tu niña o niño quiere hacer cosas que a ti se te hacen demasiado difíciles, podrías acompañarles.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Competitive games can be hard for your girls and boys(and adults!) if they don’t like losing.",
+    "text": "⚽ Los juegos competitivos pueden ser difíciles para tus niñas y niños (¡y personas adultas!) si no les gusta perder.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 When they have calmed down, talk with your boys and girls about what winning well and losing well might look like.",
+    "text": "🏆 Cuando se hayan calmado, habla con tus niñas y niños sobre cómo sería responder efectivamente al ganar y al perder.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔴 It can be difficult to spend one-on-one time with each of your boys or girls when you have more than one",
+    "text": "🔴 Puede ser difícil pasar Tiempo Uno a Uno con cada uno de tus niñas o niños cuando tienes más de uno",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 If possible, you can ask an adult or older sibling to look after the your other girls and boys while you spend one-on-one time with your girl or boy.",
+    "text": "🌱 Si es posible, puedes pedir a una persona adulta o a un miembro de la familia mayor que cuide de los demás niñas y niños mientras tú pasas Tiempo Uno a Uno con alguno.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Think of when it would be easier to spend one-on-one time with each of your boys and girls.",
+    "text": "⏰ Piensa cuándo sería más fácil pasar Tiempo Uno a Uno con cada uno de tus niñas y niños.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 You can also spend one-on-one time with all of your girls and boys at once!If you do, make sure all are able to participate in one-on-one time. ",
+    "text": "Si lo haces, asegúrate de que todas y todos puedan participar durante ese tiempo. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion for a group of girls and boys. 💡",
+    "text": "Escribe {PLAY} para obtener una sugerencia de actividad divertida para un grupo de niñas y niños. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We are sorry to hear that you have been finding it hard to spend one-on-one time with your boy or girl.",
+    "text": "💛 Lamentamos que se te haga difícil pasar Tiempo Uno a Uno con tu niña o niño.¡Seguro pronto encontrarás una oportunidad!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing the lessons on improving your relationship with your girl or boy. Let’s see how things have changed since you started:",
+    "text": "Bien hecho por completar las sesiones sobre cómo mejorar la relación con tu niña o niño. Veamos cómo han cambiado las cosas desde que empezaste:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that you were unable to spend more time with your girl or boy. 💛",
+    "text": "Lamento que no hayas podido pasar más tiempo con tu niña o niño. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that you were unable to spend one-on-one time with your girl or boy. 💛",
+    "text": "Lamento que no hayas podido pasar Tiempo Uno a Uno con tu niña o niño. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress. It seems like spending time with your girl or boy may still be a challenge.",
+    "text": "Felicidades por tus avances. Parece que pasar tiempo con tu niña o niño sigue siendo un desafío.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already putting in the effort to spend one-on-one time with your boy or girl before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Ya te esforzabas por pasar Tiempo Uno a Uno con tu niña o niño antes del curso  de Crianza con Conciencia +. ¡Es increíble que puedas mantener ese excelente esfuerzo!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Time with your child is so important. Though you are still doing great, you have reported that spending one-on-one time together has become more challenging since you first began ParentText.",
+    "text": "El tiempo con tu niña o niño es muy importante. Aunque sigues haciéndolo muy bien, has notado que pasar tiempo juntos se ha vuelto más difícil desde que empezaste el curso de Crianza con Conciencia +.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! 🎉You’ve made progress since you’ve started ParentText. Your effort is working!",
+    "text": "¡Felicidades! 🎉Has progresado desde que empezaste el curso de Crianza con Conciencia +. ¡Tu esfuerzo está dando resultado!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing your Progress Update. ",
+    "text": "Gracias por proporcionar una Actualización sobre tus Avances. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can access this information any time in the Main Menu. 📝 If you are enrolled in a course, you will resume progress tomorrow. ",
+    "text": "Puedes acceder a esta información en el Menú Principal en cualquier momento. 📝 Si ya iniciaste un curso, mañana podrás reanudar tus avances. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "no",
+    "text": "no",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "yes",
+    "text": "sí",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not have enough time.",
+    "text": "No tuve suficiente tiempo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My teen did not want to spend one-on-one time with me.",
+    "text": "Mi adolescente no quería pasar Tiempo Uno a Uno conmigo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my teen wanted to do was watch T.V. or play with a gadget.",
+    "text": "Todo lo que mi adolescente quería hacer era ver la tele o jugar con un electrónico.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My teen wanted to do things I felt uncomfortable about.",
+    "text": "Mi adolescente quería hacer cosas con las que yo sentía incomodidad. ",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My teen wanted to do activities that I could not do.",
+    "text": "Mi adolescente quería hacer actividades que yo no podía hacer.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My teen chose a competitive activity. I won, and then they got angry.",
+    "text": "Mi adolescente eligió una actividad competitiva. Gané y se enojó.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my boys and girls wanted one-on-one time at the same time.",
+    "text": "Todas mis niñas y niños querían Tiempo Uno a Uno al mismo tiempo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say.",
+    "text": "Prefiero no decirlo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get more help",
+    "text": "Obtener más ayuda",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my Progress Tomorrow",
+    "text": "Continuar mi Progreso Mañana",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Good",
+    "text": "Bien",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "So-so",
+    "text": "Más o menos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bad",
+    "text": "Mal",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My girl or boydid not want to spend one-on-one time with me.",
+    "text": "Mi niña o niño no quería pasar Tiempo Uno a Uno conmigo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my girls and boys wanted to do was watch T.V. or play with a gadget.",
+    "text": "Lo único que querían hacer mis niñas y niños era ver la tele o jugar con algún electrónico.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My girl or boy wanted to do activities that I could not do.",
+    "text": "Mi niña o niño quería hacer actividades que yo no podía hacer.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My girl or boychose a competitive activity. I won and then they got angry.",
+    "text": "Mi niña o niño eligió una actividad competitiva. Gané y se enojó.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my girls and boys wanted one-on-one time at the same time.",
+    "text": "Todas mis niñas y niños querían Tiempo Uno a Uno al mismo tiempo.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "no",
+    "text": "no",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "sí",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not have enough time.",
+    "text": "no tuve suficiente tiempo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my teen did not want to spend one-on-one time with me.",
+    "text": "mi adolescente no quería pasar Tiempo Uno a Uno conmigo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my teen wanted to do was watch t.v. or play with a gadget.",
+    "text": "todo lo que mi adolescente quería hacer era ver la tele o jugar con un electrónico.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my teen wanted to do things i felt uncomfortable about.",
+    "text": "mi adolescente quería hacer cosas con las que yo sentía incomodidad.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my teen wanted to do activities that i could not do.",
+    "text": "mi adolescente quería hacer actividades que yo no podía hacer.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my teen chose a competitive activity. i won, and then they got angry.",
+    "text": "mi adolescente eligió una actividad competitiva. Gané, y se enojó.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my boys and girls wanted one-on-one time at the same time.",
+    "text": "todas mis niñas y niños querían Tiempo Uno a Uno al mismo tiempo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say.",
+    "text": "prefiero no decirlo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get more help",
+    "text": "obtener más ayuda",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my progress tomorrow",
+    "text": "continuaré mi progreso mañana",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "good",
+    "text": "bien",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "so-so",
+    "text": "más o menos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bad",
+    "text": "mal",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my girl or boydid not want to spend one-on-one time with me.",
+    "text": "mi niña o niño no quería pasar Tiempo Uno a Uno conmigo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my girls and boys wanted to do was watch t.v. or play with a gadget.",
+    "text": "lo único que querían hacer mis niñas y niños era ver la tele o jugar con algún electrónico.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my girl or boy wanted to do activities that i could not do.",
+    "text": "mi niña o mi niño quería hacer actividades que yo no podía hacer.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my girl or boychose a competitive activity. i won and then they got angry.",
+    "text": "mi niña o niño eligió una actividad competitiva. Gané y se enojó.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my girls and boys wanted one-on-one time at the same time.",
+    "text": "todas mis niñas y niños querían Tiempo Uno a Uno al mismo tiempo.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]
