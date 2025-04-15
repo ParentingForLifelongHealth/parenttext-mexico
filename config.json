@@ -1,0 +1,198 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "pipeline_version": "1.0.0"
+    },
+    "flows_outputbasename": "parenttext_all",
+    "output_split_number": 1,
+    "sheet_names": {
+        "MX_sheets": "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U",
+        "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
+        "N_onboarding_data": "1esTiPuIaHCFRQjf78q0E3WDwR_TmcGSC7jE36bXeMGA",
+        "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
+        "C_ltp_activities": "1DVtLMR0gm3tzzgaA0A_1b9iQi8758WJFoGET3WWUCm4",
+        "C_modules_teen": "1B7A1Gq2yDOLj6QUXy_qMyKb9z27LflapP8dUqc-hb9w",
+        "C_modules_child": "15Ul-vGzsiDyJ0mL-UaX6hrrmNMyyk0Ef9mXLToE1E3k",
+        "C_modules_all_ages": "1vX2YP46VI7vGUpKotFeC50suc8R_ljIchgG4DB-GpyA",
+        "C_goal_checkin": "1THwfwrNO_sZD9QWQnvvJD3hT-ljH89eKRaljCGPOxFE",
+        "C_dev_asess_tool" : "1qOkXiNI9HdWHx-rmoyDCiMkF7eFO7HSOqtZMce0OH1M",
+        "N_safeguarding_data": "1wKAk5fom5fwjvrBMonATo1aU2mVjQfJjbhcajxsB5Xg",
+        "T_safeguarding": "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
+        "T_delivery": "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
+        "N_delivery_data": "1q-9qIiokIKImxIk9BNlJXM5PAigOCsP8FIbXmh0MZRg",
+        "T_menu": "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
+        "N_menu_data": "1lwmMa18SM7bUR-og__daYgDNlEfwnj-KtLjC7Cw-EHo",
+        "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
+        "localisation_sheet_ID" : "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8", 
+        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
+        "transl_edits_sheet_ID" : "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
+    },
+    "sources": {
+        "flow_definitions": {
+            "parent_sources": [],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                    "N_onboarding_data",
+                    "T_onboarding",
+                    "C_ltp_activities",
+                    "C_modules_all_ages",
+                    "C_modules_teen",
+                    "C_modules_child",
+                    "C_goal_checkin",
+                    "C_dev_asess_tool",
+                    "T_content",
+                    "N_safeguarding_data",
+                    "T_safeguarding",
+                    "N_delivery_data",
+                    "T_delivery",
+                    "N_menu_data",
+                    "T_menu",
+                    "MX_sheets"
+                ]
+        },
+        "edits_pretranslation": {
+            "parent_sources": [ ],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "ab_testing_sheet_ID",
+                "localisation_sheet_ID"
+            ]
+        },
+        "edits_posttranslation": {
+            "parent_sources": [],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "eng_edits_sheet_ID",
+                "transl_edits_sheet_ID"
+            ]
+        },
+        "translation": {
+            "format": "translation_repo",
+            "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
+            "folder_within_repo": "translations/parent_text_v2_mexico",
+            "commit_hash": "",
+            "commit_tag": "",
+            "languages": [
+                {"language": "spa", "code": "es"}
+            ]
+        },
+        "expiration_times": {
+            "format": "json",
+            "files_dict": {
+                "special_expiration_file": "./edits/specific_expiration.json"
+            }
+        },
+        "qr_treatment": {
+            "format": "json",
+            "files_dict": {
+                "select_phrases_file": "./edits/select_phrases.json",
+                "special_words_file": "./edits/special_words.json"
+            }
+        },
+        "safeguarding": {
+            "format": "safeguarding",
+            "sources": [
+                {
+                    "key": "spa",
+                    "location": "1QXmuAiqa8RgpM3Xbtw3aem_6g2EeBTM"
+                 }
+            ]
+        },
+        "goals_api": {
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U"
+            ]
+        }
+    },
+    "steps": [
+        {
+            "id": "create_flows",
+            "type": "create_flows",
+            "models_module": "models.parenttext_models",
+            "sources": [
+                "flow_definitions"
+            ],
+            "tags": []
+        },
+        {
+            "id": "update_expiration_times",
+            "type": "update_expiration_times",
+            "sources": [
+                "expiration_times"
+            ],
+            "default_expiration_time": 1440
+        },
+        {
+            "id": "edits_pretranslation",
+            "type": "edits",
+            "sources": [
+                "edits_pretranslation"
+            ]
+        },
+        {
+            "id": "hasanyword_pretranslation",
+            "type": "has_any_word_check"
+        },
+        {
+            "id": "overall_integrity_check_pretranslation",
+            "type": "overall_integrity_check"
+        },
+        {
+            "id": "extract_texts_for_translators",
+            "type": "extract_texts_for_translators"
+        },
+        {
+            "id": "translation",
+            "type": "translation",
+            "sources": [
+                "translation"
+            ],
+            "languages": [
+                {"language": "spa", "code": "es"}
+            ]
+        },
+        {
+            "id": "edits_posttranslation",
+            "type": "edits",
+            "sources": [
+                "edits_posttranslation"
+            ]
+        },
+        {
+            "id": "hasanyword_posttranslation",
+            "type": "has_any_word_check"
+        },
+        {
+            "id": "fix_arg_qr_translation",
+            "type": "fix_arg_qr_translation"
+        },
+        {
+            "id": "overall_integrity_check_posttranslation",
+            "type": "overall_integrity_check"
+        },
+        {
+            "id": "qr_treatment",
+            "type": "qr_treatment",
+            "sources": [
+                "qr_treatment"
+            ],
+            "qr_treatment": "reformat_whatsapp",
+            "count_threshold": "13",
+            "length_threshold": "18",
+            "add_selectors": "yes"
+        },
+        {
+            "id": "safeguarding",
+            "type": "safeguarding",
+            "sources": [
+                "safeguarding"
+            ],
+            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\"]"
+        }
+    ]
+}
