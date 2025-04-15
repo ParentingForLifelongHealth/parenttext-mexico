@@ -1,0 +1,842 @@
+[
+  {
+    "SourceText": "ParentText is easiest to use when you receive content as videos, images and text. However, your data bundle and bandwidth may not support videos. To save on data, you can opt to receive the same content with a smaller audio file or as text. How would you like to receive ParentText?",
+    "text": "ParentText es más fácil de usar cuando recibes contenido como vídeos, imágenes y texto. Sin embargo, es posible que tu paquete de internet y ancho de banda no sean compatibles para la descarga de estos recursos. Para ahorrar datos, puedes optar por recibir el mismo contenido a través de un archivo de audio o como texto. ¿Cómo te gustaría recibir ParentText?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Lo siento, no entiendo lo que quieres decir.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you a WOMAN or MAN?",
+    "text": "¿Eres HOMBRE o MUJER?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please select your language:",
+    "text": "Por favor, selecciona tu idioma:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "¿Qué te gustaría hacer a continuación?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "Genial, ¡nos vemos mañana!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do?",
+    "text": "¿Qué te gustaría hacer?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What kind of activity do you want to try with your teen?",
+    "text": "¿Qué tipo de actividad quieres probar con tu adolescente?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This skill is talking about feelings with @fields.child_nickname.",
+    "text": "Esta habilidad consiste en poder hablar de sentimientos con @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "This skill is talking about feelings with your teen.",
+    "text": "Esta habilidad consiste en poder hablar de sentimientos con tu adolescente.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s do a True/False quiz:",
+    "text": "Hagamos un test de Verdadero/Falso:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Talking about positive feelings is not as important as sharing our negative feelings.",
+    "text": "Hablar sobre sentimientos positivos no es tan importante como compartir nuestros sentimientos negativos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s incorrect. There are 6 basic emotions: Happy, Sad, Angry, Disgusted, Surprised, and Afraid. It’s important that we talk with our teens about ALL of them.",
+    "text": "¡Eso es falso! Recuerda que hay 6 emociones básicas: alegría, tristeza, enojo, asco, sorpresa y miedo. Es importante que hablemos con nuestros adolescentes sobre TODAS ellas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s correct. There are 6 basic emotions: Happy, Sad, Angry, Disgusted, Surprised, and Afraid. It’s important that we talk with our teens about ALL of them.",
+    "text": "¡Muy bien! Recuerda que hay 6 emociones básicas: alegría, tristeza, enojo, asco, sorpresa y miedo. Es importante que hablemos con nuestros adolescentes sobre TODAS ellas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I dont' understand what you mean.",
+    "text": "Lo siento, no entiendo lo que quieres decir.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here’s another one: Boys should not share when they are feeling sad or afraid.",
+    "text": "Aquí te va otra: los niños no deben compartir sus sentimientos cuando se sienten tristes o asustados.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Incorrect. It is important that both boys and girls learn how to communicate about difficult feelings. Boys will learn that it is okay to feel upset or sad about something, and that it is okay to ask for help when they need it. This is important for girls, too!",
+    "text": "¡Eso es falso! Es importante que tanto los niños como las niñas aprendan como pueden comunicar sentimientos difíciles. Los niños aprenderán que está bien sentirse molestos o tristes por algo, y que está bien pedir ayuda cuando lo necesiten. ¡Esto es importante también para las niñas!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are right! It is important that both boys and girls learn how to communicate about difficult feelings. Boys will learn that it is okay to feel upset or sad about something, and that it is okay to ask for help when they need it.",
+    "text": "¡Lo estás haciendo muy bien! Es importante que tanto los niños como las niñas aprendan como pueden comunicar sentimientos difíciles. Los niños aprenderán que está bien sentirse molestos o tristes por algo, y que está bien pedir ayuda cuando lo necesiten. ¡Esto es importante también para las niñas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Last one: As parents, we can also share our feelings with our children.",
+    "text": "Por último: Como madres, padres o personas cuidadoras, es importante que también compartamos nuestros sentimientos con nuestras niñas, niños y adolescentes.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Correct! Sharing our own feelings with our children in a calm way shows them how to do it themselves.",
+    "text": "¡Excelente! Compartir nuestros propios sentimientos de una manera tranquila con nuestras niñas, niños y adolescentes les muestra cómo podrían hacerlo ellos mismos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Incorrect. Sharing our own feelings with our children in a calm way shows them how to do it themselves.",
+    "text": "¡Eso es falso! Compartir nuestros propios sentimientos de una manera tranquila con nuestras niñas, niños y adolescentes les muestra cómo podrían hacerlo ellos mismos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 25% of this skill! Press NEXT to continue.",
+    "text": "¡Has completado el 25% de esta habilidad! Pulsa SIGUIENTE para continuar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Father: Hello my dear, how was your day at school?",
+    "text": "Padre: Hola cariño, ¿cómo fue tu día en la escuela?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{F1_DAUGHTER_13}: Who cares?",
+    "text": "{F1_DAUGHTER_13}: ¿A quién le importa?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Father: {F1_DAUGHTER_13}, you don’t seem very happy, do you want to talk about it?",
+    "text": "Padre: {F1_DAUGHTER_13}, no te ves muy feliz, ¿quieres hablar de ello?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{F1_DAUGHTER_13}: I’m sorry, Dad. I just find it so frustrating that I studied so hard for my maths test and failed.",
+    "text": "{F1_DAUGHTER_13}: Lo siento, papá. Me encuentro muy frustrada porque estudié muy duro para mi exámen de matemáticas y fallé.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Father: That is frustrating, my dear. I know how hard you studied. Maybe we can ask your teacher for extra help with maths? I can come in to talk to her tomorrow if that would help.",
+    "text": "Padre: No te preocupes, eso es frustrante, cariño. Sé lo duro que has estudiado. ¿Quizás podamos pedirle a tu maestra apoyo extra con matemáticas? Puedo ir a platicar con ella mañana si eso ayuda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{F1_DAUGHTER_13}: Thank you. I think that might be a good idea.",
+    "text": "{F1_DAUGHTER_13}: Gracias. Creo que eso puede ser una buena idea.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Father: You know, you might feel frustrated about not being good at maths right now, but I’ve never met someone who can write stories as well as you can, {F1_DAUGHTER_13}.",
+    "text": "Padre: Sabes, puede que te sientas frustrada por no ser muy buena en matemáticas en este momento, pero nunca he conocido a alguien que escriba historias tan bien como tú {F1_DAUGHTER_13}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️",
+    "text": "✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 50% of this skill! Press NEXT to continue.",
+    "text": "¡Has completado el 50% de esta habilidad! Pulsa SIGUIENTE para continuar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ *OPEN*",
+    "text": "1️⃣ *EMPATIZAR*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Listen to your teen when they share how they are feeling.",
+    "text": "👂 Escucha a tus adolescentes cuando te compartan cómo se sienten.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Accept how they feel.",
+    "text": "💛 Acepta lo que están sintiendo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧸 Give them comfort.",
+    "text": "🧸 Dales seguridad y tranquilidad.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ *LEARN*",
+    "text": "3️⃣ *APRENDER*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Learn about different emotions.",
+    "text": "💡 Aprendan sobre las diferentes emociones.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 There are 6 basic emotions: Happy, Sad, Angry, Disgusted, Surprised, and Afraid.",
+    "text": "😃 Existen 6 emociones básicas: Alegría, tristeza, enojo, asco, sorpresa y miedo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 As children get older, they learn to identify lots of other emotions, like feeling excited, frustrated, proud, lonely, peaceful, guilty, or confused.",
+    "text": "😔 A medida que las niñas y los niños crecen, aprenden a identificar muchas otras emociones, como sentir emoción, frustración, orgullo, soledad, calma, culpa o confusión.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣ *TALK*",
+    "text": "4️⃣ *CONVERSAR*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😒 It is normal to have difficulty talking about and expressing emotions and feelings. ",
+    "text": "😒 Es normal tener dificultades para hablar y expresar sentimientos y emociones. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👋 Remember, it is also normal to experience feelings in different ways.",
+    "text": "👋 Recuerda, también es normal experimentar sentimientos de diferentes maneras.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Learn to identify your own emotions, to experience them in our body, and to communicate about them.",
+    "text": "💡 Aprende a identificar tus propias emociones, a experimentarlas en el cuerpo y a conversar acerca de ellas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "5️⃣ *NOTICE*",
+    "text": "5️⃣ *RECONOCER*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 Begin to notice all emotions. ",
+    "text": "🌈 Comienza a reconocer todas las emociones. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 You can also share positive emotions such as a sense of peace, happiness, or calmness.",
+    "text": "😃 También puedes compartir emociones positivas como la sensación de paz, felicidad o calma.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 It can also allow children to appreciate a beautiful moment or feeling of love!",
+    "text": "💙 ¡Esto también permite que las niñas, niños y adolescentes puedan apreciar un momento bonito o experimentar una sensación de amor!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️",
+    "text": "✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 75% of this skill! Press NEXT to continue.",
+    "text": "¡Has completado el 75% de esta habilidad! Pulsa SIGUIENTE para continuar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This will make such a big difference. Great job! ⭐",
+    "text": "Esto marcará una gran diferencia. ¡Muy buen trabajo! ⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay. Try to make time this week.",
+    "text": "Está bien. Intenta encontrar tiempo durante esta semana.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing job ⭐ You have now learnt how to talk to your teen about feelings. You have completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod skills in your goal to Improve my Relationship with my Teen.",
+    "text": "¡Increíble trabajo!⭐ Ahora has aprendido a hablar con tu niña,niño o adolescente sobre sentimientos y emociones. Has completado @(fields.c_n_mod_compl +1) de las habilidades de @fields.c_n_mod en tu objetivo de Mejorar mi relación con mi niña, niño o adolescente.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "Be open to @fields.child_nickname and allow them to express how they feel and accept their feelings. Try to listen to @fields.child_nickname and think about how it must feel for them. ☀️",
+    "text": "Muestrate abierto con @fields.child_nickname y permiteles expresar cómo se sienten y aceptar esos sentimientos. Intenta escuchar a @fields.child_nickname y empatizar en cómo debe estarse sintiendo para ellas y ellos. ☀️",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Be open to your teen and allow them to express how they feel and accept their feelings. Try to listen to your teen and think about how it must feel for them. ☀️",
+    "text": "Muestrate abierto con tu niña, niño o adolescente y permiteles expresar cómo se sienten y aceptar esos sentimientos. Intenta escuchar y empatizar en cómo debe estarse sintiendo para ellas y ellos. ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a video message about talking about your feelings with @fields.child_nickname. ",
+    "text": "Aquí hay un vídeo sobre cómo conversar sobre tus sentimientos con @fields.child_nickname. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Here is a video message about talking about your feelings with your teen. ",
+    "text": "Aquí hay un vídeo sobre cómo conversar sobre tus sentimientos con tu niño, niña o adolescente. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is an audio message about talking about feelings with @fields.child_nickname.",
+    "text": "Aquí hay un mensaje de audio sobre cómo conversar sobre tus sentimientos con @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Here is an audio message about talking about feelings with your teen.",
+    "text": "Aquí hay un mensaje de audio sobre cómo conversar sobre tus sentimientos con tu niño, niña o adolescente.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some tips for how you can help @fields.child_nickname learn how to cope with their emotions following these six steps: OPEN, SHARE, LEARN, TALK, NOTICE, CARE.",
+    "text": "Aquí tienes algunos consejos sobre cómo puedes apoyar a @fields.child_nickname a aprender a manejar sus emociones siguiendo estos seis pasos: EMPATIZAR, COMPARTIR, APRENDER,CONVERSAR, RECONOCER, y CUIDAR.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Here are some tips for how you can help your teen learn how to cope with their emotions following these six steps: OPEN, SHARE, LEARN, TALK, NOTICE, CARE.",
+    "text": "Aquí tienes algunos consejos sobre cómo puedes apoyar a tu niño, niña o adolescente\n a aprender a manejar sus emociones siguiendo estos seis pasos: EMPATIZAR, COMPARTIR, APRENDER, CONVERSAR, RECONOCER, y CUIDAR.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ *SHARE*",
+    "text": "2️⃣ *COMPARTIR*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Share your own feelings with @fields.child_nickname.",
+    "text": "😃 Comparte tus propios sentimientos con @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌈This sets a good example and shows your teen that it's okay to share their own feelings.",
+    "text": "🌈Esto da un buen ejemplo y muestra a tu niña, niño y adolescente que está bien compartir sus propios sentimientos.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Share your own feelings with your teen.",
+    "text": "😃 Comparte tus propios sentimientos con tu niño, niña o adolescente.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "6️⃣ *CARE*",
+    "text": "6️⃣ *CUIDADO*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Use physical and verbal support to make your child feel accepted and loved.",
+    "text": "🌷 A través de expresiones verbales y físicas hazle sentir a tu niño, niña o adolescente que son personas amadas y aceptadas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 Remind @fields.child_nickname that you are there for them and that they can always talk to you.",
+    "text": "💚 Recuerda a @fields.child_nickname que estás ahí para lo que necesiten y que siempre pueden hablar contigo.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "💚 Remind your teen that you are there for them and that they can always talk to you.",
+    "text": "💚 Recuerda a tu niña, niño o adolescente que estás ahí para lo que necesiten y que siempre pueden hablar contigo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Home Activity! Talk to your teen about the six steps to coping and talking about emotions, OPEN, SHARE, LEARN, TALK, NOTICE, CARE. Knowing these steps will help give @fields.child_nickname the courage to share their feelings! Can you do it today? ",
+    "text": "¡Actividad en casa!Habla con tu niño, niña o adolescente acerca de los seis pasos para sobre los seis pasos que aprendiste y cómo estos pueden ayudarles a manejar mejor las emociones, EMPATIZAR, COMPARTIR, APRENDER,CONVERSAR, RECONOCER, y CUIDAR.\n¡Conocer estos pasos ayudará a @fields.child_nickname para tener el valor de expresar sus sentimientos! ¿Podrías empezar hoy mismo? ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Home Activity! Talk to your teen about the six steps to coping and talking about emotions, OPEN, SHARE, LEARN, TALK, NOTICE, CARE. Knowing these steps will help give your teen the courage to share their feelings! Can you do it today? ",
+    "text": "¡Actividad en casa! Habla con tu niño, niña o adolescente acerca de los seis pasos para sobre los seis pasos que aprendiste y cómo estos pueden ayudarles a manejar mejor las emociones, EMPATIZAR, COMPARTIR, APRENDER, CONVERSAR, RECONOCER, y CUIDAR.\n¡Conocer estos pasos les ayudará a tener el valor de expresar sus sentimientos! ¿Podrías empezar hoy mismo? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Create your own Recipe*",
+    "text": "*Crea tu propia receta*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let your teen come up with a new meal idea! ",
+    "text": "¡Deja que tu niña, niño o adolescente invente una nueva idea de comida! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🍚 Create a new dish with @fields.child_nickname using ingredients they love!",
+    "text": "🍚 ¡Crea un nuevo platillo con @fields.child_nickname usando ingredientes que amen!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🔵 Together, choose two ingredients, and ask your teen to prepare a meal using them. For example: chicken and spinach, tomatoes and rice, maize and pumpkin.",
+    "text": "🔵 Juntos, escojan dos ingredientes, y pidele a tu niña, niño o adolescente que prepare una comida con ellos. Por ejemplo: pollo y espinaca, tomates y arroz, maíz y calabaza.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 If you enjoy the meal, make it something your family eats weekly, and ask your teen to write it down for you. Give the meal a name and explain how to make it. ",
+    "text": "📝 Si les gusta la nueva receta, puede ser algo que coman semanalmente en familia, y pide a tu niña, niño o adolescente que escriba esa receta para ti. Denle un nombre especial a esa comida y expliquen cómo hacerla. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ If your teen notices that you are learning from their cooking, it will boost their confidence!",
+    "text": "✨ ¡Si tu adolescente se da cuenta que estás aprendiendo de su forma de cocinar, aumentará su confianza!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🍚 Create a new dish with your teen using ingredients they love!",
+    "text": "🍚 ¡Crea un nuevo platillo con tu niña, niño o adolescente usando ingredientes que amen!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Dance moves*",
+    "text": "*Movimientos de baile*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's get moving! 👋 Dancing is a great way to exercise, have fun, and bond with your teen at the same time! You both get to express yourselves in a fun, relaxed way.  🎵 ",
+    "text": "¡Vamos a movernos! 👋 Bailar es una gran manera de hacer ejercicio, divertirse y conectar con tu niña, niño o adolescente al mismo tiempo! Ambos pueden llegar a expresarse de una manera relajada y divertida. 🎵 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "\r",
+    "text": "\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This game can be played in pairs or a group with everyone taking turns being the leader:\r",
+    "text": "Este juego se puede jugar en pares o en grupo tomando turnos para ser líder:\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📱 Let your teen choose a song they like and create a set of dance moves.\r",
+    "text": "📱 Deja que tu niño, niña o adolescente elija una canción que le guste e imaginen una secuencia de movimientos de baile.\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 First person does a dance move and everyone else copies it.\r",
+    "text": "👀 La primera persona hace un movimiento de baile y todo el mundo la copia.\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ Don’t worry about perfecting the dance moves, it’s all about having fun together!\r",
+    "text": "☀️ No te preocupes por hacer movimientos de baile perfectos, ¡se trata de divertirse juntos!\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 If you want to, you can perform your dance for the household!",
+    "text": "💡 ¡Si quieren, pueden bailar para la familia completa!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*2 Truths, 1 Lie*",
+    "text": "*2 Verdades, 1 Mentira*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This is a fun, quick game, and the point of it is to learn things about each other. Make your answers as interesting as possible! 🎨",
+    "text": "¡Este es un juego divertido y rápido! el objetivo es aprender cosas sobre las y los demás. ¡Haz tus respuestas lo más interesantes posible! 🎨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Ask your teen to think of 3 facts about themselves. 2 must be true, 1 must be a lie. \r",
+    "text": "💡 Pídele a tu niña, niño o adolescente que piense en 3 datos sobre sí mismos. 2 deben ser verdaderos, 1 debe ser una mentira. \r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔷 Here are some examples: I hate bananas, I have travelled to Kenya, my favourite subject in school was maths.\r",
+    "text": "🔷 Aquí hay algunos ejemplos: Odio los plátanos, he viajado a Mérida, mi tema favorito en la escuela son las matemáticas.\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Share the facts with your teen and ask them to guess which one is a lie. \r",
+    "text": "👀 Comparte tus datos con tu niña, niño o adolescente y pídeles que adivinen cuál es una mentira. \r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 Now ask them to do the same, and guess theirs.\r",
+    "text": "🔄 Ahora pídeles que hagan lo mismo y adivina cual es la suya.\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Did you learn anything new about your teen, or did they learn anything new about you? 💛",
+    "text": "¿Aprendiste algo nuevo sobre tu niño, niña o adolescente?¿Aprendieron algo nuevo sobre ti? 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*This is who I am*",
+    "text": "*Esto es lo que soy*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Self-esteem is the way you value yourself, either in a positive or negative way. Helping your teen to have high self-esteem is a recipe for success! 🏆\r",
+    "text": "El autoestima es la manera en que te valoras a ti mismo, ya sea de forma positiva o negativa. ¡Ayudar a tu niña, niño o adolescente a tener un autoestima alto es la receta para el éxito! 🏆\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐Share with your teen 3 things you like about yourself!\r",
+    "text": "⭐¡Comparte con tu niña, niño o adolescentes 3 cosas que te gustan sobre ti mismo!\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ Ask your teen to tell you 3 things they like about themselves. \r",
+    "text": "3️⃣ Pídele a tu niña, niño o adolescente que te comparta 3 cosas que le gustan de sí mismo. \r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "For example: I am great at treating others kindly. I am great at styling my hair. I am great at football. ⚽\r",
+    "text": "Por ejemplo: Soy genial para tratar a otros amablemente. Soy genial para estilizar mi cabello. Soy genial en el fútbol. ⚽\r",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If your teen does not feel comfortable sharing these, ask them to write them down. 📝",
+    "text": "Si tu niña, niño o adolescente no se siente cómodo compartiendo estos, pídeles que los escriban. 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Text, Images, and Videos",
+    "text": "Texto, imágenes y videos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Text, Images, and Audio",
+    "text": "Texto, imágenes y audio",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Text and Images Only",
+    "text": "Sólo texto e imágenes",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Woman",
+    "text": "Mujer",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Man",
+    "text": "Hombre",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "Prefiero no decir",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Spanish",
+    "text": "Español",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "English",
+    "text": "English",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Give me an idea for 1-on-1 time with my teen",
+    "text": "Dame una idea de tiempo uno a uno con mi niña, niño o adolescente",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m done for today",
+    "text": "He terminado por hoy",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View another activity idea",
+    "text": "Ver otra idea de actividad",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my progress tomorrow",
+    "text": "Continuar con mi progreso mañana",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Quick",
+    "text": "Algo rápido",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Active",
+    "text": "Algo activo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Calm",
+    "text": "Algo tranquilo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something for the whole family",
+    "text": "Algo para toda la familia",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "True",
+    "text": "Verdadero",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "False",
+    "text": "Falso",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "SIGUIENTE",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Sí",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "No",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "text, images, and videos",
+    "text": "texto, imágenes y videos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "text, images, and audio",
+    "text": "texto, imágenes y audio",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "text and images only",
+    "text": "sólo texto e imágenes",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "woman",
+    "text": "mujer",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "man",
+    "text": "hombre",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "prefiero no decir",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "spanish",
+    "text": "español",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "english",
+    "text": "english",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’m done for today",
+    "text": "he terminado por hoy",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "give me an idea for 1-on-1 time with my teen",
+    "text": "dame una idea de tiempo uno a uno con mi niña, niño o adolescente",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view another activity idea",
+    "text": "ver otra idea de actividad",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my progress tomorrow",
+    "text": "continuar con mi progreso mañana",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something quick",
+    "text": "algo rápido",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something active",
+    "text": "algo activo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something calm",
+    "text": "algo tranquilo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something for the whole family",
+    "text": "algo para toda la familia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "true",
+    "text": "verdadero",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "false",
+    "text": "falso",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "sí yeah yep",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no nope n",
+    "text": "no nop",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "SourceText": "Would you like to go back to the previous messages?",
+    "text": "¿Te gustaría regresar a los mensajes anteriores?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. Type {HELP} at any time if you would like the details of emergency services or other hotlines.",
+    "text": "No pasa nada. Escribe y manda {HELP} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Disculpa, no entiendo a qué te refieres.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are the contact details of your local emergency services:",
+    "text": "Aquí tienes los datos de contacto de los servicios de emergencia de tu comunidad:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{generic referrals}",
+    "text": "{generic referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!",
+    "text": "Escribe y manda {HELP} en cualquier momento si quieres los datos de servicios de emergencia u otras líneas directas. ¡Recuerda que todo lo que digas se quedará en privado!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever feel like talking privately to a trained professional, you can call:",
+    "text": "Si alguna vez quieres hablar en privado con un profesional, puedes llamar:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{mental_health referrals}",
+    "text": "{mental_health referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are the contact details of your local medical services:",
+    "text": "Aquí tienes los datos de contacto de los servicios médicos de tu comunidad:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{health referrals}",
+    "text": "{health referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{violence referrals}",
+    "text": "{violence referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{natural_disasters referrals}",
+    "text": "{natural_disasters referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{drugs referrals}",
+    "text": "{drugs referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you currently facing an emergency?",
+    "text": "¿Tienes una emergencia en este momento?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you need some support with an emotional issue?",
+    "text": "¿Necesitas apoyo con un problema emocional?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you currently experiencing a health issue?",
+    "text": "¿Estás experimentando algún problema de salud?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you experiencing an unsafe situation?",
+    "text": "¿Estás viviendo alguna situación insegura?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you have an emergency?",
+    "text": "¿Tienes una emergencia?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you need some urgent help?",
+    "text": "¿Necesitas ayuda urgente?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?",
+    "text": "Parece que tienes una emergencia. ¿Puedes decirnos qué tipo de ayuda necesitas?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{family referrals}",
+    "text": "{family referrals}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{development resources 1}",
+    "text": "{development resources 1}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do?",
+    "text": "¿Qué te gustaría hacer?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful! You can access this information at any time by typing {HELP}.",
+    "text": "Esperamos que esto te haya servido. Puedes acceder a esta información en cualquier momento al escribir y mandar {HELP}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome back to ParentText!",
+    "text": "¡Te damos la bienvenida de nuevo a Crianza con Conciencia +!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I don't understand your message.",
+    "text": "No entiendo tu mensaje.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis.",
+    "text": "Escribe y manda {MENU} para tener acceso a algunos recursos y revisar los módulos completados, {PLAY} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {HELP} para ver una lista de recursos de apoyo locales en caso de crisis.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have not given consent to participate in this programme. Would you like to participate?",
+    "text": "No has dado tu consentimiento para participar en este programa. ¿Te gustaría participar?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever decide to participate in the programme, type HELLO. ",
+    "text": "Si en algún momento decides participar en el programa, solo escribe HOLA. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day! ",
+    "text": "Esperamos volverte a ver pronto, ¡y te deseamos un día feliz y lleno de tranquilidad! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting courses. Would you like to continue your progress?",
+    "text": "Criar a una niña, un niño o un adolescente es difícil. Crianza con Conciencia + te puede ayudar. Has completado @fields.n_goals_completed de @fields.n_goals_prog objetivos relacionados con la crianza. ¿Te gustaría seguir avanzando?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "That's okay. If you ever decide to come back, type HELLO. ",
+    "text": "No pasa nada. Si en algún momento decides regresar, escribe HOLA. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are already part of ParentText! ",
+    "text": "¡Ya eres parte de Crianza con Conciencia +! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have already completed ParentText!",
+    "text": "¡Completaste Crianza con Conciencia +!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Staying in ParentText helps you and your child. Are you sure you want to exit the programme?",
+    "text": "Seguir en Crianza de Conciencia+ te ayudará a ti y a tu niña o niño. ¿Estás seguro de que quieres abandonar el programa?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
+    "text": "Si no quieres recibir más mensajes, escribe \"FINALIZAR\".",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you made a mistake, please type \"BACK\".",
+    "text": "Si te equivocaste, escribe \"REGRESAR\".",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. If you want to return to the programme, type HELLO. ",
+    "text": "Gracias por participar. Si quieres volver al programa, escribe HOLA. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon! ",
+    "text": "¡Esperamos volverte a ver pronto! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your user ID is @fields.research_id",
+    "text": "Tu número de registro es @fields.research_id",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "Esta función estará disponible una vez que hayas completado el registro. No tardará mucho. Por favor, ¡sigue avanzando!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
+    "text": "El menú estará disponible una vez que hayas completado el registro. No te quitará mucho tiempo. ¡Por favor, sigue avanzando!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking a pause with me today. ",
+    "text": "Gracias por hacer una pausa conmigo el día de hoy. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{book resources}",
+    "text": "{book resources}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Sí",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "No",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Police",
+    "text": "Policía",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Medical services",
+    "text": "Servicios médicos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Fire department",
+    "text": "Bomberos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mental health services",
+    "text": "Servicios de salud mental",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Violence prevention hotline",
+    "text": "Línea directa para la prevención de violencia",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Suicide prevention hotline",
+    "text": "Línea directa para la prevención de suicidio",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Family counselling services",
+    "text": "Servicios de consejería familiar",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Substance abuse",
+    "text": "Abuso de sustancias",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Natural disasters",
+    "text": "Desastres naturales",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Child Development",
+    "text": "Desarrollo infantil",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get other emergency contacts",
+    "text": "Obtener otros contactos de emergencia",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go to the Main Menu",
+    "text": "Ir al Menú Principal",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my course tomorrow.",
+    "text": "Continuar con mi curso mañana.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my course now.",
+    "text": "Continuar con mi curso ahorita.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "REGRESAR",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "generic",
+    "text": "genérico",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental_health",
+    "text": "salud_mental",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "health",
+    "text": "salud",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "violence",
+    "text": "violencia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural_disasters",
+    "text": "desastres_naturales",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "drugs",
+    "text": "drogas",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "help",
+    "text": "ayuda",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "menu",
+    "text": "menú",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play",
+    "text": "jugar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "grow",
+    "text": "crecer",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop",
+    "text": "detener",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start",
+    "text": "empezar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "book",
+    "text": "libro",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review",
+    "text": "revisar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "pause",
+    "text": "pausar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "id",
+    "text": "identificación",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "sí s claro sip",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope nah",
+    "text": "no n nope nah",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "no n nop",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "police",
+    "text": "policía",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "medical services",
+    "text": "servicios médicos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "fire department",
+    "text": "bomberos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental health services",
+    "text": "servicios de salud mental",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "violence prevention hotline",
+    "text": "línea directa para la prevención de violencia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "suicide prevention hotline",
+    "text": "línea directa para la prevención de suicidio",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "family counselling services",
+    "text": "servicios de consejería familiar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "substance abuse",
+    "text": "abuso de drogas",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural disasters",
+    "text": "desastres naturales",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "child development",
+    "text": "desarrollo infantil",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get other emergency contacts",
+    "text": "obtener otros contactos de emergencia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go to the main menu",
+    "text": "ir al menú principal",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my course tomorrow.",
+    "text": "continuar con mi curso mañana.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my course now.",
+    "text": "continuar con mi curso ahorita.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "sí",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "no",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "finalizar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "regresar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "iniciar",
+    "text": "iniciar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "familia",
+    "text": "familia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "formando",
+    "text": "formando",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "afectiva",
+    "text": "afectiva",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]
