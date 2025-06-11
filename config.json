@@ -3,10 +3,16 @@
         "version": "1.0.0",
         "pipeline_version": "1.0.0"
     },
+     "parents": {
+        "base": {
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.0.1.zip"
+        }
+    },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
         "MX_sheets": "1yUzKndclwMurTwBgDTzA5ha7xLjj214oZy10KYtjW4U",
+        "N_triggers": "195s4fnuluMNyls9S1ghjC2e7DaxczT2BPsOwEcDfvY8",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1esTiPuIaHCFRQjf78q0E3WDwR_TmcGSC7jE36bXeMGA",
         "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
@@ -22,7 +28,6 @@
         "N_delivery_data": "1q-9qIiokIKImxIk9BNlJXM5PAigOCsP8FIbXmh0MZRg",
         "T_menu": "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
         "N_menu_data": "1lwmMa18SM7bUR-og__daYgDNlEfwnj-KtLjC7Cw-EHo",
-        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
         "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
         "localisation_sheet_ID" : "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8", 
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
@@ -30,13 +35,12 @@
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": [],
+            "parent_sources": ["base.flow_definitions"],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
                     "N_onboarding_data",
                     "T_onboarding",
-                    "T_survey",
                     "C_ltp_activities",
                     "C_modules_all_ages",
                     "C_modules_teen",
@@ -50,6 +54,7 @@
                     "T_delivery",
                     "N_menu_data",
                     "T_menu",
+                    "N_triggers",
                     "MX_sheets"
                 ]
         },
