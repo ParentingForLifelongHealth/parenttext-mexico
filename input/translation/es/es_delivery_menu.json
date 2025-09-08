@@ -24,14 +24,14 @@
     "note": ""
   },
   {
-    "SourceText": "Well done. You're ready to start the first course. ",
-    "text": "Buen trabajo. Estás listo para empezar el primer curso. ",
+    "SourceText": "Well done. You're ready to start the first course.",
+    "text": "Buen trabajo. Ya puedes empezar el primer curso.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You have seen all the courses ",
-    "text": "Has visto todos los cursos ",
+    "SourceText": "You have seen all the courses",
+    "text": "Has visto todos los cursos",
     "type": "text",
     "note": ""
   },
@@ -49,7 +49,7 @@
   },
   {
     "SourceText": "It’s time to pick a new parenting course! Based on our experience with other families, we suggest taking the courses in the order they are presented. However, you can choose any course you prefer. Which course would you like to complete next?",
-    "text": "¡Ha llegado el momento de escoger un nuevo curso de crianza! Basándonos en nuestra experiencia con otras familias, sugerimos seguir los cursos en el orden en que se presentan. Sin embargo, puedes escoger el curso que tú prefieras. ¿Qué curso te gustaría hacer a continuación?",
+    "text": "¡Ha llegado el momento de escoger un nuevo curso de crianza! Basándonos en nuestra experiencia con otras familias, sugerimos seguir los cursos en el orden en que se presentan. Sin embargo, puedes escoger el curso que tú prefieras. ¿Qué curso te gustaría hacer a continuación? ",
     "type": "text",
     "note": ""
   },
@@ -85,7 +85,7 @@
   },
   {
     "SourceText": "You have completed @fields.n_goals_completed of @fields.n_goals_prog courses. Based on our experience with other families, we suggest taking the courses in the order they are presented. However, you can choose any course you prefer. Which course would you like to complete next?",
-    "text": "Completaste @fields.n_goals_completed de los @fields.n_goals_prog cursos. Basándonos en nuestra experiencia con otras familias, sugerimos seguir los cursos en el orden en que se presentan. Sin embargo, puedes escoger el curso que tú prefieras. ¿Qué curso te gustaría hacer a continuación?",
+    "text": "Completaste @fields.n_goals_completed de los @fields.n_goals_prog cursos. Basándonos en nuestra experiencia con otras familias, sugerimos seguir los cursos en el orden en que se presentan. Sin embargo, puedes escoger el curso que tú prefieras. ¿Qué curso te gustaría hacer a continuación? ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -138,14 +138,14 @@
     "note": ""
   },
   {
-    "SourceText": "Which new course would you like to start? ",
-    "text": "¿Qué curso nuevo te gustaría empezar? ",
+    "SourceText": "Which new course would you like to start?",
+    "text": "¿Qué nuevo curso te gustaría empezar?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You do not have have a current course. ",
-    "text": "No tienes un curso activo ahorita. ",
+    "SourceText": "You do not have have a current course.",
+    "text": "No tienes un curso activo.",
     "type": "text",
     "note": ""
   },
@@ -162,8 +162,8 @@
     "note": ""
   },
   {
-    "SourceText": "There are no incomplete courses. ",
-    "text": "No hay cursos incompletos. ",
+    "SourceText": "There are no incomplete courses.",
+    "text": "No hay cursos incompletos.",
     "type": "text",
     "note": ""
   },
@@ -180,8 +180,8 @@
     "note": ""
   },
   {
-    "SourceText": "You're almost finished with this course! You only have 1 lesson remaining, ",
-    "text": "¡Ya casi terminas este curso! Solamente te queda 1 sesión, ",
+    "SourceText": "You're almost finished with this course! You only have 1 lesson remaining,",
+    "text": "¡Ya casi terminas este curso! Solamente te queda 1 sesión,",
     "type": "text",
     "note": ""
   },
@@ -270,8 +270,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
   },
   {
-    "SourceText": "You haven't completed any of the lessons in this course. ",
-    "text": "No has completado ninguna de las sesiones de este curso. ",
+    "SourceText": "You haven't completed any of the lessons in this course.",
+    "text": "No has completado ninguna de las sesiones de este curso.",
     "type": "text",
     "note": ""
   },
@@ -342,8 +342,8 @@
     "note": ""
   },
   {
-    "SourceText": "It takes only 5 days to complete the core course, @results.name. Once you've earned your certificate, you will have access to other helpful parenting courses. You can choose to take the courses that interest you or meet your family's needs. ",
-    "text": "Completar el Curso Elemental  \"@results.name\" solo te llevará 5 días. Una vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles sobre crianza. Podrás escoger hacer los cursos que te interesen o los que mejor aporten a las necesidades de tu familia. ",
+    "SourceText": "It takes only 5 days to complete the core course, @results.name. Once you've earned your certificate, you will have access to other helpful parenting courses. You can choose to take the courses that interest you or meet your family's needs.",
+    "text": "Completar el Curso Elemental \"@results.name\" solo te llevará 5 días. Una vez que hayas obtenido tu reconocimiento, tendrás acceso a otros cursos útiles acerca de crianza. Podrás elegir hacer los cursos que te interesen o los que aporten más a las necesidades de tu familia.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -360,20 +360,20 @@
     "note": ""
   },
   {
-    "SourceText": "Completing ParentText is an important achievement. Well done! New courses might be available soon. As they become available, you'll receive a notification through this channel. ",
-    "text": "Completar Crianza con Conciencia + es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación a través de este canal. ",
+    "SourceText": "Completing ParentText is an important achievement. Well done! New courses might be available soon. As they become available, you'll receive a notification through this channel.",
+    "text": "Completar Crianza con Conciencia + es un logro importante. ¡Bien hecho! Es posible que pronto tengamos cursos nuevos disponibles. Cuando estén disponibles, recibirás una notificación por este medio.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "🎉You did it!🎉 You have completed the course @results.name and earned yourself a certificate. Congratulations! ",
-    "text": "🎉¡Lo lograste!🎉 Completaste el curso @results.name y te has ganado un reconocimiento. ¡Felicidades! ",
+    "SourceText": "🎉Yahoo!🎉 Great work, @fields.first_user_name. Here's your course certificate to keep and share.",
+    "text": "🎉¡Yei!🎉 Gran trabajo, @fields.first_user_name. Aquí tienes tu reconocimiento del curso para que lo guardes y lo compartas.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Remember, if you need support practising the skills you learned, you can get extra help in Troubleshooting, found in the Main Menu. Just type {MENU}.",
-    "text": "Recuerda, si necesitas ayuda para practicar las habilidades que has aprendido, puedes obtener ayuda adicional en la sección de Solución de Problemas que se encuentra en el Menú Principal. Solo tienes que mandar la palabra {MENU}.",
+    "text": "Recuerda, si necesitas ayuda para practicar las estrategias que has aprendido, puedes obtener ayuda adicional en la sección de Solución de Problemas que se encuentra en el Menú Principal. Solo tienes que mandar la palabra {MENU}.",
     "type": "text",
     "note": ""
   },
@@ -492,12 +492,6 @@
     "note": ""
   },
   {
-    "SourceText": "These messages don’t seem to be working. When you are ready to keep going, press 1. ",
-    "text": "Parece que estos mensajes no funcionan. Cuando estés listo para continuar, presiona 1. ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "You have not completed a course yet.",
     "text": "Aún no has terminado ningún curso.",
     "type": "text",
@@ -528,14 +522,14 @@
     "note": ""
   },
   {
-    "SourceText": "You have the following courses still available: ",
-    "text": "Aún tienes disponibles los siguientes cursos: ",
+    "SourceText": "You have the following courses still available:",
+    "text": "Aún tienes disponibles los siguientes cursos:",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You have not begun the following courses: ",
-    "text": "No has empezado los siguientes cursos: ",
+    "SourceText": "You have not begun the following courses:",
+    "text": "No has comenzado los siguientes cursos:",
     "type": "text",
     "note": ""
   },
@@ -564,8 +558,8 @@
     "note": ""
   },
   {
-    "SourceText": "Your relationship status has been updated. You've unlocked a new course: @results.name. ",
-    "text": "Tu situación sentimental se ha actualizado. Has desbloqueado un curso nuevo: @results.name. ",
+    "SourceText": "Your relationship status has been updated. You've unlocked a new course: @results.name.",
+    "text": "Tu estado civil se ha actualizado. Has desbloqueado un curso nuevo: @results.name.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -582,8 +576,8 @@
     "note": ""
   },
   {
-    "SourceText": "You have reached the end of this lesson! 🎉 ",
-    "text": "¡Has llegado al final de esta sesión! 🎉 ",
+    "SourceText": "You have reached the end of this lesson! 🎉",
+    "text": "¡Has llegado al final de esta sesión! 🎉",
     "type": "text",
     "note": ""
   },
@@ -1164,32 +1158,14 @@
     "note": ""
   },
   {
-    "SourceText": "Your current media setting is Text, Images, and Videos.",
-    "text": "Tu configuración actual para los medios de comunicación es Texto, Imágenes y Videos.",
+    "SourceText": "Current Status: Your name is @fields.first_user_name.",
+    "text": "Estado actual: Tu nombre es @fields.first_user_name.",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Your current media setting is Text, Images, and Audio.",
-    "text": "Tu configuración actual para los medios de comunicación es Texto, Imágenes y Audio.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is Text and Images Only.",
-    "text": "Tu configuración actual para los medios de comunicación es Solo Texto e Imágenes.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is",
-    "text": "Tu configuración actual para los medios de comunicación es",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You didn't provide this info.",
-    "text": "No has proporcionado esta información.",
+    "SourceText": "You didn't tell us your name.",
+    "text": "No nos has dicho tu nombre.",
     "type": "text",
     "note": ""
   },
@@ -1200,122 +1176,98 @@
     "note": ""
   },
   {
-    "SourceText": "You didn't tell us if you are a woman or a man. ",
-    "text": "No nos has dicho si eres mujer u hombre. ",
+    "SourceText": "You didn't tell us your gender.",
+    "text": "No nos has dicho tu sexo.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a Woman.",
-    "text": "Nos has dicho que eres Mujer.",
+    "SourceText": "Current Status: You are a Woman.",
+    "text": "Estado actual: Eres Mujer.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a Man.",
-    "text": "Nos has dicho que eres Hombre.",
+    "SourceText": "Current Status: You are a Man.",
+    "text": "Estado actual: Eres Hombre.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a",
-    "text": "Nos has dicho que eres",
+    "SourceText": "Current Status: You are a",
+    "text": "Estado actual: Eres ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to update your gender?",
-    "text": "¿Quieres actualizar tu género?",
+    "SourceText": "You didn't tell us your relationship status.",
+    "text": "No nos has dicho tu estado civil.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You didn't tell us what's your relationship status.",
-    "text": "No nos has dicho cuál es tu situación sentimental.",
+    "SourceText": "Current Status: You are Single (not in a relationship).",
+    "text": "Estado actual: Eres Soltero (no tienes pareja).",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Single (not in a relationship).",
-    "text": "Nos has dicho que estás Soltero o Soltera (no tienes pareja).",
+    "SourceText": "Current Status: You are Married.",
+    "text": "Estado actual: Estás casado.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Married.",
-    "text": "Nos has dicho que estás Casado o Casada.",
+    "SourceText": "Current Status: You are Partnered but not married.",
+    "text": "Estado actual: Estás en pareja pero no casado.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Partnered but not married.",
-    "text": "Nos has dicho que estás En Pareja pero No Casado.",
+    "SourceText": "Current Status: You are Divorced or separated.",
+    "text": "Estado actual: Estás divorciado o separado.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Divorced or separated.",
-    "text": "Nos has dicho que estás Divorciado o Separado.",
+    "SourceText": "Current Status: You are Widowed.",
+    "text": "Estado actual: Eres viuda o viudo.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Widowed.",
-    "text": "Nos has dicho que estás Viudo o Viuda.",
+    "SourceText": "Current Status: You are",
+    "text": "Estado actual: Estás",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are",
-    "text": "Nos has dicho que estás",
+    "SourceText": "You didn't provide this info.",
+    "text": "No has proporcionado esta información.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to change your relationship status?",
-    "text": "¿Quieres cambiar tu situación sentimental?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You told us that @fields.child_nickname is @fields.child_age year old and was born on @(date(fields.child_dob)).",
-    "text": "Nos has dicho que @fields.child_nickname tiene @fields.child_age años y nació el @(date(fields.child_dob)).",
+    "SourceText": "Current Status: @fields.child_nickname is @fields.child_age year old.",
+    "text": "Estado actual: @fields.child_nickname tiene @fields.child_age años.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your {child} is @fields.child_age year old and was born on @(date(fields.child_dob)).",
-    "text": "Nos has dicho que tu {child} tiene @fields.child_age años y nació el @(date(fields.child_dob)).",
+    "SourceText": "Current Status: your {child} is @fields.child_age year old.",
+    "text": "Estado actual: tu {child} tiene @fields.child_age años.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Would you like to update the date of birth of @fields.child_nickname?",
-    "text": "¿Quieres actualizar la fecha de nacimiento de @fields.child_nickname?",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Would you like to update the date of birth of your {child}?",
-    "text": "¿Quieres actualizar la fecha de nacimiento de tu {child}?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your child's nickname is @fields.child_nickname.",
-    "text": "El apodo o nombre de cariño de tu niña o niño es @fields.child_nickname.",
+    "SourceText": "Current Status: Your child's name is @fields.child_nickname.",
+    "text": "Estado actual: El nombre de tu niña o niño es @fields.child_nickname.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "You didn't provide a nickname for your child.",
     "text": "No has agregado un apodo o nombre de cariño para tu niña o niño.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Would you like to update it?",
-    "text": "¿Quieres actualizarlo?",
     "type": "text",
     "note": ""
   },
@@ -1344,40 +1296,46 @@
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a Girl.",
-    "text": "Nos has dicho que @fields.child_nickname es una Niña.",
+    "SourceText": "Current Status: @fields.child_nickname is a Girl.",
+    "text": "Estado actual: @fields.child_nickname es una Niña.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your {child} is a Girl.",
-    "text": "Nos has dicho que tu {child} es una Niña.",
+    "SourceText": "Current Status: your {child} is a Girl.",
+    "text": "Estado actual: tu {child} es una Niña.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a Boy.",
-    "text": "Nos has dicho que @fields.child_nickname es un Niño.",
+    "SourceText": "Current Status: @fields.child_nickname is a Boy.",
+    "text": "Estado actual: @fields.child_nickname es un Niño.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your {child} is a Boy.",
-    "text": "Nos has dicho que tu {child} es un Niño.",
+    "SourceText": "Current Status: your {child} is a Boy.",
+    "text": "Estado actual: tu {child} es un Niño.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a",
-    "text": "Nos has dicho que @fields.child_nickname es",
+    "SourceText": "Current Status: @fields.child_nickname is a",
+    "text": "Estado actual: @fields.child_nickname es ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your {child} is a",
-    "text": "Nos has dicho que tu {child} es",
+    "SourceText": "Current Status: your {child} is a",
+    "text": "Estado actual: tu {child} es ",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Your partner in parenting is @fields.avatar_name.",
+    "text": "Tu compañero en la crianza es @fields.avatar_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "You are currently receiving messages in English.",
@@ -1410,10 +1368,136 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You completed the ParentText demo. Type RESET and then {FACSTART} to re-start from the beginning.",
-    "text": "Completaste la demostración de Crianza con Conciencia +. Escribe REINICIAR y luego {FACSTART} para volver a empezar desde el principio.",
+    "SourceText": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning.",
+    "text": "Has completado la demostración de ParentText. Escribe {RESET} y luego {FACSTART} para volver a empezar desde el principio.",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Here's your certificate for the course @results.name!",
+    "text": "¡Aquí tienes tu reconocimiento del curso @results.name!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Oops something went wrong.",
+    "text": "Uy, algo ha salido mal.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, but you can only reprint your certificate for the course @results.name twice.",
+    "text": "Lo sentimos, pero sólo puedes reimprimir tu certificado para el curso @resultados.nombre dos veces.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You haven't completed any course yet.",
+    "text": "Aún no has completado ningún curso.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have received the following certificate:",
+    "text": "Has recibido el siguiente reconocimiento:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like me to print it again?",
+    "text": "¿Quieres que lo vuelva a imprimir?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can come back here anytime to get it.",
+    "text": "No pasa nada. Puedes volver aquí cuando quieras a buscarlo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which certificate should I re-print for you?",
+    "text": "¿Qué reconocimiento debo reimprimir para ti?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(word_count(fields.goals_compl) +1). None, return to the main menu",
+    "text": "@(word_count(fields.goals_compl) +1). Ninguno, regresar al Menú Principal",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
+  },
+  {
+    "SourceText": "I'll make your certificate with the name @fields.certificate_name.",
+    "text": "Haré tu reconocimiento con el nombre @fields.certificate_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You didn't tell us which name you'd like on your certificate.",
+    "text": "No nos has dicho qué nombre quieres que aparezca en tu reconocimiento.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is that right?",
+    "text": "¿Es correcto?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👍 Thanks for your feedback!",
+    "text": "👍 ¡Gracias por tu comentario!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you'd like to join again, just type 1 anytime.",
+    "text": "Si quieres volver a unirte, escribe 1 en cualquier momento.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We're here to listen. Please tell how to make ParentText more helpful by sharing your feedback in a single message.",
+    "text": "Estamos aquí para escucharte. Por favor, dinos cómo hacer que ParentText sea más útil compartiendo tus comentarios en un solo mensaje.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like ParentText isn't working for you. Can you tell us why?",
+    "text": "Parece que ParentText no está funcionando para ti. ¿Puedes decirnos por qué?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Parece que este no es un buen momento. Por favor, presiona 1 si te gustaría continuar ahora.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉You did it!🎉 You have completed the course @fields.print_goal_name and earned yourself a certificate. Congratulations!",
+    "text": "🎉¡Lo has conseguido!🎉 Has completado el curso @fields.print_goal_name y te has ganado un reconocimiento. ¡Felicidades!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How should I print your name on the certificate?",
+    "text": "¿Cómo debo escribir tu nombre en el reconocimiento?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This name is too long. Please enter a shorter name.",
+    "text": "Este nombre es demasiado largo. Por favor, introduce un nombre más corto.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The name you would like to have on you certificate is @fields.sq_cert_name. Is that correct?",
+    "text": "El nombre que quieres que aparezca en tu reconocimiento es @fields.sq_cert_name. ¿Es correcto?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "NEXT",
@@ -1680,6 +1764,12 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Reprint my Certificates",
+    "text": "Reimprimir mis reconocimientos",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Retake completed lessons",
     "text": "Repetir sesiones completadas",
     "type": "quick_replies",
@@ -1704,8 +1794,14 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Change the way I receive content",
-    "text": "Cambiar la forma en que recibo el contenido",
+    "SourceText": "Change my name",
+    "text": "Cambiar mi nombre",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my guide",
+    "text": "Cambiar a mi guía",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1717,7 +1813,7 @@
   },
   {
     "SourceText": "Change my relationship status",
-    "text": "Cambiar mi situación sentimental",
+    "text": "Cambiar mi estado civil",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1736,6 +1832,48 @@
   {
     "SourceText": "Change my child's gender",
     "text": "Cambiar el género de mi niña o niño",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, return to the main menu",
+    "text": "No, vuelve al menú principal",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, change my name",
+    "text": "No, cambiar mi nombre",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, that's right!",
+    "text": "Sí, ¡es correcto!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I do not have time",
+    "text": "No tengo tiempo",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "It is not helpful",
+    "text": "No es útil",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "It isn't working on my phone",
+    "text": "No funciona en mi teléfono",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Other",
+    "text": "Otro",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2004,6 +2142,12 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "reprint my certificates",
+    "text": "reimprimir mis reconocimientos",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "retake completed lessons",
     "text": "repetir sesiones terminadas",
     "type": "arguments",
@@ -2028,8 +2172,14 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "change the way i receive content",
-    "text": "cambiar la forma en que recibo el contenido",
+    "SourceText": "change my name",
+    "text": "cambiar mi nombre",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my guide",
+    "text": "cambiar a mi guía",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -2041,7 +2191,7 @@
   },
   {
     "SourceText": "change my relationship status",
-    "text": "cambiar mi situación sentimental",
+    "text": "cambiar mi estado civil",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -2072,6 +2222,48 @@
   {
     "SourceText": "no n nope",
     "text": "no n nop",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, return to the main menu",
+    "text": "no, vuelve al menú principal",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, change my name",
+    "text": "no, cambiar mi nombre",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, that's right!",
+    "text": "sí, ¡es correcto!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i do not have time",
+    "text": "no tengo tiempo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "it is not helpful",
+    "text": "no es útil",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "it isn't working on my phone",
+    "text": "no funciona en mi teléfono",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "other",
+    "text": "otro",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

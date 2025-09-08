@@ -1231,7 +1231,7 @@
       },
       {
         "type": "K",
-        "keywords": "formando",
+        "keywords": "prueba",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
@@ -1367,10 +1367,10 @@
         "type": "add_to_group",
         "from": "1",
         "loop_variable": "",
-        "condition": "formando",
+        "condition": "prueba",
         "condition_var": "",
         "condition_type": "",
-        "condition_name": "formando",
+        "condition_name": "prueba",
         "include_if": "",
         "message_text": "pilot",
         "save_name": "",

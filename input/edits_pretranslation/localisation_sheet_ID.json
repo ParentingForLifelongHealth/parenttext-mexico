@@ -45,6 +45,13 @@
         "sheet_name": "localise-logo",
         "status": "released",
         "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "onboarding-video",
+        "status": "released",
+        "order": "1"
       }
     ],
     "remove-comics": [
@@ -87,24 +94,6 @@
     ],
     "settings": [
       {
-        "type_of_edit": "replace_flow",
-        "flow_id": "onboarding_wrapper",
-        "original_row_id": "",
-        "node_identifier": "onboarding_question_with_opt - emojis",
-        "change": "onboarding_question_with_opt - emojis",
-        "condition_var": "",
-        "category": "skip_onboarding_question - emojis"
-      },
-      {
-        "type_of_edit": "replace_flow",
-        "flow_id": "onboarding_wrapper",
-        "original_row_id": "",
-        "node_identifier": "onboarding_question_input - research_id",
-        "change": "onboarding_question_input - research_id",
-        "condition_var": "",
-        "category": "skip_onboarding_question - research_id"
-      },
-      {
         "type_of_edit": "replace_saved_value",
         "flow_id": "Regex:.*",
         "original_row_id": "",
@@ -117,9 +106,9 @@
     "localise-logo": [
       {
         "type_of_edit": "replace_attachments",
-        "flow_id": "onboarding_welcome_msg",
+        "flow_id": "survey - onb - question - welcome",
         "original_row_id": "",
-        "node_identifier": "Regex:.*Welcome.*",
+        "node_identifier": "Regex:.*",
         "change": "@(fields.path & \"logo/crianza_con_conciencia_logo.png\")",
         "condition_var": "@fields.prog_name",
         "category": "@(fields.path & \"logo/crianza_con_conciencia_logo.png\")",
@@ -208,6 +197,44 @@
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*Your Teen.*",
+        "change": "Regex:\\bYour Teen\\b",
+        "condition_var": "@fields.child_nickname",
+        "category": "your {teen}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Child.*",
+        "change": "Regex:\\bYour Child\\b",
+        "condition_var": "@fields.child_nickname",
+        "category": "your {child}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Baby.*",
+        "change": "Regex:\\bYour Baby\\b",
+        "condition_var": "@fields.child_nickname",
+        "category": "your {baby}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "OLD insert-childname-gender": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Teen.*",
         "change": "Your Teen",
         "condition_var": "@fields.child_nickname",
         "category": "your {teen}",
@@ -241,6 +268,44 @@
       }
     ],
     "insert-childname-punctuation-gender": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Teen.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your {teen}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Child.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your {child}",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Baby.*",
+        "change": "Regex:(?:^|(?<=[^a-zA-Z0-9_,:] ))Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "OLD insert-childname-punctuation-gender": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -290,6 +355,47 @@
         "category:child_nickname": "@fields.child_nickname",
         "condition:child_nickname": "",
         "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - child_gender",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Child.*",
+        "change": "Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "onboarding-video": [
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_c.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_t.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_b.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
       }
     ]
   }

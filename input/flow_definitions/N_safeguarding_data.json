@@ -155,15 +155,6 @@
         "var.value": ""
       },
       {
-        "ID": "safe",
-        "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
-        "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
-        "conclusion_msg": "Excellent work. You have learned the basics of self defence. Remember you can access this information at any time typing {SAFE}. ",
-        "expiration_msg": "",
-        "var.name": "",
-        "var.value": ""
-      },
-      {
         "ID": "prevent",
         "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
         "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
@@ -243,6 +234,11 @@
         "ID": "goodbye",
         "msg": "Thank you for participating. If you want to return to the programme, type HELLO. \n\nWe hope to see you again soon! ",
         "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+      },
+      {
+        "ID": "stay",
+        "msg": "We are so glad you want to stick around! We will resume your progress tomorrow. ",
+        "metadata.description": ""
       }
     ],
     "safeguarding_start_programme_data": [

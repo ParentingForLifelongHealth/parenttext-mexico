@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "JoiningTriggers": [
+      {
+        "ID": "iniciar",
+        "Trigger": "",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "",
+        "QR": "",
+        "Description": "Parents in the Mexico Pilot",
+        "Expired User Groups": "mx pilot"
+      },
+      {
+        "ID": "testers",
+        "Trigger": "",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "",
+        "QR": "",
+        "Description": "Facilitators in the Mexico Pilot during training; excluded from reach",
+        "Expired User Groups": "pilot"
+      },
+      {
+        "ID": "afectiva",
+        "Trigger": "",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "chihuahua",
+        "Link": "",
+        "QR": "",
+        "Description": "Parents in the Mexico Pilot from Chihuahua who need the programme named \"Crianza Afectiva\"",
+        "Expired User Groups": "pilot chihuahua"
+      },
+      {
+        "ID": "familia",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "share",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=familia",
+        "QR": "",
+        "Description": "Users who join because someone shared a link with them from the menu",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "sano",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=sano",
+        "QR": "",
+        "Description": "from unicef nutrition",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "aprender",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Vida Saludable",
+        "Additional (user group)": "SEP",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=aprender",
+        "QR": "SEP - Aprender.png",
+        "Description": "parents of school-age children accessing materials from the national “Healthy Living” strategy.",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "salud",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "health care centers",
+        "Additional (user group)": "MOH",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=salud",
+        "QR": "MOH - Salud.png",
+        "Description": "to promote in health care centers",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "crianza",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "private sector",
+        "Additional (user group)": "",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=crianza",
+        "QR": "Private Sector - Crianza.png",
+        "Description": "private sector",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "positiva",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "SNDIF; Women Secretary",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=positiva",
+        "QR": "SNDIF _ Women's Secretary - Positiva.png",
+        "Description": "SNDIF CAIs, Women Secretary program, UTOPIAS",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "paz",
+        "Trigger": "",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "",
+        "Additional (user group)": "Secretaría de seguridad y protección ciudadana",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=paz",
+        "QR": "Secretaría de seguridad y protección ciudadana - Paz.png",
+        "Description": "programa Somos Sembradores de Paz de la Secretaría de Seguridad Ciudadana",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "empezar",
+        "Trigger": "",
+        "Experience (user group)": "encouraged",
+        "Recruitment (user group)": "virtually trained facilitator",
+        "Additional (user group)": "SNDIF",
+        "Included in scale? ": "scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=empezar",
+        "QR": "",
+        "Description": "parents recruited into CC+ resulting from online training courses made available by SNDIF",
+        "Expired User Groups": ""
+      }
+    ],
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "joining_triggers_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "JoiningTriggerModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "joining_triggers_data": [
+      {
+        "ID": "iniciar",
+        "triggers": "iniciar",
+        "groups": "hybrid;SNDIF;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "",
+        "variables.4.value": ""
+      },
+      {
+        "ID": "familia",
+        "triggers": "familia",
+        "groups": "digital;share;SNDIF;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "testers",
+        "triggers": "prueba",
+        "groups": "hybrid;SNDIF",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "",
+        "variables.4.value": ""
+      },
+      {
+        "ID": "sano",
+        "triggers": "sano",
+        "groups": "digital;SNDIF;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "afectiva",
+        "triggers": "afectiva",
+        "groups": "hybrid;SNDIF;scale",
+        "cap": "",
+        "location": "chihuahua",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza Afectiva",
+        "variables.2.name": "location",
+        "variables.2.value": "chihuahua",
+        "variables.3.name": "completed location",
+        "variables.3.value": "yes",
+        "variables.4.name": "",
+        "variables.4.value": ""
+      },
+      {
+        "ID": "aprender",
+        "triggers": "aprender",
+        "groups": "digital;Vida Saludable;SEP;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "salud",
+        "triggers": "salud",
+        "groups": "digital;health care centers;MOH;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "crianza",
+        "triggers": "crianza",
+        "groups": "digital;private sector;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "positiva",
+        "triggers": "positiva",
+        "groups": "digital;SNDIF; Women Secretary;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "paz",
+        "triggers": "paz",
+        "groups": "digital;Secretaría de seguridad y protección ciudadana;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "empezar",
+        "triggers": "empezar",
+        "groups": "encouraged;virtually trained facilitator;SNDIF;scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      }
+    ],
+    "Notes": [
+      {
+        "Instructions for Sharing: ": "Click: [Link]\nScan: [QR code]\nWhatsApp: \"[Trigger Word]\" to +52 56 5100 6984"
+      },
+      {
+        "Instructions for Sharing: ": "Ministry"
+      },
+      {
+        "Instructions for Sharing: ": "Experience"
+      },
+      {
+        "Instructions for Sharing: ": "Campaign"
+      },
+      {
+        "Instructions for Sharing: ": "Caregiver Gender"
+      },
+      {
+        "Instructions for Sharing: ": "State"
+      },
+      {
+        "Instructions for Sharing: ": "Implementation"
+      },
+      {
+        "Instructions for Sharing: ": "Recruitment"
+      }
+    ]
+  }
+}

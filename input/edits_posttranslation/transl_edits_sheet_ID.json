@@ -449,6 +449,33 @@
     "external_references_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent}.*",
+        "change": "{consent}",
+        "condition_var": "",
+        "category": "https://bit.ly/CCPrivacy-Terms"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - welcome",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{URL}.*",
+        "change": "{URL}",
+        "condition_var": "",
+        "category": "https://bit.ly/AboutCC_es"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{insert link}.*",
+        "change": "{insert link}",
+        "condition_var": "",
+        "category": "https://wa.me/5215651006984/?text=familia"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
         "node_identifier": "Regex:.*{development resources 1}.*",
@@ -536,27 +563,36 @@
         "change": "{book resources}",
         "condition_var": "",
         "category": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
+      }
+    ],
+    "external_references_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent}.*",
+        "original": "{consent}",
+        "language": "spa",
+        "replacement": "https://bit.ly/CCPrivacy-Terms"
       },
       {
         "type_of_edit": "replace_bit_of_text",
-        "flow_id": "consent",
+        "flow_id": "survey - onb - question - welcome",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "change": "{consent_link}",
-        "condition_var": "",
-        "category": "https://bit.ly/formando-cc-consent"
+        "node_identifier": "Regex:.*{URL}.*",
+        "original": "{URL}",
+        "language": "spa",
+        "replacement": "https://bit.ly/AboutCC_es"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "share",
         "original_row_id": "",
         "node_identifier": "Regex:.*{insert link}.*",
-        "change": "{insert link}",
-        "condition_var": "",
-        "category": "https://wa.me/5215651006984/?text=familia"
-      }
-    ],
-    "external_references_transl": [
+        "original": "{insert link}",
+        "language": "spa",
+        "replacement": "https://wa.me/5215651006984/?text=familia"
+      },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -646,24 +682,6 @@
         "original": "{book resources}",
         "language": "spa",
         "replacement": "\"Librero Digital\" https://www.alasyraices.gob.mx/librerogeneral.html\n\n\"Leoteca\" https://www.leoteca.es/\n\n\"Cuentos para Dormir\" https://play.google.com/store/apps/details?id=com.IVR.cuentosparadormir&hl=es_US&pli=1\n\n\"Audioteca\" https://www.alasyraices.gob.mx/leer_con_alas.html"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "consent",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "original": "{consent_link}",
-        "language": "spa",
-        "replacement": "https://bit.ly/formando-cc-consent"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "share",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "original": "{insert link}",
-        "language": "spa",
-        "replacement": "https://wa.me/5215651006984/?text=familia"
       }
     ],
     "referrals_add_location": [
@@ -1058,6 +1076,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{PREVENT}.*",
+        "change": "{PREVENT}",
+        "condition_var": "",
+        "category": "PREVENT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{REVIEW}.*",
         "change": "{REVIEW}",
         "condition_var": "",
@@ -1071,6 +1098,24 @@
         "change": "{PAUSE}",
         "condition_var": "",
         "category": "PAUSE"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{RESET}.*",
+        "change": "{RESET}",
+        "condition_var": "",
+        "category": "FACREANUDAR"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FACSTART}.*",
+        "change": "{FACSTART}",
+        "condition_var": "",
+        "category": "PRUEBA"
       }
     ],
     "triggers_transl": [
@@ -1132,6 +1177,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{PREVENT}.*",
+        "original": "{PREVENT}",
+        "language": "spa",
+        "replacement": "PREVENIR"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{REVIEW}.*",
         "original": "{REVIEW}",
         "language": "spa",
@@ -1145,6 +1199,24 @@
         "original": "{PAUSE}",
         "language": "spa",
         "replacement": "PAUSAR"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{RESET}.*",
+        "original": "{RESET}",
+        "language": "spa",
+        "replacement": "FACREANUDAR"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FACSTART}.*",
+        "original": "{FACSTART}",
+        "language": "spa",
+        "replacement": "PRUEBA"
       }
     ],
     "remove_wa_bold_eng": [

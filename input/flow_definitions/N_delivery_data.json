@@ -147,12 +147,60 @@
         "tags.2": "",
         "tags.3": "",
         "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "certificate_name_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SurveyQuestionRowModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "referral_paths_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "MenuModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "feedback_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "OnboardingQuestionInputModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
       }
     ],
     "congrats_data": [
       {
         "ID": "intermediate_completion",
-        "msg": "🎉You did it!🎉 You have completed the course @results.name and earned yourself a certificate. Congratulations! ",
+        "msg": "🎉Yahoo!🎉 Great work, @fields.first_user_name. Here's your course certificate to keep and share. ",
         "extra_msg": "Remember, if you need support practising the skills you learned, you can get extra help in Troubleshooting, found in the Main Menu. Just type {MENU}."
       },
       {
@@ -164,6 +212,48 @@
         "ID": "take_a_pause_completion",
         "msg": "Well done. You're ready to start the first course. ",
         "extra_msg": ""
+      }
+    ],
+    "certificate_name_data": [
+      {
+        "ID": "congrats",
+        "type": "intro",
+        "messages.1.text": "🎉You did it!🎉 You have completed the course @fields.print_goal_name and earned yourself a certificate. Congratulations! ",
+        "messages.1.image": "",
+        "validation.conditions.1.condition.variable": "",
+        "validation.conditions.1.condition.value": "",
+        "validation.conditions.1.condition.type": "",
+        "validation.conditions.1.condition.name": "",
+        "validation.conditions.1.message": "",
+        "confirmation.condition.variable": "",
+        "confirmation.condition.value": "",
+        "confirmation.condition.type": "",
+        "confirmation.question": "",
+        "confirmation.confirm_option": "",
+        "confirmation.back_option": "",
+        "postprocessing.flow": "",
+        "postprocessing.assignments.1.variable": "",
+        "postprocessing.assignments.1.value": ""
+      },
+      {
+        "ID": "name",
+        "type": "input_skip_qs",
+        "messages.1.text": "How should I print your name on the certificate?",
+        "messages.1.image": "",
+        "validation.conditions.1.condition.variable": "@(if(text_length(results.input)<=50,\"v\",\"i\"))",
+        "validation.conditions.1.condition.value": "v",
+        "validation.conditions.1.condition.type": "has_only_phrase",
+        "validation.conditions.1.condition.name": "valid",
+        "validation.conditions.1.message": "This name is too long. Please enter a shorter name.",
+        "confirmation.condition.variable": "",
+        "confirmation.condition.value": "",
+        "confirmation.condition.type": "",
+        "confirmation.question": "The name you would like to have on you certificate is @answer. Is that correct?",
+        "confirmation.confirm_option": "Yes",
+        "confirmation.back_option": "No",
+        "postprocessing.flow": "",
+        "postprocessing.assignments.1.variable": "certificate name",
+        "postprocessing.assignments.1.value": "@answer"
       }
     ],
     "delivery_messages": [
@@ -187,9 +277,51 @@
       },
       {
         "ID": "hook_message",
-        "msg": "These messages don’t seem to be working. When you are ready to keep going, press 1. ",
+        "msg": "👍 Thanks for your feedback!\nIf you'd like to join again, just type 1 anytime.",
         "next_button_option": "1",
         "metadata.description": "hook message sent after 3 days of no response from the user. Needs to be aligned with whatsapp template \"no_response\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
+      }
+    ],
+    "referral_paths_data": [
+      {
+        "ID": "referral_3_day_inactivity",
+        "message.text": "It looks like ParentText isn't working for you. Can you tell us why?",
+        "message.image": "",
+        "return_option.text": "",
+        "return_option.flow": "",
+        "options.1.text": "I do not have time",
+        "options.1.flow": "empty",
+        "options.2.text": "It is not helpful",
+        "options.2.flow": "empty",
+        "options.3.text": "It isn't working on my phone",
+        "options.3.flow": "empty",
+        "options.4.text": "Other",
+        "options.4.flow": "user_input - ptext_feedback",
+        "options.5.text": "",
+        "options.5.flow": "",
+        "options.6.text": "",
+        "options.6.flow": "",
+        "options.7.text": "",
+        "options.7.flow": "",
+        "options.8.text": "",
+        "options.8.flow": "",
+        "options.9.text": "",
+        "options.9.flow": "",
+        "wa_template_ID": "no_response",
+        "wa_template_vars": "@fields.prog_name"
+      }
+    ],
+    "feedback_data": [
+      {
+        "ID": "ptext_feedback",
+        "question": "We're here to listen. Please tell how to make ParentText more helpful by sharing your feedback in a single message.",
+        "skip_option": "",
+        "skip_value": "",
+        "variable": "feedback_prog",
+        "test.expression": "",
+        "test.value": "",
+        "test.condition_type": "",
+        "error_message": ""
       }
     ],
     "make_options_wrapper_data": [
@@ -441,92 +573,6 @@
         "msg": "It takes only 5 days to complete the core course, @results.name. Once you've earned your certificate, you will have access to other helpful parenting courses. You can choose to take the courses that interest you or meet your family's needs. "
       }
     ],
-    "wa_templates": [
-      {
-        "ID": "daily_interaction",
-        "name": "",
-        "uuid": "",
-        "text": "I've got another lesson ready for you! Is now a good time to continue with the course, {{1}}?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow. "
-      },
-      {
-        "ID": "first_module_intro",
-        "name": "",
-        "uuid": "",
-        "text": "It’s time to get started on your course, {{1}}. Are you ready?\n\nPress a number on your keypad:\n1. Yes!\n2. Remind me tomorrow"
-      },
-      {
-        "ID": "start_started_mod_or_change_goal",
-        "name": "",
-        "uuid": "",
-        "text": "You're almost finished with this course! {{1}} What would you like to do?\n\nPress a number on your keypad:\n1. {{2}}\n2. Leave this course unfinished and select a new course"
-      },
-      {
-        "ID": "unfinished_onboarding",
-        "name": "",
-        "uuid": "",
-        "text": "ParentText has begun. Are you ready to complete your registration and get started?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later"
-      },
-      {
-        "ID": "select_goal",
-        "name": "",
-        "uuid": "",
-        "text": "You have made great progress. Are you ready to select your next parenting course?\n\nPress a number on your keypad:\n1. Yes\n2. I don't want to take another course\n3. Remind me Later"
-      },
-      {
-        "ID": "no_response",
-        "name": "",
-        "uuid": "",
-        "text": "These messages don’t seem to be working. When you are ready to keep going, press 1. "
-      },
-      {
-        "ID": "post_goal_checkin",
-        "name": "",
-        "uuid": "",
-        "text": "Today we are taking a break from your course, {{1}}, and checking in on your progress. Press 1 on your keypad to proceed."
-      },
-      {
-        "ID": "complete_start_module",
-        "name": "",
-        "uuid": "",
-        "text": "You’re off track! Do you want to complete a previous course or start a new course?\n\nPress a number on your keypad:\n1. Complete\n2. Start new"
-      },
-      {
-        "ID": "new_goals_available",
-        "name": "",
-        "uuid": "",
-        "text": "There are new parenting courses available for you! \n\nPress a number on your keypad:\n1. Tell me about them!\n2. No thanks! I am already a parenting expert and don't need another course. "
-      },
-      {
-        "ID": "new_goal_available",
-        "name": "",
-        "uuid": "",
-        "text": "There is a new parenting course available for you! \n\nPress a number on your keypad:\n1. Tell me about it!\n2. No thanks! I am already a parenting expert and don't need another course. "
-      },
-      {
-        "ID": "start_started_mod_or_change_goal_one",
-        "name": "",
-        "uuid": "",
-        "text": "You're almost finished with this course! You only have 1 unfinished lesson. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this lesson and earn my course certificate\n2. Leave this course unfinished and select a new course"
-      },
-      {
-        "ID": "start_started_mod_or_change_goal_multiple",
-        "name": "",
-        "uuid": "",
-        "text": "You're almost finished with this course! You have @fields.c_n_mod_started unfinished lessons. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished lessons to earn my course certificate\n2. Leave this course unfinished and select a new course"
-      },
-      {
-        "ID": "start_started_mod_or_later_one",
-        "name": "",
-        "uuid": "",
-        "text": "You're almost finished with this course! You only have 1 unfinished lesson. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this lesson and earn my course certificate\n2. Remind me tomorrow"
-      },
-      {
-        "ID": "start_started_mod_or_later_multiple",
-        "name": "",
-        "uuid": "",
-        "text": "You're almost finished with this course! Once you complete this course, you will have completed every available parenting course in ParentText! Congratulations! You have @fields.c_n_mod_started unfinished lessons. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished lessons to earn my course certificate\n2. Remind me tomorrow\n3. Leave this course unfinished and stop receiving these messages"
-      }
-    ],
     "interaction_data": [
       {
         "ID": "select_goal",
@@ -615,7 +661,7 @@
         "options.2.proceed_result_value": "new",
         "options.2.stop_message": "That’s okay. You can return to complete this course through the Progress Tracker in the Main Menu. Just type {MENU}.",
         "wa_template_ID": "start_started_mod_or_change_goal_multiple",
-        "wa_template_vars.1": "",
+        "wa_template_vars.1": "@fields.c_n_mod_started",
         "wa_template_vars.2": ""
       },
       {
@@ -645,7 +691,7 @@
         "options.2.proceed_result_value": "",
         "options.2.stop_message": "Great, see you tomorrow!",
         "wa_template_ID": "start_started_mod_or_later_multiple",
-        "wa_template_vars.1": "",
+        "wa_template_vars.1": "@fields.c_n_mod_started",
         "wa_template_vars.2": ""
       },
       {

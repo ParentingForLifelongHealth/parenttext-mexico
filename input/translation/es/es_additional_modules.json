@@ -606,42 +606,6 @@
     "note": ""
   },
   {
-    "SourceText": "👂 It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking @fields.child_nickname questions, and exploring their responses and the story with them.",
-    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a @fields.child_nickname y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🔑 @fields.child_nickname will practise saying new words and develop an interest in reading.",
-    "text": "🔑 @fields.child_nickname practicará la pronunciación de palabras nuevas y desarrollará el interés por la lectura.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "👂 It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking your {child} questions, and exploring their responses and the story with them.",
-    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a tu {child} y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🔑 your {child} will practise saying new words and develop an interest in reading.",
-    "text": "🔑 tu {child} practicará la pronunciación de palabras nuevas y desarrollará el interés por la lectura.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "👂It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking @fields.child_nickname questions,and exploring their responses and the story with them.",
-    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a @fields.child_nickname y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "👂It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking your {child} questions,and exploring their responses and the story with them.",
-    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a tu {child} y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Press Play ▶️ to learn the five ways to prepare @fields.child_nickname to learn how to read when they are older:",
     "text": "Da Clic en Reproducir ▶️ para aprender las cinco estrategias sobre cómo preparar a @fields.child_nickname para aprender a leer cuando crezca:",
     "type": "text",
@@ -920,6 +884,42 @@
   {
     "SourceText": "☀️ That’s okay. It’s not always possible to read with your {child}. Try to find a little bit of time every day because it will help your {child} learn.",
     "text": "☀️ Entendemos. No siempre es posible tomarnos un tiempo para leer con tu {child}. Intenta apartar un poco de tiempo cada día porque esto ayudará en el aprendizaje de tu {child}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking @fields.child_nickname questions, and exploring their responses and the story with them.",
+    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a @fields.child_nickname y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🔑 @fields.child_nickname will practise saying new words and develop an interest in reading.",
+    "text": "🔑 @fields.child_nickname practicará la pronunciación de palabras nuevas y desarrollará el interés por la lectura.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "👂 It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking your {child} questions, and exploring their responses and the story with them.",
+    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a tu {child} y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔑 Your {child} will practise saying new words and develop an interest in reading.",
+    "text": "🔑 Tu {child} practicará la pronunciación de palabras nuevas y desarrollará el interés por la lectura.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking @fields.child_nickname questions,and exploring their responses and the story with them.",
+    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a @fields.child_nickname y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "👂It is enjoyable to read the words aloud and use facial expressions to match the emotions in the story. But that’s not the ONLY thing reading with your girl or boy means. It also involves asking your {child} questions,and exploring their responses and the story with them.",
+    "text": "👂 Leer las palabras en voz alta y usar expresiones faciales que corresponden a las emociones de la historia es divertido. Pero no significa que es lo ÚNICO que puedes hacer al leer con tu niña o niño. También implica hacerle preguntas a tu {child} y explorar sus respuestas, además de indagar más sobre la historia entre ustedes.",
     "type": "text",
     "note": ""
   },
@@ -1380,18 +1380,6 @@
     "note": ""
   },
   {
-    "SourceText": "👂 While it’s fun to read with emotions, it can also help to ask @fields.child_nickname questions and explore the story with them.",
-    "text": "👂 Aunque es divertido ser expresivo al leer, también puede ayudar el hacerle preguntas a @fields.child_nickname y explorar la historia juntos.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "👂 While it’s fun to read with emotions, it can also help to ask your {child} questions and explore the story with them.",
-    "text": "👂 Aunque es divertido ser expresivo al leer, también puede ayudar el hacerle preguntas a tu {child} y explorar la historia juntos.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Press Play ▶️ to learn four ways to help @fields.child_nickname learn reading skills: Make Routines ⏰, Ask Questions, Respond and Explore 👀, Build and Connect 😃",
     "text": "Da clic en Reproducir ▶️ para aprender cuatro estrategias que pueden ayudar a @fields.child_nickname a desarrollar habilidades lectoras: Crear Rutinas ⏰, Hacer Preguntas, Responder y Explorar 👀, Construir y Conectar 😃",
     "type": "text",
@@ -1650,6 +1638,18 @@
     "note": ""
   },
   {
+    "SourceText": "👂 While it’s fun to read with emotions, it can also help to ask @fields.child_nickname questions and explore the story with them.",
+    "text": "👂 Aunque es divertido ser expresivo al leer, también puede ayudar el hacerle preguntas a @fields.child_nickname y explorar la historia juntos.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "👂 While it’s fun to read with emotions, it can also help to ask your {child} questions and explore the story with them.",
+    "text": "👂 Aunque es divertido ser expresivo al leer, también puede ayudar el hacerle preguntas a tu {child} y explorar la historia juntos.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Hello! Today, we are learning more about helping @fields.child_nickname become a better reader. ",
     "text": "¡Hola! Hoy vamos a aprender más sobre cómo ayudar a @fields.child_nickname para que mejore en la lectura. ",
     "type": "text",
@@ -1855,7 +1855,7 @@
   },
   {
     "SourceText": "👂 Ask them to find letters and name them, too! Remember to praise their effort.",
-    "text": "👂 ¡Pídele que encuentre letras y que también las nombre! Acuérdate de reconocer y reconocer sus esfuerzos.",
+    "text": "👂 ¡Pídele que encuentre letras y que también las nombre! Acuérdate de reconocer",
     "type": "text",
     "note": ""
   },
@@ -1956,26 +1956,26 @@
     "note": ""
   },
   {
-    "SourceText": "💙 🎨 Excellent! Drawing and writing with @fields.child_nickname is a great way to help them learn! ",
+    "SourceText": "💙 🎨 Excellent! Drawing and writing with @fields.child_nickname is a great way to help them learn!",
     "text": "✨ 📖 ¡Excelente! ¡Dibujar y escribir con @fields.child_nickname es una forma estupenda de ayudarle a aprender!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "💙 🎨 Excellent! Drawing and writing with your {child} is a great way to help them learn! ",
+    "SourceText": "💙 🎨 Excellent! Drawing and writing with your {child} is a great way to help them learn!",
     "text": "✨ 📖 ¡Excelente! ¡Dibujar y escribir con tu {child} es una forma estupenda de ayudarle a aprender!",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "✨ 💡 That’s okay. It’s not always possible to do this with @fields.child_nickname. Try to find a bit of time to write with @fields.child_nickname every day - it will help them learn! ",
-    "text": "✨💡 Entendemos. No siempre es posible tomarnos un tiempo para hacer esto con @fields.child_nickname. Intenta apartar un poco de tiempo para escribir con @fields.child_nickname todos los días: ¡esto le ayudará en su aprendizaje! ",
+    "SourceText": "✨ 💡 That’s okay. It’s not always possible to do this with @fields.child_nickname. Try to find a bit of time to write with @fields.child_nickname every day - it will help them learn!",
+    "text": "✨💡 Entendemos. No siempre es posible tomarnos un tiempo para hacer esto con @fields.child_nickname. Intenta apartar un poco de tiempo para escribir con @fields.child_nickname todos los días: ¡esto le ayudará en su aprendizaje!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "✨ 💡 That’s okay. It’s not always possible to do this with your {child}. Try to find a bit of time to write with your {child} every day - it will help them learn! ",
-    "text": "✨💡 Entendemos. No siempre es posible tomarnos un tiempo para hacer esto con tu {child}. Intenta apartar un poco de tiempo para escribir con tu {child} todos los días: ¡esto le ayudará en su aprendizaje! ",
+    "SourceText": "✨ 💡 That’s okay. It’s not always possible to do this with your {child}. Try to find a bit of time to write with your {child} every day - it will help them learn!",
+    "text": "✨💡 Está bien. No siempre es posible tomarnos un tiempo para hacer esto con tu {child}. Intenta apartar un poco de tiempo para escribir con tu {child} todos los días: ¡esto le ayudará en su aprendizaje!",
     "type": "text",
     "note": ""
   },
@@ -2059,7 +2059,7 @@
   },
   {
     "SourceText": "Praise @fields.child_nickname’s attempts to learn new things. Focus on what they are doing well, not their mistakes.",
-    "text": "Reconoce y halaga los intentos de @fields.child_nickname por aprender cosas nuevas. Enfócate en lo que hace bien, no en sus errores.",
+    "text": "Reconoce los intentos de @fields.child_nickname por aprender cosas nuevas. Enfócate en lo que hace bien, no en sus errores.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -2077,7 +2077,7 @@
   },
   {
     "SourceText": "Praise your {child}’s attempts to learn new things. Focus on what they are doing well, not their mistakes.",
-    "text": "Reconoce y halaga los intentos de tu {child} por aprender cosas nuevas. Enfócate en lo que hace bien, no en sus errores.",
+    "text": "Reconoce los intentos de tu {child} por aprender cosas nuevas. Enfócate en lo que hace bien, no en sus errores.",
     "type": "text",
     "note": ""
   },
@@ -2142,7 +2142,7 @@
     "note": ""
   },
   {
-    "SourceText": "📝 Let’s do a quiz. ",
+    "SourceText": "📝 Let’s do a quiz.",
     "text": "📝 ¡Hagamos un ejercicio!",
     "type": "text",
     "note": ""
@@ -2484,14 +2484,14 @@
     "note": ""
   },
   {
-    "SourceText": "Home activity! ⭐ Can you do an activity with adding and taking away with @fields.child_nickname? You can do that while cooking, going to school or on the bus with them again, or with other objects - like playing outside with stones! ",
-    "text": "¡Actividad para Casa! ⭐ ¿Puedes hacer una actividad de sumar y restar con @fields.child_nickname? Pueden hacerlo mientras cocinas, camino a la escuela o en el camión, o con otros objetos también, ¡como con piedras mientras juegan afuera! ",
+    "SourceText": "Home activity! ⭐ Can you do an activity with adding and taking away with @fields.child_nickname? You can do that while cooking, going to school or on the bus with them again, or with other objects - like playing outside with stones!",
+    "text": "¡Actividad para Casa! ⭐ ¿Puedes hacer una actividad de sumar y restar con @fields.child_nickname? Pueden hacerlo mientras cocinas, camino a la escuela o en el camión, o con otros objetos también, ¡como con piedras mientras juegan afuera!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Home activity! ⭐ Can you do an activity with adding and taking away with your {child}? You can do that while cooking, going to school or on the bus with them again, or with other objects - like playing outside with stones! ",
-    "text": "¡Actividad para Casa! ⭐ ¿Puedes hacer una actividad de sumar y restar con tu {child}? Pueden hacerlo mientras cocinas, camino a la escuela o en el camión, o con otros objetos también, ¡como con piedras mientras juegan afuera! ",
+    "SourceText": "Home activity! ⭐ Can you do an activity with adding and taking away with your {child}? You can do that while cooking, going to school or on the bus with them again, or with other objects - like playing outside with stones!",
+    "text": "¡Actividad para Casa! ⭐ ¿Puedes hacer una actividad de sumar y restar con tu {child}? Pueden hacerlo mientras cocinas, camino a la escuela o en el camión, o con otros objetos también, ¡como con piedras mientras juegan afuera!",
     "type": "text",
     "note": ""
   },
@@ -2826,8 +2826,8 @@
     "note": ""
   },
   {
-    "SourceText": "Here is a comic about having fun while learning with your girl or boy: ",
-    "text": "Aquí tienes una historieta que trata sobre cómo divertirte con tu niña o niño mientras aprenden: ",
+    "SourceText": "Here is a comic about having fun while learning with your girl or boy:",
+    "text": "Aquí tienes una historieta que trata sobre cómo divertirte con tu niña, niño o adolescente mientras aprenden:",
     "type": "text",
     "note": ""
   },
@@ -2916,14 +2916,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with @fields.child_nickname: ",
-    "text": "Aquí tienes tres estrategias que te ayudarán a facilitar un aprendizaje lleno de diversión y felicidad para @fields.child_nickname: ",
+    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with @fields.child_nickname:",
+    "text": "Aquí tienes tres estrategias que te ayudarán a facilitar un aprendizaje lleno de diversión y alegría para @fields.child_nickname:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with your {child}: ",
-    "text": "Aquí tienes tres estrategias que te ayudarán a facilitar un aprendizaje lleno de diversión y felicidad para tu {child}: ",
+    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with your {child}:",
+    "text": "Aquí tienes tres estrategias que te ayudarán a facilitar un aprendizaje lleno de diversión y alegría para tu {child}:",
     "type": "text",
     "note": ""
   },
@@ -2977,13 +2977,13 @@
   },
   {
     "SourceText": "😃 Encourage and praise @fields.child_nickname when they are learning.",
-    "text": "😃 Anima, reconoce y halaga a @fields.child_nickname cuando esté aprendiendo algo.",
+    "text": "😃 Anima, reconoce a @fields.child_nickname cuando esté aprendiendo algo.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "😃 Encourage and praise your {child} when they are learning.",
-    "text": "😃 Anima, reconoce y halaga a tu {child} cuando esté aprendiendo algo.",
+    "text": "😃 Anima, reconoce a tu {child} cuando esté aprendiendo algo.",
     "type": "text",
     "note": ""
   },
@@ -3169,7 +3169,7 @@
   },
   {
     "SourceText": "4️⃣ **PRAISE, PRAISE, PRAISE**",
-    "text": "4️⃣ **reconocer, reconocer, reconocer**",
+    "text": "4️⃣ **RECONOCER, RECONOCER, RECONOCER**",
     "type": "text",
     "note": ""
   },
@@ -3283,7 +3283,7 @@
   },
   {
     "SourceText": "Praise @fields.child_nickname for all their efforts, no matter how small. ",
-    "text": "Halaga a @fields.child_nickname por todos sus esfuerzos, por pequeños que sean. ",
+    "text": "Reconoce a @fields.child_nickname por todos sus esfuerzos, por pequeños que sean. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -3295,7 +3295,7 @@
   },
   {
     "SourceText": "Praise your {child} for all their efforts, no matter how small. ",
-    "text": "Halaga a tu {child} por todos sus esfuerzos, por pequeños que sean. ",
+    "text": "Reconoce a tu {child} por todos sus esfuerzos, por pequeños que sean. ",
     "type": "text",
     "note": ""
   },
@@ -3511,7 +3511,7 @@
   },
   {
     "SourceText": "✅ Ask what they need to accomplish today, and praise them if they achieve their goal.",
-    "text": "✅ Pregúntale qué es lo que tiene que lograr para hoy, y si cumple con su objetivo, reconócele y halágale.",
+    "text": "✅ Pregúntale qué es lo que tiene que lograr para hoy, y si cumple con su objetivo y reconócele.",
     "type": "text",
     "note": ""
   },
@@ -3649,7 +3649,7 @@
   },
   {
     "SourceText": "2️⃣ **PRAISE EFFORT**",
-    "text": "2️⃣ **reconocer EL ESFUERZO**",
+    "text": "2️⃣ **RECONOCER EL ESFUERZO**",
     "type": "text",
     "note": ""
   },
@@ -3709,7 +3709,7 @@
   },
   {
     "SourceText": "💛 Praise @fields.child_nickname for the effort they put into their learning even if they did not succeed.",
-    "text": "💛 Halaga a @fields.child_nickname por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla su cometido.",
+    "text": "💛 Reconoce a @fields.child_nickname por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla su cometido.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -3721,7 +3721,7 @@
   },
   {
     "SourceText": "💛 Praise your {child} for the effort they put into their learning even if they did not succeed.",
-    "text": "💛 Halaga a tu {child} por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla su cometido.",
+    "text": "💛 Reconoce a tu {child} por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla su cometido.",
     "type": "text",
     "note": ""
   },
@@ -3955,7 +3955,7 @@
   },
   {
     "SourceText": "{F3_MOTHER} (taking a deep breath thinking): Let me pause. I am trying my best. Shouting at them will just make it worse.",
-    "text": "{F3_MOTHER} (respira profundamente y piensa): Déjame hacer una pausa. Estoy haciendo lo mejor que puedo. Gritarles solamente empeorará las cosas.",
+    "text": "{F3_MOTHER} (respira profundamente y piensa): Voy a tomar una pausa. Estoy haciendo lo mejor que puedo. Gritarles solamente empeorará las cosas.",
     "type": "text",
     "note": ""
   },
@@ -4021,7 +4021,7 @@
   },
   {
     "SourceText": "{F3_MOTHER} (thinking): Phew! That was not easy, but at least I did not shout like usual. I have had a long day and am feeling very stressed. Maybe I will call Maria later and have a chat.",
-    "text": "{F3_MOTHER} (pensando): ¡Uf! No fue fácil pero al menos no les grité como siempre lo hago. Tuve un día muy largo y me siento muy estresada. Tal vez le hable a María más tarde para platicar un poco con ella.",
+    "text": "{F3_MOTHER} (pensando): ¡Uf! No fue fácil pero al menos no les grité como siempre lo hago. Tuve un día muy largo y me siento muy estresada. Tal vez le hable a María más tarde para hablar un poco con ella.",
     "type": "text",
     "note": ""
   },
@@ -4050,14 +4050,14 @@
     "note": ""
   },
   {
-    "SourceText": "4️⃣ **RECHARGE** ",
-    "text": "4️⃣ **RECARGAR PILAS** ",
+    "SourceText": "4️⃣ **RECHARGE**",
+    "text": "4️⃣ **RECARGAR ENERGÍA**",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Here are 4️⃣ tips you can use to manage stress: ",
-    "text": "Aquí tienes 4️⃣ estrategias que puedes usar para regular el estrés: ",
+    "SourceText": "Here are 4️⃣ tips you can use to manage stress:",
+    "text": "Aquí tienes 4️⃣ estrategias que puedes usar para regular el estrés:",
     "type": "text",
     "note": ""
   },
@@ -4128,6 +4128,12 @@
     "note": ""
   },
   {
+    "SourceText": "4️⃣ **RECHARGE** ",
+    "text": "4️⃣ **RECARGAR PILAS** ",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Take breaks during the day to recharge your energy. Small breaks can help, bit by bit.",
     "text": "Haz pausas durante el día para recargar tu energía. Los pequeños descansos pueden ayudarte, poquito a poquito.",
     "type": "text",
@@ -4146,8 +4152,8 @@
     "note": ""
   },
   {
-    "SourceText": "Home Activity ⭐! Share these tips with your girl or boy and have a conversation about how they can use them to help them manage their stress too. Do you have time to do it today? ",
-    "text": "¡Actividad para casa ⭐! Comparte estas estrategias con tu niña o niño y acuerden  cómo puede ella o él usarlas para manejar su propio estrés. ¿Tienes tiempo para hacerlo hoy? ",
+    "SourceText": "Home Activity ⭐! Share these tips with your girl or boy and have a conversation about how they can use them to help them manage their stress too. Do you have time to do it today?",
+    "text": "¡Actividad para casa ⭐! Comparte estas estrategias con tu niña, niño o adolescente y acuerden cómo pueden usarlas para manejar el estrés. ¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -4164,8 +4170,8 @@
     "note": ""
   },
   {
-    "SourceText": "💚 It’s okay if you don’t have time today! You can share these tips with your teen tomorrow. Remember to take a pause and follow these tips if you are feeling stressed. ",
-    "text": "💚 ¡No pasa nada si hoy no tienes tiempo! Puedes compartir estas estrategias con tu adolescente mañana. Recuerda hacer una pausa y seguir estas estrategias si te encuentras en una situación que te genere estrés. ",
+    "SourceText": "💚 It’s okay if you don’t have time today! You can share these tips with your teen tomorrow. Remember to take a pause and follow these tips if you are feeling stressed.",
+    "text": "💚 ¡No pasa nada si hoy no tienes tiempo! Puedes compartir estas estrategias con tu adolescente mañana. Recuerda hacer una pausa y seguir estas estrategias si te encuentras en una situación que te genere estrés.",
     "type": "text",
     "note": ""
   },
@@ -4249,7 +4255,7 @@
   },
   {
     "SourceText": "2️⃣ **DECIDE**",
-    "text": "2️⃣: **DECIDIR**",
+    "text": "2️⃣ **DECIDIR**",
     "type": "text",
     "note": ""
   },
@@ -4266,14 +4272,14 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣ **ONE STEP AT A TIME** ",
-    "text": "5️⃣ **TOMARLO UN PASO A LA VEZ** ",
+    "SourceText": "5️⃣ **ONE STEP AT A TIME**",
+    "text": "5️⃣ **UN PASO A LA VEZ**",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Here are 5️⃣ tips to help you make a plan when you are feeling stressed because you have too many things to do: ",
-    "text": "Aquí tienes 5️⃣ estrategias que te ayudarán a elaborar un plan cuando estés en situaciones que te generen estrés porque tienes demasiadas cosas que hacer: ",
+    "SourceText": "Here are 5️⃣ tips to help you make a plan when you are feeling stressed because you have too many things to do:",
+    "text": "Aquí tienes 5️⃣ estrategias que te ayudarán a elaborar un plan cuando estés en situaciones que te generen estrés porque tienes demasiadas cosas que hacer:",
     "type": "text",
     "note": ""
   },
@@ -4362,6 +4368,12 @@
     "note": ""
   },
   {
+    "SourceText": "5️⃣ **ONE STEP AT A TIME** ",
+    "text": "5️⃣ **TOMARLO UN PASO A LA VEZ** ",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Begin with the number one task on your list. ",
     "text": "Empieza por la primera actividad de tu lista. ",
     "type": "text",
@@ -4386,8 +4398,8 @@
     "note": ""
   },
   {
-    "SourceText": "Home Activity ⭐! Use these tips to create a plan for all the things you need to do today or this week. Can you do this today? ",
-    "text": "¡Actividad para Casa ⭐! Usa estas estrategias para crear un plan que te ayude a hacer todas las cosas que tienes que hacer hoy o en la semana. ¿Puedes hacerlo hoy? ",
+    "SourceText": "Home Activity ⭐! Use these tips to create a plan for all the things you need to do today or this week. Can you do this today?",
+    "text": "¡Actividad para Casa ⭐! Usa estas estrategias para crear un plan que te ayude a hacer todas las cosas que tienes que hacer hoy o en la semana. ¿Puedes hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -4410,8 +4422,8 @@
     "note": ""
   },
   {
-    "SourceText": "That’s okay. You can try it tomorrow. ",
-    "text": "¡Está bien, no pasa nada! Puedes intentarlo mañana. ",
+    "SourceText": "That’s okay. You can try it tomorrow.",
+    "text": "¡Está bien, no pasa nada! Puedes intentarlo mañana.",
     "type": "text",
     "note": ""
   },
@@ -4530,8 +4542,8 @@
     "note": ""
   },
   {
-    "SourceText": "Playing with your girl or boy also helps you build a positive relationship with them. ",
-    "text": "Jugar con tu niña o niño también te ayuda a construir una relación positiva entre ustedes. ",
+    "SourceText": "Playing with your girl or boy also helps you build a positive relationship with them.",
+    "text": "Jugar con tu niña, niño o adolescente también te ayuda a construir una relación positiva entre ustedes.",
     "type": "text",
     "note": ""
   },
@@ -4867,7 +4879,7 @@
   },
   {
     "SourceText": "Praise them for apologising and show that you are proud of them. 💙",
-    "text": "Halágale por haberse disculpado y demuéstrale que te da mucho orgullo que lo haya hecho. 💙",
+    "text": "Reconócele por haberse disculpado y demuéstrale que te da mucho orgullo que lo haya hecho. 💙",
     "type": "text",
     "note": ""
   },
@@ -4878,13 +4890,13 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "✨ your {child} probably feels very bad about making a mistake. ",
+    "SourceText": "✨ Your {child} probably feels very bad about making a mistake. ",
     "text": "✨ Tu {child} probablemente se sienta muy mal por haber cometido un error. ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "😔 your {child} may be tempted to hide mistakes from you out of fear if they feel unsupported.",
+    "SourceText": "😔 Your {child} may be tempted to hide mistakes from you out of fear if they feel unsupported.",
     "text": "😔 Si tu {child} no siente tu apoyo, puede que tenga la tentación de ocultarte sus errores por miedo.",
     "type": "text",
     "note": ""
@@ -4897,7 +4909,7 @@
   },
   {
     "SourceText": "Praise them for apologising and show that you are proud of them for realising and saying sorry. 💙",
-    "text": "Halágale por haberse disculpado y demuéstrale que te da mucho orgullo que se haya dado cuenta y que haya pedido perdón. 💙",
+    "text": "Reconócele por haberse disculpado y demuéstrale que te da mucho orgullo que se haya dado cuenta y que haya pedido perdón. 💙",
     "type": "text",
     "note": ""
   },
@@ -5137,7 +5149,7 @@
   },
   {
     "SourceText": "⭐ Praise them for persisting! @fields.child_nickname will feel supported. Effort is more important than being good at something.",
-    "text": "⭐ ¡Halágale por persistir! @fields.child_nickname sentirá tu apoyo. El esfuerzo es más importante que dominar una habilidad.",
+    "text": "⭐ ¡Reconócele por persistir! @fields.child_nickname sentirá tu apoyo. El esfuerzo es más importante que dominar una habilidad.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -5149,7 +5161,7 @@
   },
   {
     "SourceText": "⭐ Praise them for persisting! Your {child} will feel supported. Effort is more important than being good at something.",
-    "text": "⭐ ¡Halágale por persistir! Tu {child} sentirá el apoyo. El esfuerzo es más importante que dominar una habilidad.",
+    "text": "⭐ ¡Reconócele por persistir! Tu {child} sentirá el apoyo. El esfuerzo es más importante que dominar una habilidad.",
     "type": "text",
     "note": ""
   },
@@ -5173,7 +5185,7 @@
   },
   {
     "SourceText": "💚 Use words of encouragement to motivate them and praise each step.",
-    "text": "💚 Usa palabras de aliento para darle motivación y halaga cada paso que dé.",
+    "text": "💚 Usa palabras de aliento para darle motivación y Reconoce cada paso que dé.",
     "type": "text",
     "note": ""
   },
@@ -5304,30 +5316,6 @@
     "note": ""
   },
   {
-    "SourceText": " 🚲 @fields.child_nickname will become more curious and will do more by themselves as they observe the world around them. Be aware of their activities, but encourage them to experience fun activities safely!",
-    "text": " 🚲 @fields.child_nickname aumentará su curiosidad y hará más cosas por su cuenta cuando empiece a observar el mundo que le rodea. ¡Siempre presta atención a lo que está haciendo y anímale a experimentar actividades nuevas y divertidas de manera segura!",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "⭐ Encourage @fields.child_nickname to learn tasks independently, like combing hair, dressing themselves, or tying shoelaces. Show them how to do it safely by setting a good example.",
-    "text": "⭐ Anima a @fields.child_nickname a aprender a hacer cosas nuevas de forma independiente, como peinarse, vestirse sin ayuda o atarse las agujetas de los zapatos. Enséñale cómo hacerlo de manera segura dando un buen ejemplo.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": " 🚲 your {child} will become more curious and will do more by themselves as they observe the world around them. Be aware of their activities, but encourage them to experience fun activities safely!",
-    "text": " 🚲 Tu {child} aumentará su curiosidad y hará más cosas por su cuenta cuando empiece a observar el mundo que le rodea. ¡Siempre presta atención a lo que está haciendo y anímale a experimentar actividades nuevas y divertidas de manera segura!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "⭐ Encourage your {child} to learn tasks independently, like combing hair, dressing themselves, or tying shoelaces. Show them how to do it safely by setting a good example.",
-    "text": "⭐ Anima a tu {child} a aprender a hacer cosas nuevas de forma independiente, como peinarse, vestirse sin ayuda o atarse las agujetas de los zapatos. Enséñale cómo hacerlo de manera segura dando un buen ejemplo.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "⚽ Use games as a tool to teach @fields.child_nickname about taking turns and sharing. They may not enjoy losing initially, but you can show them that the most important thing is to have fun. ",
     "text": "⚽ Utiliza los juegos como herramienta para enseñarle a @fields.child_nickname a esperar su turno y a compartir. Puede que al principio no le guste perder, pero puedes enseñarle que lo más importante es divertirse. ",
     "type": "text",
@@ -5335,7 +5323,7 @@
   },
   {
     "SourceText": "🏆 Praise @fields.child_nickname when they share their things with others and show a positive attitude when they lose in a game.",
-    "text": "🏆 Halaga a @fields.child_nickname cuando comparta sus cosas con otras personas y muestra una actitud positiva cuando pierda en algún juego.",
+    "text": "🏆 Reconoce a @fields.child_nickname cuando comparta sus cosas con otras personas y muestra una actitud positiva cuando pierda en algún juego.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -5347,7 +5335,7 @@
   },
   {
     "SourceText": "🏆 Praise your {child} when they share their things with others and show a positive attitude when they lose in a game.",
-    "text": "🏆 Halaga a tu {child} cuando comparta sus cosas con otras personas y muestra una actitud positiva cuando pierda en algún juego.",
+    "text": "🏆 Reconoce a tu {child} cuando comparta sus cosas con otras personas y muestra una actitud positiva cuando pierda en algún juego.",
     "type": "text",
     "note": ""
   },
@@ -5388,6 +5376,30 @@
     "note": ""
   },
   {
+    "SourceText": " 🚲 @fields.child_nickname will become more curious and will do more by themselves as they observe the world around them. Be aware of their activities, but encourage them to experience fun activities safely!",
+    "text": " 🚲 @fields.child_nickname aumentará su curiosidad y hará más cosas por su cuenta cuando empiece a observar el mundo que le rodea. ¡Siempre presta atención a lo que está haciendo y anímale a experimentar actividades nuevas y divertidas de manera segura!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "⭐ Encourage @fields.child_nickname to learn tasks independently, like combing hair, dressing themselves, or tying shoelaces. Show them how to do it safely by setting a good example.",
+    "text": "⭐ Anima a @fields.child_nickname a aprender a hacer cosas nuevas de forma independiente, como peinarse, vestirse sin ayuda o atarse las agujetas de los zapatos. Enséñale cómo hacerlo de manera segura dando un buen ejemplo.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "⭐ Encourage your {child} to learn tasks independently, like combing hair, dressing themselves, or tying shoelaces. Show them how to do it safely by setting a good example.",
+    "text": "⭐ Anima a tu {child} a aprender a hacer cosas nuevas de forma independiente, como peinarse, vestirse sin ayuda o atarse las agujetas de los zapatos. Enséñale cómo hacerlo de manera segura dando un buen ejemplo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": " 🚲 Your {child} will become more curious and will do more by themselves as they observe the world around them. Be aware of their activities, but encourage them to experience fun activities safely!",
+    "text": " 🚲 Tu {child} aumentará su curiosidad y hará más cosas por su cuenta cuando empiece a observar el mundo que le rodea. ¡Siempre presta atención a lo que está haciendo y anímale a experimentar actividades nuevas y divertidas de manera segura!",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Today’s parenting lesson is about how you can support @fields.child_nickname’s healthy development as they grow and change. ✨",
     "text": "La sesión de habilidades de crianza de hoy es sobre cómo favorecer el desarrollo saludable de @fields.child_nickname a medida que crece y va cambiando. ✨",
     "type": "text",
@@ -5406,20 +5418,20 @@
     "note": ""
   },
   {
-    "SourceText": "{F1_FATHER}: Let me put your shoes on",
-    "text": "{F1_FATHER}: Déjame ponerte los zapatos.",
+    "SourceText": "{F1_FATHER}: I notice you haven’t put your shoes on, I'm here if you need help.",
+    "text": "{F1_FATHER}: Noto que no te has puesto los zapatos, aquí estoy si necesitas ayuda.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "{F1_DAUGHTER_6}: No, I want to do it myself!",
-    "text": "{F1_DAUGHTER_6}: ¡No, yo lo quiero hacer!",
+    "SourceText": "{F1_DAUGHTER_6}: No, I will try!",
+    "text": "{F1_DAUGHTER_6}: ¡No, yo quiero intentarlo!",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "{F1_FATHER} Okay, {F1_DAUGHTER_6}, you can do it yourself.",
-    "text": "{F1_FATHER}: De acuerdo, {F1_DAUGHTER_6}, puedes hacerlo tú.",
+    "SourceText": "{F1_FATHER} Okay, {F1_DAUGHTER_6}!",
+    "text": "{F1_FATHER}: ¡De acuerdo {F1_DAUGHTER_6}!",
     "type": "text",
     "note": ""
   },
@@ -5472,42 +5484,6 @@
     "note": ""
   },
   {
-    "SourceText": "⚽ Play, play, play! @fields.child_nickname will develop relationships with other girls and boys and understand social rules through play.",
-    "text": "⚽ ¡Juega, juega, juega! @fields.child_nickname desarrollará relaciones con otras niñas y niños y comprenderá las normas sociales a través del juego.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🚲 @fields.child_nickname may not like to lose, share, or take turns, but losing and taking turns can be taught! Playing is a great way to do this!",
-    "text": "🚲 Puede que a @fields.child_nickname no le guste perder, compartir o esperar su turno, ¡pero saber perder y tomar turnos se puede enseñar! ¡Jugar es una forma estupenda de hacerlo!",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🏆 Praise @fields.child_nickname when they follow the rules or accept defeat.",
-    "text": "🏆 Halaga a @fields.child_nickname cuando siga las reglas o cuando acepte una derrota.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "⚽ Play, play, play! Your {child} will develop relationships with other girls and boys and understand social rules through play.",
-    "text": "⚽ ¡Juega, juega, juega! Tu {child} desarrollará relaciones con otras niñas y niños y comprenderá las normas sociales a través del juego.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🚲 Your {child} may not like to lose, share, or take turns, but losing and taking turns can be taught! Playing is a great way to do this!",
-    "text": "🚲 Puede que a tu {child} no le guste perder, compartir o esperar su turno, ¡pero saber perder y tomar turnos se puede enseñar! ¡Jugar es una forma estupenda de hacerlo!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🏆 Praise Your {child} when they follow the rules or accept defeat.",
-    "text": "🏆 Halaga a tu {child} cuando siga las reglas o cuando acepte una derrota.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "2️⃣ **SUPPORT CURIOSITY**",
     "text": "2️⃣ **APOYAR LA CURIOSIDAD**",
     "type": "text",
@@ -5538,6 +5514,42 @@
     "note": ""
   },
   {
+    "SourceText": "⚽ Play, play, play! @fields.child_nickname will develop relationships with other girls and boys and understand social rules through play.",
+    "text": "⚽ ¡Juega, juega, juega! @fields.child_nickname desarrollará relaciones con otras niñas y niños y comprenderá las normas sociales a través del juego.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🚲 @fields.child_nickname may not like to lose, share, or take turns, but losing and taking turns can be taught! Playing is a great way to do this!",
+    "text": "🚲 Puede que a @fields.child_nickname no le guste perder, compartir o esperar su turno, ¡pero saber perder y tomar turnos se puede enseñar! ¡Jugar es una forma estupenda de hacerlo!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🏆 Praise @fields.child_nickname when they follow the rules or accept defeat.",
+    "text": "🏆 Reconoce a @fields.child_nickname cuando siga las reglas o cuando acepte una derrota.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🏆 Praise your {child} when they follow the rules or accept defeat.",
+    "text": "🏆 Reconoce a tu {child} cuando siga las reglas o cuando acepte una derrota.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Play, play, play! Your {child} will develop relationships with other girls and boys and understand social rules through play.",
+    "text": "⚽ ¡Juega, juega, juega! Tu {child} desarrollará relaciones con otras niñas y niños y comprenderá las normas sociales a través del juego.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🚲 Your {child} may not like to lose, share, or take turns, but losing and taking turns can be taught! Playing is a great way to do this!",
+    "text": "🚲 Puede que a tu {child} no le guste perder, compartir o esperar su turno, ¡pero saber perder y tomar turnos se puede enseñar! ¡Jugar es una forma estupenda de hacerlo!",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "🧸 @fields.child_nickname may find it hard to know fantasy from the real world, so they may express feelings in a bigger way than it seems they need to. ",
     "text": "🧸 Puede que a @fields.child_nickname  le cueste un poco poder distinguir entre la fantasía y la realidad, por lo que existe la posibilidad de que pueda expresar sus sentimientos de una manera maximizada. ",
     "type": "text",
@@ -5562,26 +5574,38 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "🧸 your {child} may find it hard to know fantasy from the real world, so they may express feelings in a bigger way than it seems they need to. ",
-    "text": "🧸 puede que a tu {child} le cueste un poco poder distinguir entre la fantasía y la realidad, por lo que existe la posibilidad de que pueda maximizar la expresión de sus sentimientos. ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "That is alright! You can help your {child} learn how to manage their emotions by naming them, describing how they feel in their body, and accepting them. 😃😒😔😣",
     "text": "¡Es parte del proceso! Puedes ayudar a tu {child} a aprender cómo manejar sus emociones al nombrarlas, describir cómo se sienten en su cuerpo y aceptarlas. 😃😒😔😣",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "🌱 your {child} may talk a lot and have many questions. You can give your {child} short but honest answers. ",
-    "text": "🌱 puede que tu {child} hable mucho y tenga muchas preguntas. Le puedes dar respuestas breves pero sinceras. ",
+    "SourceText": "🌱 @fields.child_nickname may talk a lot and have many questions. You can give your {child} short but honest answers. ",
+    "text": "🌱 Puede que @fields.child_nickname hable mucho y tenga muchas preguntas. Le puedes dar a tu {child} respuestas breves pero sinceras. ",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "💡your {child} may repeat the question or ask follow-up questions to learn more. Take a pause and be calm as you support their interest to learn and continue to answer.",
     "text": "💡puede que tu {child} repita la pregunta o haga preguntas complementarias para saber más. Haz una pausa y mantén la calma mientras buscas fomentar su interés por aprender y respóndele.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧸 Your {child} may find it hard to know fantasy from the real world, so they may express feelings in a bigger way than it seems they need to. ",
+    "text": "🧸 Puede que a tu {child} le cueste un poco poder distinguir entre la fantasía y la realidad, por lo que existe la posibilidad de que pueda expresar sus sentimientos de una manera maximizada ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Your {child} may talk a lot and have many questions. You can give @fields.child_nickname short but honest answers. ",
+    "text": "🌱 Puede que tu {child} hable mucho y tenga muchas preguntas. Le puedes dar a @fields.child_nickname respuestas breves pero sinceras. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌱 Your {child} may talk a lot and have many questions. You can give your {child} short but honest answers. ",
+    "text": "🌱 Puede que tu {child} hable mucho y tenga muchas preguntas. Le puedes dar a tu {child} respuestas breves pero sinceras. ",
     "type": "text",
     "note": ""
   },
@@ -5784,12 +5808,6 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "🎨 your {child} will be interested in spending time with other children. ",
-    "text": "🎨 Tu {child} se interesará por pasar tiempo con otras niñas y niños. ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "⚽ Support your {child} to make friends based on their interests so that they develop relationships with other girls and boys.",
     "text": "⚽ Ayúdale a tu {child} a hacer amistades que compartan sus intereses para que entable relaciones con otras niñas y niños.",
     "type": "text",
@@ -5798,6 +5816,12 @@
   {
     "SourceText": "💚 Help your {child} learn how to share and play with others in a safe and fun way.",
     "text": "💚 Ayúdale a tu {child} a aprender a compartir y jugar con los demás de forma divertida y segura.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎨 Your {child} will be interested in spending time with other children. ",
+    "text": "🎨 Tu {child} se interesará por pasar tiempo con otras niñas, niños o adolescentes. ",
     "type": "text",
     "note": ""
   },
@@ -5820,19 +5844,31 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "📖 your {child} will be interested in learning at school and may have favourite subjects. ",
-    "text": "📖Tu {child} empezará a interesarse por aprender en la escuela y puede que tenga sus materias favoritas. ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Encourage your {child} to ask you or the teacher about any difficult content. ",
     "text": "Anima a tu {child} a preguntarte a ti o a la maestra o el maestro sobre cualquier contenido complicado. ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "🌱 your {child} may begin expressing interest in religious matters or spirituality. You can give your {child} short but honest answers, or look for answers.",
+    "SourceText": "🌱 @fields.child_nickname may begin expressing interest in religious matters or spirituality. You can give your {child} short but honest answers, or look for answers.",
+    "text": "🌱 Puede que @fields.child_nickname empiece a expresar su interés por los asuntos religiosos o la espiritualidad. Puedes darle respuestas breves pero sinceras o también puedes buscar las respuestas junto con tu {child}.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "📖 Your {child} will be interested in learning at school and may have favourite subjects. ",
+    "text": "📖Tu {child} empezará a interesarse por aprender en la escuela y puede que tenga sus materias favoritas. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Your {child} may begin expressing interest in religious matters or spirituality. You can give @fields.child_nickname short but honest answers, or look for answers.",
+    "text": "🌱 Puede que tu {child} empiece a expresar su interés por los asuntos religiosos o la espiritualidad. Puedes darle respuestas breves pero sinceras o también puedes buscar las respuestas junto con @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌱 Your {child} may begin expressing interest in religious matters or spirituality. You can give your {child} short but honest answers, or look for answers.",
     "text": "🌱 Puede que tu {child} empiece a expresar su interés por los asuntos religiosos o la espiritualidad. Puedes darle respuestas breves pero sinceras o también puedes buscar las respuestas junto con tu {child}.",
     "type": "text",
     "note": ""
@@ -5845,19 +5881,31 @@
   },
   {
     "SourceText": "🏆 Praise @fields.child_nickname when they follow the rules!",
-    "text": "🏆 ¡Halaga a @fields.child_nickname cuando siga las reglas!",
+    "text": "🏆 ¡Reconoce a @fields.child_nickname cuando siga las reglas!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "📝 your {child} may begin making decisions by themselves. They will want you to trust them. Listen to what your {child} wants and then set rules that work for the family. ",
-    "text": "📝 Puede que tu {child} empiece a tomar decisiones por su cuenta y va a querer que le des tu confianza. Escucha lo que tu {child} quiere y luego establece normas que sean funcionales para la familia. ",
+    "SourceText": "📝 @fields.child_nickname may begin making decisions by themselves. They will want you to trust them. Listen to what your {child} wants and then set rules that work for the family. ",
+    "text": "📝 Puede que @fields.child_nickname empiece a tomar decisiones por su cuenta. Querrá que le des tu confianza. Escucha lo que quiere tu {child} y luego establece normas que funcionen para la familia. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🏆 Praise your {child} when they follow the rules!",
+    "text": "🏆 ¡Reconoce a tu {child} cuando siga las reglas!",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "🏆 Praise your {child} when they follow the rules!",
-    "text": "🏆 ¡Halaga a tu {child} cuando siga las reglas!",
+    "SourceText": "📝 Your {child} may begin making decisions by themselves. They will want you to trust them. Listen to what @fields.child_nickname wants and then set rules that work for the family. ",
+    "text": "📝 Puede que tu {child} empiece a tomar decisiones por su cuenta. Querrá que le des tu confianza. Escucha lo que @fields.child_nickname quiere y luego establece normas que funcionen para la familia. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "📝 Your {child} may begin making decisions by themselves. They will want you to trust them. Listen to what your {child} wants and then set rules that work for the family. ",
+    "text": "📝 Puede que tu {child} empiece a tomar decisiones por su cuenta y querrá que le des tu confianza. Escucha lo que tu {child} quiere y luego establece normas que sean funcionales para la familia. ",
     "type": "text",
     "note": ""
   },
@@ -5995,7 +6043,7 @@
   },
   {
     "SourceText": "2️⃣ **UNDERSTAND**",
-    "text": "2️⃣ **ENTENDER**",
+    "text": "2️⃣ **COMPRENDER**",
     "type": "text",
     "note": ""
   },
@@ -6025,7 +6073,7 @@
   },
   {
     "SourceText": "That's OK! If you don't have time today, practise one of the strategies to manage your anger tomorrow. You can practise this skill any time you start feeling angry. You are doing great! 😃",
-    "text": "¡Está bien! Si hoy no tienes tiempo, practica una de las estrategias para regular tu enojo el día de mañana. Puedes practicar esta habilidad cada vez que empieces a sentir que el enojo empieza a escalar. ¡Lo estás haciendo muy bien! 😃",
+    "text": "¡Está bien! Si hoy no tienes tiempo, practica una de las estrategias para regular tu enojo el día de mañana. Puedes practicar esta estrategia cada vez que empieces a sentir que el enojo empieza a escalar. ¡Lo estás haciendo muy bien! 😃",
     "type": "text",
     "note": ""
   },
@@ -6133,7 +6181,7 @@
   },
   {
     "SourceText": "3️⃣ **MANAGE** ",
-    "text": "3️⃣ **CONTROLAR** ",
+    "text": "3️⃣ **COMPRENDER** ",
     "type": "text",
     "note": ""
   },
@@ -6150,14 +6198,14 @@
     "note": ""
   },
   {
-    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣ tips you can use to manage your anger and communicate better with @fields.child_nickname: ",
-    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con @fields.child_nickname: ",
+    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣ tips you can use to manage your anger and communicate better with @fields.child_nickname:",
+    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con @fields.child_nickname:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣ tips you can use to manage your anger and communicate better with your {child}: ",
-    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con tu {child}: ",
+    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣ tips you can use to manage your anger and communicate better with your {child}:",
+    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con tu {child}:",
     "type": "text",
     "note": ""
   },
@@ -6319,7 +6367,7 @@
   },
   {
     "SourceText": "🏅**Praise, praise, praise!** Make sure you praise your child immediately when they follow your instructions.",
-    "text": "🏅**¡Halaga, halaga, halaga!** Asegúrate de reconocer a tu niña o niño inmediatamente después de que siga tus instrucciones.",
+    "text": "🏅**¡Reconoce, Reconoce, Reconoce!** Asegúrate de reconocer a tu niña o niño inmediatamente después de que siga tus instrucciones.",
     "type": "text",
     "note": ""
   },
@@ -6739,25 +6787,25 @@
   },
   {
     "SourceText": "⭐ Praise @fields.child_nickname for setting a family rule with you. ",
-    "text": "⭐ Reconoce y halaga a @fields.child_nickname por establecer una regla para la familia contigo. ",
+    "text": "⭐ reconoce a @fields.child_nickname por establecer una regla para la familia contigo. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "😃 Praise @fields.child_nickname when they follow the rule, just like you do when they behave well!",
-    "text": "😃 ¡Halaga a @fields.child_nickname cuando siga la regla, igual que cuando se porta bien!",
+    "text": "😃 ¡Reconoce a @fields.child_nickname cuando siga la regla, igual que cuando se porta bien!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "⭐ Praise your {child} for setting a family rule with you. ",
-    "text": "⭐ Reconoce y halaga a tu {child} por establecer una regla para la familia contigo. ",
+    "text": "⭐ reconoce a tu {child} por establecer una regla para la familia contigo. ",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "😃 Praise your {child} when they follow the rule, just like you do when they behave well!",
-    "text": "😃 ¡Halaga a tu {child} cuando siga la regla, igual que cuando se porta bien!",
+    "text": "😃 ¡Reconoce a tu {child} cuando siga la regla, igual que cuando se porta bien!",
     "type": "text",
     "note": ""
   },
@@ -6793,7 +6841,7 @@
   },
   {
     "SourceText": "👂 Remember, you can always review this skill in the Main Menu!",
-    "text": "👂 ¡Recuerda que siempre puedes repasar esta habilidad en el Menú Principal!",
+    "text": "👂 ¡Recuerda que siempre puedes repasar esta estrategia en el Menú Principal!",
     "type": "text",
     "note": ""
   },
@@ -6924,8 +6972,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣ Here are five steps to use when your child whines or throws tantrums: ",
-    "text": "5️⃣ Aquí tienes cinco pasos que debes seguir cuando tu niña o niño se queje o haga un berrinche: ",
+    "SourceText": "5️⃣ Here are five steps to use when your child whines or throws tantrums:",
+    "text": "5️⃣ Aquí tienes cinco pasos a seguir cuando tu niña, niño o adolescente se queje o haga un berrinche:",
     "type": "text",
     "note": ""
   },
@@ -6952,48 +7000,6 @@
     "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso, Guiar el Buen Comportamiento de Mi Niña o Niño. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "2️⃣**STAY CALM**",
-    "text": "2️⃣ **MANTENER LA CALMA**",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Take a Pause. Even a few deep breaths can make a difference. It will help you stay calm and be able to see clearly what @fields.child_nickname needs.",
-    "text": "Haz una Pausa. Incluso un par de respiraciones profundas pueden hacer la diferencia. Te ayudará a mantener la calma y a ver con claridad lo que @fields.child_nickname necesita.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "It is very tempting (and, let's be honest, easy) to reduce your reaction to your child’s level by shouting, especially when the tantrum doesn’t stop or you’re tired and your patience is running out.",
-    "text": "Es muy tentador (y, sinceramente fácil) que tu reacción baje al nivel de la reacción de tu niña o niño al gritar, sobre todo cuando el berrinche no se detiene o tienes mucho cansancio y se te está acabando la paciencia.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Try to have a plan prepared for helping yourself in situations when you feel like you might explode and yell.",
-    "text": "Intenta tener preparado un plan para ayudarte en situaciones en las que sientas que vas a explotar y gritar.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Stay near your child and be a reassuring presence. @fields.child_nickname will also become calmer if you remain calm. It may not be easy to do, but it works!",
-    "text": "Quédate cerca de tu niña o niño y que tu presencia sea tranquilizadora. @fields.child_nickname se irá tranquilizando si tú mantienes la calma. Puede que no sea fácil hacerlo, ¡pero funciona!",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Take a Pause. Even a few deep breaths can make a difference. It will help you stay calm and be able to see clearly what Your {child} needs.",
-    "text": "Haz una Pausa. Incluso un par de respiraciones profundas pueden hacer la diferencia. Te ayudará a mantener la calma y a ver con claridad lo que tu {child} necesita.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Stay near your child and be a reassuring presence. Your {child} will also become calmer if you remain calm. It may not be easy to do, but it works!",
-    "text": "Quédate cerca de tu niña o niño y que tu presencia sea tranquilizadora. Tu {child} se irá tranquilizando si tú mantienes la calma. Puede que no sea fácil hacerlo, ¡pero funciona!",
-    "type": "text",
-    "note": ""
   },
   {
     "SourceText": "True or False: You should give @fields.child_nickname what they want when they are whining about something or having a tantrum.",
@@ -7111,7 +7117,7 @@
   },
   {
     "SourceText": "🌷 Praise them for this positive behaviour!",
-    "text": "🌷 ¡Halágale por este comportamiento positivo!",
+    "text": "🌷 ¡Reconócele por este comportamiento positivo!",
     "type": "text",
     "note": ""
   },
@@ -7165,7 +7171,7 @@
   },
   {
     "SourceText": "🧸 You can talk later or the next day about what happened. For now, involve @fields.child_nickname in a positive activity.",
-    "text": "🧸 Pueden platicar sobre lo que pasó más tarde o al día siguiente. De momento, involucra a @fields.child_nickname en una actividad positiva.",
+    "text": "🧸 Pueden hablar sobre lo que pasó más tarde o al día siguiente. De momento, involucra a @fields.child_nickname en una actividad positiva.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -7177,7 +7183,7 @@
   },
   {
     "SourceText": "🧸 You can talk later or the next day about what happened. For now, involve your {child} in a positive activity.",
-    "text": "🧸 Pueden platicar sobre lo que pasó más tarde o al día siguiente. De momento, involucra a tu {child} en una actividad positiva.",
+    "text": "🧸 Pueden hablar sobre lo que pasó más tarde o al día siguiente. De momento, involucra a tu {child} en una actividad positiva.",
     "type": "text",
     "note": ""
   },
@@ -7225,7 +7231,7 @@
   },
   {
     "SourceText": "Home activity! ⭐ Find one positive thing @fields.child_nickname does today and praise them for it. If @fields.child_nickname starts whining about something or having a tantrum, try to use the tips from this lesson to redirect, stay calm, observe, and nurture. It may not be easy to do at first, but you can do it! ",
-    "text": "¡Actividad para Casa! ⭐ Busca una cosa positiva que @fields.child_nickname haga el día de hoy y halágale por ello. Si @fields.child_nickname se empieza a quejar por algo o a hacer berrinche, intenta usar las estrategias de esta sesión para redirigir, mantener la calma, observar y cuidar. Puede que al principio no sea facil, ¡pero síguele, tú puedes hacerlo! ",
+    "text": "¡Actividad para Casa! ⭐ Busca una cosa positiva que @fields.child_nickname haga el día de hoy y reconócele por ello. Si @fields.child_nickname se empieza a quejar por algo o a hacer berrinche, intenta usar las estrategias de esta sesión para redirigir, mantener la calma, observar y cuidar. Puede que al principio no sea facil, ¡pero síguele, tú puedes hacerlo! ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -7237,13 +7243,55 @@
   },
   {
     "SourceText": "Home activity! ⭐ Find one positive thing your {child} does today and praise them for it. If your {child} starts whining about something or having a tantrum, try to use the tips from this lesson to redirect, stay calm, observe, and nurture. It may not be easy to do at first, but you can do it! ",
-    "text": "¡Actividad para Casa! ⭐ Busca una cosa positiva que tu {child} haga el día de hoy y halágale por ello. Si tu {child} se empieza a quejar por algo o a hacer berrinche, intenta usar las estrategias de esta sesión para redirigir, mantener la calma, observar y cuidar. Puede que al principio no sea facil, ¡pero síguele, tú puedes hacerlo! ",
+    "text": "¡Actividad para Casa! ⭐ Busca una cosa positiva que tu {child} haga el día de hoy y reconócele por ello. Si tu {child} se empieza a quejar por algo o a hacer berrinche, intenta usar las estrategias de esta sesión para redirigir, mantener la calma, observar y cuidar. Puede que al principio no sea facil, ¡pero síguele, tú puedes hacerlo! ",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Can you find something to praise your {child} for today? ⏰",
     "text": "¿Puedes encontrar algo por lo que puedas reconocer a tu {child} hoy? ⏰",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣**STAY CALM**",
+    "text": "2️⃣ **MANTENER LA CALMA**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Take a Pause. Even a few deep breaths can make a difference. It will help you stay calm and be able to see clearly what @fields.child_nickname needs.",
+    "text": "Haz una Pausa. Incluso un par de respiraciones profundas pueden hacer la diferencia. Te ayudará a mantener la calma y a ver con claridad lo que @fields.child_nickname necesita.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "It is very tempting (and, let's be honest, easy) to reduce your reaction to your child’s level by shouting, especially when the tantrum doesn’t stop or you’re tired and your patience is running out.",
+    "text": "Es muy tentador (y, sinceramente fácil) que tu reacción baje al nivel de la reacción de tu niña o niño al gritar, sobre todo cuando el berrinche no se detiene o tienes mucho cansancio y se te está acabando la paciencia.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Try to have a plan prepared for helping yourself in situations when you feel like you might explode and yell.",
+    "text": "Intenta tener preparado un plan para ayudarte en situaciones en las que sientas que vas a explotar y gritar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Stay near your child and be a reassuring presence. @fields.child_nickname will also become calmer if you remain calm. It may not be easy to do, but it works!",
+    "text": "Quédate cerca de tu niña o niño y que tu presencia sea tranquilizadora. @fields.child_nickname se irá tranquilizando si tú mantienes la calma. Puede que no sea fácil hacerlo, ¡pero funciona!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Take a Pause. Even a few deep breaths can make a difference. It will help you stay calm and be able to see clearly what your {child} needs.",
+    "text": "Haz una Pausa. Incluso un par de respiraciones profundas pueden hacer la diferencia. Te ayudará a mantener la calma y a ver con claridad lo que tu {child} necesita.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Stay near your child and be a reassuring presence. Your {child} will also become calmer if you remain calm. It may not be easy to do, but it works!",
+    "text": "Quédate cerca de tu niña o niño y que tu presencia sea tranquilizadora. Tu {child} se irá tranquilizando si tú mantienes la calma. Puede que no sea fácil hacerlo, ¡pero funciona!",
     "type": "text",
     "note": ""
   },
@@ -7339,7 +7387,7 @@
   },
   {
     "SourceText": "1️⃣ **BE CALM**",
-    "text": "1️⃣ *MANTENER LA CALMA**",
+    "text": "1️⃣ **MANTENER LA CALMA**",
     "type": "text",
     "note": ""
   },
@@ -7405,7 +7453,7 @@
   },
   {
     "SourceText": "🏆 Praise your boy or girl every time they do actions you want to see more of. This makes them more likely to repeat this behaviour!",
-    "text": "Halaga a tu niña o niño cada vez que haga algo que quieras que siga haciendo. ¡Eso hace más probable que repita ese comportamiento!",
+    "text": "Reconoce a tu niña o niño cada vez que haga algo que quieras que siga haciendo. ¡Eso hace más probable que repita ese comportamiento!",
     "type": "text",
     "note": ""
   },
@@ -7543,7 +7591,7 @@
   },
   {
     "SourceText": "Next time @fields.child_nickname behaves well, praise them for it, even if it’s something small! This way, you are less likely to need to give them consequences in the first place. ",
-    "text": "La próxima vez que @fields.child_nickname se porte bien, halágale por ello, ¡aunque sea algo pequeño! De este modo, puede que ni siquiera sea necesario el aplicar consecuencias en el futuro. ",
+    "text": "La próxima vez que @fields.child_nickname se porte bien, reconócele por ello, ¡aunque sea algo pequeño! De este modo, puede que ni siquiera sea necesario el aplicar consecuencias en el futuro. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -7561,7 +7609,7 @@
   },
   {
     "SourceText": "Next time your {child} behaves well, praise them for it, even if it’s something small! This way, you are less likely to need to give them consequences in the first place. ",
-    "text": "La próxima vez que tu {child} se porte bien, halágale por ello, ¡aunque sea algo pequeño! De este modo, puede que ni siquiera sea necesario el aplicar consecuencias en el futuro. ",
+    "text": "La próxima vez que tu {child} se porte bien, reconócele por ello, ¡aunque sea algo pequeño! De este modo, puede que ni siquiera sea necesario el aplicar consecuencias en el futuro. ",
     "type": "text",
     "note": ""
   },
@@ -7837,13 +7885,13 @@
   },
   {
     "SourceText": "@fields.child_nickname’s role is to learn from their caregivers what to do and what not to do. They can start doing chores appropriate for their age. ⭐",
-    "text": "El rol de @fields.child_nickname es aprender de sus cuidadores sobre qué hacer y qué no hacer. Puede empezar a hacer actividades en la casa que sean adecuadas para su edad. ⭐",
+    "text": "El rol de @fields.child_nickname es aprender de sus personas cuidadoras sobre qué hacer y qué no hacer. Puede empezar a hacer actividades en la casa que sean adecuadas para su edad. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "your {child}’s role is to learn from their caregivers what to do and what not to do. They can start doing chores appropriate for their age. ⭐",
-    "text": "El rol de tu {child} es aprender de sus cuidadores sobre qué hacer y qué no hacer. Puede empezar a hacer actividades en la casa que sean adecuadas para su edad. ⭐",
+    "text": "El rol de tu {child} es aprender de sus personas cuidadoras sobre qué hacer y qué no hacer. Puede empezar a hacer actividades en la casa que sean adecuadas para su edad. ⭐",
     "type": "text",
     "note": ""
   },
@@ -7872,8 +7920,14 @@
     "note": ""
   },
   {
-    "SourceText": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: \r\r1️⃣ **KNOW YOUR ROLE**",
-    "text": "Da Clic en Reproducir ▶️ para aprender cuatro estrategias que te ayudarán a conocer tu rol como la persona cuidadora de tus niñas y niños y a enseñarles también el suyo: \r\r1️⃣ **CONOCER TU ROL**",
+    "SourceText": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: ",
+    "text": "Da Clic en Reproducir ▶️ para aprender cuatro estrategias que te ayudarán a conocer tu rol como la persona cuidadora de tus niñas y niños y a enseñarles también el suyo:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ **KNOW YOUR ROLE**",
+    "text": "1️⃣ **CONOCER TU ROL**",
     "type": "text",
     "note": ""
   },
@@ -7892,6 +7946,12 @@
   {
     "SourceText": "4️⃣ **NOTICE**",
     "text": "4️⃣ **NOTAR**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: \r\r1️⃣ **KNOW YOUR ROLE**",
+    "text": "Da Clic en Reproducir ▶️ para aprender cuatro estrategias que te ayudarán a conocer tu rol como la persona cuidadora de tus niñas y niños y a enseñarles también el suyo:\n1️⃣ **CONOCER TU ROL**",
     "type": "text",
     "note": ""
   },
@@ -7934,12 +7994,6 @@
   {
     "SourceText": "If your {child} feels loved and supported at home, they are more likely to do chores happily and to grow into a healthy child and adult! 😃💚",
     "text": "Si tu {child} siente amor y apoyo en casa, ¡es más probable que haga las actividades del hogar con alegría y que se convierta en una niña o niño sano, y, eventualmente, en una persona adulta sana! 😃💚",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1️⃣ **KNOW YOUR ROLE**",
-    "text": "1️⃣ **CONOCER TU ROL**",
     "type": "text",
     "note": ""
   },
@@ -8058,66 +8112,6 @@
     "note": ""
   },
   {
-    "SourceText": "👀 @fields.child_nickname will learn from your actions much more than from the words you tell them. They notice more than you might think!",
-    "text": "👀 @fields.child_nickname aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🌷 Treat @fields.child_nickname and those around you in the way you would want them to act: with respect, kindness, patience, and love.",
-    "text": "🌷 Trata a @fields.child_nickname, y a los que te rodean, como te gustaría que te trataran a ti: con respeto, amabilidad, paciencia y amor.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "❌ Shouting at or hitting @fields.child_nickname will only teach them to hit others when they are upset.",
-    "text": "❌ Usar la violencia con @fields.child_nickname solo le enseñará a ser una persona violenta con las y los demás.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "💚 Talk to them calmly and set a clear consequence so they learn to be calm with themselves and with others. ",
-    "text": "💚 Háblale con un tono tranquilo y establece consecuencias claras para que aprenda a mantener la calma consigo mismo y con los demás. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with @fields.child_nickname. ",
-    "text": "💡Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con @fields.child_nickname. ",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "You can learn more about consequences in the course Manage My Child’s Behaviour.",
-    "text": "Puedes aprender más sobre las consecuencias en el curso Manejar el Comportamiento de Mi Niña o Niño.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "👀 your {child} will learn from your actions much more than from the words you tell them. They notice more than you might think!",
-    "text": "👀 Tu {child} aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🌷 Treat your {child} and those around you in the way you would want them to act: with respect, kindness, patience, and love.",
-    "text": "🌷 Trata a tu {child}, y a las personas que te rodean, como te gustaría que te trataran a ti: con respeto, amabilidad, paciencia y amor.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "❌ Shouting at or hitting your {child} will only teach them to hit others when they are upset.",
-    "text": "❌ Usar la violencia con tu {child} solo les enseñará a ser una persona violenta con las y los demás.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with your {child}. ",
-    "text": "💡Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con tu {child}. ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "🎨 Notice what @fields.child_nickname enjoys doing, and help them do more of it. ",
     "text": "🎨 Fíjate en lo que le gusta hacer a @fields.child_nickname y ayúdale a hacerlo con mayor frecuencia. ",
     "type": "text",
@@ -8131,7 +8125,7 @@
   },
   {
     "SourceText": "🏅 Notice and **praise** them when they do the tasks that are their responsibility so they learn what is expected of them. This way, they are more likely to do it again.",
-    "text": "🏅 Fíjate en tu niña o niño y **halágale** cuando cumpla con sus responsabilidades para que aprenda qué es lo que se espera de ella o él. De este modo, es más probable que lo vuelva a hacer.",
+    "text": "🏅 Fíjate en tu niña o niño y **reconócele** cuando cumpla con sus responsabilidades para que aprenda qué es lo que se espera de ella o él. De este modo, es más probable que lo vuelva a hacer.",
     "type": "text",
     "note": ""
   },
@@ -8180,6 +8174,66 @@
   {
     "SourceText": "That's OK! If you don't have time today, set some time aside tomorrow. Talking to your {child} about something they like helps them feel loved and supported, which can lead to better behaviour!",
     "text": "¡Está bien! Si hoy no tienes tiempo, aparta un espacio para mañana. Hablar con tu {child} sobre algo que le gusta le ayuda a sentir que merece tu amor y tu apoyo, ¡lo que puede llevar a un mejor comportamiento de su parte!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 @fields.child_nickname will learn from your actions much more than from the words you tell them. They notice more than you might think!",
+    "text": "👀 @fields.child_nickname aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌷 Treat @fields.child_nickname and those around you in the way you would want them to act: with respect, kindness, patience, and love.",
+    "text": "🌷 Trata a @fields.child_nickname, y a los que te rodean, como te gustaría que te trataran a ti: con respeto, amabilidad, paciencia y amor.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "❌ Shouting at or hitting @fields.child_nickname will only teach them to hit others when they are upset.",
+    "text": "❌ Usar la violencia con @fields.child_nickname solo le enseñará a ser una persona violenta con las y los demás.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "💚 Talk to them calmly and set a clear consequence so they learn to be calm with themselves and with others. ",
+    "text": "💚 Háblale con un tono tranquilo y establece consecuencias claras para que aprenda a mantener la calma consigo mismo y con los demás. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with @fields.child_nickname. ",
+    "text": "💡Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con @fields.child_nickname. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You can learn more about consequences in the course Manage My Child’s Behaviour.",
+    "text": "Puedes aprender más sobre las consecuencias en el curso Manejar el Comportamiento de Mi Niña o Niño.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Treat your {child} and those around you in the way you would want them to act: with respect, kindness, patience, and love.",
+    "text": "🌷 Trata a tu {child}, y a las personas que te rodean, como te gustaría que te trataran a ti: con respeto, amabilidad, paciencia y amor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❌ Shouting at or hitting your {child} will only teach them to hit others when they are upset.",
+    "text": "❌ Usar la violencia con tu {child} solo les enseñará a ser una persona violenta con las y los demás.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with your {child}. ",
+    "text": "💡Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con tu {child}. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Your {child} will learn from your actions much more than from the words you tell them. They notice more than you might think!",
+    "text": "👀 Tu {child} aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
     "type": "text",
     "note": ""
   },
@@ -8304,8 +8358,8 @@
     "note": ""
   },
   {
-    "SourceText": " 💙 That’s great! This will help them protect themselves if they ever feel unsafe or uncomfortable when somebody touches them. You’re doing so well!",
-    "text": " 💙 ¡Qué bien! Esto le ayudará a protegerse si alguna vez siente inseguridad o incomodidad cuando alguien le toca. ¡Lo estás haciendo muy bien!",
+    "SourceText": "💙 That’s great! This will help them protect themselves if they ever feel unsafe or uncomfortable when somebody touches them. You’re doing so well!",
+    "text": "💙 ¡Qué bien! Esto le ayudará a protegerse si alguna vez siente inseguridad o incomodidad cuando alguien le toca. ¡Lo estás haciendo muy bien!",
     "type": "text",
     "note": ""
   },
@@ -8389,13 +8443,25 @@
   },
   {
     "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help @fields.child_nickname stay away from the person and report them to the a clinic or a support institution.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con la policía, con una clínica o con una institución de apoyo.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de apoyo.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help your {child} stay away from the person and report them to the a clinic or a support institution.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con la policía, con una clínica o con una institución de apoyo.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de apoyo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help @fields.child_nickname stay away from the person and report them to the clinic or an institution you trust.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de confianza.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help your {child} stay away from the person and report them to the clinic or an institution you trust.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de confianza.",
     "type": "text",
     "note": ""
   },
@@ -8539,7 +8605,7 @@
   },
   {
     "SourceText": "🚩 In most cases, offenders are rarely strangers to the boy. They are usually known to the boy and/or caregivers. ",
-    "text": "🚩 En la mayoría de los casos, las personas agresoras rara vez son desconocidas para nuestras niñas y niños. Suelen ser conocidos del niño y/o de sus personas cuidadoras. ",
+    "text": "🚩 En la mayoría de los casos, las personas agresoras rara vez son desconocidas para nuestras niñas y niños. Suelen ser personas conocidas del niño y/o de sus personas cuidadoras. ",
     "type": "text",
     "note": ""
   },
@@ -8605,7 +8671,7 @@
   },
   {
     "SourceText": "Can you do this with @fields.child_nickname today? ⏰",
-    "text": "¿Puedes platicar esto con @fields.child_nickname hoy? ⏰",
+    "text": "¿Puedes hablar esto con @fields.child_nickname hoy? ⏰",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -8617,7 +8683,7 @@
   },
   {
     "SourceText": "Can you do this with your {child} today? ⏰",
-    "text": "¿Puedes platicar esto con tu {child} hoy? ⏰",
+    "text": "¿Puedes hablar esto con tu {child} hoy? ⏰",
     "type": "text",
     "note": ""
   },
@@ -8767,13 +8833,13 @@
   },
   {
     "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help @fields.child_nickname stay away from the person and report them to the a clinic or an institution you trust.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con una clínica o con una institución de confianza.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de confianza.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help your {child} stay away from the person and report them to the a clinic or an institution you trust.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con una clínica o con una institución de confianza.",
+    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con la policía, en una clínica o en una institución de confianza.",
     "type": "text",
     "note": ""
   },
@@ -8880,18 +8946,6 @@
     "note": ""
   },
   {
-    "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help @fields.child_nickname stay away from the person and report them to the clinic or an institution you trust.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a @fields.child_nickname a alejarse de esa persona y denunciarla con la clínica o con una institución de confianza.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "❗ Confronting the person who did it often makes it worse, so it is better to help your {child} stay away from the person and report them to the clinic or an institution you trust.",
-    "text": "❗ Confrontar a la persona que lo hizo, en la mayoría de las ocasiones, lo empeora, por lo que es mejor ayudar a tu {child} a alejarse de esa persona y denunciarla con la clínica o con una institución de confianza.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "▶️ Press play to learn 5️⃣ five tips to help you teach @fields.child_nickname about safe touch and what to do if they feel unsafe when someone touches them. 💛",
     "text": "Da Clic en Reproducir ▶️ para aprender 5️⃣ cinco estrategias que te ayudarán a enseñarle a @fields.child_nickname sobre el contacto físico seguro y qué debe hacer si se siente en peligro cuando alguien le toca. 💛",
     "type": "text",
@@ -8983,7 +9037,7 @@
   },
   {
     "SourceText": "🚩 In most cases, offenders are rarely strangers to the boy or girl. They are usually known to the boy, girl and/or caregivers. ",
-    "text": "🚩 En la mayoría de los casos, las personas agresoras rara vez son desconocidas para nuestras niñas y niños. Suelen ser conocidos de la niña o el niño y/o de sus personas cuidadoras. ",
+    "text": "🚩 En la mayoría de los casos, las personas agresoras rara vez son desconocidas para nuestras niñas y niños. Suelen ser personas conocidas de la niña o el niño y/o de sus personas cuidadoras. ",
     "type": "text",
     "note": ""
   },
@@ -9162,18 +9216,6 @@
     "note": ""
   },
   {
-    "SourceText": "Let’s do a True/False Quiz! @fields.child_nickname is always with me, so I don’t need to teach them about safety until they are older.",
-    "text": "¡Hagamos un ejercicio de Verdadero/Falso! @fields.child_nickname siempre está conmigo, así que no necesito enseñarle sobre su seguridad hasta que sea más grande.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Let’s do a True/False Quiz! Your {child} is always with me, so I don’t need to teach them about safety until they are older.",
-    "text": "¡Hagamos un ejercicio de Verdadero/Falso! Mi {child} siempre está conmigo, así que no necesito enseñarle sobre su seguridad hasta que sea más grande.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "😔 @fields.child_nickname could experience harm in any of these places, even at home or at a place of worship. ",
     "text": "😔 @fields.child_nickname podría sufrir daños en cualquiera de estos lugares, incluso en casa o en algún centro religioso. ",
     "type": "text",
@@ -9186,7 +9228,7 @@
     "note": ""
   },
   {
-    "SourceText": "😔 your {child} could experience harm in any of these places, even at home or at a place of worship. ",
+    "SourceText": "😔 Your {child} could experience harm in any of these places, even at home or at a place of worship. ",
     "text": "😔 Tu {child} podría sufrir daños en cualquiera de estos lugares, incluso en casa o en algún centro religioso. ",
     "type": "text",
     "note": ""
@@ -9194,6 +9236,18 @@
   {
     "SourceText": "🎉 You are right! ",
     "text": "🎉 ¡Tienes razón! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s do a True/False Quiz! @fields.child_nickname is always with me, so I don’t need to teach them about safety until they are older.",
+    "text": "¡Hagamos un ejercicio de Verdadero/Falso! @fields.child_nickname siempre está conmigo, así que no necesito enseñarle sobre su seguridad hasta que sea más grande.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Let’s do a True/False Quiz! Your {child} is always with me, so I don’t need to teach them about safety until they are older.",
+    "text": "¡Hagamos un ejercicio de Verdadero/Falso! Mi {child} siempre está conmigo, así que no necesito enseñarle sobre su seguridad hasta que sea más grande.",
     "type": "text",
     "note": ""
   },
@@ -9379,7 +9433,7 @@
   },
   {
     "SourceText": "⭐ Praise when @fields.child_nickname chooses the correct response, such as running away, shouting for help, or finding a trusted adult.",
-    "text": "⭐ Halaga a @fields.child_nickname cuando elija la respuesta correcta, como huir, gritar para pedir ayuda o buscar a una persona adulta de confianza.",
+    "text": "⭐ Reconoce a @fields.child_nickname cuando elija la respuesta correcta, como huir, gritar para pedir ayuda o buscar a una persona adulta de confianza.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -9391,7 +9445,7 @@
   },
   {
     "SourceText": "⭐ Praise when your {child} chooses the correct response, such as running away, shouting for help, or finding a trusted adult.",
-    "text": "⭐ Halaga a tu {child} cuando elija la respuesta correcta, como huir, gritar para pedir ayuda o buscar a una persona adulta de confianza.",
+    "text": "⭐ Reconoce a tu {child} cuando elija la respuesta correcta, como huir, gritar para pedir ayuda o buscar a una persona adulta de confianza.",
     "type": "text",
     "note": ""
   },
@@ -9619,7 +9673,7 @@
   },
   {
     "SourceText": "😔😣 When our girls and boys share something that is very hard or upsetting to them, we need to remember to stay calm, listen, and be open, so that they feel supported. 💛",
-    "text": "😔😣 Cuando nuestras niñas y nuestros niños nos comparten algo que es muy difícil de platicar o les genera mucha molestia, debemos recordar que tenemos que mantener la calma, escuchar y mantener una postura abierta para que se sientan apoyadas y apoyados. 💛",
+    "text": "😔😣 Cuando nuestras niñas y nuestros niños nos comparten algo que es muy difícil de hablar o les genera mucha molestia, debemos recordar que tenemos que mantener la calma, escuchar y mantener una postura abierta para que se sientan apoyadas y apoyados. 💛",
     "type": "text",
     "note": ""
   },
@@ -9679,7 +9733,7 @@
   },
   {
     "SourceText": "First of all, you are not stupid! I am so proud about how much you are growing and learning. It is important that Gerardo and the others know that it is not okay to say mean things. Would you like me to come with you so that we can have a chat with the others together?",
-    "text": "Primero que nada, ¡no eres tonto! Estoy muy orgulloso de lo mucho que estás creciendo y aprendiendo nuevas cosas. Es importante que Gerardo y los demás sepan que no está bien decir cosas feas. ¿Quieres que te acompañe para que podamos platicarlo con los demás?",
+    "text": "Primero que nada, ¡no eres tonto! Estoy muy orgulloso de lo mucho que estás creciendo y aprendiendo nuevas cosas. Es importante que Gerardo y los demás sepan que no está bien decir cosas feas. ¿Quieres que te acompañe para que podamos hablarlo con los demás?",
     "type": "text",
     "note": ""
   },
@@ -10339,7 +10393,7 @@
   },
   {
     "SourceText": "Praise @fields.child_nickname for any efforts they make. Can you talk with @fields.child_nickname today? 🔔",
-    "text": "Halaga a @fields.child_nickname por cualquier esfuerzo que ya esté haciendo. ¿Puedes hablar con @fields.child_nickname hoy? 🔔",
+    "text": "Reconoce a @fields.child_nickname por cualquier esfuerzo que ya esté haciendo. ¿Puedes hablar con @fields.child_nickname hoy? 🔔",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -10351,7 +10405,7 @@
   },
   {
     "SourceText": "Praise your {child} for any efforts they make. Can you talk with your {child} today? 🔔",
-    "text": "Halaga a tu {child} por cualquier esfuerzo que ya esté haciendo. ¿Puedes hablar con tu {child} hoy? 🔔",
+    "text": "Reconoce a tu {child} por cualquier esfuerzo que ya esté haciendo. ¿Puedes hablar con tu {child} hoy? 🔔",
     "type": "text",
     "note": ""
   },
@@ -10705,7 +10759,7 @@
   },
   {
     "SourceText": "😃 Praise @fields.child_nickname for how good they are at using the web safely!",
-    "text": "😃 ¡Halaga a @fields.child_nickname por lo bien que navega por la web de manera segura!",
+    "text": "😃 ¡Reconoce a @fields.child_nickname por lo bien que navega por la web de manera segura!",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -10729,7 +10783,7 @@
   },
   {
     "SourceText": "😃 Praise your {child} for how good they are at using the web safely!",
-    "text": "😃 ¡Halaga a tu {child} por lo bien que navega por la web de manera segura!",
+    "text": "😃 ¡Reconoce a tu {child} por lo bien que navega por la web de manera segura!",
     "type": "text",
     "note": ""
   },
@@ -10746,14 +10800,14 @@
     "note": ""
   },
   {
-    "SourceText": "You are not alone! Mothers, fathers and caregivers all over the world say they worry about keeping their children safe.",
+    "SourceText": "You are not alone! Mothers, fathers and caregivers all over the world say they worry about keeping their teens safe.",
     "text": "¡No eres la única persona pasando por esto! Madres, padres y personas cuidadoras de todo el mundo se preocupan por la seguridad de sus niñas, niños y adolescentes.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Let’s test your knowledge about teen safety. ",
-    "text": "Pongamos a prueba tus conocimientos sobre la seguridad en la adolescencia. ",
+    "SourceText": "Let’s test your knowledge about teen safety.",
+    "text": "Pongamos a prueba tus conocimientos sobre la seguridad en la adolescencia.",
     "type": "text",
     "note": ""
   },
@@ -10783,7 +10837,7 @@
   },
   {
     "SourceText": "{F1_DAUGHTER_16}: \"Something happened when I was out with my friends {FRIEND_FEMALE_1} and {FRIEND_FEMALE_2}!\"",
-    "text": "{F1_DAUGHTER_16}: \"¡Algo pasó cuando salí con mis amigos {FRIEND_FEMALE_1} y {FRIEND_FEMALE_2}!\"",
+    "text": "{F1_DAUGHTER_16}: \"¡Algo pasó cuando salí con mis amigas  {FRIEND_FEMALE_1} y {FRIEND_FEMALE_2}!\"",
     "type": "text",
     "note": ""
   },
@@ -10848,8 +10902,8 @@
     "note": ""
   },
   {
-    "SourceText": "That's OK! Plan to set aside an hour in the next few days to work on this map with your teen. It's a great way to build trust with them and keep them safe. ",
-    "text": "¡Está bien! Aparta una hora en los próximos días para trabajar en este mapa con tu adolescente. Es una forma estupenda de crear confianza entre ustedes y de mantenerles a salvo. ",
+    "SourceText": "That's OK! Plan to set aside an hour in the next few days to work on this map with your teen. It's a great way to build trust with them and keep them safe.",
+    "text": "¡Está bien! Aparta una hora en los próximos días para trabajar en este mapa con tu adolescente. Es una forma estupenda de crear confianza entre ustedes y de mantenerles a salvo.",
     "type": "text",
     "note": ""
   },
@@ -10879,7 +10933,7 @@
   },
   {
     "SourceText": "Step 1️⃣: **DRAW**\rStep 2️⃣: **DECIDE**\rStep 3️⃣: **DISCUSS**",
-    "text": "Paso 1️⃣: **DIBUJAR**\rPaso 2️⃣: **DECIDIR**\rPaso 3️⃣: **HABLAR**",
+    "text": "Paso 1️⃣: **DIBUJAR**\n\n\rPaso 2️⃣: **DECIDIR**\n\n\rPaso 3️⃣: **HABLAR**",
     "type": "text",
     "note": ""
   },
@@ -10890,14 +10944,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are three steps to help you make a safety map together:",
-    "text": "Aquí tiene tres pasos que te ayudarán a hacer un mapa de seguridad con tu adolescente:",
+    "SourceText": "Step 2️⃣: **DECIDE**",
+    "text": "Paso 2️⃣: **DECIDIR**",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Step 2️⃣: **DECIDE**",
-    "text": "Paso 2️⃣: **DECIDIR**",
+    "SourceText": "Here are three steps to help you make a safety map together:",
+    "text": "Aquí tiene tres pasos que te ayudarán a hacer un mapa de seguridad con tu adolescente:",
     "type": "text",
     "note": ""
   },
@@ -10944,14 +10998,14 @@
     "note": ""
   },
   {
-    "SourceText": "Do you have time to create a community safety map with @fields.child_nickname today? ⏯️ ",
-    "text": "¿Tienes tiempo hoy para crear un mapa de seguridad comunitaria con @fields.child_nickname? ⏯️ ",
+    "SourceText": "Do you have time to create a community safety map with @fields.child_nickname today? ⏯️",
+    "text": "¿Tienes tiempo hoy para crear un mapa de seguridad comunitaria con @fields.child_nickname? ⏯️",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Do you have time to create a community safety map with your {teen} today? ⏯️ ",
-    "text": "¿Tienes tiempo hoy para crear un mapa de seguridad comunitaria con tu {teen}? ⏯️ ",
+    "SourceText": "Do you have time to create a community safety map with your {teen} today? ⏯️",
+    "text": "¿Tienes tiempo hoy para crear un mapa de seguridad comunitaria con tu {teen}? ⏯️",
     "type": "text",
     "note": ""
   },
@@ -10969,7 +11023,7 @@
   },
   {
     "SourceText": "This lesson is about keeping our teens safe from sexual violence. It's okay to feel worried about your teen experiencing sexual violence. If it makes you upset or uncomfortable, take a deep breath or talk to someone you trust before continuing.",
-    "text": "Esta sesión trata sobre cómo mantener a nuestras y nuestros adolescentes a salvo de la violencia sexual, por lo que es importante que la revises junto con tu teen una vez que tú la hayas podido repasar previamente. No está mal preocuparte por la posibilidad de que tu adolescente sufra violencia sexual. Si te molesta o sientes incomodidad, respira profundo o habla con alguien de confianza antes de continuar.",
+    "text": "Esta sesión trata sobre cómo mantener a nuestras y nuestros adolescentes a salvo de la violencia sexual, por lo que es importante que la revises junto con tu adolescente una vez que tú la hayas podido repasar previamente. No está mal preocuparte por la posibilidad de que tu adolescente sufra violencia sexual. Si te molesta o sientes incomodidad, respira profundo o habla con alguien de confianza antes de continuar.",
     "type": "text",
     "note": ""
   },
@@ -11016,12 +11070,6 @@
     "note": ""
   },
   {
-    "SourceText": "Let’s try another. What are the warning signs?",
-    "text": "¡Hagamos otra! ¿Cuáles son las señales de alerta?",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Teacher: \"{F2_DAUGHTER_17}, if you want to get good grades this year, you need to stay after school when everyone is gone so I can tutor you.\"",
     "text": "Docente: \"{F2_DAUGHTER_17}, si quieres sacar buenas calificaciones este año, tienes que quedarte después de clases cuando todos se hayan ido para que pueda darte clases particulares.\"",
     "type": "text",
@@ -11036,6 +11084,12 @@
   {
     "SourceText": "Teacher: \"No, this will be our secret. You don’t want people to think you can't handle your studies, right?\"",
     "text": "Docente: \"No, este será nuestro secreto. No querrás que la gente piense que no puedes con la escuela, ¿verdad?\"",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s try another. What are the warning signs?",
+    "text": "¡Hagamos otra! ¿Cuáles son las señales de alerta?",
     "type": "text",
     "note": ""
   },
@@ -11060,6 +11114,18 @@
   {
     "SourceText": "💚In a dangerous situation, we may not know what to do and freeze or respond in an angry way – this is normal. \r\rPress Play ▶️to learn the tools that can help keep you and your teen safe: **KNOW IT, SEE IT, SAY IT**",
     "text": "💚 En una situación de peligro, puede que no sepamos qué hacer y nos paralicemos o respondamos enfurecidamente: esto es normal. \r\rDa Clic en Reproducir ▶️ para aprender algunas estrategias que pueden ayudarte a mantener tu seguridad y la de tu adolescente: **SABER, OBSERVAR, COMUNICAR**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚In a dangerous situation, we may not know what to do and freeze or respond in an angry way – this is normal. ",
+    "text": "💚En una situación de peligro, puede que no sepamos qué hacer y nos quedemos paralizados o respondamos con enojo; esto es normal. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press Play ▶️to learn the tools that can help keep you and your teen safe: **KNOW IT, SEE IT, SAY IT**",
+    "text": "Pulsa Play ▶️ para aprender las herramientas que pueden ayudarte a mantener tu seguridad y la de tu adolescente: **SABERLO, VERLO, DECIRLO**",
     "type": "text",
     "note": ""
   },
@@ -11208,14 +11274,20 @@
     "note": ""
   },
   {
-    "SourceText": "This lesson is about learning how to respond to crises when they happen. ❗\r\rThis lesson talks about sexual abuse. It is normal to feel uncomfortable or upset when talking about sexual abuse. Remember to take a deep breath. If you need, you can also talk to someone you trust for support.",
-    "text": "Esta sesión trata sobre aprender a responder a las crisis cuando se presentan. ❗\r\rEn esta sesión se habla del abuso sexual. Es normal sentir incomodidad o molestia cuando se habla de abuso sexual. Recuerda respirar profundo. Si lo necesitas, también puedes hablar con alguien de confianza para que te escuche y te apoye.",
+    "SourceText": "This lesson is about learning how to respond to crises when they happen. ❗",
+    "text": "Esta sesión trata acerca de aprender a responder a las crisis cuando se suceden. ❗",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This lesson talks about sexual abuse. It is normal to feel uncomfortable or upset when talking about sexual abuse. Remember to take a deep breath. If you need, you can also talk to someone you trust for support.",
+    "text": "En esta sesión hablaremos acerca del abuso sexual. Es normal sentir incomodidad o molestia cuando se habla de abuso sexual. Recuerda respirar profundo. Si lo necesitas, también puedes hablar con alguien de confianza para que te escuche y te apoye.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "When our teens share something that is very hard or upsetting to them, we need to remember to stay calm, listen, and be open so that they feel supported. 💛",
-    "text": "Cuando nuestros adolescentes nos comparten algo que es muy difícil de platicar o les genera mucha molestia, debemos recordar que tenemos que mantener la calma, escuchar y ser abiertos para que se sientan apoyadas y apoyados. 💛",
+    "text": "Cuando nuestros adolescentes nos comparten algo que es muy difícil de hablar o les genera mucha molestia, debemos recordar que tenemos que mantener la calma, escuchar y ser abiertos para que se sientan apoyadas y apoyados. 💛",
     "type": "text",
     "note": ""
   },
@@ -11316,8 +11388,14 @@
     "note": ""
   },
   {
-    "SourceText": "Press Play ▶️to learn some things you can do to support your teen when they share something difficult with you:\r\r1️⃣ **BREATHE: Take a pause**\r2️⃣ *LISTEN: Ask your teen what is going on **\r3️⃣ **RESPOND: What might help what is going on?**",
-    "text": "Da Clic en Reproducir ▶️ para aprender algunas estrategias que puedes hacer para apoyar a tu adolescente cuando comparta algo difícil contigo:\r\r1️⃣ **RESPIRAR: Haz una pausa**\r2️⃣ **ESCUCHAR: Pregúntale a tu adolescente qué le pasa**\r3️⃣ **RESPONDER: ¿Qué podría ser de ayuda en esta situación?**",
+    "SourceText": "Press Play ▶️to learn some things you can do to support your teen when they share something difficult with you:",
+    "text": "Da Clic en Reproducir ▶️ para aprender algunas estrategias que puedes hacer para apoyar a tu adolescente cuando comparta algo difícil contigo:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ **LISTEN: Ask your teen what is going on**",
+    "text": "2️⃣ **ESCUCHAR: Pregúntale a tu adolescente qué está pasando**",
     "type": "text",
     "note": ""
   },
@@ -11461,7 +11539,7 @@
   },
   {
     "SourceText": "4️⃣Thank @fields.child_nickname for taking the time to chat about this. ",
-    "text": "4️⃣ Agradecerle a @fields.child_nickname por tomarse el tiempo de platicar contigo sobre esto. ",
+    "text": "4️⃣ Agradecerle a @fields.child_nickname por tomarse el tiempo de hablar contigo sobre esto. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -11485,7 +11563,13 @@
   },
   {
     "SourceText": "4️⃣Thank your {teen} for taking the time to chat about this. ",
-    "text": "4️⃣ Agradecerle a tu {teen} por tomarse el tiempo de platicar contigo sobre esto. ",
+    "text": "4️⃣ Agradecerle a tu {teen} por tomarse el tiempo de hablar contigo sobre esto. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This lesson is about learning how to respond to crises when they happen. ❗\r\rThis lesson talks about sexual abuse. It is normal to feel uncomfortable or upset when talking about sexual abuse. Remember to take a deep breath. If you need, you can also talk to someone you trust for support.",
+    "text": "Esta sesión trata sobre aprender a responder a las crisis cuando se presentan. ❗\r\rEn esta sesión se habla del abuso sexual. Es normal sentir incomodidad o molestia cuando se habla de abuso sexual. Recuerda respirar profundo. Si lo necesitas, también puedes hablar con alguien de confianza para que te escuche y te apoye.",
     "type": "text",
     "note": ""
   },
@@ -11611,7 +11695,7 @@
   },
   {
     "SourceText": "{F1_MOTHER}: I am proud of you for showing me your account and taking steps to be safe online.",
-    "text": "{F1_MOTHER}: Estoy orgullosa de que me hayas enseñado tu cuenta y de que hayas tomado medidas para estar segura al usar el internet.",
+    "text": "{F1_MOTHER}: Estoy orgullosa de que me hayas enseñado tu cuenta y de que hayas tomado medidas para estar seguro al usar el internet.",
     "type": "text",
     "note": ""
   },
@@ -11623,13 +11707,19 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, Creating Structure and Boundaries with My Teen.⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Crear Estructura y Límites con Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Seguridad y Salud de Mi Adolescente. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Keeping your {teen} safe online is an important step to help them be part of the digital world. 📱",
     "text": "Mantener la seguridad de tu {teen} al navegar por internet es un paso importante para ayudarle a formar parte del mundo digital. 📱",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are going to learn 4️⃣ tips to keep your {teen} safe online: ",
+    "text": "Vamos a aprender 4️⃣ estrategias para mantener la seguridad de tu {teen} al navegar por internet: ",
     "type": "text",
     "note": ""
   },
@@ -11725,13 +11815,13 @@
   },
   {
     "SourceText": "Home Activity! Ask @fields.child_nickname what they do to stay safe online. You may find that they are already thinking about online safety. Praise your teen for any efforts they make. Can you talk with @fields.child_nickname today? 🔔",
-    "text": "¡Actividad para Casa! Pregúntale a @fields.child_nickname qué hace para mantener su seguridad al usar el internet. Puede que descubras que ya piensa en la ciberseguridad. Halaga a tu adolescente por sus esfuerzos y por lo que ya está implementando. ¿Puedes hablar con @fields.child_nickname hoy? 🔔",
+    "text": "¡Actividad para Casa! Pregúntale a @fields.child_nickname qué hace para mantener su seguridad al usar el internet. Puede que descubras que ya piensa en la ciberseguridad. Reconoce a tu adolescente por sus esfuerzos y por lo que ya está implementando. ¿Puedes hablar con @fields.child_nickname hoy? 🔔",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Home Activity! Ask your {teen} what they do to stay safe online. You may find that they are already thinking about online safety. Praise your teen for any efforts they make. Can you talk with your {teen} today? 🔔",
-    "text": "¡Actividad para Casa! Pregúntale a tu {teen} qué hace para mantener su seguridad al usar el internet. Puede que descubras que ya piensa en la ciberseguridad. Halaga a tu adolescente por sus esfuerzos y por lo que ya está implementando. ¿Puedes hablar con tu {teen} hoy? 🔔",
+    "text": "¡Actividad para Casa! Pregúntale a tu {teen} qué hace para mantener su seguridad al usar el internet. Puede que descubras que ya piensa en la ciberseguridad. Reconoce a tu adolescente por sus esfuerzos y por lo que ya está implementando. ¿Puedes hablar con tu {teen} hoy? 🔔",
     "type": "text",
     "note": ""
   },
@@ -11779,7 +11869,7 @@
   },
   {
     "SourceText": "That’s great! Helping your teen stay safe online is important so they can learn and connect with others. Well done for getting involved. They will be safer for it! 🔑",
-    "text": "¡Estupendo! Ayudarle a tu {teen} a mantener su seguridad al navegar por internet es importante para que pueda aprender y pueda conectar con los demás. ¡Qué bueno que te estás involucrando, así tu adolescente estará a salvo! 🔑",
+    "text": "¡Estupendo! Ayudarle a tu teen a mantener su seguridad al navegar por internet es importante para que pueda aprender y pueda conectar con los demás. ¡Qué bueno que te estás involucrando, así tu adolescente estará a salvo! 🔑",
     "type": "text",
     "note": ""
   },
@@ -11792,6 +11882,12 @@
   {
     "SourceText": "Lesson complete! You have learnt the importance of building safe online habits, and trust.",
     "text": "¡Sesión completada! Has aprendido la importancia de Construir Hábitos Seguros y Construir Confianza en Línea.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You already learned ways to protect your teen online with 1️⃣ LEARN and 2️⃣ PROTECT in the previous lesson.",
+    "text": "Ya has aprendido dos estrategias para procurar la Seguridad y Salud a tu adolescente en internet durante la sesión anterior: 1️⃣ APRENDER y 2️⃣ PROTEGER.",
     "type": "text",
     "note": ""
   },
@@ -11905,7 +12001,7 @@
   },
   {
     "SourceText": "🏅Praise your teen for how good they are at using the web!",
-    "text": "🏅 ¡Halaga a tu adolescente por lo bien que navega por la web!",
+    "text": "🏅 ¡Reconoce a tu adolescente por lo bien que navega por la web!",
     "type": "text",
     "note": ""
   },
@@ -11982,8 +12078,8 @@
     "note": ""
   },
   {
-    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with your teen: ",
-    "text": "Aquí tienes tres estrategias que te ayudarán a facilitar un aprendizaje lleno de diversión y felicidad para tu adolescente: ",
+    "SourceText": "Here are three tips to help you facilitate joyful and fun learning with your teen:",
+    "text": "Aquí tienes tres estrategias para ayudarte a convertir el aprendizaje en algo lúdico y divertido para tu adolescente:",
     "type": "text",
     "note": ""
   },
@@ -12013,7 +12109,7 @@
   },
   {
     "SourceText": "😃 Encourage and praise your teen when they are learning.",
-    "text": "😃 Anima, reconoce y halaga a tu adolescente cuando esté aprendiendo algo.",
+    "text": "😃 Anima, reconoce a tu adolescente cuando esté aprendiendo algo.",
     "type": "text",
     "note": ""
   },
@@ -12055,7 +12151,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod skills towards your course, Support My Teen's Education. ⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod habilidades del curso Apoyar la Educación de Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod habilidades del curso Preparar a mi adolescente para la escuela. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
   },
@@ -12109,7 +12205,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, Support My Teen's Education. ⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Apoyar la Educación de Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Preparar a mi adolescente para la escuela. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -12163,7 +12259,7 @@
   },
   {
     "SourceText": "Praise your {teen} for all their efforts, no matter how small. ",
-    "text": "Halaga a tu {teen} por todos sus esfuerzos, por pequeños que sean. ",
+    "text": "Reconoce a tu {teen} por todos sus esfuerzos, por pequeños que sean. ",
     "type": "text",
     "note": ""
   },
@@ -12235,7 +12331,7 @@
   },
   {
     "SourceText": "{F1_SON_17}: Thank you, Mum! Once I am done, I will go to meet Diego. ",
-    "text": "{F1_SON_17}: ¡Gracias, ma! Ya que termine, iré a ver a Diego. ",
+    "text": "{F1_SON_17}: ¡Gracias, ma! Ya que termine, iré a ver a mi amigo. ",
     "type": "text",
     "note": ""
   },
@@ -12373,7 +12469,7 @@
   },
   {
     "SourceText": "💛 Praise your teen for the effort they put into their learning even if they did not succeed.",
-    "text": "💛 Halaga a tu adolescente por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla sus objetivos.",
+    "text": "💛 Reconoce a tu adolescente por el esfuerzo que invierte en su aprendizaje aunque no siempre cumpla sus objetivos.",
     "type": "text",
     "note": ""
   },
@@ -12433,7 +12529,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod skills towards your goal, Support My Teen's Education. ⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod estrategias para cumplir tu objetivo: Apoyar la Educación de Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod estrategias para cumplir tu objetivo: Preparar a mi adolescente para la escuela. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
   },
@@ -12516,8 +12612,8 @@
     "note": ""
   },
   {
-    "SourceText": "You can help them build this skill with these tips: ",
-    "text": "Puedes ayudarle a desarrollar esta habilidad usando estas estrategias: ",
+    "SourceText": "You can help them build this skill with these tips:",
+    "text": "Puedes ayudarle a desarrollar esta habilidad usando estas estrategias:",
     "type": "text",
     "note": ""
   },
@@ -12547,12 +12643,24 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course,  Support My Teen's Education. ⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Apoyar la Educación de Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Preparar a mi adolescente para la escuela. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "{F2_GRANDMOTHER} is the only caregiver for her two grandchildren. Household duties, getting older, and having little money often make her feel overwhelmed and un-supported. It is also difficult for her to be present with her children. Let’s see how she responds to her {F2_DAUGHTER_17}, who is upset about an argument with a friend at school….",
+    "SourceText": "True or False: Too much stress can have a negative impact on our relationships with others, including our teens.",
+    "text": "Verdadero o Falso: El exceso de estrés puede tener un impacto negativo en nuestras relaciones con otras personas, incluidas nuestras niñas, niños y adolescentes.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Too much stress can make you more aggressive, irritable and less patient with your teens. ",
+    "text": "El exceso de estrés puede aumentar las agresiones y la irritabilidad, además de disminuir la paciencia con tus niñas, niños y adolescentes. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{F2_GRANDMOTHER} is the only caregiver for her two grandchildren. Household duties, getting older, and having little money often make her feel overwhelmed and un-supported. It is also difficult for her to be present with her teens. Let’s see how she responds to her {F2_DAUGHTER_17}, who is upset about an argument with a friend at school….",
     "text": "{F2_GRANDMOTHER} es la única cuidadora de sus cuatro nietos. Tantas cosas que hacer en la casa, envejecer y el hecho de tener poco dinero hacen que se sienta abrumada y sin apoyo. También le resulta difícil estar presente. Veamos cómo le responde a {F2_DAUGHTER_17} que está triste por una pelea que tuvo con su amiga en la escuela...",
     "type": "text",
     "note": ""
@@ -12648,8 +12756,8 @@
     "note": ""
   },
   {
-    "SourceText": "Home Activity ⭐! Share these tips with your teen and have a conversation about how they can use them to help them manage their stress too. Do you have time to do it today? ",
-    "text": "¡Actividad para Casa ⭐! Comparte estas estrategias con tu adolescente y comenten cómo puede usarlas para ayudarle a manejar su estrés. ¿Tienes tiempo para hacerlo hoy? ",
+    "SourceText": "Home Activity ⭐! Share these tips with your teen and have a conversation about how they can use them to help them manage their stress too. Do you have time to do it today?",
+    "text": "¡Actividad para Casa ⭐! Comparte estas estrategias con tu adolescente y comenten cómo puede usarlas para ayudarle a manejar su estrés. ¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -12661,7 +12769,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, Support My Teen’s Education⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Apoyar a Mi Adolescente en Su Aprendizaje ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso Preparar a mi adolescente para la escuela ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -12674,6 +12782,12 @@
   {
     "SourceText": "In this lesson, you will continue learning ways to manage stress by making a plan in advance.",
     "text": "En esta sesión, seguirás aprendiendo formas de regular el estrés al hacer un plan por adelantado.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{F1_FATHER}: Hmm.. this is too much to do. What is most important out of this? Helping my teen is most important. Bills are not due until later this week, and I can clean on some other day.",
+    "text": "{F1_FATHER}: Mmm... es demasiado lo que me falta por hacer. ¿Qué es lo más importante de todo esto? Ayudar a mi adolescente es lo más importante. Los recibos no vencen hasta finales de esta semana y puedo limpiar otro día.",
     "type": "text",
     "note": ""
   },
@@ -12692,12 +12806,6 @@
   {
     "SourceText": "Look at your list. ",
     "text": "Mira tu lista. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Home Activity ⭐! Use these tips to create a plan for all the things you need to do today or this week. Can you do this today?",
-    "text": "¡Actividad para Casa ⭐! Usa estas estrategias para crear un plan que te ayude a hacer todas las cosas que tienes que hacer hoy o en la semana. ¿Puedes hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -12722,6 +12830,12 @@
   {
     "SourceText": "True or False: It is okay to shout and yell at my teen when angry.",
     "text": "Verdadero o Falso: Está bien alzarle la voz o gritarle a mi adolescente cuando siento enojo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When we react with anger most of the time, it may cause our teens to feel scared of them, feel stressed, misbehave more or behave aggressively.",
+    "text": "La mayoría de las veces, cuando reaccionamos con ira o enojo, puede hacer que nuestras niñas, niños y adolescentes sientan miedo o estrés y se porten peor o se comporten de manera agresiva.",
     "type": "text",
     "note": ""
   },
@@ -12757,7 +12871,7 @@
   },
   {
     "SourceText": "{F3_MOTHER}: Are you okay? Step away from the broken glass, and be careful. Give me 5 minutes in the kitchen, and then we will discuss what to do next.",
-    "text": "{F3_MOTHER}: ¿Estás bien? Ten cuidado con el vaso roto. Dame 5 minutos, voy a ir a la cocina y tú quédate aquí, ahorita platicaremos qué es lo que vamos a hacer al respecto.",
+    "text": "{F3_MOTHER}: ¿Estás bien? Ten cuidado con el vidrio roto. Dame 5 minutos, voy a ir a la cocina y tú quédate aquí, ahorita platicaremos qué es lo que vamos a hacer al respecto.",
     "type": "text",
     "note": ""
   },
@@ -12852,14 +12966,14 @@
     "note": ""
   },
   {
-    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣tips you can use to manage your anger and communicate better with @fields.child_nickname: ",
-    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con @fields.child_nickname: ",
+    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣tips you can use to manage your anger and communicate better with @fields.child_nickname:",
+    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con @fields.child_nickname:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣tips you can use to manage your anger and communicate better with your {teen}: ",
-    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con tu {teen}: ",
+    "SourceText": "Dealing with anger is not easy 😔. Maybe no one taught us how to manage our emotions and healthily express them.\r\rHere are 4️⃣tips you can use to manage your anger and communicate better with your {teen}:",
+    "text": "Lidiar con el enojo no es algo fácil 😔. Quizá nadie nos enseñó a regular nuestras emociones y a expresarlas de manera sana. \r\rAquí tienes 4️⃣ estrategias que puedes usar para regular tu enojo y comunicarte mejor con tu {teen}:",
     "type": "text",
     "note": ""
   },
@@ -12914,6 +13028,12 @@
   {
     "SourceText": "Our teens are more likely to follow instructions when they are told what to do instead of what not to do. ",
     "text": "Las y los adolescentes siguen instrucciones con mayor facilidad cuando se les dice lo que tienen que hacer en lugar de lo que no tienen que hacer. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 Negative instructions like, “Don’t do that!” can make teens (and us) feel confused. 😣",
+    "text": "💙 Las instrucciones negativas como \"¡No hagas eso!\", pueden hacer que las niñas, niños y adolescentes se sientan confundidos (al igual que nosotros). 😣",
     "type": "text",
     "note": ""
   },
@@ -12991,7 +13111,7 @@
   },
   {
     "SourceText": "🏅**Praise, praise, praise!** Make sure you praise your teen immediately when they follow your instructions.",
-    "text": "🏅**¡Halaga, halaga, halaga!** Asegúrate de reconocer a tu adolescente inmediatamente después de que siga tus instrucciones.",
+    "text": "🏅**¡Reconoce, Reconoce, Reconoce!** Asegúrate de reconocer a tu adolescente inmediatamente después de que siga tus instrucciones.",
     "type": "text",
     "note": ""
   },
@@ -13129,7 +13249,7 @@
   },
   {
     "SourceText": "4️⃣ **PRAISE, PRAISE, PRAISE*",
-    "text": "4️⃣ **reconocer, reconocer, reconocer*",
+    "text": "4️⃣ **RECONOCER, RECONOCER, RECONOCER*",
     "type": "text",
     "note": ""
   },
@@ -13171,13 +13291,13 @@
   },
   {
     "SourceText": "⭐ Praise your teen for setting a family rule with you. ",
-    "text": "⭐ Reconoce y halaga a tu adolescente por establecer una regla familiar contigo. ",
+    "text": "⭐ reconoce a tu adolescente por establecer una regla familiar contigo. ",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "😃 Praise your teen when they follow the rule, just like you do when they behave well!",
-    "text": "😃 ¡Halaga a tu adolescente cuando siga las reglas y cuando tenga un buen comportamiento!",
+    "text": "😃 ¡Reconoce a tu adolescente cuando siga las reglas y cuando tenga un buen comportamiento!",
     "type": "text",
     "note": ""
   },
@@ -13195,7 +13315,7 @@
   },
   {
     "SourceText": "That's OK! Setting rules takes time and practice. ⏰ Think about the rules you would like to set and when you feel more confident, talk about these rules with your teen. 👂 Remember, you can always review this skill in the Main Menu!",
-    "text": "¡Entendemos! Establecer reglas requiere tiempo y práctica. ⏰ Piensa en las reglas que te gustaría establecer y, cuando sientas más confianza, elige la más fácil y habla de esta regla con tu adolescente. 👂 ¡Recuerda que siempre puedes repasar esta habilidad en el Menú Principal!",
+    "text": "¡Entendemos! Establecer reglas requiere tiempo y práctica. ⏰ Piensa en las reglas que te gustaría establecer y, cuando sientas más confianza, elige la más fácil y habla de esta regla con tu adolescente. 👂 ¡Recuerda que siempre puedes repasar esta estrategia en el Menú Principal!",
     "type": "text",
     "note": ""
   },
@@ -13327,7 +13447,7 @@
   },
   {
     "SourceText": "✅ Praise your teen for actions you want to see more of so that they know what they are doing right, too!",
-    "text": "✅ Halaga a tu adolescente por los comportamientos que quieres que se repitan. Así, ¡sabrá que lo está haciendo bien!",
+    "text": "✅ Reconoce a tu adolescente por los comportamientos que quieres que se repitan. Así, ¡sabrá que lo está haciendo bien!",
     "type": "text",
     "note": ""
   },
@@ -13356,8 +13476,8 @@
     "note": ""
   },
   {
-    "SourceText": "Can you do it today? ",
-    "text": "¿Tienes tiempo para hacerlo el día de hoy? ",
+    "SourceText": "Can you do it today?",
+    "text": "¿Tienes tiempo para hacerlo hoy? ",
     "type": "text",
     "note": ""
   },
@@ -13536,8 +13656,8 @@
     "note": ""
   },
   {
-    "SourceText": "That's okay. Try to review these steps together sometime this week. ",
-    "text": "Entendemos. Intenten repasar estos pasos en conjunto en algún momento de esta semana. ",
+    "SourceText": "That's okay. Try to review these steps together sometime this week.",
+    "text": "Está bien. Intenten repasar estos pasos en conjunto en algún momento de esta semana.",
     "type": "text",
     "note": ""
   },
@@ -13590,8 +13710,8 @@
     "note": ""
   },
   {
-    "SourceText": "Caregivers and children all have a role to play in the household. 📝 ",
-    "text": "Las personas cuidadoras, las niñas, los niños y adolescentes tienen un rol que desempeñar en el hogar. 📝 ",
+    "SourceText": "Caregivers and teens all have a role to play in the household. 📝 ",
+    "text": "Tanto las personas cuidadoras como las niñas, niños o adolescentes tienen un rol que desempeñar en el hogar. 📝 ",
     "type": "text",
     "note": ""
   },
@@ -13615,7 +13735,7 @@
   },
   {
     "SourceText": "Press play ▶️ to learn four tips to help you know your role as your teen’s caregiver and teach them their role, too: ",
-    "text": "Da Clic en Reproducir ▶️ para aprender cuatro estrategias que te ayudarán a conocer tu rol como persona cuidadora de tu adolescente y a enseñarle también el suyo: ️⃣ **CONOCER TU ROL**",
+    "text": "Da Clic en Reproducir ▶️ para aprender cuatro estrategias que te ayudarán a conocer tu rol como persona cuidadora de tu adolescente y a enseñarle también el suyo:",
     "type": "text",
     "note": ""
   },
@@ -13704,38 +13824,8 @@
     "note": ""
   },
   {
-    "SourceText": "🌷 Treat your teen and those around you in the way you would want your teen to act: with respect, kindness, patience, and love.",
-    "text": "🌷 Trata a tu adolescente, y a las personas que te rodean, como te gustaría que actuaran contigo: con respeto, amabilidad, paciencia y amor.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with @fields.child_nickname.",
-    "text": "💡 Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con @fields.child_nickname.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "👀 your {teen} will learn from your actions much more than from the words you tell them. They notice more than you might think!",
-    "text": "👀 Tu {teen} aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "❌ Shouting at or hitting your {teen} will only teach them to hit others when they are upset.",
-    "text": "❌ Usar la violencia con tu {teen} solo le enseñará a golpear a  otras personas cuando esté en una situación que le cause molestia.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with your {teen}.",
-    "text": "💡 Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con tu {teen}.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "🏅 Notice and **praise** your teen when they do the tasks that are their responsibility so they learn what is expected of them. This way, they are more likely to do it again.",
-    "text": "🏅 Fíjate en tu niña o niño y **halágale** cuando cumpla con sus responsabilidades para que aprenda qué es lo que se espera de ella o él. De este modo, es más probable que lo vuelva a hacer.",
+    "text": "🏅 Fíjate en tu niña o niño y **reconócele** cuando cumpla con sus responsabilidades para que aprenda qué es lo que se espera de ella o él. De este modo, es más probable que lo vuelva a hacer.",
     "type": "text",
     "note": ""
   },
@@ -13766,6 +13856,36 @@
   {
     "SourceText": "That's OK! If you don't have time today, set some time aside tomorrow. Talking to your {teen} about something they like helps them feel loved and supported, which can lead to better behaviour!",
     "text": "¡Está bien! Si hoy no tienes tiempo, aparta un espacio para mañana. Hablar con tu {teen} sobre algo que le gusta le puede hacer sentir tu apoyo y cariño, ¡lo que puede impactar en un mejor comportamiento de su parte!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Treat your teen and those around you in the way you would want your teen to act: with respect, kindness, patience, and love.",
+    "text": "🌷 Trata a tu adolescente, y a las personas que te rodean, como te gustaría que actuaran contigo: con respeto, amabilidad, paciencia y amor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with @fields.child_nickname.",
+    "text": "💡 Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "❌ Shouting at or hitting your {teen} will only teach them to hit others when they are upset.",
+    "text": "❌ Usar la violencia con tu {teen} solo le enseñará a golpear a  otras personas cuando esté en una situación que le cause molestia.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡If you are feeling intense emotions, like upset or stress, take a pause to care for yourself and then talk with your {teen}.",
+    "text": "💡 Si estás sintiendo emociones muy intensas, como enojo o estrés, haz una pausa para cuidar de ti y luego habla con tu {teen}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Your {teen} will learn from your actions much more than from the words you tell them. They notice more than you might think!",
+    "text": "👀 Tu {teen} aprenderá mucho más de tus acciones que de las palabras que le digas. ¡Se da cuenta de su alrededor mucho más de lo que crees!",
     "type": "text",
     "note": ""
   },
@@ -13842,7 +13962,7 @@
     "note": ""
   },
   {
-    "SourceText": "🚩 When responding to  @fields.child_nickname that they are perfect or that they shouldn't worry so much, @fields.child_nickname may feel that you are not interested in what’s bothering them. ",
+    "SourceText": "🚩 When responding to @fields.child_nickname that they are perfect or that they shouldn't worry so much, @fields.child_nickname may feel that you are not interested in what’s bothering them. ",
     "text": "🚩 Al responderle a @fields.child_nickname cosas como que todo está perfecto o que no debería de preocuparse tanto, puedes hacer que @fields.child_nickname sienta como que realmente no te interesa lo que le preocupa. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
@@ -13860,7 +13980,7 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "🚩 When responding to  your {teen} that they are perfect or that they shouldn't worry so much, your {teen} may feel that you are not interested in what’s bothering them. ",
+    "SourceText": "🚩 When responding to your {teen} that they are perfect or that they shouldn't worry so much, your {teen} may feel that you are not interested in what’s bothering them. ",
     "text": "🚩 Al responderle a tu {teen} cosas como que todo está perfecto o que no debería de preocuparse tanto, puedes hacer que tu {teen} sienta como que realmente no te interesa lo que le preocupa. ",
     "type": "text",
     "note": ""
@@ -13880,18 +14000,6 @@
   {
     "SourceText": "🎉 That’s correct!  ",
     "text": "🎉 ¡Estás en lo correcto!  ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🚩 When responding to @fields.child_nickname that they are perfect or that they shouldn't worry so much, @fields.child_nickname may feel that you are not interested in what’s bothering them. ",
-    "text": "🚩 Al responderle a @fields.child_nickname cosas como que todo está perfecto o que no debería de preocuparse tanto, puedes hacer que @fields.child_nickname sienta como que realmente no te interesa lo que le preocupa. ",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🚩 When responding to your {teen} that they are perfect or that they shouldn't worry so much, your {teen} may feel that you are not interested in what’s bothering them. ",
-    "text": "🚩 Al responderle a tu {teen} cosas como que todo está perfecto o que no debería de preocuparse tanto, puedes hacer que tu {teen} sienta como que realmente no te interesa lo que le preocupa. ",
     "type": "text",
     "note": ""
   },
@@ -13980,8 +14088,8 @@
     "note": ""
   },
   {
-    "SourceText": "Press Play ▶️to 5️⃣tips on how to help @fields.child_nickname think positively about themselves: ",
-    "text": "Da Clic en Reproducir ▶️ para aprender 5️⃣ estrategias para saber cómo ayudar a @fields.child_nickname a tener pensamientos positivos sobre su persona: ",
+    "SourceText": "Press Play ▶️to 4️⃣ tips on how to help @fields.child_nickname think positively about themselves: ",
+    "text": "Da Clic en Reproducir ▶️ para aprender 4️⃣ estrategias para saber cómo ayudar a @fields.child_nickname a tener pensamientos positivos sobre su persona: ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -14010,8 +14118,8 @@
     "note": ""
   },
   {
-    "SourceText": "Press Play ▶️to 5️⃣tips on how to help your {teen} think positively about themselves: ",
-    "text": "Da Clic en Reproducir ▶️ para aprender 5️⃣ estrategias para saber cómo ayudar a tu {teen} a tener pensamientos positivos sobre su persona: ",
+    "SourceText": "Press Play ▶️to 4️⃣ tips on how to help your {teen} think positively about themselves: ",
+    "text": "Da Clic en Reproducir ▶️ para aprender 4️⃣ estrategias para saber cómo ayudar a tu {teen} a tener pensamientos positivos sobre su persona: ",
     "type": "text",
     "note": ""
   },
@@ -14022,14 +14130,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are 4️⃣ tips on how to help @fields.child_nickname think positively about themselves: ",
-    "text": "Aquí tienes 4️⃣ estrategias para saber cómo ayudar a @fields.child_nickname a pensar positivamente sobre su persona: ",
+    "SourceText": "Here are 4️⃣ tips on how to help @fields.child_nickname think positively about themselves:",
+    "text": "Aquí tienes 4️⃣ estrategias para saber cómo ayudar a @fields.child_nickname a pensar positivamente sobre su persona:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Here are 4️⃣ tips on how to help your {teen} think positively about themselves: ",
-    "text": "Aquí tienes 4️⃣ estrategias para saber cómo ayudar a tu {teen} a pensar positivamente sobre su persona: ",
+    "SourceText": "Here are 4️⃣ tips on how to help your {teen} think positively about themselves:",
+    "text": "Aquí tienes 4️⃣ estrategias para saber cómo ayudar a tu {teen} a pensar positivamente sobre su persona:",
     "type": "text",
     "note": ""
   },
@@ -14239,13 +14347,13 @@
   },
   {
     "SourceText": "Praise @fields.child_nickname for communicating with you and working together on overcoming negative thoughts or feelings.",
-    "text": "Reconoce y halaga a @fields.child_nickname por comunicarse contigo y pedirte apoyo para superar sus pensamientos o sentimientos negativos.",
+    "text": "reconoce a @fields.child_nickname por comunicarse contigo y pedirte apoyo para superar sus pensamientos o sentimientos negativos.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Can you try this next time? ",
-    "text": "¿Puedes intentarlo para la próxima vez? ",
+    "SourceText": "Can you try this next time?",
+    "text": "¿Puedes intentarlo la próxima vez?",
     "type": "text",
     "note": ""
   },
@@ -14275,7 +14383,7 @@
   },
   {
     "SourceText": "Praise your {teen} for communicating with you and working together on overcoming negative thoughts or feelings.",
-    "text": "Reconoce y halaga a tu {teen} por comunicarse contigo y pedirte apoyo para superar sus pensamientos o sentimientos negativos.",
+    "text": "reconoce a tu {teen} por comunicarse contigo y pedirte apoyo para superar sus pensamientos o sentimientos negativos.",
     "type": "text",
     "note": ""
   },
@@ -14304,8 +14412,8 @@
     "note": ""
   },
   {
-    "SourceText": "📝Let’s start with a quiz to learn more about being hopeful for the future: ",
-    "text": "📝 Empecemos con un ejercicio para saber más sobre cómo generar ideas y mantener la motivación por el futuro: ",
+    "SourceText": "📝Let’s start with a quiz to learn more about being hopeful for the future:",
+    "text": "📝 Empecemos con un ejercicio para saber más sobre cómo generar ideas y mantener la motivación por el futuro:",
     "type": "text",
     "note": ""
   },
@@ -14418,14 +14526,20 @@
     "note": ""
   },
   {
-    "SourceText": "🏆People with lots of hope can often remain resilient when facing challenges because they believe they can find solutions, even when things are very challenging. \r\r🏅When @fields.child_nickname is not hopeful about the future, they are likely to give up or avoid hard things in the future. This makes it hard for them to grow and succeed in the long run.",
-    "text": "🏆 Las personas que tienen ideas sobre lo que quieren lograr en el futuro , a menudo pueden seguir siendo resilientes al enfrentarse a situaciones difíciles porque creen que son capaces de encontrar soluciones, incluso cuando las cosas se llegan a complicar. \r\r🏅Si @fields.child_nickname no tiene motivación sobre el futuro, es probable que se rinda o evite cualquier situación difícil que se le presente. Esto obstruye su desarrollo y su éxito a largo plazo.",
+    "SourceText": "🏆People with lots of hope can often remain resilient when facing challenges because they believe they can find solutions, even when things are very challenging.",
+    "text": "🏆Las personas con mucha esperanza a menudo pueden seguir siendo resilientes cuando se enfrentan a retos, porque creen que pueden encontrar soluciones, incluso cuando las cosas son muy retadoras.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏅When @fields.child_nickname is not hopeful about the future, they are likely to give up or avoid hard things in the future. This makes it hard for them to grow and succeed in the long run.",
+    "text": "🏅Cuando @fields.child_nickname no tiene esperanzas en el futuro, es probable que se rinda o evite las cosas difíciles en el futuro. Esto les dificulta crecer y tener éxito a largo plazo.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "🏆People with lots of hope can often remain resilient when facing challenges because they believe they can find solutions, even when things are very challenging. \r\r🏅When your {teen} is not hopeful about the future, they are likely to give up or avoid hard things in the future. This makes it hard for them to grow and succeed in the long run.",
-    "text": "🏆 Las personas que tienen ideas y  motivación sobre su futuro,, a menudo pueden seguir siendo resilientes al enfrentarse a situaciones difíciles porque creen que son capaces de encontrar soluciones, incluso cuando las cosas se llegan a complicar. \r\r🏅Si tu {teen} no tiene motivaciones para el futuro, es probable que se rinda o evite cualquier situación difícil que se le presente. Esto obstruye su desarrollo y su éxito a largo plazo.",
+    "SourceText": "🏅When your {teen} is not hopeful about the future, they are likely to give up or avoid hard things in the future. This makes it hard for them to grow and succeed in the long run.",
+    "text": "🏅Cuando tu {teen} no tiene esperanzas en el futuro, es probable que se rinda o evite las cosas difíciles en el futuro. Esto les dificulta crecer y tener éxito a largo plazo.",
     "type": "text",
     "note": ""
   },
@@ -14486,30 +14600,6 @@
   {
     "SourceText": "When your {teen} learns how to deal with challenges better, they can also feel more hopeful about achieving their goals.",
     "text": "Cuando tu {teen} aprenda a enfrentar los retos de una mejor manera, como consecuencia, empezará a generar ideas y mantener la motivación para poder lograr sus objetivos y sus metas.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🔄 @fields.child_nickname’s brain is like a muscle. Just as lifting weights makes muscles stronger, navigating challenges strengthens the brain. ",
-    "text": "🔄 El cerebro de @fields.child_nickname es como un músculo. Así como levantar pesas fortalece los músculos, superar retos fortalece el cerebro. ",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🌱When @fields.child_nickname believes they can improve, they are more likely to keep trying, bounce back from setbacks, and work hard to achieve their goals.  \r\rHere are 4️⃣ tips to learn how to help @fields.child_nickname deal with challenges so they can feel hopeful about their future:",
-    "text": "🌱Si @fields.child_nickname realmente cree que puede mejorar, es más probable que lo siga intentando, que se recupere de los contratiempos y que se esfuerce por lograr sus objetivos. \r\rAquí tienes 4️⃣ estrategias para aprender cómo ayudar a @fields.child_nickname a enfrentar los retos y dificultades para que pueda generar ideas y mantener la motivación de construir un futuro:",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "🔄 your {teen}’s brain is like a muscle. Just as lifting weights makes muscles stronger, navigating challenges strengthens the brain. ",
-    "text": "🔄 El cerebro de tu {teen} es como un músculo. Así como levantar pesas fortalece los músculos, superar retos fortalece el cerebro. ",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "🌱When your {teen} believes they can improve, they are more likely to keep trying, bounce back from setbacks, and work hard to achieve their goals.  \r\rHere are 4️⃣ tips to learn how to help your {teen} deal with challenges so they can feel hopeful about their future:",
-    "text": "🌱Si tu {teen} realmente cree que puede mejorar, es más probable que lo siga intentando, que se recupere de los contratiempos y que se esfuerce por lograr sus objetivos. \r\rAquí tienes 4️⃣ estrategias para aprender cómo ayudar a {teen} a enfrentar los retos y dificultades para que pueda generar ideas y mantener la motivación de construir un futuro:",
     "type": "text",
     "note": ""
   },
@@ -14658,8 +14748,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Do you have time to do it today? ",
-    "text": "¿Tienes tiempo para hacerlo hoy? ⏰",
+    "SourceText": "Do you have time to do it today?",
+    "text": "¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -14756,6 +14846,30 @@
   {
     "SourceText": "Well done! 🎉 You have learnt about how to help your {teen} navigate challenges, and be hopeful about their future.",
     "text": "¡Bien hecho! 🎉 Has aprendido cómo ayudar a tu {teen} a navegar situaciones retadoras y a tener motivación sobre su futuro.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 @fields.child_nickname’s brain is like a muscle. Just as lifting weights makes muscles stronger, navigating challenges strengthens the brain. ",
+    "text": "🔄 El cerebro de @fields.child_nickname es como un músculo. Así como levantar pesas fortalece los músculos, superar retos fortalece el cerebro. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌱When @fields.child_nickname believes they can improve, they are more likely to keep trying, bounce back from setbacks, and work hard to achieve their goals.  \r\rHere are 4️⃣ tips to learn how to help @fields.child_nickname deal with challenges so they can feel hopeful about their future:",
+    "text": "🌱Si @fields.child_nickname realmente cree que puede mejorar, es más probable que lo siga intentando, que se recupere de los contratiempos y que se esfuerce por lograr sus objetivos. \r\rAquí tienes 4️⃣ estrategias para aprender cómo ayudar a @fields.child_nickname a enfrentar los retos y dificultades para que pueda generar ideas y mantener la motivación de construir un futuro:",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌱When your {teen} believes they can improve, they are more likely to keep trying, bounce back from setbacks, and work hard to achieve their goals.  \r\rHere are 4️⃣ tips to learn how to help your {teen} deal with challenges so they can feel hopeful about their future:",
+    "text": "🌱Si tu {teen} realmente cree que puede mejorar, es más probable que lo siga intentando, que se recupere de los contratiempos y que se esfuerce por lograr sus objetivos. \r\rAquí tienes 4️⃣ estrategias para aprender cómo ayudar a {teen} a enfrentar los retos y dificultades para que pueda generar ideas y mantener la motivación de construir un futuro:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 Your {teen}’s brain is like a muscle. Just as lifting weights makes muscles stronger, navigating challenges strengthens the brain. ",
+    "text": "🔄 El cerebro de tu {teen} es como un músculo. Así como levantar pesas fortalece los músculos, superar retos fortalece el cerebro. ",
     "type": "text",
     "note": ""
   },
@@ -14905,7 +15019,7 @@
   },
   {
     "SourceText": "▶️No problem! You can try it tomorrow or some other time this week. 💚 Supporting your teen when they are stressed helps them deal with it better and will help them feel more safe and secure. Well done, keep at it! 🏆",
-    "text": "▶️ ¡No pasa nada! Puedes intentarlo mañana o en otro momento de esta semana. 💚 Apoyar a tu adolescente cuando está en una situación estresante le ayuda a transitar la sensación de una mejor manera y también a sentir más confianza, seguridad y protección de tu parte. Bien hecho, ¡sigue así! 🏆",
+    "text": "▶️ ¡No pasa nada! Puedes intentarlo mañana o en otro momento de esta semana. 💚 Apoyar a tu adolescente cuando está en una situación estresante le ayuda a transitar la sensación de una mejor manera y también a sentir más confianza, seguridad y protección de tu parte.🏆",
     "type": "text",
     "note": ""
   },
@@ -15067,7 +15181,7 @@
   },
   {
     "SourceText": "These conversations are difficult, but it is important your teen knows where to turn for help. You can use the Main Menu to come back to this skill for tips to support them. 💚",
-    "text": "Estas conversaciones son difíciles, sin embargo, es importante que tu adolescente sepa a dónde ir para pedir ayuda. Puedes usar el Menú Principal para volver a revisar esta habilidad y obtener estrategias que les ayuden. 💚",
+    "text": "Estas conversaciones son difíciles, sin embargo, es importante que tu adolescente sepa a dónde ir para pedir ayuda. Puedes usar el Menú Principal para volver a revisar esta estrategia y obtener ideas que les ayuden. 💚",
     "type": "text",
     "note": ""
   },
@@ -15493,13 +15607,13 @@
   },
   {
     "SourceText": "❗Remember, if you think you or @fields.child_nickname might be experiencing problems with anxiety, you can type {HELP} at the end of this lesson to receive resources for support.",
-    "text": "❗Recuerda, si crees que @fields.child_nickname o tú tienen dificultades con la ansiedad, puedes escribir {HELP} al terminar esta sesión para obtener recursos de apoyo.",
+    "text": "❗Recuerda, si crees que @fields.child_nickname o tú tienen dificultades con la ansiedad, puedes escribir {HELP} al terminar esta sesión para obtener recursos de apoyo, por ejemplo:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "❗Remember, if you think you or your {teen} might be experiencing problems with anxiety, you can type {HELP} at the end of this lesson to receive resources for support.",
-    "text": "❗Recuerda, si crees que tu {teen} o tú tienen dificultades con la ansiedad, puedes escribir {HELP} al terminar esta sesión para obtener recursos de apoyo.",
+    "text": "❗Recuerda, si crees que tu {teen} o tú tienen dificultades con la ansiedad, puedes escribir {HELP} al terminar esta sesión para obtener recursos de apoyo, por ejemplo:",
     "type": "text",
     "note": ""
   },
@@ -15672,8 +15786,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You can also do it with @fields.child_nickname. Do you have time to do it today? ",
-    "text": "También puedes hacerlo con @fields.child_nickname. ¿Tienes tiempo para hacerlo hoy? ",
+    "SourceText": "You can also do it with @fields.child_nickname. Do you have time to do it today?",
+    "text": "También puedes hacerlo con @fields.child_nickname. ¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -15684,8 +15798,8 @@
     "note": ""
   },
   {
-    "SourceText": "You can also do it with your {teen}. Do you have time to do it today? ",
-    "text": "También puedes hacerlo con tu {teen}. ¿Tienes tiempo para hacerlo hoy? ",
+    "SourceText": "You can also do it with your {teen}. Do you have time to do it today?",
+    "text": "También puedes hacerlo con tu {teen}. ¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -15697,19 +15811,19 @@
   },
   {
     "SourceText": "Remember to type {HELP} to get resources for support at the end of the lesson if for you or @fields.child_nickname: ",
-    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para @fields.child_nickname: ",
+    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para @fields.child_nickname, por ejemplo: ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "1️⃣ Find it difficult to control or stop feelings of worry or",
-    "text": "Es difícil controlar o detener los sentimientos de preocupación o",
+    "text": "1️⃣ Es difícil controlar los sentimientos de preocupación",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "2️⃣ Feelings of worry are not letting you focus on your day-to-day activities or",
-    "text": "Si los sentimientos de preocupación no te dejan enfocarte en tus actividades cotidianas o",
+    "text": "2️⃣ Si los sentimientos de preocupación no te dejan enfocarte en tus actividades cotidianas",
     "type": "text",
     "note": ""
   },
@@ -15721,7 +15835,7 @@
   },
   {
     "SourceText": "Remember to type {HELP} to get resources for support at the end of the lesson if for you or your {teen}: ",
-    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para tu {teen}: ",
+    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para tu {teen}, por ejemplo: ",
     "type": "text",
     "note": ""
   },
@@ -15733,13 +15847,13 @@
   },
   {
     "SourceText": "Remember to type {HELP} to get resources for support at the end of the lesson if you or @fields.child_nickname: ",
-    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para @fields.child_nickname: ",
+    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para @fields.child_nickname, por ejemplo: ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Remember to type {HELP} to get resources for support at the end of the lesson if you or your {teen}: ",
-    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para tu {teen}: ",
+    "text": "Recuerda escribir {HELP} para obtener recursos de apoyo al terminar la sesión, ya sean para ti o para tu {teen}, por ejemplo: ",
     "type": "text",
     "note": ""
   },
@@ -15774,14 +15888,14 @@
     "note": ""
   },
   {
-    "SourceText": "False or true: As a caregiver, I must be strong and not appear sad in front of my children",
-    "text": "Falso o Verdadero: Como madre, padre o persona cuidadora, debo de ser fuerte y no verme triste delante de mi adolescente.",
+    "SourceText": "False or true: As a caregiver, I must be strong and not appear sad in front of my teens",
+    "text": "Falso o Verdadero: Como madre, padre o persona cuidadora, debo de ser fuerte y no verme triste delante de mi niña, niño o adolescente.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Here is a comic on managing sadness: ",
-    "text": "Aquí tienes una historieta sobre cómo regular la tristeza: ",
+    "SourceText": "Here is a comic on managing sadness:",
+    "text": "Aquí tienes una historieta sobre cómo regular la tristeza:",
     "type": "text",
     "note": ""
   },
@@ -16008,8 +16122,8 @@
     "note": ""
   },
   {
-    "SourceText": "3️⃣ **SEEK SUPPORT** ",
-    "text": "3️⃣ ** BUSCAR APOYO** ",
+    "SourceText": "3️⃣ **SEEK SUPPORT**",
+    "text": "3️⃣ ** BUSCAR APOYO**",
     "type": "text",
     "note": ""
   },
@@ -16020,14 +16134,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are 3️⃣ tips to help you and @fields.child_nickname manage sadness and spot warning signs of depression: ",
-    "text": "Aquí tienes 3️⃣ estrategias que te ayudarán a ti y a @fields.child_nickname a regular la tristeza y a detectar los signos de alerta relacionados con la depresión: ",
+    "SourceText": "Here are 3️⃣ tips to help you and @fields.child_nickname manage sadness and spot warning signs of depression:",
+    "text": "Aquí tienes 3️⃣ estrategias que te ayudarán a ti y a @fields.child_nickname a regular la tristeza y a detectar los signos de alerta relacionados con la depresión:",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Here are 3️⃣ tips to help you and your {teen} manage sadness and spot warning signs of depression: ",
-    "text": "Aquí tienes 3️⃣ estrategias que te ayudarán a ti y a tu {teen} a regular la tristeza y a detectar los signos de alerta relacionados con la depresión: ",
+    "SourceText": "Here are 3️⃣ tips to help you and your {teen} manage sadness and spot warning signs of depression:",
+    "text": "Aquí tienes 3️⃣ estrategias que te ayudarán a ti y a tu {teen} a regular la tristeza y a detectar los signos de alerta relacionados con la depresión:",
     "type": "text",
     "note": ""
   },
@@ -16088,6 +16202,12 @@
   {
     "SourceText": "It’s okay if your {teen} picks an activity you don’t enjoy. Letting your {teen} choose shows them that you support them in feeling better. ",
     "text": "No pasa nada si tu {teen} escoge una actividad que a ti no te gusta. Dejar que tu {teen} elija le demuestra que quieres que se sienta mejor y que le apoyas. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ **SEEK SUPPORT** ",
+    "text": "3️⃣ ** BUSCAR APOYO** ",
     "type": "text",
     "note": ""
   },
@@ -16177,13 +16297,13 @@
   },
   {
     "SourceText": "Try spending some extra one-on-one with @fields.child_nickname this week doing something you would like to do together. You can use this as an opportunity to check-in with how @fields.child_nickname is doing. ",
-    "text": "Intenta pasar más Tiempo Uno a Uno con @fields.child_nickname esta semana haciendo algo que les gustaría hacer entre ustedes dos. Puedes aprovechar esta oportunidad para platicar con @fields.child_nickname y ver cómo le está yendo y cómo se siente. ",
+    "text": "Intenta pasar más Tiempo Uno a Uno con @fields.child_nickname esta semana haciendo algo que les gustaría hacer entre ustedes dos. Puedes aprovechar esta oportunidad para hablar con @fields.child_nickname y ver cómo le está yendo y cómo se siente. ",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Try spending some extra one-on-one with your {teen} this week doing something you would like to do together. You can use this as an opportunity to check-in with how your {teen} is doing. ",
-    "text": "Intenta pasar más Tiempo Uno a Uno con tu {teen} esta semana haciendo algo que les gustaría hacer entre ustedes dos. Puedes aprovechar esta oportunidad para platicar con tu {teen} y ver cómo le está yendo y cómo se siente. ",
+    "text": "Intenta pasar más Tiempo Uno a Uno con tu {teen} esta semana haciendo algo que les gustaría hacer entre ustedes dos. Puedes aprovechar esta oportunidad para hablar con tu {teen} y ver cómo le está yendo y cómo se siente. ",
     "type": "text",
     "note": ""
   },
@@ -16194,8 +16314,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "If @fields.child_nickname shares that they are feeling sad, try the tips from today’s lesson. ",
-    "text": "Si @fields.child_nickname dice que se siente triste, prueba los consejos de la sesión de hoy. ",
+    "SourceText": "If @fields.child_nickname shares that they are feeling sad, try the tips from today’s lesson.",
+    "text": "Si @fields.child_nickname dice que se siente triste, prueba los consejos de la sesión de hoy.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -16206,8 +16326,8 @@
     "note": ""
   },
   {
-    "SourceText": "If your {teen} shares that they are feeling sad, try the tips from today’s lesson. ",
-    "text": "Si tu {teen} dice que se siente triste, prueba los consejos de la sesión de hoy. ",
+    "SourceText": "If your {teen} shares that they are feeling sad, try the tips from today’s lesson.",
+    "text": "Si tu {teen} dice que se siente triste, prueba los consejos de la sesión de hoy.",
     "type": "text",
     "note": ""
   },
@@ -16237,7 +16357,7 @@
   },
   {
     "SourceText": "Here is a comic that shows how you can participate in caregiving responsibilities as a man in the family:",
-    "text": "Aquí tienes un cómic que muestra cómo puedes estar presente en las responsabilidades de cuidado de la familia:",
+    "text": "Aquí tienes una historieta que muestra cómo puedes estar presente en las responsabilidades de cuidado de la familia:",
     "type": "text",
     "note": ""
   },
@@ -16321,13 +16441,13 @@
   },
   {
     "SourceText": "2️⃣ **TALK ABOUT THE WORKLOAD WITH YOUR PARTNER**",
-    "text": "2️⃣ **HABLAR DE LA CARGA DE RESPONSABILIDADES CON TU PAREJA**",
+    "text": "2️⃣ **HABLAR DE RESPONSABILIDADES CON TU PAREJA**",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "3️⃣ **OFFER SUPPORT **",
-    "text": "3️⃣ **SER UN INTEGRANTE ACTIVO **",
+    "text": "3️⃣ **OFRECER APOYO **",
     "type": "text",
     "note": ""
   },
@@ -16369,7 +16489,7 @@
   },
   {
     "SourceText": "3️⃣ **OFFER SUPPORT**",
-    "text": "3️⃣ **SER UN INTEGRANTE ACTIVO**",
+    "text": "3️⃣ **OFRECER APOYO**",
     "type": "text",
     "note": ""
   },
@@ -16393,7 +16513,7 @@
   },
   {
     "SourceText": "Home Activity! ⭐ Discuss with your partner ways for you to be more involved in caregiving and household responsibilities! Do you have time to do it today?",
-    "text": "¡Tu Actividad para Casa consiste en platicar con tu pareja y discutir varias maneras de involucrarte en el cuidado, en la crianza y en las responsabilidades del hogar activamente!",
+    "text": "¡Tu Actividad para Casa consiste en hablar con tu pareja y discutir varias maneras de involucrarte en el cuidado, en la crianza y en las responsabilidades del hogar activamente!",
     "type": "text",
     "note": ""
   },
@@ -16435,7 +16555,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, Bring a More Responsible and Involved Father.🎉",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso, Seguridad y Salud de Mi Niña o Niño.🎉",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso, Responsabilidad e Involucramiento en la Crianza Compartida.🎉",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -16561,19 +16681,25 @@
   },
   {
     "SourceText": "1️⃣ **PAY ATTENTION**",
-    "text": "1️⃣ **PONER ATENCIÓN**",
+    "text": "1️⃣ **PRESTAR ATENCIÓN**",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "2️⃣ **WORK TOGETHER**\r3️⃣ **OFFER SUPPORT**\r4️⃣ **ASK FOR SUPPORT**",
-    "text": "2️⃣ **TRABAJAR COMO EQUIPO**\r3️⃣ **SER UN INTEGRANTE ACTIVO**\r4️⃣ **PEDIR APOYO**",
+    "text": "2️⃣ **TRABAJAR COMO EQUIPO**\n\r3️⃣ **SER UN INTEGRANTE ACTIVO**\n\r4️⃣ **PEDIR APOYO**",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "2️⃣ **WORK TOGETHER**\r3️⃣ **OFFER SUPPORT*\r4️⃣ **ASK FOR SUPPORT**",
-    "text": "2️⃣ **TRABAJAR COMO EQUIPO**\r3️⃣ **SER UN INTEGRANTE ACTIVO**\r4️⃣ **PEDIR APOYO**",
+    "SourceText": "2️⃣ **WORK TOGETHER**",
+    "text": "2️⃣ **TRABAJAR COMO EQUIPO**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣ **ASK FOR SUPPORT**",
+    "text": "4️⃣ **PEDIR APOYO**",
     "type": "text",
     "note": ""
   },
@@ -16592,12 +16718,6 @@
   {
     "SourceText": "Give your partner your full attention when you are speaking with them.",
     "text": "Dale toda tu atención a tu pareja cuando hables con ella.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2️⃣ **WORK TOGETHER**",
-    "text": "2️⃣ **TRABAJAR COMO EQUIPO**",
     "type": "text",
     "note": ""
   },
@@ -16626,12 +16746,6 @@
     "note": ""
   },
   {
-    "SourceText": "4️⃣ **ASK FOR SUPPORT**",
-    "text": "4️⃣ **PEDIR APOYO**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "😒 It is also important to ask for support when you need it, too. Sometimes, we expect our partners to know we need support even if we don’t ask them.",
     "text": "😒 También es importante saber pedir ayuda cuando la necesites. A veces, esperamos que nuestras parejas sepan que necesitamos apoyo aunque no se lo pidamos.",
     "type": "text",
@@ -16656,8 +16770,8 @@
     "note": ""
   },
   {
-    "SourceText": "Home activity! ⭐Try to notice when your partner needs support. Ask them what they need and be prepared to listen.Do you have time to do it today? ",
-    "text": "¡Actividad para Casa! ⭐Trata de darte cuenta de los momentos en lo que tu pareja necesita apoyo. Pregúntale qué necesita y escúchale. ¿Tienes tiempo para hacerlo hoy? ",
+    "SourceText": "Home activity! ⭐Try to notice when your partner needs support. Ask them what they need and be prepared to listen.Do you have time to do it today?",
+    "text": "¡Actividad para Casa! ⭐Trata de darte cuenta de los momentos en lo que tu pareja necesita apoyo. Pregúntale qué necesita y escúchale. ¿Tienes tiempo para hacerlo hoy?",
     "type": "text",
     "note": ""
   },
@@ -16699,7 +16813,7 @@
   },
   {
     "SourceText": "Listening and talking to those around us are key to a more peaceful home. 👂",
-    "text": "Escuchar y platicar con las personas que nos rodean es clave para tener paz y tranquilidad en el hogar. 👂",
+    "text": "Escuchar y hablar con las personas que nos rodean es clave para tener paz y tranquilidad en el hogar. 👂",
     "type": "text",
     "note": ""
   },
@@ -17083,7 +17197,7 @@
   },
   {
     "SourceText": "☀️ Find a moment in which both are calm and open to listening and talking.",
-    "text": "☀️ Encuentra un momento en el que tu pareja y tú sientan tranquilidad y disposición de escuchar y platicar.",
+    "text": "☀️ Encuentra un momento en el que tu pareja y tú sientan tranquilidad y disposición de escuchar y hablar.",
     "type": "text",
     "note": ""
   },
@@ -17130,8 +17244,8 @@
     "note": ""
   },
   {
-    "SourceText": "🎉 Well done! Communicating and working together with your partner makes a difference! ",
-    "text": "🎉 ¡Bien hecho! ¡La comunicación y el trabajo en equipo con tu pareja hacen la diferencia! ",
+    "SourceText": "🎉 Well done! Communicating and working together with your partner makes a difference!",
+    "text": "🎉 ¡Bien hecho! ¡La comunicación y el trabajo en equipo con tu pareja hacen la diferencia!",
     "type": "text",
     "note": ""
   },
@@ -17220,8 +17334,8 @@
     "note": ""
   },
   {
-    "SourceText": "Here is a comic that shows how you can resolve conflict peacefully: ",
-    "text": "Aquí tienes una historieta que muestra cómo puedes resolver los conflictos pacíficamente: ",
+    "SourceText": "Here is a comic that shows how you can resolve conflict peacefully:",
+    "text": "Aquí tienes una historieta que muestra cómo puedes resolver los conflictos pacíficamente:",
     "type": "text",
     "note": ""
   },

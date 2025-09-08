@@ -9,11 +9,11 @@
         "sheet_name": "Improve My Relationship with My Child",
         "data_sheet": "",
         "data_row_id": "",
-        "new_name": "module_content_child_data",
+        "new_name": "",
         "data_model": "PlhContentModel",
         "template_arguments": "",
         "operation": "",
-        "status": "draft",
+        "status": "",
         "tags.1": "",
         "tags.2": "",
         "tags.3": "",
@@ -102,7 +102,7 @@
         "new_name": "module_content_data",
         "data_model": "PlhContentModel",
         "template_arguments": "",
-        "operation": "",
+        "operation": "concat",
         "status": "",
         "tags.1": "",
         "tags.2": "",
@@ -133,7 +133,37 @@
         "data_model": "PlhContentModel",
         "template_arguments": "",
         "operation": "",
+        "status": "draft",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "Improve My Relationship with My Child",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "module_content_child_data_5day",
+        "data_model": "PlhContentModel",
+        "template_arguments": "",
+        "operation": "",
         "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "module_content_child_data_5day;\nmodule_content_teen_data_5day;\nmodule_content_all_ages_data_5day",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "module_content_data",
+        "data_model": "PlhContentModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "draft",
         "tags.1": "",
         "tags.2": "",
         "tags.3": "",
@@ -143,9 +173,8 @@
     "Improve My Relationship with My Child": [
       {
         "ID": "one_on_one_yc",
-        "module_name": "Spending One-on-one Time with My Girl or Boy ",
         "introduction.msg_list": "Today’s lesson is about spending one-on-one time with Your Child 😃",
-        "importance.msg_list": "Spending special time with Your Child will make them feel valued and loved. 💙 \n;\nIt will also build trust and respect, and support girls and boys in learning new things. ✨",
+        "importance.msg_list": "Spending special time with Your Child will make them feel valued and loved. 💙 \n;\nIt will also build trust and respect, and support girls and boys to learn new things. ✨",
         "quiz.intro": "Let's do a quiz!",
         "quiz.content.1.question": "True or False: When I spend special time with my boy or girl, I need to have a plan. I need to know what we will do together.",
         "quiz.content.1.values": "True|False",
@@ -193,7 +222,6 @@
       },
       {
         "ID": "give_praise_yc",
-        "module_name": "Giving Praise",
         "introduction.msg_list": "✨Well done for the effort of learning how to improve your relationship with Your Child. It shows you really care! 💙\n;\n😃How did the message above make you feel?\n🌷We all feel better when we are praised.",
         "importance.msg_list": "🏅Praising Your Child when they behave in the expected way will make them want to behave that way more often. \n\n⭐It also creates a positive and loving relationship between you and Your Child.\n\nBegin by praising Your Child during one-on-one time.",
         "quiz.intro": "Let's do a quiz!",
@@ -243,7 +271,6 @@
       },
       {
         "ID": "routines_yc",
-        "module_name": "Creating a Routine for one-on-one Time",
         "introduction.msg_list": "This lesson is about creating routines for spending one-on-one time with Your Child. 🔄",
         "importance.msg_list": "To continue building a positive relationship with Your Child, let’s make one-on-one time a part of the routine. \n\nYou can use the tips for one-on-one routines to create other daily routines with Your Child. \n\nCreating daily routines with Your Child will also help them feel more secure, safe and cooperative. 🔑\r\r Help them plan time for resting, meals, chores, school, and sleep. ⏰",
         "quiz.intro": "",
@@ -293,7 +320,6 @@
       },
       {
         "ID": "feelings_yc",
-        "module_name": "Noticing Feelings During One-on-One Time",
         "introduction.msg_list": "😃😣😔This lesson is about noticing your and Your Child’s feelings during One-on-One Time.",
         "importance.msg_list": "Noticing our own emotions helps us make clear decisions and act in a nurturing way with Your Child and ourselves.\n\n⭐ Noticing and Talking about feelings with Your Child will help them learn how to express and regulate themselves. \n\n👌They will learn that all feelings are okay - even the unpleasant ones.\n; \n🌷 You can help by listening to them, thinking about how it must feel for them, and accepting their emotions. \n\n🤗This will help them recognise other people’s feelings, too.",
         "quiz.intro": "Let’s do a True/False quiz: ",
@@ -343,14 +369,13 @@
       },
       {
         "ID": "calm_yc",
-        "module_name": "Keeping Calm When We Are Stressed",
         "introduction.msg_list": "This lesson is about how we can stay calm and manage our anger when dealing with stressful moments with our girls and boys. 💚",
         "importance.msg_list": "As you began noticing feelings, you would have noticed feelings of anger, frustration or sadness. \n\n🌷 We love our girls and boys, but stress from caregiving and other events can make us feel angry. This is a normal part of life! \n\n💡 It is important for us to try to stay calm in order to help manage our anger so we do not hurt others. ",
         "quiz.intro": "Let’s do a True/False quiz: ",
         "quiz.content.1.question": "When I am angry at my boy or girl, I should show that I am angry so they stop misbehaving. ",
         "quiz.content.1.values": "True|False",
         "quiz.content.1.answer": "False",
-        "quiz.content.1.feedback_correct": "🎉 That’s correct! \n\n💛 It can be very difficult when your boy or girl is misbehaving, but you should try to manage your own stress and check your anger before doing anything. \n\n🌱 Taking deep breaths will help. Being angry may cause you to say or do things you will later regret.\n\n",
+        "quiz.content.1.feedback_correct": "🎉 That’s correct! \n\n💛 It can be very difficult when your boy or girl is misbehaving, but you should try to manage your own stress and check your anger before doing anything. \n\n🌱 Taking deep breaths will help. Being angry may cause you to say or do things you will later regret.",
         "quiz.content.1.feedback_incorrect": "👀Oops! Good Try!\n\n💛 It can be very difficult when your girl or boy is misbehaving, but you should try to manage your own stress and check your anger before doing anything. \n\n🌱 Taking deep breaths will help. Being angry may cause you to say or do things you will later regret.",
         "quiz.content.2.question": "",
         "quiz.content.2.values": "",
@@ -395,7 +420,6 @@
     "Keep My Girl or Boy Safe and Healthy": [
       {
         "ID": "safe_touch_2to5_yc_m",
-        "module_name": "Teaching Safe Touch",
         "introduction.msg_list": "Today’s lesson is about teaching Your Child about ✅ safe and ❌ unsafe touch.",
         "importance.msg_list": "💡 It is normal to feel uncomfortable about talking to boys about abuse. \n\n❗ But there are some simple things that can help them understand when it is not OK to be touched, and what they should do if something ever happens. \n\n🔑 It lets them know that they are in control of who can touch their body and in what way. \n\n🌷 This prepares them to keep themselves safe throughout their lives!",
         "quiz.intro": "📝Let's do a quiz!",
@@ -406,7 +430,7 @@
         "quiz.content.1.feedback_incorrect": "👀Oops! Check it out!\n\n🌷 It is never too early to talk with Your Child about how to keep them safe from sexual abuse.\n\n🧸 Even young boys can learn about which parts of their body are private and which parts are public. \n\nUse the real names for their body parts, like penis and testicles, instead of nicknames. This teaches your boy that they need not feel ashamed about talking about their private body parts with you. \n\n💡 They can also learn that it is important for them to tell you if anybody touches them in an inappropriate way.",
         "quiz.content.2.question": "Let's do a quick quiz! If Your Child tells me they feel uncomfortable about someone touching some part of their body parts, I should:",
         "quiz.content.2.values": "Say they shouldn’t talk about those body parts | Appreciate them for being brave to share with you and report the person if necessary | Tell them not to lie about things like this | Go and shout at the person who did it",
-        "quiz.content.2.answer": "Appreciate them for being brave to share with you and report the person if necessary.",
+        "quiz.content.2.answer": "Appreciate them for being brave to share with you and report the person if necessary",
         "quiz.content.2.feedback_correct": "🎉 That’s correct! \n\n💚 Thank them for being brave and for telling you so they feel safe to talk to you if anything ever happens again.\n\n💡 This teaches them that their safety matters most and they can always count on you.\n\n❗ Confronting the person who did it often makes it worse, so it is better to help Your Child stay away from the person and report them to the clinic or an institution you trust. ",
         "quiz.content.2.feedback_incorrect": "👀Oops! Check it out!\n\n💚 Thank them for being brave and for telling you so they feel safe to talk to you if anything ever happens again.\n\n💡 This teaches them that their safety matters most and they can always count on you.\n\n❗ Confronting the person who did it often makes it worse, so it is better to help Your Child stay away from the person and report them to the a clinic or a support institution.",
         "quiz.content.3.question": "",
@@ -445,7 +469,6 @@
       },
       {
         "ID": "safe_touch_2to5_yc_f",
-        "module_name": "Teaching Safe Touch",
         "introduction.msg_list": "Today’s lesson is about teaching Your Child about ✅ safe and ❌ unsafe touch.",
         "importance.msg_list": "💡 It is normal to feel uncomfortable about talking to girls about abuse. \n\n❗ But there are some simple things that can help them understand when it is not OK to be touched, and what they should do if something ever happens. \n\n🔑 It lets them know that they are in control of who can touch their body and in what way. \n\n🌷 This prepares them to keep themselves safe throughout their lives!",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -495,13 +518,12 @@
       },
       {
         "ID": "safe_touch_6to9_yc",
-        "module_name": "Teaching Safe Touch",
         "introduction.msg_list": "Today’s lesson is about teaching Your Child about ✅ safe and ❌ unsafe touch.",
         "importance.msg_list": "💡 It is normal to feel uncomfortable about talking to girls and boys about abuse. \n\n❗ But there are some simple things that can help them understand when it is not OK to be touched, and what they should do if something ever happens. \n\n🔑 It lets them know that they are in control of who can touch their body and in what way. \n\n🌷 This prepares them to keep themselves safe throughout their lives!",
         "quiz.intro": "📝 Let's do a quiz!",
         "quiz.content.1.question": "Let's do a quick quiz! If Your Child tells me they feel uncomfortable about someone touching some part of their body parts, I should:",
-        "quiz.content.1.values": "Say they shouldn’t talk about those body parts | Appreciate them for being brave to share with you and report the person if necessary | Tell them not to lie about things like this | Go and shout at the person who did it",
-        "quiz.content.1.answer": "Appreciate them for being brave to share with you and report the person if necessary.",
+        "quiz.content.1.values": "Say they shouldn’t talk about those body parts|Appreciate them for being brave to share with you and report the person if necessary|Tell them not to lie about things like this|Go and shout at the person who did it",
+        "quiz.content.1.answer": "Appreciate them for being brave to share with you and report the person if necessary",
         "quiz.content.1.feedback_correct": "🎉 That’s correct! \n\n💚 Thank them for being brave and for telling you so they feel safe to talk to you if anything ever happens again.\n\n💡 This teaches them that their safety matters most and they can always count on you.\n\n❗ Confronting the person who did it often makes it worse, so it is better to help Your Child stay away from the person and report them to the clinic or an institution you trust. ",
         "quiz.content.1.feedback_incorrect": "👀Oops! Check it out!\n\n💚 Thank them for being brave and for telling you so they feel safe to talk to you if anything ever happens again.\n\n💡 This teaches them that their safety matters most and they can always count on you.\n\n❗ Confronting the person who did it often makes it worse, so it is better to help Your Child stay away from the person and report them to the clinic or an institution you trust. ",
         "quiz.content.2.question": "",
@@ -545,7 +567,6 @@
       },
       {
         "ID": "com_safety_2to4_yc",
-        "module_name": "Being Safe in the Community",
         "introduction.msg_list": "This lesson is about learning how to keep Your Child safe in your community. 🚩",
         "importance.msg_list": "You are not alone! Parents all over the world say they worry about keeping their girls and boys safe. 🔔",
         "quiz.intro": "Let’s test your knowledge about girls and boy´s safety.",
@@ -595,7 +616,6 @@
       },
       {
         "ID": "com_safety_5to9_yc",
-        "module_name": "Being Safe in the Community",
         "introduction.msg_list": "This lesson is about learning how to keep Your Child safe in your community. 🚩",
         "importance.msg_list": "You are not alone! Parents all over the world say they worry about keeping their girls and boys safe. 🔔",
         "quiz.intro": "Let’s test your knowledge about girls and boy´s safety.",
@@ -645,7 +665,6 @@
       },
       {
         "ID": "crises_2to6_yc",
-        "module_name": "Responding to Crises",
         "introduction.msg_list": "❗ This lesson is about learning how to respond when our girls and boys are in crisis.",
         "importance.msg_list": "😔😣 When our girls and boys share something that is very hard or upsetting to them, we need to remember to stay calm, listen, and be open, so that they feel supported. 💛",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -695,7 +714,6 @@
       },
       {
         "ID": "crises_7to9_yc",
-        "module_name": "Responding to Crises",
         "introduction.msg_list": "❗ This lesson is about learning how to respond when our girls and boys are in crisis.",
         "importance.msg_list": "😔😣 When our girls and boys share something that is very hard or upsetting to them, we need to remember to stay calm, listen, and be open, so that they feel supported. 💛",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -745,13 +763,12 @@
       },
       {
         "ID": "online_safety_yc",
-        "module_name": "Knowing Basics of Online Safety",
         "introduction.msg_list": "This lesson is about how to keep Your Child safe online. 📱\n\nThere is so much to share. We will cover online safety over two lessons.2️⃣",
         "importance.msg_list": "Children are spending a lot of time online.⏰ Being connected helps them stay positive and learn more 🔑 but there are also some risks and dangers.🚩",
         "quiz.intro": "Let's do a quiz!",
         "quiz.content.1.question": "True or False: Parents should set time limits on how long their girl or boy can use the internet each day.",
         "quiz.content.1.values": "True|False",
-        "quiz.content.1.answer": "TRUE",
+        "quiz.content.1.answer": "True",
         "quiz.content.1.feedback_correct": "🎉 Correct! \n\n⏰ Setting time limits can help balance online activities with other important tasks, such as homework, chores, and physical activities.\n\n📝 You can **create rules** together with Your Child about when they can play with devices and how to keep them safe online.",
         "quiz.content.1.feedback_incorrect": "👀Oops! Check it out!\n\n⏰ Setting time limits can help balance online activities with other important tasks, such as homework, chores, and physical activities.\n\n📝 You can **create rules** together with Your Child about when they can play with devices and how to keep them safe online.",
         "quiz.content.2.question": "Here is another question. \n\nTrue or False: If Your Child comes across something upsetting or uncomfortable online, they should keep it to themselves and not tell anyone.",
@@ -795,7 +812,6 @@
       },
       {
         "ID": "habits_trust_online_yc",
-        "module_name": "Building Habits and Trust Online",
         "introduction.msg_list": "This lesson continues our learning about keeping our girls and boys safe online.📱",
         "importance.msg_list": "The previous lesson taught you ways to protect Your Child online with 1️⃣ LEARN and 2️⃣ PROTECT.🔑\n\nIn this skill, we will learn how to 3️⃣ BUILD HABITS and 4️⃣ BUILD TRUST. ✨",
         "quiz.intro": "💡 Often, our girls and boys understand more about life online than we do, but that does not mean they know how to keep safe. \n\n⭐ Let’s test your online safety knowledge.",
@@ -847,7 +863,6 @@
     "Manage My Girl or Boy Behaviour": [
       {
         "ID": "managing_anger_yc",
-        "module_name": "Managing Anger",
         "introduction.msg_list": "When Your Child doesn’t meet your expectations or misbehaves, it’s normal to feel upset. \n\nIn this lesson, we will learn how to respond to our girl or boy when we feel angry.",
         "importance.msg_list": "Anger is an important emotion because it allows us to express ourselves and set boundaries. Instead of ignoring it, we should learn to recognise and handle it in a healthy way.\n\n🌱When you manage your anger, you take care of yourself. You listen to your feelings, make better choices, and teach Your Child how to manage their own anger. ",
         "quiz.intro": "Let's do a quiz!",
@@ -899,7 +914,6 @@
       },
       {
         "ID": "keeping_it_positive_yc",
-        "module_name": "Keeping it Positive",
         "introduction.msg_list": "Today’s lesson is all about how to help your girl or boy follow instructions. 😃",
         "importance.msg_list": "In general, girls and boys follow instructions about half of the time. ⏰ It is natural for girls and boys to push their limits sometimes - it’s part of their growing up. \n\nBeing more effective about how we give instructions can make things more peaceful and calm at home. 🌱",
         "quiz.intro": "📝Let's do a quiz!",
@@ -951,7 +965,6 @@
       },
       {
         "ID": "create_family_rules_yc",
-        "module_name": "Creating Family Rules",
         "introduction.msg_list": "This lesson is about creating family rules and guidelines with Your Child.⏰⭐",
         "importance.msg_list": "Family rules can help our girls and boys stay safe from danger inside our homes and the community.🌷\n\nYour Child is more likely to follow these rules if you involve them in making them. ⭐",
         "quiz.intro": "Let's do a quiz!",
@@ -1003,7 +1016,6 @@
       },
       {
         "ID": "ignore_yc",
-        "module_name": "Managing Demanding Behaviours",
         "introduction.msg_list": "This lesson is about what to do when girls and boys are seeking negative attention with demanding and disrupting behaviours. 🚩",
         "importance.msg_list": "Girls and Boys need attention from very early in their lives. 💛 \n\nPositive attention is very important for girls and boys, particularly when they are young. 🎁 \n\nIt’s a great way to help them feel good about themselves. They are more likely to do as they are asked! 🔄",
         "quiz.intro": "Let's do a quiz!",
@@ -1055,7 +1067,6 @@
       },
       {
         "ID": "consequences_yc",
-        "module_name": "Teaching My Girl or Boy Consequences",
         "introduction.msg_list": "Today, you will learn what you can do when your girl or boy refuses to follow an instruction, forgets a family rule, or behaves in an aggressive or dangerous way. 😔",
         "importance.msg_list": "Girls and boys are still learning which actions are appropriate in different situations and which aren’t. 👀\n\nConsequences teach our girls and boys that their actions affect themselves and others. ❗\n;\nIt is important for our girls and boys to learn this as they grow. 🌱 \n\nGiving clear consequences teaches girls and boys responsibility for their actions more than hitting or shouting does. 💙",
         "quiz.intro": "Let's do a quiz!",
@@ -1107,7 +1118,6 @@
       },
       {
         "ID": "solve_problems_yc",
-        "module_name": "Solving Problems with My Girl or Boy",
         "introduction.msg_list": "This lesson is about learning how to solve problems with Your Child. 🔄",
         "importance.msg_list": "❗ Learning how to solve problems with Your Child can help you avoid having to use consequences. \n\n🌱 As girls and boys get older, they will be able to work through their problems by themselves more often. \n\n💡 This will set them up for success throughout their life. What a gift! 😃",
         "quiz.intro": "",
@@ -1159,7 +1169,6 @@
       },
       {
         "ID": "know_role_yc",
-        "module_name": "Knowing Everyone’s Role",
         "introduction.msg_list": "Caregivers, girls and boys have a role to play in the household. 📝 \n\nYour Child’s role is to learn from their caregivers what to do and what not to do. They can start doing chores appropriate for their age. ⭐\n;\nAs a caregiver, your role is to care for Your Child, keep them safe, and teach them how to behave in the world. 🌱\n\nYour most important role is to help Your Child feel loved and supported, no matter what! 💙",
         "importance.msg_list": "If Your Child feels loved and supported at home, they are more likely to do chores happily and to grow into a healthy child and adult! 😃💚",
         "quiz.intro": "Let's do a quiz!",
@@ -1199,7 +1208,7 @@
         "tips.message.5.text": "",
         "tips.message.5.image": "",
         "video.script": "",
-        "video.message": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: \r\r1️⃣ **KNOW YOUR ROLE**\n2️⃣ **TEACH**\n3️⃣ **DO AS I DO**\n4️⃣ **NOTICE**",
+        "video.message": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: \n\n1️⃣ **KNOW YOUR ROLE**\n2️⃣ **TEACH**\n3️⃣ **DO AS I DO**\n4️⃣ **NOTICE**",
         "video.expiration_time_min": "",
         "audio.message": "Press play ▶️ to learn four tips to help you know your role as your girls’ and boys’ caregiver and teach them their role, too: \r\r1️⃣ **KNOW YOUR ROLE**\n2️⃣ **TEACH**\n3️⃣ **DO AS I DO**\n4️⃣ **NOTICE**",
         "audio.expiration_time_min": "",
@@ -1213,7 +1222,6 @@
     "Prepare My Child for Success in School": [
       {
         "ID": "language_yc",
-        "module_name": "Helping your Girl or Boy´s Language Skills",
         "introduction.msg_list": "🔑 This course is about preparing Your Child for success in school by helping them learn. \n\n💡 These skills are a guide: use them as Your Child is ready for them. \n\n👂This first skill is about helping Your Child learn new words and improve their language skills! ",
         "importance.msg_list": "🎓 Learning to talk and have conversations is important for learning to read and for doing well in school! ",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -1270,7 +1278,6 @@
       },
       {
         "ID": "reading_2to3_yc",
-        "module_name": "Helping Your Girl or Boy Learn to Read",
         "introduction.msg_list": "📖 This lesson is about helping Your Child learn skills to prepare them for reading when they are older. ⭐",
         "importance.msg_list": "Reading with Your Child is the best way to help them learn to read. 🔑\n\nIt is one of the best ways to help develop their brain, memory, and creativity. 🎉\n\nWhen they’re little, they learn new words, and it helps with attention and language! 💡",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -1327,7 +1334,6 @@
       },
       {
         "ID": "maths_2to3_yc",
-        "module_name": "Getting Your Girl or Boy Ready for Maths",
         "introduction.msg_list": "This lesson is about introducing Your Child to numbers and maths. 1️⃣2️⃣3️⃣",
         "importance.msg_list": "⭐ Learning about numbers, shapes, and groups will help Your Child understand basic maths. \n\n🎓 This will prepare them to succeed in school and life.",
         "quiz.intro": "📝 Let’s do a quiz. Select the correct option:",
@@ -1384,7 +1390,6 @@
       },
       {
         "ID": "reading1_4to6_yc",
-        "module_name": "Helping your Girl or Boy  Learn to Read, Part 1",
         "introduction.msg_list": "📖 This lesson is about helping Your Child learn to read. \n\n2️⃣ This lesson will take 2 days to complete. \n\n⭐ Our first lesson today is about enjoying books with Your Child.",
         "importance.msg_list": "📖 Reading with Your Child is the best way to help them learn to read. ✨ \n\nGirls and boys learn by watching, listening, and copying. When you read to them when they are little, they learn new words. Later they learn letters and letter sounds, and when they’re bigger, reading together can help them learn about anything they are interested in! 💡",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -1441,7 +1446,6 @@
       },
       {
         "ID": "reading2_4to6_yc",
-        "module_name": "Helping your Girl or Boy Learn to Read, Part 2",
         "introduction.msg_list": "Hello! Today, we are learning more about helping Your Child become a better reader. \n\n📖 It is about word games and writing. 📝",
         "importance.msg_list": "Learning to read begins with understanding language, letters, and sounds. 🎵 \n\nUnderstanding the sounds in words and starting to write letters will help Your Child learn to read. 📖⭐",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -1498,7 +1502,6 @@
       },
       {
         "ID": "maths1_4to6_yc",
-        "module_name": "Getting Your Girl or Boy Ready for Maths, Part 1",
         "introduction.msg_list": "This lesson is about introducing Your Child to numbers and maths. 1️⃣2️⃣3️⃣",
         "importance.msg_list": "⭐ Learning about numbers, shapes, and groups will help Your Child understand basic maths. \n\n🎓 This will prepare them to succeed in school and life.",
         "quiz.intro": "📝 Let’s do a quiz. Select the correct option:",
@@ -1555,7 +1558,6 @@
       },
       {
         "ID": "maths2_4to6_yc",
-        "module_name": "Getting Your Girl or Boy Ready for Maths, Part 2",
         "introduction.msg_list": "Today, we will continue with the lesson to help Your Child get ready for maths. ✨\n\nHere, we are focusing on some more challenging activities that you can do with Your Child once they are ready 💡",
         "importance.msg_list": "Learning about comparing, adding, and subtracting will help Your Child understand more about maths. This will continue to help them learn number skills. 🔟/🔟 ⭐",
         "quiz.intro": "📝 Let’s do a quiz. ",
@@ -1612,7 +1614,6 @@
       },
       {
         "ID": "engage_school_3to9_yc",
-        "module_name": "Engaging with Your Girl or Boy´s School",
         "introduction.msg_list": "This lesson is about connecting with Your Child’s school and their teacher(s). 📖✨",
         "importance.msg_list": "Talking to Your Child’s teacher(s) will help you understand what Your Child is doing in school. ⭐\n\nYou will also know what kinds of things Your Child can do at home to learn better and how you can help Your Child! 🎓",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -1669,7 +1670,6 @@
       },
       {
         "ID": "fun_learning_7to9_yc",
-        "module_name": "Having Fun while Learning",
         "introduction.msg_list": "This lesson is about supporting Your Child to find joy and have fun while learning. 😃",
         "importance.msg_list": "You play an important role in how Your Child learns and develops in and out of school.",
         "quiz.intro": "",
@@ -1726,7 +1726,6 @@
       },
       {
         "ID": "help_child_learn_7to9_yc",
-        "module_name": "Helping Your Girl or Boy Learn",
         "introduction.msg_list": "You play an important role in how Your Child learns and creates meaning in life. ",
         "importance.msg_list": "This lesson is about helping Your Child learn by setting goals. 😃",
         "quiz.intro": "",
@@ -1783,7 +1782,6 @@
       },
       {
         "ID": "positive_learning_7to9_yc",
-        "module_name": "Creating a Positive Learning Space for Your Girl or Boy",
         "introduction.msg_list": "This lesson is about how to create a positive learning space for Your Child.",
         "importance.msg_list": "Your Child will learn much better when they are in a space that supports their learning. 😃",
         "quiz.intro": "",
@@ -1840,7 +1838,6 @@
       },
       {
         "ID": "learning_mistakes_7to9_yc",
-        "module_name": "Learning from Mistakes",
         "introduction.msg_list": "Today’s parenting lesson is about helping Your Child know how to learn from their mistakes.",
         "importance.msg_list": "Learning from our mistakes can help us avoid them in the future. It can also help us be more supportive of ourselves and less harsh when things do not go well. 😃",
         "quiz.intro": "",
@@ -1897,7 +1894,6 @@
       },
       {
         "ID": "manage_stress_yc",
-        "module_name": "Managing stress",
         "introduction.msg_list": "Today, we will learn how to manage stress. Because this is such an important life skill, we will continue it tomorrow, too.\n\nStress is when you feel worried or tense because things might be difficult. ",
         "importance.msg_list": "It is normal to feel stressed as a parent. But sometimes, stress can become overwhelming. \n\nThis can feel like your brain is too full to do anything, and you’re going to burst into tears, yell, or be too exhausted to function.\n\nLearning to handle stress and asking for help when needed can help you.",
         "quiz.intro": "📝Let's do a quiz to see what you already know about stress",
@@ -1954,7 +1950,6 @@
       },
       {
         "ID": "make_plan_yc",
-        "module_name": "Making a plan for when you feel stressed",
         "introduction.msg_list": "It’s common for parents to feel stressed or overwhelmed when you have so much to do every day. \r\rIn this lesson, you will continue learning ways to manage stress by making a plan in advance. ",
         "importance.msg_list": "Creating a plan for when you feel stressed can help you plan for and manage stressful situations when they happen.",
         "quiz.intro": "",
@@ -2013,7 +2008,6 @@
     "Understand My Girl or Boy Development": [
       {
         "ID": "play_yc",
-        "module_name": "The Power of Play",
         "introduction.msg_list": "🧸 This lesson is about supporting Your Child to find joy in learning in a playful and fun way. 😃",
         "importance.msg_list": "🎨 Playing with Your Child is important for their development and learning in and out of school. This is true for ALL girls and boys, including those with physical and developmental disabilities. \n\n🚲 Did you know that playing also helps Your Child learn social values and social rules?",
         "quiz.intro": "Let's do a quiz!",
@@ -2061,7 +2055,6 @@
       },
       {
         "ID": "learn_experience_yc",
-        "module_name": "Learning From Experience",
         "introduction.msg_list": "Today’s parenting lesson is about helping Your Child know how to learn from their mistakes. 💚",
         "importance.msg_list": "Learning from our mistakes can help us avoid them in the future. 🌷\n\nIt can also help us be more supportive of ourselves and less harsh when things do not go well. 😃",
         "quiz.intro": "Let's do a quiz!",
@@ -2109,7 +2102,6 @@
       },
       {
         "ID": "toddler_change_yc",
-        "module_name": "How Your Girl or Boy is Changing",
         "introduction.msg_list": "This lesson is about helping you support Your Child’s healthy development as they grow and change. ✨",
         "importance.msg_list": "Girls and boys have different abilities at different stages of their development. 🌱\n\nIt is important to be aware of Your Child’s skills at this stage. ⚽\n\nThis helps you plan activities for them that match what they can do and helps you have realistic goals for them. ✨",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -2157,7 +2149,6 @@
       },
       {
         "ID": "young_child_change_yc",
-        "module_name": "How Your Girl or Boy is Changing",
         "introduction.msg_list": "Today’s parenting lesson is about how you can support Your Child’s healthy development as they grow and change. ✨",
         "importance.msg_list": "Girls and boys have different abilities at different stages of their development. 🌱\n\nIt is important to be aware of Your Child’s skills at this stage. ⚽\n\nThis helps you plan activities for them that match what they can do and helps you have realistic goals for them. ✨",
         "quiz.intro": "📝 Let's do a quiz!",
@@ -2178,7 +2169,7 @@
         "quiz.content.3.feedback_incorrect": "",
         "comic.intro": "{F1_DAUGHTER_6} is trying to put on her shoes.",
         "comic.next_button": "",
-        "comic.text.1": "{F1_FATHER}: Let me put your shoes on\n\n{F1_DAUGHTER_6}: No, I want to do it myself!\n\n{F1_FATHER} Okay, {F1_DAUGHTER_6}, you can do it yourself.",
+        "comic.text.1": "{F1_FATHER}: I notice you haven’t put your shoes on, I'm here if you need help.\n\n{F1_DAUGHTER_6}: No, I will try!\n\n{F1_FATHER} Okay, {F1_DAUGHTER_6}!",
         "comic.text.2": "{F1_DAUGHTER_6}: I can’t do it!\n\n{F1_FATHER}: Yes, you can! How about I help you with one foot, and you do it with the other?",
         "comic.text.3": "{F1_DAUGHTER_6}: Okay.\n\n{F1_FATHER}: Hold your shoe in both your hands. Now, place your left foot in the shoe. Almost there! Wiggle your toes and make sure your heel is all the way in. Good job! Now, you try with your right shoe.",
         "comic.text.4": "{F1_DAUGHTER_6}: I did it! \n\n{F1_FATHER}: Great job, {F1_DAUGHTER_6}! You are getting to be such a big girl!",
@@ -2205,7 +2196,6 @@
       },
       {
         "ID": "child_change_yc",
-        "module_name": "How Your Girl or Boy is Changing",
         "introduction.msg_list": "This skill is about helping you support Your Child’s healthy development as they grow and change. ✨",
         "importance.msg_list": "🌱 Girls and boys have different abilities at different stages of their development. \n\n⚽ It is important to be aware of Your Child’s skills at this stage. \n\n✨ This helps you plan activities for them that match what they can do and helps you have realistic goals for them.",
         "quiz.intro": "📝 Let's do a quiz!",

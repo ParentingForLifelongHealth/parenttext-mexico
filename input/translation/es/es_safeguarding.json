@@ -174,8 +174,8 @@
     "note": ""
   },
   {
-    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day! ",
-    "text": "Esperamos volverte a ver pronto, ¡y te deseamos un día feliz y lleno de tranquilidad! ",
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "Esperamos volver a verte pronto, ¡y te deseamos un feliz y tranquilo día!",
     "type": "text",
     "note": ""
   },
@@ -192,8 +192,8 @@
     "note": ""
   },
   {
-    "SourceText": "You are already part of ParentText! ",
-    "text": "¡Ya eres parte de Crianza con Conciencia +! ",
+    "SourceText": "You are already part of ParentText!",
+    "text": "¡Ya eres parte de Crianza con Conciencia +!",
     "type": "text",
     "note": ""
   },
@@ -228,8 +228,14 @@
     "note": ""
   },
   {
-    "SourceText": "We hope to see you again soon! ",
-    "text": "¡Esperamos volverte a ver pronto! ",
+    "SourceText": "We hope to see you again soon!",
+    "text": "¡Esperamos volverte a ver pronto!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
+    "text": "¡Nos alegra mucho que quieras quedarte! Mañana reanudaremos tu progreso.",
     "type": "text",
     "note": ""
   },
@@ -252,8 +258,14 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for taking a pause with me today. ",
-    "text": "Gracias por hacer una pausa conmigo el día de hoy. ",
+    "SourceText": "Excellent work. You have completed the Prevent Sexual Violence skill. Remember you can access this information at any time typing {PREVENT}.",
+    "text": "Excelente trabajo. Has completado la sesión para Prevenir la violencia sexual. Recuerda que puedes acceder a esta información en cualquier momento escribiendo {PREVENT}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking a pause with me today.",
+    "text": "Gracias por hacer una pausa conmigo el día de hoy.",
     "type": "text",
     "note": ""
   },
@@ -348,14 +360,14 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my course tomorrow.",
-    "text": "Continuar con mi curso mañana.",
+    "SourceText": "Continue my course now.",
+    "text": "Continuar con mi curso ahorita.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my course now.",
-    "text": "Continuar con mi curso ahorita.",
+    "SourceText": "Continue my course tomorrow.",
+    "text": "Continuar con mi curso mañana.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -416,6 +428,12 @@
   {
     "SourceText": "play",
     "text": "jugar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prevent",
+    "text": "prevenir",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -606,8 +624,44 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "sano",
+    "text": "sano",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "afectiva",
     "text": "afectiva",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "aprender",
+    "text": "aprender",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "salud",
+    "text": "salud",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "crianza",
+    "text": "crianza",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "positiva",
+    "text": "positiva",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "paz",
+    "text": "paz",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
