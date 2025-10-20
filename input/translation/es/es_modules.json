@@ -180,6 +180,12 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "{video_url}",
+    "text": "{video_url}",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "1️⃣ DAY - Try to do it every day",
     "text": "1️⃣ PRACTICAR - Intenta hacerlo todos los días",
     "type": "text",
@@ -817,7 +823,7 @@
   },
   {
     "SourceText": "3️⃣ PRAISE, PRAISE, PRAISE",
-    "text": "3️⃣ Reconocer, Reconocer, Reconocer",
+    "text": "3️⃣ RECONOCER, RECONOCER, RECONOCER",
     "type": "text",
     "note": ""
   },

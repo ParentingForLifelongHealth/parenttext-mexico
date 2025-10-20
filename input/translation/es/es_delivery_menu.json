@@ -1176,6 +1176,12 @@
     "note": ""
   },
   {
+    "SourceText": "Setting updated!",
+    "text": "¡Configuración actualizada!",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You didn't tell us your gender.",
     "text": "No nos has dicho tu sexo.",
     "type": "text",
@@ -1387,7 +1393,7 @@
   },
   {
     "SourceText": "Sorry, but you can only reprint your certificate for the course @results.name twice.",
-    "text": "Lo sentimos, pero sólo puedes reimprimir tu certificado para el curso @resultados.nombre dos veces.",
+    "text": "Lo sentimos, pero sólo puedes reimprimir tu certificado para el curso @results.name dos veces.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },

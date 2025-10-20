@@ -25,7 +25,7 @@
   },
   {
     "SourceText": "Is your child a girl or a boy?",
-    "text": "¿Su hijo es niña o niño?",
+    "text": "¿Tu hijo es una niña o un niño?",
     "type": "text",
     "note": ""
   },
@@ -187,7 +187,7 @@
   },
   {
     "SourceText": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Tu información personal está segura y es privada. Para leer nuestra política de privacidad, visita {consent}. Si tienes más de 18 años y aceptas nuestra política de privacidad, selecciona \"SÍ\".  Escribe \"SALIR\" si no quieres participar.",
+    "text": "✅ Tu información personal está segura y es privada. Para leer nuestra política de privacidad, visita {consent}. Si tienes más de 18 años y aceptas nuestra política de privacidad, selecciona \"SÍ\".  Escribe \"SALIR\" si eliges no participar.",
     "type": "text",
     "note": ""
   },
@@ -276,6 +276,12 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "Is your {child} a girl or a boy?",
+    "text": "¿Tu {child} es niña o niño?",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "How many years old is @fields.child_nickname?",
     "text": "¿Cuántos años tiene @fields.child_nickname?",
     "type": "text",
@@ -318,8 +324,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Illustrations in @fields.programme_name help explain parenting skills. They are adaptations of original work by Orli Setton, created by Nicole Colixto for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
-    "text": "Las ilustraciones de @fields.programme_name ayudan a explicar las estrategias de crianza. Son adaptaciones de una obra original de Orli Setton, creadas por Nicole Calixto para Parenting for Lifelong Health, y compartidas bajo licencia internacional CC BY-SA 4.0.",
+    "SourceText": "Illustrations in @fields.programme_name help explain parenting skills. They are adaptations of original work by Orli Setton, created by Natalia Calixto for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
+    "text": "Las ilustraciones de @fields.programme_name ayudan a explicar las estrategias de crianza. Son adaptaciones de una obra original de Orli Setton, creadas por Natalia Calixto para Parenting for Lifelong Health, y compartidas bajo licencia internacional CC BY-SA 4.0.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
   },
@@ -698,6 +704,12 @@
   {
     "SourceText": "Workplace (company)",
     "text": "Lugar de trabajo (empresa)",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Specialised Institute",
+    "text": "Institutos de Alta Especialidad",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1094,6 +1106,12 @@
   {
     "SourceText": "workplace (company)",
     "text": "lugar de trabajo (empresa)",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "specialised institute",
+    "text": "Institutos de Alta Especialidad",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

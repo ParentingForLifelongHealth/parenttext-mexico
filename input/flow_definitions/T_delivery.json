@@ -2828,7 +2828,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "campaign"
       },
@@ -2838,7 +2838,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "campaign"
       },
@@ -2848,7 +2848,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "hook_message"
       }
@@ -2860,7 +2860,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "campaign_wrapper"
       },
@@ -2870,7 +2870,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "campaign_wrapper"
       },
@@ -2880,7 +2880,7 @@
         "event_type": "F",
         "delivery_hour": "",
         "message": "",
-        "relative_to": "last interaction",
+        "relative_to": "Last Seen On",
         "start_mode": "I",
         "flow": "hook_message_wrapper"
       }

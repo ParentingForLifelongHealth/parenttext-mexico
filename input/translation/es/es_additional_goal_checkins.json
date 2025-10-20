@@ -522,8 +522,20 @@
     "note": ""
   },
   {
-    "SourceText": "⏸ Next time, when you are overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react. \r\rRemember, your teen’s behaviour isn’t meant to hurt you. As teens, it's normal for them to explore their limits. \r\rLater, find something small and clear that your teen is doing and you wish they could do more of. Then, praise them when they do it.",
-    "text": "⏸ La próxima vez, cuando sientas enojo o que ya no puedes más, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar. \r\rRecuerda que el comportamiento de tu adolescente no tiene el objetivo de hacerte daño. Siendo adolescentes, es normal que exploren para ver hasta dónde llegan sus límites. \r\rDespués, encuentra algún comportamiento pequeño y específico que tu adolescente esté haciendo y que te gustaría que hiciera más. Luego, halágale cuando lo haga.",
+    "SourceText": "⏸ Next time, when you are overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react. ",
+    "text": "⏸ La próxima vez que sientas enojo o que ya no puedes más con la situación, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, your teen’s behaviour isn’t meant to hurt you. As teens, it's normal for them to explore their limits. ",
+    "text": "Recuerda que el comportamiento de tu adolescente no tiene el objetivo de hacerte daño. Siendo adolescentes, es normal que exploren para ver hasta dónde llegan sus límites. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Later, find something small and clear that your teen is doing and you wish they could do more of. Then, praise them when they do it.",
+    "text": "Más tarde, identifica algo que tu teen hace, que sea sencillo pero puntual, y que te gustaría que hiciera más seguido. Luego, reconócele cuando lo haga.",
     "type": "text",
     "note": ""
   },
@@ -548,12 +560,6 @@
   {
     "SourceText": "If you are feeling overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react.",
     "text": "Si sientes enojo o que ya no puedes más con la situación, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Remember, your teen’s behaviour isn’t meant to hurt you. As teens, it's normal for them to explore their limits. ",
-    "text": "Recuerda que el comportamiento de tu adolescente no tiene el objetivo de hacerte daño. Siendo adolescentes, es normal que exploren para ver hasta dónde llegan sus límites. ",
     "type": "text",
     "note": ""
   },
@@ -618,8 +624,14 @@
     "note": ""
   },
   {
-    "SourceText": "If you are feeling overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react. \r\rRemember, your teen’s behaviour isn’t meant to hurt you. As teens, it's normal for them to explore their limits.",
-    "text": "Si sientes enojo o que ya no puedes más con la situación, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar. \r\rRecuerda que el comportamiento de tu adolescente no tiene el objetivo de hacerte daño. Siendo adolescentes, es normal que exploren para ver hasta dónde llegan sus límites.",
+    "SourceText": "If you are feeling overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react. ",
+    "text": "Si sientes enojo o que ya no puedes más con la situación, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, your teen’s behaviour isn’t meant to hurt you. As teens, it's normal for them to explore their limits.",
+    "text": "Recuerda que el comportamiento de tu adolescente no tiene el objetivo de hacerte daño. Siendo adolescentes, es normal que exploren para ver hasta dónde llegan sus límites.",
     "type": "text",
     "note": ""
   },
@@ -2348,12 +2360,6 @@
   {
     "SourceText": "🌱 It is normal to sometimes get angry at our girls and boys when they are misbehaving, especially when they are driving us crazy.",
     "text": "🌱 Es normal que a veces nos enojemos con nuestras niñas y niños cuando se portan mal, sobre todo cuando nos sentimos abrumadas o abrumados.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "⏸ Next time, when you are overwhelmed or angry, take a deep breath. If needed, walk away from the situation before you react. ",
-    "text": "⏸ La próxima vez que sientas enojo o que ya no puedes más con la situación, respira profundo. Si es necesario, aléjate de la situación antes de reaccionar. ",
     "type": "text",
     "note": ""
   },

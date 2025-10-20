@@ -3457,7 +3457,7 @@
   },
   {
     "SourceText": "3️⃣ **SUPPORT***",
-    "text": "3️⃣ **APOYAR***",
+    "text": "3️⃣ **APOYAR**",
     "type": "text",
     "note": ""
   },
@@ -10231,7 +10231,7 @@
   },
   {
     "SourceText": "1️⃣ LEARN",
-    "text": "1️⃣ **APRENDER**",
+    "text": "1️⃣ APRENDER",
     "type": "text",
     "note": ""
   },
@@ -10249,6 +10249,30 @@
   },
   {
     "SourceText": "4️⃣ BUILD TRUST",
+    "text": "4️⃣ **CONSTRUIR CONFIANZA**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ **LEARN**",
+    "text": "1️⃣ **APRENDER**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ **PROTECT**",
+    "text": "2️⃣ **PROTEGER**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ **BUILD HABITS**",
+    "text": "3️⃣ **CONSTRUIR HÁBITOS SEGUROS**",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣ **BUILD TRUST**",
     "text": "4️⃣ **CONSTRUIR CONFIANZA**",
     "type": "text",
     "note": ""
@@ -10933,7 +10957,7 @@
   },
   {
     "SourceText": "Step 1️⃣: **DRAW**\rStep 2️⃣: **DECIDE**\rStep 3️⃣: **DISCUSS**",
-    "text": "Paso 1️⃣: **DIBUJAR**\n\n\rPaso 2️⃣: **DECIDIR**\n\n\rPaso 3️⃣: **HABLAR**",
+    "text": "Paso 1️⃣: **DIBUJAR**\nPaso 2️⃣: **DECIDIR**\nPaso 3️⃣: **HABLAR**",
     "type": "text",
     "note": ""
   },
@@ -13249,7 +13273,7 @@
   },
   {
     "SourceText": "4️⃣ **PRAISE, PRAISE, PRAISE*",
-    "text": "4️⃣ **RECONOCER, RECONOCER, RECONOCER*",
+    "text": "4️⃣ **RECONOCER, RECONOCER, RECONOCER**",
     "type": "text",
     "note": ""
   },
@@ -16123,7 +16147,7 @@
   },
   {
     "SourceText": "3️⃣ **SEEK SUPPORT**",
-    "text": "3️⃣ ** BUSCAR APOYO**",
+    "text": "3️⃣ **BUSCAR APOYO**",
     "type": "text",
     "note": ""
   },
@@ -16207,7 +16231,7 @@
   },
   {
     "SourceText": "3️⃣ **SEEK SUPPORT** ",
-    "text": "3️⃣ ** BUSCAR APOYO** ",
+    "text": "3️⃣ **BUSCAR APOYO** ",
     "type": "text",
     "note": ""
   },
@@ -16447,7 +16471,7 @@
   },
   {
     "SourceText": "3️⃣ **OFFER SUPPORT **",
-    "text": "3️⃣ **OFRECER APOYO **",
+    "text": "3️⃣ **OFRECER APOYO**",
     "type": "text",
     "note": ""
   },
