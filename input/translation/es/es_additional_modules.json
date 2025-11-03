@@ -1381,7 +1381,7 @@
   },
   {
     "SourceText": "Press Play ▶️ to learn four ways to help @fields.child_nickname learn reading skills: Make Routines ⏰, Ask Questions, Respond and Explore 👀, Build and Connect 😃",
-    "text": "Da clic en Reproducir ▶️ para aprender cuatro estrategias que pueden ayudar a @fields.child_nickname a desarrollar habilidades lectoras: Crear Rutinas ⏰, Hacer Preguntas, Responder y Explorar 👀, Construir y Conectar 😃",
+    "text": "Da clic en Reproducir ▶️ para aprender cuatro estrategias que pueden ayudar a @fields.child_nickname a desarrollar habilidades lectoras: \n\n1️⃣ Crear Rutinas ⏰ \n2️⃣ Hacer Preguntas\n3️⃣ Responder y Explorar 👀 \n4️⃣ Construir y Conectar 😃",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
   },
@@ -3931,7 +3931,7 @@
   },
   {
     "SourceText": "{F3_MOTHER} is the only caregiver for her two grandchildren. Household duties, and having little money often make her feel overwhelmed and unsupported. It is also difficult for her to be present with her children. It does not help that {F3_DAUGHTER_7} and {F3_SON_4} fight a lot.",
-    "text": "{F3_MOTHER} es la única cuidadora de sus cuatro nietos. Tantas cosas que hacer en la casa y el hecho de tener poco dinero hacen que se sienta muy seguido abrumada y sin apoyo. También le resulta difícil estar presente con sus niñas y niños. No ayuda que {F3_DAUGHTER_7} y {F3_SON_4} se pelean mucho.",
+    "text": "{F3_MOTHER} es la única cuidadora de sus cuatro hijos. Tantas cosas que hacer en la casa y el hecho de tener poco dinero hacen que se sienta muy seguido abrumada y sin apoyo. También le resulta difícil estar presente con sus niñas y niños. No ayuda que {F3_DAUGHTER_7} y {F3_SON_4} se pelean mucho.",
     "type": "text",
     "note": ""
   },
@@ -15055,7 +15055,7 @@
   },
   {
     "SourceText": "You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course Manage My Teen’s Behaviour. ⭐",
-    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso, Manejar la Conducta de Mi Adolescente. ⭐",
+    "text": "Completaste @(fields.c_n_mod_compl +1) de las @fields.c_n_mod sesiones del curso, Guiar el Buen Comportamiento de Mi Adolescente.⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -16471,7 +16471,7 @@
   },
   {
     "SourceText": "3️⃣ **OFFER SUPPORT **",
-    "text": "3️⃣ **OFRECER APOYO**",
+    "text": "3️⃣ **SER UN INTEGRANTE ACTIVO**",
     "type": "text",
     "note": ""
   },
