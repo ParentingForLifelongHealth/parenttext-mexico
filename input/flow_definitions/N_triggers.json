@@ -183,6 +183,21 @@
         "QR": "",
         "Description": "",
         "Expired User Groups": ""
+      },
+      {
+        "ID": "socios",
+        "Trigger (spn)": "socios",
+        "Trigger (en)": "",
+        "Experience (user group)": "Digital",
+        "Campaign (user group)": "",
+        "Ministry (user group)": "UNICEF YouTube Course",
+        "Included in scale? ": "Scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "",
+        "QR": "",
+        "Description": "",
+        "Expired User Groups": ""
       }
     ],
     "content_index": [
@@ -395,8 +410,23 @@
         "variables.2.value": "",
         "variables.3.name": "",
         "variables.3.value": "",
-        "variables.4.name": "",
-        "variables.4.value": ""
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "socios",
+        "triggers": "socios",
+        "groups": "Digital;UNICEF YouTube Course;Scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
       }
     ],
     "hybrid_source_group_mapping_data": [
