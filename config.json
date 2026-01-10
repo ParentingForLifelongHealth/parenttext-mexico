@@ -5,7 +5,7 @@
     },
      "parents": {
         "plh": {
-            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.1.4.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/heads/globals.zip"
         },
         "survey": {
             "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.4.1.zip"
@@ -29,7 +29,8 @@
         "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
         "localisation_sheet_ID" : "1Apht9nmImLIdLXSM2FnRWAdtwu4fraRWztHwL67QMe8", 
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
-        "transl_edits_sheet_ID" : "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ"
+        "transl_edits_sheet_ID" : "1BuVd7L66tJ8KNW0vZQbujyBagz_coOLQH9kEGQYsFWQ",
+        "globals": "1q_PUbgZTpQ6COdFNWvgRkBfJul8o1R2HFiTHzyfie_I"
     },
     "sources": {
         "flow_definitions": {
@@ -51,7 +52,8 @@
                     "N_delivery_data",
                     "N_menu_data",
                     "N_triggers",
-                    "MX_sheets"
+                    "MX_sheets",
+                    "globals"
                 ]
         },
         "edits_pretranslation": {

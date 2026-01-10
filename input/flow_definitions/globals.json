@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "globals",
+        "sheet_name": "parenttext_globals",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "demo_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "parenttext_globals": [
+      {
+        "ID": "unrecognised_response_message",
+        "value": "Sorry, I don't understand what you mean."
+      },
+      {
+        "ID": "next_button",
+        "value": "NEXT"
+      },
+      {
+        "ID": "yes_opt",
+        "value": "Yes"
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "value": "yes y yeah yep"
+      },
+      {
+        "ID": "no_opt",
+        "value": "No"
+      },
+      {
+        "ID": "no_opt_aliases",
+        "value": "no nope n"
+      },
+      {
+        "ID": "fail",
+        "value": "Oops, something went wrong."
+      },
+      {
+        "ID": "fail_name",
+        "value": "✨"
+      },
+      {
+        "ID": "completed_block_msg_1",
+        "value": "You've completed "
+      },
+      {
+        "ID": "completed_block_msg_2",
+        "value": "of this skill! Press NEXT to continue."
+      },
+      {
+        "ID": "transaction_failed",
+        "value": "Transaction Failed"
+      }
+    ],
+    "old parenttext_globals": [
+      {
+        "ID": "unrecognised_response_message",
+        "value": "Sorry, I don't understand what you mean."
+      },
+      {
+        "ID": "next_button",
+        "value": "NEXT"
+      },
+      {
+        "ID": "yes_opt",
+        "value": "Yes"
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "value": "yes y yeah yep"
+      },
+      {
+        "ID": "no_opt",
+        "value": "No"
+      },
+      {
+        "ID": "no_opt_aliases",
+        "value": "no nope n"
+      },
+      {
+        "ID": "fail",
+        "value": "Oops, something went wrong."
+      },
+      {
+        "ID": "fail_name",
+        "value": "✨"
+      },
+      {
+        "ID": "completed_msg_1",
+        "value": "You've completed "
+      },
+      {
+        "ID": "completed_msg_2",
+        "value": "of this skill! Press @global.next_button to continue."
+      },
+      {
+        "ID": "which_to_test",
+        "value": "Which would you like to test?"
+      },
+      {
+        "ID": "type_n_to_stop",
+        "value": "Type \"N\" to stop"
+      },
+      {
+        "ID": "trigger_to_start",
+        "value": "Type trigger to start again"
+      },
+      {
+        "ID": "skip_question",
+        "value": "Skip Question"
+      },
+      {
+        "ID": "skip_reply",
+        "value": "That's okay."
+      },
+      {
+        "ID": "next_offer",
+        "value": "What do you want to do next?"
+      },
+      {
+        "ID": "more_help_option",
+        "value": "Get more help"
+      },
+      {
+        "ID": "stop_option",
+        "value": "Continue my Progress Tomorrow"
+      },
+      {
+        "ID": "proceed_option",
+        "value": "Do you want to begin now or tomorrow?"
+      },
+      {
+        "ID": "now",
+        "value": "Now"
+      },
+      {
+        "ID": "tomorrow",
+        "value": "Tomorrow"
+      },
+      {
+        "ID": "see_you_tomorrow",
+        "value": "Great, see you tomorrow!"
+      },
+      {
+        "ID": "variables_reset",
+        "value": "Variables have been reset"
+      },
+      {
+        "ID": "provide_dob",
+        "value": "Please provide your child's date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2010, enter 19/05/2010."
+      },
+      {
+        "ID": "invalid_date",
+        "value": "Sorry, this date is invalid. @globals.provide_dob"
+      },
+      {
+        "ID": "future_date",
+        "value": "The date you entered is in the future. @globals.provide_dob"
+      },
+      {
+        "ID": "try_again_date",
+        "value": "Lets try again. @globals.provide_dob"
+      },
+      {
+        "ID": "too_old",
+        "value": "years old. {prog_name} is only for children aged 0-17.  @globals.provide_dob"
+      },
+      {
+        "ID": "too_old_2_17",
+        "value": "years old. {prog_name} is only for children aged 2-17.  @globals.provide_dob"
+      },
+      {
+        "ID": "years_old_correct",
+        "value": "years old. Is that correct?"
+      },
+      {
+        "ID": "months_old_correct",
+        "value": "months old. Is that correct?"
+      },
+      {
+        "ID": "your_baby_is",
+        "value": "According to the date you provided, Your Baby is"
+      },
+      {
+        "ID": "your_child_is",
+        "value": "According to the date you provided, Your Child is"
+      },
+      {
+        "ID": "your_teen_is",
+        "value": "According to the date you provided, Your Teen is"
+      },
+      {
+        "ID": "dont_understand_menu",
+        "value": "I don't understand your message.\nPlease type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis. "
+      },
+      {
+        "ID": "no_consent",
+        "value": "You have not given consent to participate in this programme. Would you like to participate?"
+      },
+      {
+        "ID": "to_start_type",
+        "value": "If you ever decide to participate in the programme, type {START}. \nWe hope to see you again soon, and we wish you a happy and peaceful day! "
+      },
+      {
+        "ID": "parenting_is_hard",
+        "value": "Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?"
+      },
+      {
+        "ID": "come_back_type_start",
+        "value": "That's okay. If you ever decide to come back, type {START}. \nWe hope to see you again soon, and we wish you a happy and peaceful day! "
+      },
+      {
+        "ID": "transaction_failed",
+        "value": "Transaction Failed"
+      },
+      {
+        "ID": "your_child",
+        "value": "your child"
+      },
+      {
+        "ID": "your_teen",
+        "value": "your teen"
+      },
+      {
+        "ID": "your_baby",
+        "value": "your baby"
+      },
+      {
+        "ID": "Your_child",
+        "value": "Your child"
+      },
+      {
+        "ID": "Your_teen",
+        "value": "Your teen"
+      },
+      {
+        "ID": "Your_baby",
+        "value": "Your baby"
+      },
+      {
+        "ID": "Your_Child",
+        "value": "Your Child"
+      },
+      {
+        "ID": "Your_Teen",
+        "value": "Your Teen"
+      },
+      {
+        "ID": "Your_Baby",
+        "value": "Your Baby"
+      },
+      {
+        "ID": "child_age_group",
+        "value": "{child_age_group}"
+      },
+      {
+        "ID": "day",
+        "value": "DAY"
+      },
+      {
+        "ID": "demo_complete",
+        "value": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning."
+      },
+      {
+        "ID": "Age_Group",
+        "value": "Age_Group"
+      }
+    ],
+    "demo_messages": [
+      {
+        "ID": "question_ltp",
+        "msg": "Which activity would you like to test?"
+      },
+      {
+        "ID": "question_modules",
+        "msg": "Which flow would you like to test?"
+      },
+      {
+        "ID": "question_home_activity",
+        "msg": "Which flow would you like to test?"
+      },
+      {
+        "ID": "question_goal_checkin",
+        "msg": "Which goal checkin would you like to test?"
+      },
+      {
+        "ID": "pre_goal",
+        "msg": "***pre goal***"
+      },
+      {
+        "ID": "post_goal",
+        "msg": "***post goal***"
+      },
+      {
+        "ID": "stop_instructions",
+        "msg": "Type \"N\" to stop"
+      },
+      {
+        "ID": "stop_value",
+        "msg": "n"
+      },
+      {
+        "ID": "start_instructions_ltp",
+        "msg": "Type {test_ltp} to start again"
+      },
+      {
+        "ID": "start_instructions_modules",
+        "msg": "Type {test_module} to start again"
+      },
+      {
+        "ID": "start_instructions_home_activity",
+        "msg": "Type {test_home} to start again"
+      },
+      {
+        "ID": "start_instructions_modules",
+        "msg": "Type {test_module} to start again"
+      },
+      {
+        "ID": "start_instructions_goal_checkin",
+        "msg": "Type {test_check} to start again"
+      },
+      {
+        "ID": "demo_complete",
+        "msg": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning."
+      },
+      {
+        "ID": "demo_day",
+        "msg": "*DAY @fields.curr_demo_day*"
+      },
+      {
+        "ID": "variables_reset",
+        "msg": "Variables have been reset"
+      }
+    ]
+  }
+}
