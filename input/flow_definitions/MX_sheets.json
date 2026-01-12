@@ -124,7 +124,7 @@
         "new_name": "",
         "data_model": "",
         "operation": "",
-        "template_arguments": "0",
+        "template_arguments": "0;demo_messages",
         "status": "",
         "group": "",
         "tags.1": "delivery",
