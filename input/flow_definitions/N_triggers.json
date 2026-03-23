@@ -29,7 +29,7 @@
         "Included in scale? ": "",
         "Cap Users At": "",
         "Location, if applicable": "",
-        "Link": "",
+        "Link": "https://wa.me/525651006984?text=prueba",
         "QR": "",
         "Description": "Facilitators in the Mexico Pilot during training; excluded from reach",
         "Expired User Groups": "pilot"
@@ -197,6 +197,21 @@
         "Link": "https://wa.me/525651006984?text=socios",
         "QR": "",
         "Description": "",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "comenzar",
+        "Trigger (spn)": "comenzar",
+        "Trigger (en)": "",
+        "Experience (user group)": "Digital",
+        "Campaign (user group)": "Digital Campaign",
+        "Ministry (user group)": "",
+        "Included in scale? ": "Scale",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link": "https://wa.me/525651006984?text=comenzar",
+        "QR": "",
+        "Description": "We will be running a digital campaign in Mexico for approximately 4-5 days to test whether we can digitally recruit parents. My understanding is that after March 31st, Meta messages will be at cost - so we would like to recruit parents asap, so they have the opportunity to complete the 5 day journey before the 31st. ",
         "Expired User Groups": ""
       }
     ],
@@ -417,6 +432,21 @@
         "ID": "socios",
         "triggers": "socios",
         "groups": "Digital;UNICEF YouTube Course;Scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "Crianza con Conciencia +",
+        "variables.2.name": "",
+        "variables.2.value": "",
+        "variables.3.name": "",
+        "variables.3.value": "",
+        "variables.4.name": "assigned research id",
+        "variables.4.value": "yes"
+      },
+      {
+        "ID": "comenzar",
+        "triggers": "comenzar",
+        "groups": "Digital;Digital Campaign;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
