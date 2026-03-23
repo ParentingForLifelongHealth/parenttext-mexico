@@ -6739,6 +6739,21 @@
         "ID": "new_goal_available",
         "name": "new_goal_available",
         "uuid": "3822d0fe-98d0-4fef-9f3c-5a01cde9fc4c"
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_multiple",
+        "name": "utility_start_started_mod_or_change_goal_multiple_v2",
+        "uuid": "c3ff0990-224a-4e2e-8b79-a6f685c21591"
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_one",
+        "name": "utility_start_started_mod_or_change_goal_one_v2",
+        "uuid": "33daff58-9921-4bfb-92b6-362ff3fff2da"
+      },
+      {
+        "ID": "complete_start_module",
+        "name": "utility_complete_start_module",
+        "uuid": "5c5da063-edb5-4d0f-bd97-0cfb1ba6b658"
       }
     ],
     "pre_programme_checkin": [
