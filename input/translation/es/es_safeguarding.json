@@ -138,8 +138,8 @@
     "note": ""
   },
   {
-    "SourceText": "We hope this was helpful! You can access this information at any time by typing {HELP}.",
-    "text": "Esperamos que esto te haya servido. Puedes acceder a esta información en cualquier momento al escribir y mandar {HELP}.",
+    "SourceText": "You are now out of the main menu. Type {CONTINUE} to return to your lesson.",
+    "text": "Ya has salido del menú principal. Escribe {CONTINUE} para volver a tu sesión.",
     "type": "text",
     "note": ""
   },
@@ -150,14 +150,38 @@
     "note": ""
   },
   {
-    "SourceText": "I don't understand your message.",
-    "text": "No entiendo tu mensaje.",
+    "SourceText": "I didn’t quite catch that.",
+    "text": "No lo he entendido muy bien.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Please type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis.",
-    "text": "Escribe y manda {MENU} para tener acceso a algunos recursos y revisar los módulos completados, {PLAY} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {HELP} para ver una lista de recursos de apoyo locales en caso de crisis.",
+    "SourceText": "Please type one of the following:",
+    "text": "Escribe una de las siguientes opciones:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "▶️ {CONTINUE} to continue your course",
+    "text": "▶️ Escribe {CONTINUE} para continuar con tu curso",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📚 {MENU} to access resources and review completed modules",
+    "text": "📚 Escribe {MENU} para acceder a los recursos y repasar los módulos ya completados",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎲 {PLAY} to get a playful activity to do with your child",
+    "text": "🎲 Escribe {PLAY} para una actividad divertida con tu hijo",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🆘 {HELP} to access local support resources for a crisis",
+    "text": "🆘 Escribe {HELP} para acceder a los recursos de apoyo locales",
     "type": "text",
     "note": ""
   },
@@ -198,6 +222,12 @@
     "note": ""
   },
   {
+    "SourceText": "Please type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis.",
+    "text": "Escribe y manda {MENU} para tener acceso a algunos recursos y revisar los módulos completados, {PLAY} para recibir una actividad lúdica que puedas hacer con tu niña o niño, o {HELP} para ver una lista de recursos de apoyo locales en caso de crisis.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You have already completed ParentText!",
     "text": "¡Completaste Crianza con Conciencia +!",
     "type": "text",
@@ -234,8 +264,14 @@
     "note": ""
   },
   {
-    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
-    "text": "¡Nos alegra mucho que quieras quedarte! Mañana reanudaremos tu progreso.",
+    "SourceText": "We are sad to see you go! Please know that you can come back at any time. We will save your place so you don't lose your work.",
+    "text": "¡Nos entristece que te vayas! Recuerda que puedes volver cuando quieras. Te guardaremos el sitio para que no pierdas lo que has hecho.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When you are ready to start again, just type {CONTINUE}.",
+    "text": "Cuando estés listo o lista para comenzar tu nuevo curso, solo escribe {CONTINUE}.",
     "type": "text",
     "note": ""
   },
@@ -366,8 +402,8 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my course tomorrow.",
-    "text": "Continuar con mi curso mañana.",
+    "SourceText": "Continue my course later.",
+    "text": "Continuar con mi progreso mañana.",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -570,8 +606,8 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "continue my course tomorrow.",
-    "text": "continuar con mi curso mañana.",
+    "SourceText": "continue my course later.",
+    "text": "continuar con mi progreso mañana.",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -618,8 +654,8 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "formando",
-    "text": "formando",
+    "SourceText": "prueba",
+    "text": "prueba",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -662,6 +698,30 @@
   {
     "SourceText": "paz",
     "text": "paz",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "empezar",
+    "text": "empezar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "descubrir",
+    "text": "descubrir",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "socios",
+    "text": "socios",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "comenzar",
+    "text": "comenzar",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

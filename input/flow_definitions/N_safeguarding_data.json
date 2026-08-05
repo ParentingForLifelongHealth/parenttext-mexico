@@ -237,7 +237,7 @@
       },
       {
         "ID": "stay",
-        "msg": "We are so glad you want to stick around! We will resume your progress tomorrow. ",
+        "msg": "We are sad to see you go! Please know that you can come back at any time. We will save your place so you don't lose your work.\n\nWhen you are ready to start again, just type {CONTINUE}.",
         "metadata.description": ""
       }
     ],
@@ -442,12 +442,12 @@
       },
       {
         "ID": "exit_opt",
-        "msg": "Continue my course tomorrow.",
+        "msg": "Continue my course later.",
         "metadata.description": ""
       },
       {
         "ID": "farewell",
-        "msg": "We hope this was helpful! You can access this information at any time by typing {HELP}. ",
+        "msg": "You are now out of the main menu. Type {CONTINUE} to return to your lesson. ",
         "metadata.description": ""
       }
     ],
@@ -471,7 +471,7 @@
       },
       {
         "ID": "instructions",
-        "msg": "I don't understand your message.\nPlease type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis. ",
+        "msg": "I didn’t quite catch that.\nPlease type one of the following:\n▶️ {CONTINUE} to continue your course\n📚 {MENU} to access resources and review completed modules\n🎲 {PLAY} to get a playful activity to do with your child\n🆘 {HELP} to access local support resources for a crisis\n",
         "metadata.description": ""
       },
       {

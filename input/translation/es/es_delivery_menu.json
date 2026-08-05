@@ -12,8 +12,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "fail",
-    "text": "error",
+    "SourceText": "Oops, something went wrong.",
+    "text": "Uy, algo salió mal.",
     "type": "text",
     "note": ""
   },
@@ -312,8 +312,14 @@
     "note": ""
   },
   {
-    "SourceText": "Great, see you tomorrow!",
-    "text": "Muy bien, ¡nos vemos mañana!",
+    "SourceText": "Got it! Thanks for spending time with us today.",
+    "text": "¡Entendido! Gracias por compartir este momento con nosotros.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Whenever you are ready to start learning again, just type {CONTINUE}. Take care!",
+    "text": "Cuando quieras seguir aprendiendo, solo escribe {CONTINUE}. ¡Cuídate mucho!",
     "type": "text",
     "note": ""
   },
@@ -336,8 +342,20 @@
     "note": ""
   },
   {
-    "SourceText": "Do you want to begin now or tomorrow?",
-    "text": "¿Te gustaría empezar ahorita o hasta mañana?",
+    "SourceText": "Do you want to begin now or later?",
+    "text": "¿Te gustaría empezar ahora o más tarde?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Got it! Take your time.",
+    "text": "¡Entendido! Tómate tu tiempo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When you are ready to begin your new course, just type {CONTINUE}.",
+    "text": "Cuando estés listo o lista para comenzar tu nuevo curso, solo escribe {CONTINUE}.",
     "type": "text",
     "note": ""
   },
@@ -384,20 +402,8 @@
     "note": ""
   },
   {
-    "SourceText": "Press a number on your keypad:",
-    "text": "Escoge tu respuesta y manda un número:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1. Yes",
-    "text": "1. Sí",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2. Remind me tomorrow",
-    "text": "2. Recuérdamelo mañana",
+    "SourceText": "Great work so far. Whenever you'd like to continue learning, simply type {CONTINUE}.",
+    "text": "Hasta ahora lo has hecho muy bien. Cuando quieras seguir aprendiendo, solo tienes que escribir {CONTINUE}.",
     "type": "text",
     "note": ""
   },
@@ -408,20 +414,14 @@
     "note": ""
   },
   {
+    "SourceText": "That's okay. Type {CONTINUE} whenever you're ready to complete your registration and get started.",
+    "text": "No pasa nada. Escribe {CONTINUE} cuando estés lista o listo para terminar tu registro y empezar.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You’re off track! Do you want to complete your previous unifinished lesson or start a new lesson?",
     "text": "¡Te desviaste un poco del camino! ¿Quieres terminar la sesión anterior o empezar una nueva?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1. Complete a previous lesson",
-    "text": "1. Terminar la sesión anterior",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2. Start a new lesson",
-    "text": "2. Iniciar una sesión nueva",
     "type": "text",
     "note": ""
   },
@@ -432,20 +432,14 @@
     "note": ""
   },
   {
+    "SourceText": "That's okay. Type {CONTINUE} whenever you’re ready to resume.",
+    "text": "No pasa nada. Escribe {CONTINUE} cuando estés listo para seguir.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You're almost finished with this course! You only have 1 unfinished lesson. What would you like to do?",
     "text": "¡Ya casi terminas este curso! Solo te queda 1 sesión por terminar. ¿Qué te gustaría hacer?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1. Finish this lesson and earn my course certificate",
-    "text": "1. Terminar esta sesión y obtener mi reconocimiento del curso",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "2. Leave this course unfinished and select a new course",
-    "text": "2. Dejar este curso sin terminar y seleccionar un curso nuevo",
     "type": "text",
     "note": ""
   },
@@ -462,8 +456,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "1. Complete unfinished lessons to earn my course certificate",
-    "text": "1. Terminar las sesiones incompletas para obtener mi reconocimiento del curso",
+    "SourceText": "Whenever you're ready, just type {CONTINUE} to finish your final lesson and earn your certificate.",
+    "text": "Cuando estés lista o listo, solo tienes que escribir {CONTINUE} para terminar tu última lección y conseguir tu certificado.",
     "type": "text",
     "note": ""
   },
@@ -474,8 +468,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "1. Yes!",
-    "text": "1. ¡Sí!",
+    "SourceText": "That's okay. When you're ready to begin, just type {CONTINUE}.",
+    "text": "Está bien. Cuando estés lista o listo para empezar, solo tienes que escribir {CONTINUE}.",
     "type": "text",
     "note": ""
   },
@@ -486,8 +480,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "2. No, remind me tomorrow",
-    "text": "2. No, recuérdamelo mañana",
+    "SourceText": "That’s okay. Whenever you're ready, just type {CONTINUE} to pick up where you left off.",
+    "text": "No pasa nada. Cuando estés lista o listo, solo tienes que escribir {CONTINUE} para seguir donde lo dejaste.",
     "type": "text",
     "note": ""
   },
@@ -552,8 +546,8 @@
     "note": ""
   },
   {
-    "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
-    "text": "Esperamos que esto te haya servido. Puedes acceder al Menú Principal en cualquier momento mandando la palabra {MENU}.",
+    "SourceText": "You are now out of the main menu. Type {CONTINUE} to return to your lesson.",
+    "text": "Ya has salido del menú principal. Escribe {CONTINUE} para volver a tu sesión.",
     "type": "text",
     "note": ""
   },
@@ -572,6 +566,12 @@
   {
     "SourceText": "{insert link}",
     "text": "{insert link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
+    "text": "Esperamos que esto te haya servido. Puedes acceder al Menú Principal en cualquier momento mandando la palabra {MENU}.",
     "type": "text",
     "note": ""
   },
@@ -1248,24 +1248,6 @@
     "note": ""
   },
   {
-    "SourceText": "You didn't provide this info.",
-    "text": "No has proporcionado esta información.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Current Status: @fields.child_nickname is @fields.child_age year old.",
-    "text": "Estado actual: @fields.child_nickname tiene @fields.child_age años.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Current Status: your {child} is @fields.child_age year old.",
-    "text": "Estado actual: tu {child} tiene @fields.child_age años.",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
     "SourceText": "Current Status: Your child's name is @fields.child_nickname.",
     "text": "Estado actual: El nombre de tu niña o niño es @fields.child_nickname.",
     "type": "text",
@@ -1342,6 +1324,12 @@
     "text": "Tu compañero en la crianza es @fields.avatar_name.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "No has proporcionado esta información.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "You are currently receiving messages in English.",
@@ -1476,6 +1464,36 @@
     "note": ""
   },
   {
+    "SourceText": "🌱 Pick up where you left off anytime:",
+    "text": "🌱 Retoma tu sesión donde la dejaste en cualquier momento:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "▶️ {CONTINUE} to continue your course",
+    "text": "▶️ Escribe {CONTINUE} para continuar con tu curso",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎲 {PLAY} for a fun activity with your child",
+    "text": "🎲 Escribe {PLAY} para una actividad divertida con tu hijo",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📚 {MENU} to access resources and review completed modules",
+    "text": "📚 Escribe {MENU} para acceder a los recursos y repasar los módulos ya completados",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🆘 {HELP} to access local support resources",
+    "text": "🆘 Escribe {HELP} para acceder a los recursos de apoyo locales",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
     "text": "Parece que este no es un buen momento. Por favor, presiona 1 si te gustaría continuar ahora.",
     "type": "text",
@@ -1542,7 +1560,13 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "I’m done for today",
+    "SourceText": "Proceed to the next lesson",
+    "text": "Pasa a la siguiente sesión",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m done for now",
     "text": "Ya terminé por hoy",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
@@ -1566,14 +1590,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Go to Main Menu",
-    "text": "Ir al Menú Principal",
+    "SourceText": "Get another lesson",
+    "text": "Ve a otra sesión",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my progress tomorrow",
-    "text": "Continuar con mi progreso mañana",
+    "SourceText": "Continue my progress later",
+    "text": "Continuar con mi progreso después",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go to Main Menu",
+    "text": "Ir al Menú Principal",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1614,26 +1644,68 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Tomorrow",
-    "text": "Mañana",
+    "SourceText": "Later",
+    "text": "Después",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "1",
-    "text": "1",
+    "SourceText": "I'll continue later",
+    "text": "Seguiré más tarde",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "2",
-    "text": "2",
+    "SourceText": "I'll start later",
+    "text": "Comenzaré más tarde",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Remind me tomorrow",
-    "text": "Recuérdamelo mañana",
+    "SourceText": "Complete a previous lesson",
+    "text": "Terminar la sesión anterior",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Start a new lesson",
+    "text": "Empieza una nueva sesión",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’ll come back later",
+    "text": "Volveré más tarde",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Finish this lesson and earn my course certificate",
+    "text": "Terminar esta sesión y obtener mi reconocimiento del curso",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Complete unfinished lessons to earn my course certificate",
+    "text": "Terminar las sesiones incompletas para obtener mi reconocimiento del curso",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I'll come back later",
+    "text": "Volveré más tarde",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes!",
+    "text": "¡Sí!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’ll start later",
+    "text": "Comenzaré más tarde",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1752,8 +1824,8 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my course tomorrow",
-    "text": "Continuar con mi curso mañana",
+    "SourceText": "Continue my course later",
+    "text": "Continuar con mi progreso después",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1824,12 +1896,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Change my child's age",
-    "text": "Cambiar la edad de mi niña o niño",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Update my child's name",
     "text": "Actualizar el nombre de mi niña o niño",
     "type": "quick_replies",
@@ -1860,6 +1926,12 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "I do not have time",
     "text": "No tengo tiempo",
     "type": "quick_replies",
@@ -1884,8 +1956,8 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "@results.name",
-    "text": "@results.name",
+    "SourceText": "@fields.prog_name",
+    "text": "@fields.prog_name",
     "type": "variables",
     "note": ""
   },
@@ -1914,7 +1986,7 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "i’m done for today",
+    "SourceText": "i’m done for now",
     "text": "ya terminé por hoy",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
@@ -1922,6 +1994,12 @@
   {
     "SourceText": "give me an idea for 1-on-1 time with my child",
     "text": "dame ideas para el Tiempo 1 a 1 con mi niña o niño",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "proceed to the next lesson",
+    "text": "pasa a la siguiente sesión",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1944,14 +2022,20 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "go to main menu",
-    "text": "ir al menú principal",
+    "SourceText": "get another lesson",
+    "text": "ve a otra sesión",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "continue my progress tomorrow",
-    "text": "continuar con mi progreso mañana",
+    "SourceText": "continue my progress later",
+    "text": "continuar con mi progreso después",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go to main menu",
+    "text": "ir al menú principal",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1992,26 +2076,68 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "tomorrow",
-    "text": "mañana",
+    "SourceText": "later",
+    "text": "después",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "1",
-    "text": "1",
+    "SourceText": "i'll continue later",
+    "text": "seguiré más tarde",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "2",
-    "text": "2",
+    "SourceText": "i'll start later",
+    "text": "comenzaré más tarde",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "remind me tomorrow",
-    "text": "recuérdamelo mañana",
+    "SourceText": "complete a previous lesson",
+    "text": "terminar la sesión anterior",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start a new lesson",
+    "text": "empieza una nueva sesión",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’ll come back later",
+    "text": "volveré más tarde",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "finish this lesson and earn my course certificate",
+    "text": "terminar esta sesión y obtener mi reconocimiento del curso",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "complete unfinished lessons to earn my course certificate",
+    "text": "terminar las sesiones incompletas para obtener mi reconocimiento del curso",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i'll come back later",
+    "text": "volveré más tarde",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes!",
+    "text": "¡Sí!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’ll start later",
+    "text": "comenzaré más tarde",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -2130,8 +2256,8 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "continue my course tomorrow",
-    "text": "continuar con mi curso mañana",
+    "SourceText": "continue my course later",
+    "text": "continuar con mi progreso después",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -2202,12 +2328,6 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "change my child's age",
-    "text": "cambiar la edad de mi niña o niño",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
     "SourceText": "update my child's name",
     "text": "actualizar el nombre de mi niña o niño",
     "type": "arguments",
@@ -2220,14 +2340,14 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "yes y yeah yep ok",
-    "text": "sí s claro sip ok",
+    "SourceText": "yes y yeah yep",
+    "text": "sí  claro sip",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "no n nope",
-    "text": "no n nop",
+    "SourceText": "no nope n",
+    "text": "no, nop ",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
