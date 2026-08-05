@@ -6714,6 +6714,15 @@
         "change": "{FACSTART}",
         "condition_var": "",
         "category": "PRUEBA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{CONTINUE}.*",
+        "change": "{CONTINUE}",
+        "condition_var": "",
+        "category": "CONTINUAR"
       }
     ],
     "triggers_transl": [
@@ -6815,6 +6824,15 @@
         "original": "{FACSTART}",
         "language": "spa",
         "replacement": "PRUEBA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{CONTINUE}.*",
+        "original": "{CONTINUE}",
+        "language": "spa",
+        "replacement": "CONTINUAR"
       }
     ],
     "remove_wa_bold_eng": [
