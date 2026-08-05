@@ -1231,7 +1231,7 @@
   },
   {
     "SourceText": "Well done for completing your course, Creating Structure and Boundaries with @fields.child_nickname. Let’s see how things may have changed since you started this course:",
-    "text": "Bien hecho por completar tu curso, Guiar el Buen Comportamiento con @fields.child_nickname. Veamos cómo han cambiado las cosas desde que empezaste con este curso:",
+    "text": "Bien hecho por completar tu curso, Guiar el Buen Comportamiento con @fields.child_nickname. Veamos cómo han cambiado las cosas desde que empezaste con este curso:\n",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },

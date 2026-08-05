@@ -172,7 +172,7 @@
         "options.4.flow": "safeguarding_help",
         "options.5.text": "Watch a video with instructions",
         "options.5.flow": "menu_parenttext_instructions",
-        "options.6.text": "Continue my course tomorrow",
+        "options.6.text": "Continue my course later",
         "options.6.flow": "exit_menu",
         "options.7.text": "Continue my course now",
         "options.7.flow": "timed_programme",
@@ -262,7 +262,7 @@
         "message.image": "",
         "return_option.text": "Return to Main Menu",
         "return_option.flow": "menu - main",
-        "options.1.text": "Continue my course tomorrow",
+        "options.1.text": "Continue my course later",
         "options.1.flow": "exit_menu",
         "options.2.text": "",
         "options.2.flow": "",
@@ -285,7 +285,7 @@
     "menu_messages": [
       {
         "ID": "exit_menu",
-        "msg": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}. ",
+        "msg": "You are now out of the main menu. Type {CONTINUE} to return to your lesson. ",
         "next_button_option": "",
         "metadata.description": "Message when selecting to exit the menu"
       },
